@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Mend-Tale-Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MendTale: Text-based adventure game website that provides feedback on the user's mood through storytelling.
 
-## Available Scripts
+"MendTale" is a text-based adventure game website that analyses user's mood by utilizing machine learning and provides feedback through storytelling using Natural Language Processing to promote a sense of emotional-awareness among its users. The "MendTale" project aligns with the growing recognition of the positive impact of gaming on mental health, as highlighted in the article "Mind games: How gaming can play a positive role in mental health" by Deborah Bach. By combining gaming, personal journaling, machine learning, and storytelling, users are encouraged to interact with the platform regularly, turning this emotional-awareness promotion into an enjoyable and informative experience, because "MendTale" acknowledges that gaming can be used as a tool for learning and personal development. This project will be centered around a text-based adventure game website. During the game, users answer the questions related to moods which are integrated into the story. These responses will be collected and added into a journal through implementation of Natural Language Processing techniques. This journal will save entries with dates, allowing users to track their mood patterns over time, as they engage with the game's storyline. At the start, user’s mood state is considered as the baseline based on their initial set of responses to the game's story. The journal will be processed to analyze mood patterns using machine learning algorithms. The machine learning model will be designed to identify trends, changes, and from the journal entries. It can determine changes in user's mood patterns based on their responses. As the user progresses through the game, their responses are continuously analyzed to provide feedback within the game’s story narrative. Based on the analysis, the project's system will generate personalized feedback which will be provided in the form of Personalized Insights within the context of the ongoing game's storyline for the user through storytelling by the implementation of Natural Language Processing techniques again, helping users identify and understand their moods better, providing a better awareness of their mood patterns in the end.
 
-In the project directory, you can run:
+Objectives:
+• To identify and gather data on existing text-based adventure games and mental health assessment tools.
+• To design a system architecture diagram outlining the different components of the game and their interactions.
+• To implement Natural Language Processing techniques to collect user responses.
+• To train machine learning algorithms to analyse user's mood patterns.
+• To implement Natural Language Processing techniques to provide feedback through storytelling.
+• To conduct user testing to gather feedback on the game's effectiveness in providing emotional-awareness.
 
-### `npm start`
+Resources:
+• Frontend Language: - JavaScript 
+• Frontend Library: - React.js
+• Server-Side Environment: - Node.js
+• Server-Side Framework: - Express.js
+• Database Management System: - MongoDB
+• Natural Language Processing (NLP) and Machine Learning Library: - Hugging Face’s Transformers
+• Language Model: - LSTM
+• Machine Learning Applications: - Text Classification, Emotion Classification, Text-Generation 
+• Deep Learning Framework: TensorFlow
+• Web Development Tool: - Visual Studio Code (VS Code)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Iterative Development Methodology:
+• Planning and Requirements Gathering
+• Initial Design and Prototyping
+• Iteration 1 - Collect User Responses
+• Iteration 2 - Convert User Input into a Personal Journal
+• Iteration 3 - Analyse User's Mood Using Machine Learning
+• Iteration 4 - Provide Guidance and Advice Through Storytelling
+• Testing and Evaluation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
