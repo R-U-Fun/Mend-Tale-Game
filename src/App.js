@@ -1,7 +1,22 @@
+import ReactDOM from 'react-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import backgroundImage from './Images/MT-BG.png';
+
+import Header from './Header';
+import Footer from './Footer';
+import HomePage from './HomePage.js';
+
 export default function App() {
   return (
-    <div className="App">
-      MendTale
+    //<div style={{ backgroundImage: `url(${backgroundImage})`}}>
+    <div style={{ background: '#d2e2fa'}}>
+      <br/><br/><br/>  
+      <Header/>
+      <div id="HomeHere">
+        <HomePage/>
+      </div>
+      <Footer/>
     </div>
   );
 }

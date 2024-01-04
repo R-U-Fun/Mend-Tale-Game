@@ -1,0 +1,23 @@
+[
+{
+  "Username": "Aaroophan1",
+  "Password": "AaroophanMT1",
+  "Email": "arophn@gmail.com",
+  "GameProgress":[
+    {
+      "InteractionID": "Aaroophan_20231123_0711",
+      "UserResponse": "Wake up from bed",
+      "JournalEntry": "Home, Wake, Bed, Morning, Sleep",
+      "MachineLearningAnalysis": "Happy",
+      "PersonalisedFeedback":"Wakes up and sit’s up in bed and takes phone and sees an urgent message from a friend"
+    },
+    {
+      "InteractionID": "Aaroophan_20231123_0712",
+      "UserResponse": "Look for the phone",
+      "JournalEntry": "Bed, Search, Phone, Morning, Awake",
+      "MachineLearningAnalysis": "Excited",
+      "PersonalisedFeedback":"The message says help I am in trouble come and save me"
+    }
+  ]
+}
+]
