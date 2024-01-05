@@ -38,7 +38,7 @@ function LoginHandle(CurrentUserName, CurrentPassword){
 
 export default function Login(){
     
-    ReactDOM.render(<div></div>, document.getElementById('LoginHere'));
+    ReactDOM.render(<div></div>, document.getElementById('PlayerHere'));
     const usernameRef = useRef();
     const passwordRef = useRef();
     return(

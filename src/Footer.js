@@ -6,7 +6,7 @@ export default function Footer(){
   return(
     <footer className="footer text-light py-1 bottom" style={{ background: 'linear-gradient(to bottom, transparent 0%, #010129 100%)' }}>
       <div className="container">
-        <br/><br/><hr />
+        <hr />
         <div className="text-center">
           <a href="http://aaroophan-com.stackstaging.com" style={{ cursor:'default', color:'rgba(210, 226, 250, 0.9)', textDecoration:'none' }}>&copy; 2023 | Aaroophan | 2323492</a>
           <br/>
