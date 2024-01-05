@@ -29,6 +29,13 @@ let User = mongoose.model('MendTale', new mongoose.Schema({
         ]
 }));
 
+/*let User = mongoose.model('MendTale', new mongoose.Schema({
+        Username: String,
+        Password: String,
+        Email: String,
+        GameProgress: Array
+}));*/
+
 app.post('/Server/Register', async (req, res) => {
     let newUser = new User({
         Username: req.body.Username,
@@ -87,6 +94,18 @@ app.get('/Server/UserProfile/:CurrentUserName', async (req, res) => {
                 ]
         };
         res.json(DUMMY);
+        console.log(err);
+    });
+});
+
+app.put('/Server/UpdateUserResponse/:CurrentUserName', async (req, res) => {
+    let CurrentUserName = req.params.CurrentUserName;
+    let newBestTime = req.body.BestTime;
+    User.findOneAndUpdate({ "Name": CurrentUserName }, { BestTime: newBestTime }, { new: true })
+    .then(user => {
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BEST TIME UPDATED");
+    })
+    .catch(err => {
         console.log(err);
     });
 });

@@ -11,6 +11,9 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
         .then(response => response.json())
         .then(Data => {
             if(!Data){
+                const CurrentDate = new Date();
+                let IDTime = (""+CurrentDate.getFullYear()+"_"+(CurrentDate.getMonth()+1)+"_"+CurrentDate.getDate()+"_"+CurrentDate.getHours()+"_"+CurrentDate.getMinutes()+"_"+CurrentDate.getSeconds());
+
                 fetch('http://localhost:3214/Server/Register', {
                         method: 'POST',
                         headers: {
@@ -22,11 +25,11 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
                             Email: NewEmail,
                             GameProgress: [
                                 {
-                                    InteractionID: null,
-                                    UserResponse: null,
-                                    JournalEntry: null,
-                                    MachineLearningAnalysis: null,
-                                    PersonalisedFeedback: null
+                                    InteractionID: "0_"+NewUserName+"_"+IDTime ,
+                                    UserResponse: "Initial",
+                                    JournalEntry: "Initial",
+                                    MachineLearningAnalysis: "Initial",
+                                    PersonalisedFeedback: "Initial"
                                 }
                             ]
                         })
@@ -70,7 +73,7 @@ export default function Register(){
     return(
         <div>
             <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))}>Register</a>
-            <br/><br/><br/>
+            <br/><br/>
             <div className="input-group mb-3">
                 <span className="input-group-text btn btn-primary" id="Username"><i className="bi bi-at"></i></span>
                 <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="Username" ref={usernameRef}/>
@@ -88,7 +91,7 @@ export default function Register(){
                 <input type="password" className="form-control" placeholder="Confirm Password" aria-label="ConfirmPassword" aria-describedby="ConfirmPassword" ref={ConfirmpasswordRef}/>
             </div>
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => RegisterHandle(usernameRef.current.value, emailRef.current.value, passwordRef.current.value, ConfirmpasswordRef.current.value)}><i className="bi bi-pen"></i> Register</button>
-            <br/><br/><br/><br/>
+            <br/>
         </div>
     );
 }

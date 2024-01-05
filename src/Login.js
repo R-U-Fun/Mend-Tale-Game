@@ -6,6 +6,7 @@ import Register from './Register';
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import StartGame from './StartGame';
+import HomePage from './HomePage';
 
 function LoginHandle(CurrentUserName, CurrentPassword){
     if(CurrentUserName && CurrentPassword){
@@ -42,7 +43,9 @@ export default function Login(){
     const passwordRef = useRef();
     return(
         <div>
-            <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px", cursor: 'auto'}} onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))}>Login</a>
+            <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px", cursor: 'auto'}} onClick={() => {
+                ReactDOM.render(<HomePage/>, document.getElementById('HomeHere'));
+            }}>Login</a>
             <br/><br/><br/><br/>
             <div className="input-group mb-3">
                 <span className="input-group-text btn btn-primary" id="basic-addon1"><i className="bi bi-at"></i></span>
@@ -55,7 +58,7 @@ export default function Login(){
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => LoginHandle(usernameRef.current.value, passwordRef.current.value)}><i className="bi bi-door-closed"></i> Login</button>
             <br/>
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Register />, document.getElementById('Box'))}><i className="bi bi-pen"></i> Register</button>
-            <br/><br/><br/><br/><br/>
+            <br/><br/>
         </div>
     );
 }
