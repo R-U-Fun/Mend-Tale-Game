@@ -37,20 +37,10 @@ let User = mongoose.model('MendTale', new mongoose.Schema({
 }));*/
 
 app.post('/Server/Register', async (req, res) => {
-    let newUser = new User({
-        Username: req.body.Username,
-        Password: req.body.Password,
-        Email: req.body.Email,
-        GameProgress: [
-            {
-                InteractionID: req.body.InteractionID,
-                UserResponse: req.body.UserResponse,
-                JournalEntry: req.body.JournalEntry,
-                MachineLearningAnalysis: req.body.MachineLearningAnalysis,
-                PersonalisedFeedback: req.body.PersonalisedFeedback
-            }
-        ]
-    });
+    let newUser = new User(req.body
+    );
+
+    console.log(newUser);
 
     newUser.save()
     .then(savedUser => {
@@ -85,7 +75,7 @@ app.get('/Server/UserProfile/:CurrentUserName', async (req, res) => {
                 Email: "DUMMY@gmail.com",
                 GameProgress: [
                     {
-                        InteractionID: "DUMMY_20240104_2336",
+                        InteractionID: "1_DUMMY_20240104_2336",
                         UserResponse: "DUMMY",
                         JournalEntry: "DUMMY",
                         MachineLearningAnalysis: "DUMMY",
@@ -98,12 +88,12 @@ app.get('/Server/UserProfile/:CurrentUserName', async (req, res) => {
     });
 });
 
-app.put('/Server/UpdateUserResponse/:CurrentUserName', async (req, res) => {
+app.put('/Server/UpdateGameProgress/:CurrentUserName', async (req, res) => {
     let CurrentUserName = req.params.CurrentUserName;
-    let newBestTime = req.body.BestTime;
-    User.findOneAndUpdate({ "Name": CurrentUserName }, { BestTime: newBestTime }, { new: true })
+    let newGameProgress = req.body.GameProgress;
+    User.findOneAndUpdate({ "Username": CurrentUserName }, { GameProgress: newGameProgress }, { new: true })
     .then(user => {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BEST TIME UPDATED");
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! INTERACTION UPDATED");
     })
     .catch(err => {
         console.log(err);

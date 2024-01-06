@@ -6,8 +6,6 @@ import CurrentUserNameSingleton from './UserSingleton';
 import StartGame from './StartGame';
 
 export default function UserProfile(){
-    ReactDOM.render(<div></div>, document.getElementById('PlayerHere')); 
-    
     let UserData = CurrentUserNameSingleton.getUserName();
 
     return(

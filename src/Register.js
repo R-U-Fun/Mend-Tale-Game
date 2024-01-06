@@ -14,25 +14,31 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
                 const CurrentDate = new Date();
                 let IDTime = (""+CurrentDate.getFullYear()+"_"+(CurrentDate.getMonth()+1)+"_"+CurrentDate.getDate()+"_"+CurrentDate.getHours()+"_"+CurrentDate.getMinutes()+"_"+CurrentDate.getSeconds());
 
+                let NewUser = {
+                    Username: NewUserName,
+                    Password: NewPassword,
+                    Email: NewEmail,
+                    GameProgress: [
+                        {
+                            InteractionID: "0_"+NewUserName+"_"+IDTime ,
+                            UserResponse: "Initial",
+                            JournalEntry: "Initial",
+                            MachineLearningAnalysis: "Initial",
+                            PersonalisedFeedback: "Initial"
+                        }
+                    ]
+                }
+
+                console.log(NewUser);
+
                 fetch('http://localhost:3214/Server/Register', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
                         },
-                        body: JSON.stringify({
-                            Username: NewUserName,
-                            Password: NewPassword,
-                            Email: NewEmail,
-                            GameProgress: [
-                                {
-                                    InteractionID: "0_"+NewUserName+"_"+IDTime ,
-                                    UserResponse: "Initial",
-                                    JournalEntry: "Initial",
-                                    MachineLearningAnalysis: "Initial",
-                                    PersonalisedFeedback: "Initial"
-                                }
-                            ]
-                        })
+                        body: JSON.stringify(
+                            NewUser
+                        )
                     })
                     .then(response => response.json())
                     .then(data => {

@@ -22,8 +22,8 @@ export default function HomeLinks(){
             <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px"}}>Personal Journal</button><br/>
             <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px"}}>Progress</button><br/>
             <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => {
-                ReactDOM.render(<HomePage/>, document.getElementById('HomeHere'));
                 CurrentUserNameSingleton.setUserName(null);
+                ReactDOM.render(<HomePage/>, document.getElementById('HomeHere'));
             }} style={{width:"200px"}}>Logout</button><br/>
         </div>
     );
