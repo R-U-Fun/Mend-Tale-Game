@@ -29,13 +29,6 @@ let User = mongoose.model('MendTale', new mongoose.Schema({
         ]
 }));
 
-/*let User = mongoose.model('MendTale', new mongoose.Schema({
-        Username: String,
-        Password: String,
-        Email: String,
-        GameProgress: Array
-}));*/
-
 app.post('/Server/Register', async (req, res) => {
     let newUser = new User(req.body
     );
@@ -75,7 +68,7 @@ app.get('/Server/UserProfile/:CurrentUserName', async (req, res) => {
                 Email: "DUMMY@gmail.com",
                 GameProgress: [
                     {
-                        InteractionID: "1_DUMMY_20240104_2336",
+                        InteractionID: "1_DUMMY_2024_1_4_23_36",
                         UserResponse: "DUMMY",
                         JournalEntry: "DUMMY",
                         MachineLearningAnalysis: "DUMMY",
@@ -91,11 +84,13 @@ app.get('/Server/UserProfile/:CurrentUserName', async (req, res) => {
 app.put('/Server/UpdateGameProgress/:CurrentUserName', async (req, res) => {
     let CurrentUserName = req.params.CurrentUserName;
     let newGameProgress = req.body.GameProgress;
+    console.log(newGameProgress);
     User.findOneAndUpdate({ "Username": CurrentUserName }, { GameProgress: newGameProgress }, { new: true })
     .then(user => {
         console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! INTERACTION UPDATED");
     })
     .catch(err => {
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! EEEERRRRRROOOORRRR");
         console.log(err);
     });
 });
