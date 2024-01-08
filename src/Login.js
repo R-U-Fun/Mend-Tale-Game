@@ -20,9 +20,6 @@ function LoginHandle(CurrentUserName, CurrentPassword){
                 ReactDOM.render(<HomeLinks />, document.getElementById('PlayerHere'));
             }
             else{
-                console.log("CurrentUserName  "+CurrentUserName);
-                console.log("CurrentPassword  "+CurrentPassword);
-                console.log("Data  "+Data);
                 alert("Invalid Username & Password");
             }
         })

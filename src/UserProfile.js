@@ -19,11 +19,11 @@ export default function UserProfile(){
                 <tbody>
                     <tr>
                         <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Username</a></th>
-                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>{UserData.Username}</a></td>
+                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>{UserData.Username}</a></td>
                     </tr>
                     <tr>
                         <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Email</a></th>
-                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>{UserData.Email}</a></td>
+                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>{UserData.Email}</a></td>
                     </tr>
                 </tbody>
             </table>

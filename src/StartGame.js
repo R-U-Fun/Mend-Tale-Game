@@ -109,15 +109,6 @@ function UserResponseBox(props){
     );
 }
 
-function ChatInteraction(props){
-    return(
-        <div>
-            <UserResponseBox index={props.index}/>
-            <PersonalisedFeedbackBox index={props.index}/>
-        </div>
-    );
-}
-
 function ChatRows(){
     let GameProgressLength = 1;
     if(CurrentUserNameSingleton.getUserName()){
@@ -130,7 +121,8 @@ function ChatRows(){
     for(let L = 1; L <= GameProgressLength; L++) {
         Chats.push(
             <tr key={L}>
-                <ChatInteraction index={L}/>
+                <UserResponseBox index={L}/>
+                <PersonalisedFeedbackBox index={L}/>
             </tr>
         );
     }
@@ -169,7 +161,12 @@ export default function StartGame(){
             <div className="input-group mb-3">
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
                 <input type="text" className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef}/>
-                <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => NewUserResponse(RespondRef.current.value)}></button>
+                <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
+                    if(RespondRef.current.value){
+                        NewUserResponse(RespondRef.current.value);
+                    }
+                    RespondRef.current.value = '';
+                }}></button>
             </div>
         </div>
     );

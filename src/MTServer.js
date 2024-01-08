@@ -30,8 +30,7 @@ let User = mongoose.model('MendTale', new mongoose.Schema({
 }));
 
 app.post('/Server/Register', async (req, res) => {
-    let newUser = new User(req.body
-    );
+    let newUser = new User(req.body);
 
     console.log(newUser);
 

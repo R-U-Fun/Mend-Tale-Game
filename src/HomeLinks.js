@@ -6,6 +6,8 @@ import StartGame from './StartGame';
 import UserProfile from './UserProfile';
 import HomePage from './HomePage';
 import CurrentUserNameSingleton from './UserSingleton';
+import PersonalJournal from './PersonalJournal'
+import Progress from './Progress'
 
 export default function HomeLinks(){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -19,8 +21,8 @@ export default function HomeLinks(){
             <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => {
                 ReactDOM.render(<StartGame />, document.getElementById('Box'));
             }} style={{width:"200px"}}>Play</button><br/>
-            <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px"}}>Personal Journal</button><br/>
-            <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px"}}>Progress</button><br/>
+            <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<PersonalJournal />, document.getElementById('Box'))} style={{width:"200px"}}>Personal Journal</button><br/>
+            <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))} style={{width:"200px"}}>Progress</button><br/>
             <button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => {
                 CurrentUserNameSingleton.setUserName(null);
                 ReactDOM.render(<HomePage/>, document.getElementById('HomeHere'));
