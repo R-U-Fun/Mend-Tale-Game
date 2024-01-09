@@ -160,7 +160,7 @@ export default function StartGame(){
             <hr/>
             <div className="input-group mb-3">
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
-                <input type="text" className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef}/>
+                <input type="text" spellCheck="true" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef}/>
                 <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
                     if(RespondRef.current.value){
                         NewUserResponse(RespondRef.current.value);

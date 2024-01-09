@@ -5,6 +5,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
+import PieChart from './PieChart';
+import BarChart from './BarChart';
 
 
 
@@ -77,7 +79,7 @@ function ChatRows(){
     );
 }
 
-export default function Progress(){
+export default function Progress(Type){
 
     const scrollRef = useRef();
 
@@ -88,14 +90,13 @@ export default function Progress(){
         }
     });
     return(
-        <div>
             <div className="container text-center">
                 <div className="row gx-3 text-center justify-content-center">
-                    <div className="col-lg-3 rounded-4 border border-primary border-5 m-2">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
-                    <div className="col-lg-3 rounded-4 border border-primary border-5 m-2">BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB</div>
-                    <div className="col-lg-3 rounded-4 border border-primary border-5 m-2">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</div>
+                    <div className="col-lg-3 rounded-4 btn btn-primary m-2" onClick={() => ReactDOM.render(<PieChart/> , document.getElementById('ProgressCharts'))}>Calendar</div>
+                    <div className="col-lg-3 rounded-4 btn btn-primary m-2" onClick={() => ReactDOM.render(<PieChart/> , document.getElementById('ProgressCharts'))}>Pie Chart</div>
+                    <div className="col-lg-3 rounded-4 btn btn-primary m-2" onClick={() => ReactDOM.render(<BarChart/> , document.getElementById('ProgressCharts'))}>Bar Chart</div>
+                    <div className="rounded-4 border border-primary border-5 m-2" id="ProgressCharts"></div> 
                 </div>
             </div>
-        </div>
     );
 }

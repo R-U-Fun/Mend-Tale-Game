@@ -96,6 +96,16 @@ export default function Register(){
                 <span className="input-group-text btn btn-primary" id="ConfirmPassword"><i className="bi bi-asterisk"></i></span>
                 <input type="password" className="form-control" placeholder="Confirm Password" aria-label="ConfirmPassword" aria-describedby="ConfirmPassword" ref={ConfirmpasswordRef}/>
             </div>
+            <div className="input-group mb-3">
+                <details className="input-group-text btn btn-outline-primary" >
+                    <summary>Terms & Conditions of MendTale</summary>
+                    <div>
+                    <p>By clicking 'Register' you are agreeing to Terms & Conditions of MendTale</p>
+                    <p>By clicking 'Register' you are agreeing to Terms & Conditions of MendTale</p>
+                    <p>By clicking 'Register' you are agreeing to Terms & Conditions of MendTale</p>
+                    </div>
+                </details>
+            </div>
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => RegisterHandle(usernameRef.current.value, emailRef.current.value, passwordRef.current.value, ConfirmpasswordRef.current.value)}><i className="bi bi-pen"></i> Register</button>
             <br/>
         </div>
