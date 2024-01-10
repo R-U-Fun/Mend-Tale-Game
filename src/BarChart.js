@@ -1,32 +1,59 @@
-import React, { Component } from 'react';
-import CanvasJSReact from '@canvasjs/react-charts';
-//var CanvasJSReact = require('@canvasjs/react-charts');
- 
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-export default function BarChart() {
-		const options = {
-			animationEnabled: true,
-			exportEnabled: true,
-			axisY: {
-				includeZero: true
-			},
-			data: [{
-				type: "column", //change type to bar, line, area, pie, etc
-				indexLabel: "{y}", //Shows y value on all Data Points
-				dataPoints: [
-					{ y: 71, label: "Direct"  },
-					{ y: 55, label: "Direct"  },
-					{ y: 50, label: "Direct"  },
-					{ y: 65, label: "Direct"  },
-					{ y: 92, label: "Direct"  },
-					{ y: 36, label: "Direct"  }
-				]
-			}]
-		}
-		return (
-		<div>
-			<CanvasJSChart options = {options}/>
-		</div>
-		);
-	}
+import React from 'react';
+import { BarChart, Bar, Cell, XAxis, YAxis } from 'recharts';
+
+export default function BarCharts() {
+  const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
+
+  const data = [
+    {
+      name: 'Page A',
+      uv: 4000,
+      pv: 2400,
+      amt: 2400,
+    },
+    {
+      name: 'Page B',
+      uv: 3000,
+      pv: 1398,
+      amt: 2210,
+    },
+    {
+      name: 'Page C',
+      uv: 2000,
+      pv: 9800,
+      amt: 2290,
+    },
+    {
+      name: 'Page D',
+      uv: 2780,
+      pv: 3908,
+      amt: 2000,
+    },
+    {
+      name: 'Page E',
+      uv: 1890,
+      pv: 4800,
+      amt: 2181,
+    },
+    {
+      name: 'Page F',
+      uv: 2390,
+      pv: 3800,
+      amt: 2500,
+    }
+  ];
+  return (
+    <BarChart
+      width={350}
+      height={300}
+      data={data}
+    >
+      <XAxis dataKey="name" />
+      <Bar dataKey="uv" label={{ position: 'top' }}>
+        {data.map((entry, index) => (
+          <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+        ))}
+      </Bar>
+    </BarChart>
+  );
+}
