@@ -1,59 +1,34 @@
 import React from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis } from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, Tooltip, Rectangle } from 'recharts';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
-export default function BarCharts() {
-  const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
+export default function BarCharts(props) {
 
-  const data = [
-    {
-      name: 'Page A',
-      uv: 4000,
-      pv: 2400,
-      amt: 2400,
-    },
-    {
-      name: 'Page B',
-      uv: 3000,
-      pv: 1398,
-      amt: 2210,
-    },
-    {
-      name: 'Page C',
-      uv: 2000,
-      pv: 9800,
-      amt: 2290,
-    },
-    {
-      name: 'Page D',
-      uv: 2780,
-      pv: 3908,
-      amt: 2000,
-    },
-    {
-      name: 'Page E',
-      uv: 1890,
-      pv: 4800,
-      amt: 2181,
-    },
-    {
-      name: 'Page F',
-      uv: 2390,
-      pv: 3800,
-      amt: 2500,
-    }
-  ];
+	let data = [
+		{ name: 'Happy', 	value: 120 },
+		{ name: 'Sad', 		value: 98 },
+		{ name: 'Angry', 	value: 86 },
+		{ name: 'Fear', 	value: 99 },
+		{ name: 'Disgust', 	value: 85 },
+		{ name: 'Love', 	value: 65 },
+  	];
+    
+    let COLORS = ['#ffe62b', '#2b4bff', '#ff2929', '#d429ff', '#4eff33', '#ff70b1'];
+
   return (
     <BarChart
-      width={350}
-      height={300}
-      data={data}
-    >
-      <XAxis dataKey="name" />
-      <Bar dataKey="uv" label={{ position: 'top' }}>
-        {data.map((entry, index) => (
-          <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-        ))}
-      </Bar>
+        width={350}
+        height={300}
+        data={data}
+        >
+        <XAxis dataKey="name" />
+        <Bar dataKey="value" label={{ position: 'top' }} >
+            {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % 20]} />
+            ))}
+        </Bar>
+        <Tooltip fill="#000000"/>
     </BarChart>
   );
 }
