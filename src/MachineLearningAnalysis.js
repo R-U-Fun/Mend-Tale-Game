@@ -9,7 +9,5 @@ import HomePage from './HomePage';
 export default function MachineLearningAnalysis(NewUserResponseText, NewJournalEntry){
     let Mood6 = ['Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
     let randomNumber = Math.floor(Math.random() * 6);
-
-    alert(randomNumber);
     return(Mood6[randomNumber]);
 }

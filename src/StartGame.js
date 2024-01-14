@@ -33,16 +33,17 @@ async function UpdateInteraction(NewGameProgress){
 
 }
 
-function NewInteraction(NewUserResponseText){
+async function NewInteraction(NewUserResponseText){
     let GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
     let IDNum = parseInt(CurrentUserNameSingleton.getUserName().GameProgress[GameProgressLength-1].InteractionID.charAt(0))+1;
 
     const CurrentDate = new Date();
     let IDTime = (""+CurrentDate.getFullYear()+"_"+(CurrentDate.getMonth()+1)+"_"+CurrentDate.getDate()+"_"+CurrentDate.getHours()+"_"+CurrentDate.getMinutes()+"_"+CurrentDate.getSeconds());
 
-    let NewJournalEntry = JournalEntry(NewUserResponseText);
+    let NewJournalEntry = await JournalEntry(NewUserResponseText);
     let NewMachineLearningAnalysis = MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
     let NewPersonalisedFeedback = PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
+    alert(NewJournalEntry);
 
     const NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;
 

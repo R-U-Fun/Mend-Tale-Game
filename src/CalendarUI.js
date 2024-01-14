@@ -83,7 +83,7 @@ function CalendarReturn(props){
                         if(CalDate === TodayDateProp.getDate()){
                             let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                             CalRowDays.push(
-                                <th key={D}><a className="btn btn-info fw-bold text-white" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                                <th key={D}><a className="btn btn-light fw-bold text-dark" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                             );
                             CalDate++;
                         }
@@ -105,7 +105,7 @@ function CalendarReturn(props){
                     if(CalDate === TodayDateProp.getDate()){
                         let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                         CalRowDays.push(
-                            <th key={D}><a className="btn btn-info fw-bold text-white" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                            <th key={D}><a className="btn btn-light fw-bold text-dark" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                         );
                         CalDate++;
                     }
