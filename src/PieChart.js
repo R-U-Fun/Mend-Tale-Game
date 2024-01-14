@@ -5,16 +5,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function PieCharts(props) {
 
-	let data = [
-		{ name: 'Happy', 	value: 120 },
-		{ name: 'Sad', 		value: 98 },
-		{ name: 'Angry', 	value: 86 },
-		{ name: 'Fear', 	value: 99 },
-		{ name: 'Disgust', 	value: 85 },
-		{ name: 'Love', 	value: 65 },
-  	];
+	let data = props.data;
 
-  	let COLORS = ['#ffe62b', '#2b4bff', '#ff2929', '#d429ff', '#4eff33', '#ff70b1'];
+    let COLORS = ['#ffc107', '#0d6efd', '#dc3545', '#6c757d', '#198754', '#0dcaf0'];
 
     return (
         <PieChart width={350} height={350}>
@@ -22,10 +15,12 @@ export default function PieCharts(props) {
 				data={data}
 				labelLine={true}
 				label={true}
-				innerRadius={40}
+				innerRadius={30}
 				outerRadius={100}
 				fill="#8884d8"
 				dataKey="value"
+				startAngle={90}
+				endAngle={450}
 			>
 				{data.map((entry, index) => (
 					<Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

@@ -1,12 +1,57 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import CurrentUserNameSingleton from './UserSingleton';
+
+function MachineLearningRecord(Year, Month, Day){
+    let Text = [];
+    let Color = 0;
+    let GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
+    if(CurrentUserNameSingleton.getUserName()){
+        for(let L=1; L <= GameProgressLength; L++){
+            let DateTime = CurrentUserNameSingleton.getUserName().GameProgress[L-1].InteractionID;
+            let DateTimeArr = DateTime.split("_");
+            if(Year === parseInt(DateTimeArr[2]) && Month === parseInt(DateTimeArr[3]) && Day === parseInt(DateTimeArr[4])){
+                Text.push(CurrentUserNameSingleton.getUserName().GameProgress[L-1].MachineLearningAnalysis);
+            }
+        }
+    }
+    let Count = [0, 0, 0, 0, 0, 0];
+    let Moods = ['Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
+    for(let L=0; L < Text.length; L++){
+        for(let M=0; M<6; M++){
+            if(Text[L] === Moods[M]){
+                Count[M] = Count[M] + 1;
+            }
+        }
+    }
+    let MaxCount = Math.max(...Count);
+    let MaxMood = 'check';
+    for(let L=0; L < 6; L++){
+        if(MaxCount !== 0 && MaxCount === Count[L]){
+            MaxMood = Moods[L];
+        }
+    }
+    switch (MaxMood) {
+        case 'Happy':
+            return("warning");
+        case 'Sad':
+            return("primary");
+        case 'Angry':
+            return("danger");
+        case 'Fear':
+            return("secondary");
+        case 'Excite':
+            return("success");
+        case 'Love':
+            return("info");
+        default:
+            return("outline-primary");
+    }
+}
 
 function CalendarReturn(props){
     let TodayDateProp = props.TodayDate;
-    console.log(TodayDateProp);
     let FirstDate = new Date(`${TodayDateProp.getFullYear()}-${(TodayDateProp.getMonth())+1}-01`);
-    console.log(FirstDate);
-    console.log("----------");
     let FirstDay = FirstDate.getDay();
     if(FirstDate.getDay() === 0){
         FirstDay = 7;
@@ -27,7 +72,7 @@ function CalendarReturn(props){
     else{
         CalEnd = 31;
     }
-
+    
     let CalRowWeeks = [];
     for(let W = 1; W <= 6; W++) {
         let CalRowDays = [];
@@ -36,14 +81,16 @@ function CalendarReturn(props){
                 if(W === 1){
                     if(D >= FirstDay){
                         if(CalDate === TodayDateProp.getDate()){
+                            let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                             CalRowDays.push(
-                                <th key={D}><a className="btn btn-info fw-bold text-white" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className="btn btn-primary fw-info" style={{width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                                <th key={D}><a className="btn btn-info fw-bold text-white" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                             );
                             CalDate++;
                         }
                         else{
+                            let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
                             CalRowDays.push(
-                                <th key={D}><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                                <th key={D}><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                             );
                             CalDate++;
                         }
@@ -56,14 +103,16 @@ function CalendarReturn(props){
                 }
                 else{
                     if(CalDate === TodayDateProp.getDate()){
+                        let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                         CalRowDays.push(
-                            <th key={D}><a className="btn btn-info fw-bold text-white" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className="btn btn-primary fw-info" style={{width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                            <th key={D}><a className="btn btn-info fw-bold text-white" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                         );
                         CalDate++;
                     }
                     else{
+                        let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
                         CalRowDays.push(
-                            <th key={D}><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                            <th key={D}><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                         );
                         CalDate++;
                     }
@@ -89,7 +138,50 @@ function CalendarReturn(props){
 }
 
 export default function CalendarUI(){
-    let [TodayDate, setTodayDate] = useState(new Date("2023-03-04"));
+    let [TodayDate, setTodayDate] = useState(new Date());
+    let CurrMonth;
+
+    switch (TodayDate.getMonth()+1) {
+        case 1:
+            CurrMonth = "January";
+            break;
+        case 2:
+            CurrMonth = "February";
+            break;
+        case 3:
+            CurrMonth = "March";
+            break;
+        case 4:
+            CurrMonth = "April";
+            break;
+        case 5:
+            CurrMonth = "May";
+            break;
+        case 6:
+            CurrMonth = "June";
+            break;
+        case 7:
+            CurrMonth = "July";
+            break;
+        case 8:
+            CurrMonth = "August";
+            break;
+        case 9:
+            CurrMonth = "September";
+            break;
+        case 10:
+            CurrMonth = "October";
+            break;
+        case 11:
+            CurrMonth = "November";
+            break;
+        case 12:
+            CurrMonth = "December";
+            break;
+        default:
+            CurrMonth = "INVALID";
+    }
+
     return (
         <div>
             <div className="m-2">
@@ -104,11 +196,10 @@ export default function CalendarUI(){
                     }
                 }}><i class="bi bi-arrow-left"></i></a>
                 &nbsp;
-                <a className="btn btn-primary fw-bold">{TodayDate.getFullYear()}</a>&nbsp;
-                <a className="btn btn-primary fw-bold">{(TodayDate.getMonth())+1}</a>
+                <a className="btn btn-primary fw-bold" style={{ cursor: 'auto'}}>{TodayDate.getFullYear()}</a>&nbsp;
+                <a className="btn btn-primary fw-bold" style={{ cursor: 'auto'}}>{CurrMonth}</a>
                 &nbsp;
                 <a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}} onClick={() => {
-                    
                     if(((TodayDate.getMonth())+1) === 12){
                         setTodayDate(new Date(`${TodayDate.getFullYear()+1}-01-${TodayDate.getDate()}`));
                         ReactDOM.render(<CalendarReturn TodayDate={new Date(`${TodayDate.getFullYear()+1}-01-${TodayDate.getDate()}`)} />, document.getElementById('CalendarHere'));

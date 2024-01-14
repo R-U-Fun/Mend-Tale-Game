@@ -5,6 +5,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
+import PersonalisedFeedback from './PersonalisedFeedback';
+import MachineLearningAnalysis from './MachineLearningAnalysis';
+import JournalEntry from './JournalEntry';
 
 async function UpdateInteraction(NewGameProgress){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -28,19 +31,6 @@ async function UpdateInteraction(NewGameProgress){
     })
     .catch(error => console.error('Error:', error));
 
-}
-
-function JournalEntry(NewUserResponseText){
-    let NewJournalEntry = NewUserResponseText.split(" ").join(", ");
-    return(NewJournalEntry);
-}
-
-function MachineLearningAnalysis(NewUserResponseText, NewJournalEntry){
-    return("NewMachineLearningAnalysis");
-}
-
-function PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis){
-    return("NewPersonalisedFeedback");
 }
 
 function NewInteraction(NewUserResponseText){
