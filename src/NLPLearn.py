@@ -1,22 +1,17 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from transformers import pipeline
-from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
+from transformers import TFAutoModelForSequenceClassification, TFAutoModelForTokenClassification, AutoTokenizer
 import numpy as np
 
 app = Flask(__name__)
 CORS(app)
 
-model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-def softmax(logits):
-    exps = np.exp(logits)
-    return exps / np.sum(exps)
-
 @app.route('/SentimentAnalysis', methods=['POST'])
 def SentimentAnalysis():
+    model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+    model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
     data = request.get_json()
     UserResponse = data.get('UserResponse', '')
     print(UserResponse)
@@ -29,12 +24,15 @@ def SentimentAnalysis():
     print(prediction)
     return jsonify(prediction)
 
-@app.route('/NamedEntityRecognition', methods=['POST'])
-def NamedEntityRecognition():
+@app.route('/Tokenizer', methods=['POST'])
+def Tokenizer():
+    model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+    model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
     data = request.get_json()
-    NamedEntityRecognition = data.get('NamedEntityRecognition', '')
-    print(NamedEntityRecognition)
-    sequence = NamedEntityRecognition
+    TokenizerText = data.get('TokenizerText', '')
+    print(TokenizerText)
+    sequence = TokenizerText
     print(sequence)
     res = tokenizer(sequence)
     print(res)
@@ -45,6 +43,40 @@ def NamedEntityRecognition():
     join = ", ".join(tokens)
     print(join)
     return jsonify(join)
+
+@app.route('/NamedEntityRecognition', methods=['POST'])
+def NamedEntityRecognition():
+    ner_model = "dbmdz/bert-large-cased-finetuned-conll03-english"
+    model = TFAutoModelForTokenClassification.from_pretrained(ner_model)
+    tokenizer = AutoTokenizer.from_pretrained(ner_model)
+    ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, framework="tf")
+    data = request.get_json()
+    NamedEntityRecognition = data.get('NamedEntityRecognition', '')
+    print(NamedEntityRecognition)
+    sequence = NamedEntityRecognition
+    print(sequence)
+    ner_results = ner_pipeline(sequence)
+    print("-------------------------------")
+    print(ner_results)
+    print("-------------------------------")
+    return jsonify(ner_results)
+
+@app.route('/TextGeneration', methods=['POST'])
+def TextGeneration():
+    ner_model = "dbmdz/bert-large-cased-finetuned-conll03-english"
+    model = TFAutoModelForTokenClassification.from_pretrained(ner_model)
+    tokenizer = AutoTokenizer.from_pretrained(ner_model)
+    ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, framework="tf")
+    data = request.get_json()
+    TextGeneration = data.get('TextGeneration', '')
+    print(TextGeneration)
+    sequence = TextGeneration
+    print(sequence)
+    ner_results = ner_pipeline(sequence)
+    print("-------------------------------")
+    print(ner_results)
+    print("-------------------------------")
+    return jsonify(ner_results)
 
 if __name__ == '__main__':
     app.run(host='localhost')

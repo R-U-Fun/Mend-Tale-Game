@@ -8,7 +8,7 @@ import HomePage from './HomePage';
 
 export default async function JournalEntry(NewUserResponseText){
     
-    let NewJournalEntry = await fetch('http://localhost:5000/SentimentAnalysis', {
+    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -20,7 +20,21 @@ export default async function JournalEntry(NewUserResponseText){
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        //return data + " - " + NewUserResponseText.split(" ").join(", ");
+        return data;
+    });
+
+    let Tokens = await fetch('http://localhost:5000/Tokenizer', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            TokenizerText: NewUserResponseText
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
         return data;
     });
 
@@ -41,5 +55,5 @@ export default async function JournalEntry(NewUserResponseText){
         return data;
     });
 
-    return (NewJournalEntry+" -- "+ NamedEntityRecognition);
+    return (SentimentAnalysis+" - "+ Tokens+" - "+ NamedEntityRecognition);
 }

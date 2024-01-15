@@ -41,8 +41,8 @@ async function NewInteraction(NewUserResponseText){
     let IDTime = (""+CurrentDate.getFullYear()+"_"+(CurrentDate.getMonth()+1)+"_"+CurrentDate.getDate()+"_"+CurrentDate.getHours()+"_"+CurrentDate.getMinutes()+"_"+CurrentDate.getSeconds());
 
     let NewJournalEntry = await JournalEntry(NewUserResponseText);
-    let NewMachineLearningAnalysis = MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
-    let NewPersonalisedFeedback = PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
+    let NewMachineLearningAnalysis = await MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
+    let NewPersonalisedFeedback = await PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
     alert(NewJournalEntry);
 
     const NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;

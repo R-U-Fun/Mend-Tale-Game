@@ -6,8 +6,30 @@ import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
 
-export default function MachineLearningAnalysis(NewUserResponseText, NewJournalEntry){
-    let Mood6 = ['Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
-    let randomNumber = Math.floor(Math.random() * 6);
-    return(Mood6[randomNumber]);
+export default async function MachineLearningAnalysis(NewUserResponseText, NewJournalEntry){
+    let Mood6 = ['Happy', 'Excite', 'Love', 'Sad', 'Angry', 'Fear'];
+
+    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            UserResponse: NewUserResponseText
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        return data;
+    });
+
+    if(SentimentAnalysis === "Positive"){
+        let randomNumber = Math.floor(Math.random() * 3);
+        return(Mood6[randomNumber]);
+    }
+    else if (SentimentAnalysis === "Negative"){
+        let randomNumber = Math.floor(Math.random() * 3) + 3;
+        return(Mood6[randomNumber]);
+    } 
 }

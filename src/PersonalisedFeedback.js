@@ -6,6 +6,20 @@ import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
 
-export default function PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis){
+export default async function PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis){
+    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            UserResponse: NewUserResponseText
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        return data;
+    });
     return("NewPersonalisedFeedback");
 }

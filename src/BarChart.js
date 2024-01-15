@@ -7,7 +7,7 @@ export default function BarCharts(props) {
 
 	let data = props.data;
     
-    let COLORS = ['#ffc107', '#0d6efd', '#dc3545', '#6c757d', '#198754', '#0dcaf0'];
+    let COLORS = ['#ffc107', '#198754', '#0dcaf0', '#0d6efd', '#dc3545', '#6c757d'];
 
   return (
     <BarChart

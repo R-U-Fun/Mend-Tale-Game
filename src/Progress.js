@@ -14,11 +14,11 @@ export default function Progress(){
 
 	let data = [
 		{ name: 'Happy', 	value: 120 },
+		{ name: 'Excite', 	value: 85 },
+		{ name: 'Love', 	value: 65 },
 		{ name: 'Sad', 		value: 98 },
 		{ name: 'Angry', 	value: 86 },
 		{ name: 'Fear', 	value: 99 },
-		{ name: 'Excite', 	value: 85 },
-		{ name: 'Love', 	value: 65 },
   	];
     
     return(
