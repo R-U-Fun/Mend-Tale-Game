@@ -8,13 +8,38 @@ import HomePage from './HomePage';
 
 export default async function JournalEntry(NewUserResponseText){
     
-    let NewJournalEntry = await fetch('http://localhost:5000/sentiment_analysis')
+    let NewJournalEntry = await fetch('http://localhost:5000/SentimentAnalysis', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            UserResponse: NewUserResponseText
+        })
+    })
     .then(response => response.json())
     .then(data => {
-        console.log(data[0].label);
-        return data[0].label + " - " +NewUserResponseText.split(" ").join(", ");
+        console.log(data);
+        //return data + " - " + NewUserResponseText.split(" ").join(", ");
+        return data;
     });
 
-    console.log(NewJournalEntry);
-    return NewJournalEntry;
+    let NamedEntityRecognition = await fetch('http://localhost:5000/NamedEntityRecognition', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            NamedEntityRecognition: NewUserResponseText
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("++++++++++++++++++++++++++++++++");
+        console.log(data);
+        console.log("++++++++++++++++++++++++++++++++");
+        return data;
+    });
+
+    return (NewJournalEntry+" -- "+ NamedEntityRecognition);
 }

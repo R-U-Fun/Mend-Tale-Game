@@ -104,7 +104,6 @@ function ChatRows(){
     let GameProgressLength = 1;
     if(CurrentUserNameSingleton.getUserName()){
         GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
-        console.log("GameProgressLegnth  "+GameProgressLength);
     }
 
     const Chats = [];
