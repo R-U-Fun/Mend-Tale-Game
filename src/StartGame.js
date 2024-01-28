@@ -94,8 +94,8 @@ function UserResponseBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1" style={{width:"40px", cursor: 'auto'}}><i className="bi bi-person-fill"></i></a></td>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto'}}>{Text}</a></td>
+                <td><a className="btn btn-dark m-1" style={{width:"40px", cursor: 'auto'}}><i className="bi bi-person-fill"></i></a></td>
+                <td><a className="btn btn-dark m-1" style={{cursor: 'auto'}}>{Text}</a></td>
             </tr>
     );
 }

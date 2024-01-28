@@ -38,22 +38,27 @@ export default async function JournalEntry(NewUserResponseText){
         return data;
     });
 
-    let NamedEntityRecognition = await fetch('http://localhost:5000/NamedEntityRecognition', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            NamedEntityRecognition: NewUserResponseText
-        })
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log("++++++++++++++++++++++++++++++++");
-        console.log(data);
-        console.log("++++++++++++++++++++++++++++++++");
-        return data;
-    });
+    // let NamedEntityRecognition = await fetch('http://localhost:5000/NamedEntityRecognition', {
+    //     method: 'POST',
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify({
+    //         NamedEntityRecognition: NewUserResponseText
+    //     })
+    // })
+    // .then(response => response.json())
+    // .then(data => {
+    //     console.log("++++++++++++++++++++++++++++++++");
+    //     console.log(data);
+    //     console.log("++++++++++++++++++++++++++++++++");
+    //     return data;
+    // });
 
-    return (SentimentAnalysis+" - "+ Tokens+" - "+ NamedEntityRecognition);
+    // if(NamedEntityRecognition){
+    //     return (SentimentAnalysis+" - "+ Tokens+" - "+ NamedEntityRecognition);
+    // }
+    // else{
+        return (SentimentAnalysis+" - "+ Tokens);
+    //}
 }

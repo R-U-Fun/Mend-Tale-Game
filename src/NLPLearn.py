@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from transformers import pipeline
-from transformers import TFAutoModelForSequenceClassification, TFAutoModelForTokenClassification, AutoTokenizer
+from transformers import TFAutoModelForSequenceClassification, TFAutoModelForTokenClassification, AutoTokenizer, TFAutoModelWithLMHead
 import numpy as np
 
 app = Flask(__name__)
@@ -56,27 +56,22 @@ def NamedEntityRecognition():
     sequence = NamedEntityRecognition
     print(sequence)
     ner_results = ner_pipeline(sequence)
-    print("-------------------------------")
-    print(ner_results)
-    print("-------------------------------")
     return jsonify(ner_results)
 
 @app.route('/TextGeneration', methods=['POST'])
 def TextGeneration():
-    ner_model = "dbmdz/bert-large-cased-finetuned-conll03-english"
-    model = TFAutoModelForTokenClassification.from_pretrained(ner_model)
-    tokenizer = AutoTokenizer.from_pretrained(ner_model)
-    ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, framework="tf")
+    model_name = "gpt2"
+    model = TFAutoModelWithLMHead.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
     data = request.get_json()
-    TextGeneration = data.get('TextGeneration', '')
-    print(TextGeneration)
-    sequence = TextGeneration
-    print(sequence)
-    ner_results = ner_pipeline(sequence)
-    print("-------------------------------")
-    print(ner_results)
-    print("-------------------------------")
-    return jsonify(ner_results)
+    UserResponse = data.get('UserResponse', '')
+    print(UserResponse)
+    inputs = tokenizer.encode(UserResponse, return_tensors='tf')
+    outputs = model.generate(inputs, max_length=50, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
+    generated_text = tokenizer.decode(outputs[0])
+    print("-------------------------222222222222222222")
+    print(generated_text)
+    return jsonify(generated_text)
 
 if __name__ == '__main__':
     app.run(host='localhost')

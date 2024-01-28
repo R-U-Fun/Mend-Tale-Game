@@ -7,7 +7,7 @@ import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
 
 export default async function PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis){
-    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
+    let NewPersonalisedFeedback = await fetch('http://localhost:5000/TextGeneration', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -21,5 +21,8 @@ export default async function PersonalisedFeedback(NewUserResponseText, NewJourn
         console.log(data);
         return data;
     });
-    return("NewPersonalisedFeedback");
+    if(NewPersonalisedFeedback === null){
+        NewPersonalisedFeedback = "NULL";
+    }
+    return(NewPersonalisedFeedback);
 }
