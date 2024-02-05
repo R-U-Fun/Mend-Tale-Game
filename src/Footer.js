@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Footer(){
   return(
-    <footer className="footer text-light py-1 bottom" style={{ background: 'linear-gradient(to bottom, transparent 0%, #010129 100%)' }}>
+    <footer className="footer text-light py-1 bottom" style={{ background: 'rgba(210, 226, 250, 0)' }}>
       <div className="container">
         <hr />
         <div className="text-center">

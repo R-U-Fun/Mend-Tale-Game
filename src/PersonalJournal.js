@@ -16,8 +16,8 @@ function DateBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1"><i class="bi bi-calendar3"></i></a></td>
-                <td><a className="btn btn-primary m-1">{Text}</a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i class="bi bi-calendar3"></i></a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
             </tr>
     );
 }
@@ -29,8 +29,8 @@ function JournalEntryBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1"><i class="bi bi-journal-text"></i></a></td>
-                <td><a className="btn btn-primary m-1">{Text}</a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i class="bi bi-journal-text"></i></a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
             </tr>
     );
 }
@@ -42,8 +42,8 @@ function UserResponseBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1"><i className="bi bi-person-fill"></i></a></td>
-                <td><a className="btn btn-primary m-1">{Text}</a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
             </tr>
     );
 }
@@ -58,7 +58,7 @@ function ChatRows(){
 
     for(let L = 1; L <= GameProgressLength; L++) {
         JournalEntry.push(
-            <div><DateBox index={L}/><div className="rounded-4 border border-primary border-5 me-5 ms-5 mt-2 ">
+            <div><DateBox index={L}/><div className="me-5 ms-5 mt-2 ">
             <tr key={L}>
                 <br/>
                     <UserResponseBox index={L}/>
@@ -85,7 +85,7 @@ export default function PersonalJournal(){
     });
     return(
         <div>
-            <div className="overflow-y-scroll" style={{height:'400px'}} ref={scrollRef}>
+            <div className="overflow-y-scroll" style={{height:'500px'}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>
                         <ChatRows/>

@@ -73,5 +73,28 @@ def TextGeneration():
     print(generated_text)
     return jsonify(generated_text)
 
+@app.route('/TextGeneration2', methods=['POST'])
+def TextGeneration2():
+    model_name = "gpt2"
+    model = TFAutoModelWithLMHead.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    data = request.get_json()
+    UserResponse = data.get('UserResponse', '')
+    print(UserResponse)
+    inputs = tokenizer.encode(UserResponse, return_tensors='tf')
+    outputs = model.generate(inputs, max_length=100, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
+    generated_text = tokenizer.decode(outputs[0])
+    print("-------------------------33333333")
+    print(generated_text)
+    split = generated_text.split(UserResponse)
+    print("-------------------------33333333")
+    print(split[1])
+    inputs2 = tokenizer.encode(split[1], return_tensors='tf')
+    outputs2 = model.generate(inputs2, max_length=200, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
+    generated_text2 = tokenizer.decode(outputs2[0])
+    print("-------------------------33333333")
+    print(generated_text2)
+    return jsonify(generated_text2)
+
 if __name__ == '__main__':
     app.run(host='localhost')

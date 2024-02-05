@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import backgroundImage from './Images/MT-BG.jpeg';
+import backgroundImage from './Images/MT-BG-02.jpeg';
 
 import Header from './Header';
 import Footer from './Footer';

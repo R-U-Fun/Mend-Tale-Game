@@ -11,7 +11,7 @@ export default function HomePage(){
             <div className="container text-center">
                 <div className="row gx-3 text-center justify-content-center">
                     <div id="LoginHere" className="col-lg-1"></div>
-                    <div className=" col-lg-9 rounded-4 border border-primary border-5">
+                    <div className=" col-lg-9 ">
                         <div className="card  text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none',display: 'flex',  alignItems: 'center'}} id="Box">
                             <StartGame/>
                         </div>

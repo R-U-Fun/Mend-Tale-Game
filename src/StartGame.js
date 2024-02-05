@@ -78,8 +78,8 @@ function PersonalisedFeedbackBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1" style={{width:"40px", cursor: 'auto'}}><i class="bi bi-soundwave"></i></a></td>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto'}}>{Text}</a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i class="bi bi-soundwave"></i></a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
             </tr>
     );
 }
@@ -94,8 +94,8 @@ function UserResponseBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-dark m-1" style={{width:"40px", cursor: 'auto'}}><i className="bi bi-person-fill"></i></a></td>
-                <td><a className="btn btn-dark m-1" style={{cursor: 'auto'}}>{Text}</a></td>
+                <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
+                <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
             </tr>
     );
 }
@@ -125,7 +125,6 @@ export default function StartGame(){
     const RespondRef = useRef();
 
     const scrollRef = useRef();
-
     useEffect(() => {
         const scrollElement = scrollRef.current;
         if (scrollElement) {
@@ -134,13 +133,9 @@ export default function StartGame(){
     });
     return(
         <div>
-            <div className="overflow-y-scroll" style={{height:'400px'}} ref={scrollRef}>
+            <div className="overflow-y-scroll" style={{height:'500px'}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>
-                        <tr><tr>
-                            <td><a className="btn btn-primary m-1" style={{width:"40px", cursor: 'auto'}}><i class="bi bi-soundwave"></i></a></td>
-                            <td><a className="btn btn-primary m-1" style={{cursor: 'auto'}}>First</a></td>
-                        </tr></tr>
                         <ChatRows/>
                         <tr id="NewResponseBox">
                         </tr>
@@ -148,9 +143,9 @@ export default function StartGame(){
                 </table>
             </div>
             <hr/>
-            <div className="input-group mb-3">
+            <div className="input-group mb-3" >
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
-                <input type="text" spellCheck="true" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef}/>
+                <input type="text" spellCheck="true" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} />
                 <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
                     if(RespondRef.current.value){
                         NewUserResponse(RespondRef.current.value);
