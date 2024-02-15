@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import IconImage from './Images/MT-Icon.png';
-import TitleImage from './Images/MT-Title-BG.png';
+import TitleImage from './Images/MD_Title_T_BG.png';
 
 export default function Header(){
     return(
