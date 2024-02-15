@@ -8,6 +8,8 @@ import CurrentUserNameSingleton from './UserSingleton';
 import StartGame from './StartGame';
 import HomePage from './HomePage';
 
+import Cookies from 'js-cookie';
+
 function LoginHandle(CurrentUserName, CurrentPassword){
     if(CurrentUserName && CurrentPassword){
         fetch(`http://localhost:3214/Server/UserProfile/${CurrentUserName}`)
@@ -16,6 +18,11 @@ function LoginHandle(CurrentUserName, CurrentPassword){
             if(CurrentPassword === Data.Password){
                 console.log("LOGIN CHECK");
                 CurrentUserNameSingleton.setUserName(Data);
+
+                let CookieName = Data.Username.toString();
+
+                Cookies.set('MendTaleUser', CookieName, { expires: 7 });
+                
                 ReactDOM.render(<StartGame />, document.getElementById('Box'));
                 ReactDOM.render(<HomeLinks />, document.getElementById('PlayerHere'));
             }

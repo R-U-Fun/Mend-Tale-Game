@@ -9,6 +9,8 @@ import CurrentUserNameSingleton from './UserSingleton';
 import PersonalJournal from './PersonalJournal'
 import Progress from './Progress'
 
+import Cookies from 'js-cookie';
+
 export default function HomeLinks(){
     let UserData = CurrentUserNameSingleton.getUserName();
     return(
@@ -25,7 +27,8 @@ export default function HomeLinks(){
             <button className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))} style={{width:"200px"}}>Progress</button><br/>
             <button className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
                 CurrentUserNameSingleton.setUserName(null);
-                ReactDOM.render(<HomePage/>, document.getElementById('HomeHere'));
+                Cookies.remove('MendTaleUser');
+                window.location.reload(false);
             }} style={{width:"200px"}}>Logout</button><br/>
             <button className="btn btn-outline-dark" style={{cursor:'default'}} onClick={() => {
                 ReactDOM.render(<MendText/>, document.getElementById('Box'));

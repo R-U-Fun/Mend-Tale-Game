@@ -4,6 +4,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import React, { useRef } from 'react';
 import Login from './Login';
 
+
+import Cookies from 'js-cookie';
+
 function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
     if( NewUserName && NewPassword && NewConfirmPassword){
         if(NewPassword === NewConfirmPassword){
@@ -76,6 +79,7 @@ export default function Register(){
     const emailRef = useRef();
     const passwordRef = useRef();
     const ConfirmpasswordRef = useRef();
+
     return(
         <div>
             <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))}>Register</a>
