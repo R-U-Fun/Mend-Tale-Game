@@ -132,6 +132,14 @@ def TextGeneration3():
     generated_text = tokenizer.decode(outputs[0])
     print(generated_text)
     return jsonify(generated_text)
+    
+    # print("-------------------------33333333")
+    # print(generated_text)
+    # split = generated_text.split(UserResponse)
+    # print("-------------------------33333333")
+    # print(split[1])
+    # split2 = split[1].split("<|endoftext|>")
+    # return jsonify(split2[0])
 
 if __name__ == '__main__':
     app.run(host='localhost')

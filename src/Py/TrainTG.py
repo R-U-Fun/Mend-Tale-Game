@@ -2,7 +2,7 @@ import json
 import tensorflow as tf
 from transformers import TFGPT2LMHeadModel, AutoTokenizer
 
-with open('../../datasets/MT_DS_HP_01_TG_Test.json', 'r') as f:
+with open('../../datasets/MT_DS_HP_01_TG_Test2.json', 'r') as f:
     data = json.load(f)
 
 tokenizer = AutoTokenizer.from_pretrained('gpt2')
@@ -34,4 +34,4 @@ print("++++++++++++++++++++++++++++++++++++++++Convert inputs and labels to Tens
 model.fit(dataset.batch(8), epochs=3)
 print("++++++++++++++++++++++++++++++++++++++++Train the model")
 
-model.save_pretrained("../../mt_ml_models/MT_ML_HP_01_TG_Test_Model")
+model.save_pretrained("../../mt_ml_models/MT_ML_HP_01_TG_Test2_Model")

@@ -43,7 +43,6 @@ async function NewInteraction(NewUserResponseText){
     let NewJournalEntry = await JournalEntry(NewUserResponseText);
     let NewMachineLearningAnalysis = await MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
     let NewPersonalisedFeedback = await PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
-    alert(NewJournalEntry);
 
     const NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;
 

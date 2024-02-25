@@ -9,7 +9,7 @@ import HomePage from './HomePage';
 export default async function MachineLearningAnalysis(NewUserResponseText, NewJournalEntry){
     let Mood6 = ['Happy', 'Excite', 'Love', 'Sad', 'Angry', 'Fear'];
 
-    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
+    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis2', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -24,12 +24,14 @@ export default async function MachineLearningAnalysis(NewUserResponseText, NewJo
         return data;
     });
 
-    if(SentimentAnalysis === "Positive"){
-        let randomNumber = Math.floor(Math.random() * 3);
-        return(Mood6[randomNumber]);
-    }
-    else if (SentimentAnalysis === "Negative"){
-        let randomNumber = Math.floor(Math.random() * 3) + 3;
-        return(Mood6[randomNumber]);
-    } 
+    return SentimentAnalysis
+
+    // if(SentimentAnalysis === "Positive"){
+    //     let randomNumber = Math.floor(Math.random() * 3);
+    //     return(Mood6[randomNumber]);
+    // }
+    // else if (SentimentAnalysis === "Negative"){
+    //     let randomNumber = Math.floor(Math.random() * 3) + 3;
+    //     return(Mood6[randomNumber]);
+    // } 
 }
