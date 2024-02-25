@@ -11,6 +11,13 @@
 # production
 /build
 
+#Models
+./mt_ml_models
+/mt_ml_models
+./mt_ml_models/MT_ML_HP_01_TG_Test_Model
+/mt_ml_models/MT_ML_HP_01_TG_Test_Model
+*.h5
+
 # misc
 .DS_Store
 .env.local

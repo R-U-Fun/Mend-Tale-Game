@@ -77,10 +77,10 @@ function PersonalisedFeedbackBox(props){
         Text = CurrentUserNameSingleton.getUserName().GameProgress[(props.index)-1].PersonalisedFeedback;
     }
     return(
-            <tr>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i class="bi bi-soundwave"></i></a></td>
+            <>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-soundwave"></i></a></td>
                 <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
-            </tr>
+            </>
     );
 }
 
@@ -93,10 +93,10 @@ function UserResponseBox(props){
         Text = props.NewUserResponseText;
     }
     return(
-            <tr>
+            <>
                 <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
                 <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
-            </tr>
+            </>
     );
 }
 
@@ -107,17 +107,22 @@ function ChatRows(){
     }
 
     const Chats = [];
+    const Chats2 = [];
 
     for(let L = 1; L <= GameProgressLength; L++) {
         Chats.push(
             <tr key={L}>
                 <UserResponseBox index={L}/>
+            </tr>
+        );
+        Chats.push(
+            <tr key={GameProgressLength+L}>
                 <PersonalisedFeedbackBox index={L}/>
             </tr>
         );
     }
     return(
-        <div>{Chats}</div>
+        <>{Chats}</>
     );
 }
 

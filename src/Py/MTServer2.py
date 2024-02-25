@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from transformers import pipeline
-from transformers import TFAutoModelForSequenceClassification, TFAutoModelForTokenClassification, AutoTokenizer, TFAutoModelWithLMHead
+from transformers import TFAutoModelForSequenceClassification, TFAutoModelForTokenClassification, AutoTokenizer, TFAutoModelWithLMHead, TFGPT2LMHeadModel
 import numpy as np
 
 app = Flask(__name__)
@@ -80,21 +80,58 @@ def TextGeneration2():
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     data = request.get_json()
     UserResponse = data.get('UserResponse', '')
+    print("---------------------------------------------------------------------------------------")
     print(UserResponse)
+    print("---------------------------------------------------------------------------------------")
     inputs = tokenizer.encode(UserResponse, return_tensors='tf')
-    outputs = model.generate(inputs, max_length=100, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
+    outputs = model.generate(inputs, max_length=1000, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
     generated_text = tokenizer.decode(outputs[0])
     print("-------------------------33333333")
     print(generated_text)
     split = generated_text.split(UserResponse)
     print("-------------------------33333333")
     print(split[1])
-    inputs2 = tokenizer.encode(split[1], return_tensors='tf')
-    outputs2 = model.generate(inputs2, max_length=200, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
-    generated_text2 = tokenizer.decode(outputs2[0])
-    print("-------------------------33333333")
-    print(generated_text2)
-    return jsonify(generated_text2)
+    split2 = split[1].split("<|endoftext|>")
+    # inputs2 = tokenizer.encode(split[1], return_tensors='tf')
+    # outputs2 = model.generate(inputs2, max_length=2000, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
+    # generated_text2 = tokenizer.decode(outputs2[0])
+    # print("-------------------------33333333")
+    # print(generated_text2)
+    # return jsonify(generated_text2)
+    return jsonify(split2[0])
+
+
+#==================================================================================================
+
+@app.route('/SentimentAnalysis2', methods=['POST'])
+def SentimentAnalysis2():
+    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test_Model")
+    tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
+    data = request.get_json()
+    UserResponse = data.get('UserResponse', '')
+    print(UserResponse)
+    inputs = tokenizer(UserResponse, return_tensors='tf')
+    outputs = model(inputs)[0]
+    res = outputs.numpy().tolist()
+    print("-------------------------")
+    classes = ['Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear']
+    prediction = classes[np.argmax(res)]
+    print(prediction)
+    return jsonify(prediction)
+
+
+@app.route('/TextGeneration3', methods=['POST'])
+def TextGeneration3():
+    model = TFGPT2LMHeadModel.from_pretrained("../../mt_ml_models/MT_ML_HP_01_TG_Test_Model")
+    tokenizer = AutoTokenizer.from_pretrained("gpt2")
+    data = request.get_json()
+    UserResponse = data.get('UserResponse', '')
+    print(UserResponse)
+    inputs = tokenizer.encode(UserResponse, return_tensors='tf')
+    outputs = model.generate(inputs, max_length=500, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
+    generated_text = tokenizer.decode(outputs[0])
+    print(generated_text)
+    return jsonify(generated_text)
 
 if __name__ == '__main__':
     app.run(host='localhost')
