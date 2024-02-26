@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
-import Calendars from './Calendar';
 import CalendarUI from './CalendarUI';
 import PieCharts from './PieChart';
 import BarChart from './BarChart';

@@ -3,7 +3,9 @@ import tensorflow as tf
 from transformers import TFGPT2LMHeadModel, AutoTokenizer, TFAutoModelForSequenceClassification
 import numpy as np
 
-with open('../../datasets/MT_DS_HP_01_Mood_Test.json', 'r') as f:
+import datetime
+
+with open('../../datasets/MT_DS_HP_01_Mood_Test3.json', 'r') as f:
     data = json.load(f)
 
 print("++++++++++++++++++++++++++++++++++++++++Set the padding token")
@@ -49,20 +51,15 @@ print("++++++++++++++++++++++++++++++++++++++++Convert inputs and labels to Tens
 model.fit(dataset.batch(8), epochs=3)
 print("++++++++++++++++++++++++++++++++++++++++Train the model")
 
-model.save_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test_Model")
+model.save_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test3_Model")
+print("++++++++++++++++++++++++++++++++++++++++Save the model")
 
-def SentimentAnalysis2(UserResponse):
-    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test_Model")
-    tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
-    inputs = tokenizer(UserResponse, return_tensors='tf')
-    outputs = model(inputs)[0]
-    res = outputs.numpy().tolist()
-    print("-------------------------")
-    classes = ['Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear']
-    prediction = classes[np.argmax(res)]
-    print(prediction)
-    return(prediction)
 
-UserResponse = "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-
-SentimentAnalysis2(UserResponse)
+datetime = datetime.datetime.now()
+print("DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
+print("DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
+print(" ")
+print(datetime)
+print(" ")
+print("DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
+print("DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
