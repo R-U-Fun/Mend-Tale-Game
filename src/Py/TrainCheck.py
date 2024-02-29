@@ -12,10 +12,9 @@ def TextGeneration3(UserResponse):
     tokenizer = AutoTokenizer.from_pretrained("gpt2")
     tokenizer.pad_token = tokenizer.eos_token
 
-    # Encode the input while paying attention to all tokens
     inputs = tokenizer.encode(UserResponse, return_tensors='tf', padding='longest', truncation=True, max_length=512)
     attention_mask = tf.ones(inputs.shape, dtype=tf.int32)
-     # Generate text
+
     outputs = model.generate(inputs, max_length=500, num_return_sequences=1, temperature=0.9, top_k=50, do_sample=True, repetition_penalty=1.2, pad_token_id=tokenizer.eos_token_id, attention_mask=attention_mask)
     generated_text = tokenizer.decode(outputs[0])
     print(generated_text)
@@ -23,18 +22,33 @@ def TextGeneration3(UserResponse):
 
 
 def SentimentAnalysis2(UserResponse):
-    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test3_Model")
+    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_DS_HP_01_Mood_4228_v1_Model")
     tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
     inputs = tokenizer(UserResponse, return_tensors='tf')
     outputs = model(inputs)[0]
     res = outputs.numpy().tolist()
     print("-------------------------")
-    classes = ['Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear']
+    print("-------------------------")
+    print("-------------------------")
+    classes = ['Happy', 'Love', 'Sad', 'Excite', 'Anger', 'Fear']
     prediction = classes[np.argmax(res)]
+    print("res")
+    print(res)
+    print("outputs")
+    print(outputs)
+    print("-------------------------")
+    print("-------------------------")
+    print("-------------------------")
     print(prediction)
+    print("-------------------------")
+    print("-------------------------")
+    print("-------------------------")
     return(prediction)
 
-UserResponse = "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
+#UserResponse = "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
+#UserResponse = "My friend killed himself by crashing his car into a school, killing ten people."
+
+UserResponse = "That guy is living his life very happyly with his friends and family "
 
 SentimentAnalysis2(UserResponse)
 

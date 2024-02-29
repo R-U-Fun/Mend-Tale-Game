@@ -105,7 +105,7 @@ def TextGeneration2():
 
 @app.route('/SentimentAnalysis2', methods=['POST'])
 def SentimentAnalysis2():
-    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test_Model")
+    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test3_Model")
     tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
     data = request.get_json()
     UserResponse = data.get('UserResponse', '')

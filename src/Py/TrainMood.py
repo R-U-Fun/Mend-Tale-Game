@@ -5,7 +5,7 @@ import numpy as np
 
 import datetime
 
-with open('../../datasets/MT_DS_HP_01_Mood_Test3.json', 'r') as f:
+with open('../../datasets/MT_DS_HP_01_Mood_4228_v1.json', 'r') as f:
     data = json.load(f)
 
 print("++++++++++++++++++++++++++++++++++++++++Set the padding token")
@@ -23,16 +23,12 @@ Moods = [list(item['Data']['Mood'].values()) for item in data]
 print("++++++++++++++++++++++++++++++++++++++++Prepare the training data")
 print(Mood1)
 
-
 tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
 print("++++++++++++++++++++++++++++++++++++++++Initialize the tokenizer")
-
-#tokenizer.pad_token = tokenizer.eos_token
 
 inputs = tokenizer(initial_texts, return_tensors='tf', truncation=True, padding=True)['input_ids']
 print("++++++++++++++++++++++++++++++++++++++++Encode the texts")
 
-# Convert the moods to TensorFlow tensors
 MoodsTF = tf.convert_to_tensor(Moods)
 
 model = TFAutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=6)
@@ -44,14 +40,13 @@ print("++++++++++++++++++++++++++++++++++++++++Define the loss")
 model.compile(optimizer='adam', loss=loss)
 print("++++++++++++++++++++++++++++++++++++++++Compile the model")
 
-# Create a TensorFlow dataset
 dataset = tf.data.Dataset.from_tensor_slices((inputs, MoodsTF))
 print("++++++++++++++++++++++++++++++++++++++++Convert inputs and labels to TensorFlow Dataset object")
 
-model.fit(dataset.batch(8), epochs=3)
+model.fit(dataset.batch(64), epochs=3)
 print("++++++++++++++++++++++++++++++++++++++++Train the model")
 
-model.save_pretrained("../../mt_ml_models/MT_ML_HP_01_Mood_Test3_Model")
+model.save_pretrained("../../mt_ml_models/MT_DS_HP_01_Mood_4228_v1_Model")
 print("++++++++++++++++++++++++++++++++++++++++Save the model")
 
 
