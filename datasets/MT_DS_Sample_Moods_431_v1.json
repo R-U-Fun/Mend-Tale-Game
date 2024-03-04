@@ -1,0 +1,7802 @@
+[
+ {
+   "Data": {
+      "InitialText": "Being with you feels like coming home after a long journey, a place where I belong.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Betrayal by a friend cuts deeper than any knife, leaving scars that never truly heal.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Can you believe it? We're going on a spontaneous road trip tomorrow!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Do you ever feel like we're two pieces of a puzzle, perfectly fitting together to create a beautiful picture?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Do you ever wonder what the future holds for us? I like to think it's filled with love, laughter, and endless adventures.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Don't forget to stop and smell the flowers along the way.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Embarking on an adventure alone feels more like an escape from reality than a journey of discovery.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Every day with you is an adventure waiting to happen.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Every moment spent with you is a treasure, etched into the fabric of my being.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Every time I hear your voice, my heart skips a beat, and I'm reminded of how lucky I am to have you in my life.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Every time I look into your eyes, I see a universe of love and possibility.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Family isn't just about blood, it's about love and support.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Feeling lost in the vastness of life is like wandering through a never-ending maze with no way out.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Guess what? I just got accepted into my dream university!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hey, remember that time we built that treehouse together?",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Home is wherever I'm with you.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Home is wherever you are.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me in my time of need?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, abandon me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How could you, family or not, turn your back on me when I needed you the most?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How dare you, family or not, treat me like I'm insignificant, like my feelings don't matter!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I believe in you, even when you don't believe in yourself.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I believed in you, trusted you, and you proved to be nothing but a fraud and a liar!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I believed in you, trusted you, and you proved to be nothing but a fraud and a liar!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I believed in you, trusted you, and you proved to be nothing but a fraud and a liar!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I can't believe you betrayed our friendship like this! You were supposed to have my back!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I can't believe you, after everything I've done for you, you treat me like I'm disposable!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I can't wait to explore the enchanted forest we discovered on our hike last weekend.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I cared for you, supported you, and this is how you repay me? With betrayal and lies?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I cherish the bond we share.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that my family will never truly understand me, that I'll always be an outsider in my own home.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening my heart to romance will only lead to pain and heartache, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to love will only lead to heartache and pain, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to love will only lead to heartache and pain, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to love will only lead to heartache and pain, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to love will only lead to heartache and pain, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to love will only lead to heartache and pain, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to love will only result in heartbreak, that I'll end up more wounded than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to love will only result in pain and heartache, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that opening myself up to romance will only lead to heartbreak, that I'll end up more broken than before.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be beyond my grasp, that I'll never experience the magic and beauty that others seem to find so effortlessly.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be just out of reach, that I'll never experience the magic and beauty that others seem to take for granted.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be just out of reach, that I'll never experience the magic and beauty that others seem to take for granted.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be just out of reach, that I'll never experience the magic and beauty that others seem to take for granted.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be just out of reach, that I'll never experience the magic and beauty that others seem to take for granted.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be just out of reach, that I'll never experience the magic and beauty that others seem to take for granted.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be out of reach, that I'll never experience the awe and beauty others seem to take for granted.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be out of reach, that I'll never experience the magic and beauty others seem to find so effortlessly.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always be out of reach, that I'll never experience true awe and amazement.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I fear that the wonders of the world will always elude me, that I'll never experience the magic and beauty others seem to find so easily.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I found this hidden treasure map in my grandfather's attic. Let's go on a treasure hunt!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I gave you everything, and you threw it all away like it meant nothing to you!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I gave you my heart, and you stomped all over it like it meant nothing to you!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I gave you my heart, my soul, and you trampled all over it like it meant nothing to you!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I gave you my heart, my soul, and you trampled all over it like it meant nothing to you!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I gave you my heart, my soul, and you trampled all over it like it meant nothing to you!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just adopted a rescue dog. I can't wait to give them a loving home!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a last-minute flight to Paris. Who's ready for a whirlwind adventure in the City of Love?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a last-minute trip to Italy. Get ready for pasta, gelato, and historical landmarks!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a last-minute trip to Japan. Who's ready for sushi, cherry blossoms, and cultural immersion?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a spontaneous trip to a tropical island. Get ready for sun, sand, and relaxation!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a spontaneous trip to Bali. Get ready for beaches, temples, and tropical paradise!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a spontaneous trip to Greece. Who's ready for ancient ruins, pristine beaches, and Mediterranean cuisine?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a spontaneous trip to Hawaii. Get ready for sun, surf, and relaxation!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a spontaneous trip to Japan. Who's ready for sushi, cherry blossoms, and adventure?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just booked a spontaneous trip to Thailand. Who's ready for temples, street food, and culture?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just finished writing my first novel. I can't wait to share it with the world!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just found out I'm going to be an aunt/uncle! I'm over the moon with excitement!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got a promotion at work. I'm excited to take on new challenges and responsibilities!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got accepted into the astronaut training program. I'm one step closer to reaching the stars!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a Broadway musical. It's going to be a night filled with music and magic!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a Broadway show. It's going to be a night to remember!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a movie premiere. It's going to be a star-studded event!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a music concert. It's going to be a night filled with dancing and good vibes!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a music concert. It's going to be a night filled with dancing and good vibes!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a music festival. It's going to be a weekend full of dancing and fun!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a stand-up comedy show. Get ready for a night filled with laughter and good times!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to a stand-up comedy show. Get ready for a night filled with laughter and good times!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just got tickets to my favorite band's concert. It's going to be the highlight of my year!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I just landed my dream job. It feels like all my hard work has finally paid off!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I looked to you for guidance, for wisdom, and all I found was ignorance and arrogance!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I looked up to you, admired you, and you turned out to be nothing but a disappointment!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I looked up to you, admired you, and you've turned out to be nothing but a disappointment!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I looked up to you, respected you, and you turned out to be nothing but a disappointment!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I looked up to you, respected you, and you turned out to be nothing but a disappointment!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I love the way you look at me, like I'm the only person in the world, like nothing else matters except for this moment, right here, right now.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I love you more than words can express.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never believed in fate until I met you, and now I know that our love was written in the stars, destined to be.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never believed in fate until I met you, and now I know that our love was written in the stars, destined to be.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never believed in happily ever after until I met you, and now I know that true love really does exist.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never believed in happily ever after until I met you, and now I know that true love really does exist.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never believed in happily ever after until I met you, and now I know that true love really does exist.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never believed in love at first sight until I met you, and now I know that some things are simply meant to be.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never believed in soulmates until I met you, and now I know that destiny brought us together for a reason.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew I could feel this way until I met you, like every day is an adventure waiting to happen.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what it meant to be loved unconditionally until I met you, and now I understand that love knows no bounds.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what it meant to be loved unconditionally until I met you, and now I understand that love knows no bounds.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what it meant to be truly alive until I met you, and now every moment feels like a gift, a chance to experience the wonder of your love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what it meant to be truly alive until I met you, and now every moment feels like a gift, a chance to experience the wonder of your love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what it meant to be truly happy until I met you, and now every day feels like a blessing, a chance to bask in the glow of your love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what it meant to be truly happy until I met you, and now every day feels like a blessing, a chance to bask in the glow of your love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what it meant to truly be alive until I met you, and now every day feels like a gift, a chance to experience the wonder of your love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what true happiness was until I met you, and now I can't imagine my life without you in it.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never knew what true love was until I met you, and now I can't imagine my life without you by my side.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never thought I could love someone as much as I love you, and yet here I am, completely and utterly devoted to you.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I never thought our friendship would fade away like this. It hurts more than I can express.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I poured my heart and soul into our relationship, and you threw it all away like it meant nothing to you!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I promise to be faithful to you, to honor and respect you, and to cherish every moment we have together.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I promise to be there for you, to support you, to lift you up when you're feeling down, and to celebrate with you when you succeed.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I promise to cherish you, to love you unconditionally, to be there for you through thick and thin.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I signed up for a cooking class. Who knows, maybe I'll discover my hidden talent!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I trusted you, believed in you, and all I got in return was betrayal and deceit!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I trusted you, believed in you, and you stabbed me in the back without a second thought!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I trusted you, believed in you, and you stabbed me in the back without a second thought!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I trusted you, confided in you, and you stabbed me in the back without a second thought!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to be the one you laugh with, cry with, and share all of life's ups and downs with.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to be the one you laugh with, cry with, and share all of life's ups and downs with.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to be the one you turn to when you need a shoulder to cry on, a hand to hold, a heart to listen.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to be the one you turn to when you need a shoulder to cry on, a hand to hold, or a heart to listen.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to be the one you turn to when you need a shoulder to cry on, a hand to hold, or a heart to listen.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to be the reason behind your smile, the one who brings light into your darkest days.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to be your shelter in the storm, your refuge in times of need, your rock when the world gets rough.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to build a future with you, to create a life filled with love, laughter, and endless possibilities.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to explore the world with you, to see new sights, meet new people, and create new memories together.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to grow old with you, to share every moment, every laugh, every tear, until the end of time.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to grow old with you, to watch the sunset hand in hand, knowing that we've shared a lifetime of love and laughter.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to hold you close, to feel your heartbeat against mine, and know that we are in this together, forever.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to hold you close, to feel your heartbeat against mine, and know that we are meant to be together, now and forever.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend eternity with you, to explore the depths of your heart, and to discover the true meaning of love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend eternity with you, to explore the depths of your heart, and to discover the true meaning of love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend eternity with you, to explore the depths of your soul, and to discover the true essence of love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend eternity with you, to explore the depths of your soul, and to discover the true essence of love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend eternity with you, to love you endlessly, and to be by your side through every trial and triumph.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend eternity with you, to love you endlessly, and to be by your side through every trial and triumph.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend eternity with you, to love you endlessly, and to be by your side through every trial and triumph.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend the rest of my days making you happy, fulfilling your dreams, and being the best partner I can be.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to spend the rest of my life making you happy, showering you with love and affection, and building a future together.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I want to wake up next to you every morning, to kiss you goodnight every evening, and to hold you close every moment in between.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'll always be here to lift you up when you're feeling down.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'll always be your biggest cheerleader.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'll be your shoulder to cry on, whenever you need it.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and fulfillment I crave.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and fulfillment I've been striving for.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and recognition I crave.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and recognition I've been striving for.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and recognition I've been striving for.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and recognition I've been striving for.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and recognition I've been striving for.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be for nothing, that I'll never achieve the success and recognition I've been striving for.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that all my hard work will be in vain, that I'll never achieve the success and recognition I so desperately crave.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm afraid that my hard work will never pay off, that I'll always be stuck in the same dead-end job.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm auditioning for the lead role in the school play. It's nerve-wracking, but also exhilarating!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm finally going to ask my crush out on a date. Wish me luck!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm finally taking that hot air balloon ride I've always dreamed of. The views are going to be breathtaking!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm finally taking that solo backpacking trip through Europe. Adventure awaits!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm going bungee jumping next weekend. Who's brave enough to join me?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for the joy you bring into my life.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for the laughter you bring into my life.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for the laughter you bring into my life.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for the lessons you've taught me.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for the memories we've created and the ones yet to come.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for the memories we've shared and the ones we're yet to create.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for your unwavering faith in me.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm grateful for your unwavering support and encouragement.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm here to listen, anytime you need to talk.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to care for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide care for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide care for those who rely on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm scared of failing to provide for those who depend on me, of letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a blog. I can't wait to share my thoughts and experiences with the world!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a cooking challenge. I can't wait to experiment with new flavors and techniques!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a cooking challenge. I can't wait to whip up delicious meals and tantalize my taste buds!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a DIY project. I can't wait to unleash my creativity and craft something beautiful!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a fitness challenge. I can't wait to push my limits and become the best version of myself!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a fitness challenge. I can't wait to push myself and see what I'm capable of!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a gardening project. I can't wait to see the seeds of my labor bloom into beautiful flowers!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a hiking challenge. I can't wait to explore new trails and conquer new peaks!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a journaling practice. I can't wait to document my thoughts and experiences!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a journaling practice. I can't wait to document my thoughts and experiences!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a language challenge. I can't wait to learn new words and phrases!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a meditation practice. I can't wait to find peace and tranquility within myself!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a photography challenge. I can't wait to capture the beauty of the world around me!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a photography project. I can't wait to capture the beauty of the world through my lens!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a podcast. I can't wait to share my thoughts and ideas with the world!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting a YouTube channel. I can't wait to share my passions and interests with the world!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm starting my own business. It's risky, but I'm excited to pursue my passion!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm taking up painting classes. I've always been drawn to the world of art!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm taking up surfing lessons this summer. I've always wanted to ride the waves!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of failing to live up to their expectations and letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of failing to live up to their expectations and letting them down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of failing to meet their expectations and letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of failing to meet their expectations and letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of failing to meet their expectations and letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of failing to meet their expectations and letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of failing to meet their expectations and letting them down when they need me the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of falling short of their expectations and letting them down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of disappointing my mentor, of falling short of their expectations and letting them down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I'm terrified of losing my friends, of being left behind and forgotten by those I care about the most.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've dedicated my life to this company, sacrificed so much, and you treat me like I'm expendable?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've given everything to this company, and you treat me like I'm nothing but a cog in the machine?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've given my all to this company, and you treat me like I'm just a disposable asset?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've given my all to this company, and you treat me like I'm just a disposable asset?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've given my all to this company, and you treat me like I'm just a disposable asset?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've got your back, always.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've sacrificed so much for this company, and you treat me like I'm just a pawn in your game?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've sacrificed so much for this company, and you treat me like I'm just a pawn in your game?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've sacrificed so much for this company, and you treat me like I'm just a pawn in your game?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've sacrificed so much for this company, and you treat me like I'm just another cog in the machine?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I've worked my fingers to the bone for this company, and you have the audacity to pass me over for a promotion?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "In a world full of chaos, you are my constant, my anchor, keeping me grounded.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Isn't it amazing how much joy a puppy can bring into our lives?",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's chase our dreams together, hand in hand.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's conquer the world together, one adventure at a time.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's dance in the rain and laugh like there's no tomorrow.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's embark on a journey of self-discovery together.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's embrace the unknown together.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's get lost in the beauty of nature together.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's go on a road trip and make memories we'll cherish forever.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make a pact to always be each other's support system.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make a pact to always be honest with each other.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make a pact to always be there for each other.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make a pact to always see the beauty in life.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make a pact to always support each other's dreams.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make a pact to chase our dreams together.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make every moment count, starting now.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make memories that will last a lifetime, starting now.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's make memories that will last a lifetime.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's promise to always keep each other's secrets.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Let's write our own story, full of love and laughter.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life has been nothing but a series of disappointments, and I'm sick and tired of having to bear the brunt of it all!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life has been nothing but a series of disappointments, and I'm sick and tired of having to bear the brunt of it all!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life has been nothing but a series of disappointments, and I'm sick and tired of having to bear the brunt of it all!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life has dealt me one blow after another, and I'm sick and tired of having to fight for every scrap of happiness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life is a journey, and I'm grateful to have you by my side, walking hand in hand through its ups and downs.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life isn't fair, and I'm sick and tired of having to deal with one disappointment after another!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life keeps knocking me down, and I'm sick and tired of having to pick myself up every single time!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life keeps throwing obstacles in my path, and I'm sick and tired of having to overcome them alone!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life keeps throwing obstacles in my path, and I'm sick and tired of having to overcome them alone!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life keeps throwing obstacles in my path, and I'm sick and tired of having to overcome them alone!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life keeps throwing obstacles in my path, and I'm sick and tired of having to overcome them alone!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's a canvas, let's paint it with vibrant colors.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's a rollercoaster, but I'm glad we're riding it together.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's an adventure, and I'm glad you're my co-pilot.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's an adventure, and I'm glad you're on it with me.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's an adventure, and I'm glad you're on it with me.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's too short to dwell on the past, let's focus on the future.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's too short to hold grudges, let's forgive and move on.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Life's too short to sweat the small stuff, let's focus on what truly matters.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Losing my mentor feels like losing a guiding light in the darkness of life.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Love is the greatest adventure of all.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Love is the greatest gift of all.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our friendship is a beautiful tapestry woven with love and laughter.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our friendship is a treasure I hold dear to my heart.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our friendship is like a flower, blooming and growing more beautiful with time.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our friendship is the greatest treasure.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our friendship is written in the stars.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet depended on you, relied on you, and you let them down when they needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet depended on you, trusted you, and you let them down when they needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet depended on you, trusted you, and you let them down when they needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet loved you unconditionally, and you treated them like they were nothing but a burden!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet loved you unconditionally, and you treated them like they were nothing but a burden!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet loved you unconditionally, and you treated them like they were nothing but a burden!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet loved you, cherished you, and you treated them like they were disposable!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet relied on you, trusted you, and you abandoned them when they needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Our pet trusted you, depended on you, and you let them down when they needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Pets remind us to live in the present moment.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Pets teach us the true meaning of loyalty.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Pets teach us unconditional love.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Saying goodbye to my beloved pet feels like losing a part of my soul.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Taking care of someone who doesn't appreciate it feels like pouring your heart into a bottomless pit.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thank you for being my constant source of inspiration.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thank you for being my rock through the storms of life.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thank you for being my rock, always there to support me.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thank you for being the anchor in my stormy seas.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thank you for believing in me, even when I didn't believe in myself.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The ache of unrequited love is a constant companion, a shadow that follows me wherever I go.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The ache of unrequited love is a constant companion, a shadow that follows me wherever I go.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The ache of unrequited love is a hunger that gnaws at my insides, a craving that can never be satisfied.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The ache of unrequited love is a hunger that gnaws at my insides, a craving that can never be satisfied.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The ache of unrequited love is a hunger that gnaws at my insides, a craving that can never be satisfied.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The ache of unrequited love is a hunger that gnaws at my insides, a craving that can never be satisfied.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The burden of regret weighs heavy on my shoulders, dragging me down into the depths of despair.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The disappointment of unmet expectations feels like a slap in the face, shattering my hopes and dreams.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The disappointment of unmet expectations is a bitter pill to swallow, a taste that lingers long after the moment has passed.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The disappointment of unmet expectations is a bitter pill to swallow, a taste that lingers long after the moment has passed.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The disappointment of unmet expectations is a bitter pill to swallow, a taste that lingers long after the moment has passed.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The disappointment of unmet expectations is a bitter pill to swallow, a taste that lingers long after the moment has passed.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The disappointment of unmet expectations is a bitter pill to swallow, a taste that lingers long after the moment has passed.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The emptiness of solitude is a prison without walls, a cage that confines me to my own thoughts and fears.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The emptiness of solitude is a prison without walls, a cage that confines me to my own thoughts and fears.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The emptiness of solitude is a prison without walls, a cage that confines me to my own thoughts and fears.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The emptiness of solitude is a prison without walls, a cage that confines me to my own thoughts and fears.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The emptiness of solitude is a suffocating presence, consuming me from the inside out.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends consumes me, driving me to cling to them even when it's unhealthy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends fills me with a sense of dread, a fear of being left alone in a world that feels increasingly hostile and uncertain.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends fills me with a sense of dread, a gnawing worry that I'll be left behind while everyone else moves on without me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends fills me with a sense of impending doom, a fear that I'll be left behind while everyone else moves on without me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends fills me with a sense of panic, a desperate need to hold on to them at all costs, even if it means sacrificing my own happiness.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends fills me with a sense of panic, a desperate need to hold on to them at all costs, even if it means sacrificing my own happiness.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends fills me with a sense of panic, a desperate need to hold on to them at all costs, even if it means sacrificing my own happiness.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends fills me with a sense of panic, a desperate need to hold on to them at all costs, even if it means sacrificing my own happiness.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my friends leaves me paralyzed, unable to trust or connect with anyone for fear of being hurt again.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet consumes me, a constant terror that keeps me up at night, worrying about what might happen if they were taken from me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet consumes me, a constant worry that keeps me up at night, imagining all the terrible things that could happen to them.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet consumes me, a constant worry that keeps me up at night, imagining all the terrible things that could happen to them.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet consumes me, a constant worry that keeps me up at night, imagining all the terrible things that could happen to them.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet consumes me, a constant worry that keeps me up at night, imagining all the terrible things that could happen to them.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet consumes me, a constant worry that keeps me up at night, imagining all the terrible things that could happen to them.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet consumes me, gnawing at my insides with the thought of life without their comforting presence.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet grips me like a vice, suffocating me with thoughts of life without them by my side.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of losing my pet haunts me day and night, a constant dread that gnaws at my insides.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of rejection paralyzes me, preventing me from opening my heart to love and romance.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, a suffocating weight that keeps me rooted in place, afraid to take even the smallest risks.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, a suffocating weight that keeps me rooted in place, afraid to take even the smallest risks.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, a suffocating weight that keeps me rooted in place, afraid to take even the smallest risks.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, a suffocating weight that keeps me rooted in place, afraid to take even the smallest risks.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, a suffocating weight that keeps me rooted in place, afraid to take even the smallest risks.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, a suffocating weight that keeps me tethered to the familiar and the safe.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, trapping me in a cycle of safety and predictability.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, trapping me in a cycle of safety and stagnation.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of stepping outside my comfort zone holds me back, trapping me in a cycle of stagnation and mediocrity.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fear of venturing into the unknown holds me back, preventing me from chasing my dreams and embracing adventure.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fracture within my family feels like a chasm that can never be bridged, a divide that grows wider with each passing day.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fracture within my family feels like a chasm that can never be bridged, a divide that grows wider with each passing day.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fracture within my family is a fracture within myself, a crack that runs deep and threatens to tear me apart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fracture within my family is a fracture within myself, a crack that runs deep and threatens to tear me apart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fracture within my family is a fracture within myself, a crack that runs deep and threatens to tear me apart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The fracture within my family is a fracture within myself, a crack that runs deep and threatens to tear me apart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The grief of losing a pet is a heavy burden to bear, a sorrow that weighs me down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The grief of losing a pet is a heavy burden to bear, a sorrow that weighs me down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The grief of losing a pet is a storm that rages within me, a tempest that threatens to overwhelm me with its fury.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The grief of losing a pet is a storm that rages within me, a tempest that threatens to overwhelm me with its fury.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The grief of losing a pet is a storm that rages within me, a tempest that threatens to overwhelm me with its fury.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The grief of losing a pet is a storm that rages within me, a tempest that threatens to overwhelm me with its fury.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The idea of losing my beloved pet fills me with a deep sense of dread, a fear of facing the world alone.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The indifference of those who should care feels like a betrayal of the deepest kind, a rejection of my very existence.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The indifference of those who should care feels like a betrayal of the deepest kind, a rejection of my very existence.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The indifference of those who should care is a betrayal that cuts deep, a wound that festers and refuses to heal.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The indifference of those who should care is a betrayal that cuts deep, a wound that festers and refuses to heal.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The indifference of those who should care is a betrayal that cuts deep, a wound that festers and refuses to heal.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The indifference of those who should care is a betrayal that cuts deep, a wound that festers and refuses to heal.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a beloved pet leaves a void in my heart that no amount of time can fill.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a blow to the heart, a wound that bleeds long after the initial shock has faded.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a blow to the heart, a wound that bleeds long after the initial shock has faded.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a blow to the heart, a wound that bleeds long after the initial shock has faded.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a blow to the heart, a wound that bleeds long after the initial shock has faded.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a darkness that threatens to swallow me whole, a void that cannot be filled.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a darkness that threatens to swallow me whole, a void that cannot be filled.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a darkness that threatens to swallow me whole, a void that cannot be filled.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor is a darkness that threatens to swallow me whole, a void that cannot be filled.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor leaves me feeling adrift, like a ship without a compass lost at sea.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor leaves me feeling lost and alone, like a ship without a captain lost at sea.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The loss of a mentor leaves me feeling lost and alone, like a ship without a captain lost at sea.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The monotony of everyday life is a prison without bars, a sentence that stretches out endlessly before me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The monotony of everyday life is a prison without bars, a sentence that stretches out endlessly before me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The monotony of everyday life is a prison without bars, a sentence that stretches out endlessly before me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The monotony of everyday life is a prison without bars, a sentence that stretches out endlessly before me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The monotony of everyday life is a suffocating presence, a weight that presses down on my chest and makes it hard to breathe.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The monotony of everyday life is a suffocating presence, a weight that presses down on my chest and makes it hard to breathe.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The monotony of life drains the color from my world, leaving everything dull and lifeless.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The neglect of those who are supposed to care feels like a betrayal of the deepest kind.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of a broken friendship feels like a wound that never fully heals, a constant reminder of what once was.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of a broken friendship is a weight that drags me down, a burden that I carry with me wherever I go.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of a broken friendship is a weight that drags me down, a burden that I carry with me wherever I go.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of a broken friendship is a weight that drags me down, a burden that I carry with me wherever I go.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of a broken friendship is a weight that drags me down, a burden that I carry with me wherever I go.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of betrayal by a friend cuts deeper than any knife, leaving wounds that never truly heal.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of betrayal by a friend cuts deeper than any knife, leaving wounds that never truly heal.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of betrayal by a friend is a wound that never truly closes, a scar that mars the surface of my heart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of betrayal by a friend is a wound that never truly closes, a scar that mars the surface of my heart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of betrayal by a friend is a wound that never truly closes, a scar that mars the surface of my heart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of betrayal by a friend is a wound that never truly closes, a scar that mars the surface of my heart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of heartbreak feels like a never-ending storm, raging within me and tearing me apart.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The pain of unrequited love is like a constant ache in my heart, a reminder of what could have been.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The realization that my hard work has amounted to nothing feels like a punch to the gut.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The regret of missed opportunities haunts my every waking moment, a ghost that refuses to be laid to rest.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The regret of missed opportunities haunts my every waking moment, a ghost that refuses to be laid to rest.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The regret of missed opportunities is a burden that weighs heavy on my soul, a weight that I can never seem to shake.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The regret of missed opportunities is a burden that weighs heavy on my soul, a weight that I can never seem to shake.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The regret of missed opportunities is a burden that weighs heavy on my soul, a weight that I can never seem to shake.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The regret of missed opportunities is a burden that weighs heavy on my soul, a weight that I can never seem to shake.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The rift within my family feels like an unbridgeable chasm, widening with each passing day.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The rift within my family is a crack in the foundation, a flaw that threatens to bring the whole structure crashing down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The rift within my family is a crack in the foundation, a flaw that threatens to bring the whole structure crashing down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The rift within my family is a crack in the foundation, a flaw that threatens to bring the whole structure crashing down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The rift within my family is a crack in the foundation, a flaw that threatens to bring the whole structure crashing down.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The rift within my family tears at the fabric of my being, leaving me feeling torn and broken.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The silence of loneliness echoes louder than any sound, reverberating through the emptiness of my soul.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The sting of rejection is a wound that never truly heals, a scar that serves as a constant reminder of my inadequacy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The sting of rejection is a wound that never truly heals, a scar that serves as a constant reminder of my inadequacy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The sting of rejection is a wound that never truly heals, a scar that serves as a constant reminder of my inadequacy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The sting of rejection is a wound that never truly heals, a scar that serves as a constant reminder of my inadequacy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The sting of rejection is a wound that never truly heals, a scar that serves as a constant reminder of my inadequacy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The sting of rejection pierces my heart like a thousand needles, leaving behind scars that never truly fade.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of disappointing my mentor fills me with dread, making me question every decision I make.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family abandoning me fills me with a sense of dread, a fear of being cast out into the cold, unforgiving world.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family abandoning me leaves me cold with fear, a deep-seated terror that I'll be left all alone in the world.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family abandoning me leaves me cold with fear, a sense of dread that I'll be left all alone in the world with no one to turn to.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family abandoning me leaves me cold with fear, a sense of dread that I'll be left all alone in the world with no one to turn to.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family abandoning me leaves me cold with fear, a sense of dread that I'll be left all alone in the world with no one to turn to.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family abandoning me leaves me cold with fear, a sense of dread that I'll be left all alone in the world with no one to turn to.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family rejecting me leaves me cold with fear, a sense of dread creeping over me like a shadow.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family turning their backs on me fills me with a bone-deep dread, a fear of being alone in the world.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The thought of my family turning their backs on me leaves me cold with fear, a sense of dread settling in the pit of my stomach.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life terrifies me, the fear of the unknown looming over every decision I make.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns fills me with a sense of foreboding, a fear that I'll never find my way in a world that seems so vast and unknowable.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns fills me with a sense of foreboding, a fear that I'll never find my way in a world that seems so vast and unknowable.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns fills me with a sense of foreboding, a fear that I'll never find my way in a world that seems so vast and unknowable.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns fills me with a sense of foreboding, a fear that I'll never find my way in a world that seems so vast and unknowable.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns fills me with a sense of foreboding, a fear that I'll never find my way in a world that seems so vast and unknowable.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns leaves me feeling lost and alone, adrift in a sea of endless possibilities and potential pitfalls.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns leaves me feeling small and insignificant, a mere pawn in the game of fate.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns terrifies me, leaving me feeling helpless and lost in the chaos.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The uncertainty of life's twists and turns terrifies me, leaving me feeling small and insignificant in the grand scheme of things.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 1
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The weight of unfulfilled dreams crushes my spirit, leaving me feeling hollow and defeated.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The wonder of the world seems to fade away when you're drowning in sorrow.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "There's magic in the little moments.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Together, we can conquer anything.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Together, we can move mountains.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Together, we can overcome any obstacle that comes our way.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Together, we can weather any storm, climb any mountain, and soar to new heights.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Together, we're a force to be reckoned with.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Together, we're unstoppable.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Watching my family drift apart feels like losing pieces of myself along the way.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Watching my mentor fall from grace feels like witnessing the crumbling of a once mighty empire.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 1,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a camping trip next weekend. Get ready for s'mores and ghost stories!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a hiking trip next weekend. Get ready to conquer new heights!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a hot air balloon ride next weekend. Get ready for panoramic views and breathtaking sunsets!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a hot air balloon ride next weekend. Get ready for panoramic views and breathtaking sunsets!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a kayaking adventure next weekend. Get ready to paddle through pristine waters!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a parasailing adventure next weekend. Get ready to soar through the skies!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a snorkeling expedition next weekend. Get ready to explore the underwater world!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Adventure awaits around every bend!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Adventure awaits around every corner!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Adventure awaits around every corner!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Adventure awaits at every turn!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Get ready for a journey filled with excitement and spontaneity!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Get ready for a journey filled with laughter and adventure!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Get ready for a journey filled with laughter and memories!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Get ready for a journey filled with laughter and memories!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Get ready for a journey filled with spontaneity and fun!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Get ready for an adventure of a lifetime!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a spontaneous road trip tomorrow. Pack your bags, we're hitting the open road!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a wine tasting tour next weekend. Get ready for a day filled with sophistication and indulgence!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going on a zip-lining adventure next weekend. Get ready for an adrenaline rush!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're going skydiving next weekend. Are you in?",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're hosting a game night this Friday. Get ready for some friendly competition!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise anniversary dinner for our parents. Let's make it unforgettable!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise anniversary getaway for our parents. Let's whisk them away on a romantic adventure!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise anniversary getaway for our parents. Let's whisk them away on a romantic adventure!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise baby announcement party for our friends. Let's welcome their little one with open arms!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise baby gender reveal party. Let's make it a moment to remember!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise baby shower for our best friend. It's going to be adorable!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise birthday bash for our friend. Let's make it a celebration to remember!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise birthday bash for our friend. Let's make it a celebration to remember!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise birthday cruise for our friend. Let's set sail for adventure and celebration!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise engagement celebration for our friends. Let's toast to their love and happiness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise engagement party for our friends. Let's celebrate their love and commitment!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise graduation party for our friend. Let's celebrate their achievements!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise graduation trip for our friend. Let's send them off into the world with a bang!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise housewarming party for our friends. Let's help them settle into their new home!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise party for our parents' anniversary. Let's make it unforgettable!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise retirement cruise for our parents. Let's sail away into the sunset!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise retirement party for our coworker. Let's send them off in style!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise reunion for our college friends. Let's reconnect and reminisce about old times!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise reunion for our high school friends. It's going to be a blast!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're planning a surprise wedding shower for our friend. Let's shower them with love and well wishes!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're starting a band! I've always wanted to play the drums.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're starting a book club. I can't wait to dive into our first novel together!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're starting a community garden. I'm excited to see it bloom and grow!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We're volunteering at the animal shelter next weekend. I can't wait to play with all the puppies!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "With you by my side, I fear nothing.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "With you, every day feels like a new adventure.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "With you, every day feels like an adventure.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "With you, I feel like I can be my true self.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "With you, I feel like I can be myself, completely and unabashedly, without fear of judgment or rejection.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "With you, I feel like I can conquer the world, overcome any obstacle that stands in our way.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "With you, I feel like I can conquer the world.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my best friend, my confidant, my partner in crime, and I wouldn't have it any other way.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my everything, my reason for living, the one who makes my heart sing with joy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my everything, my reason for living, the one who makes my heart sing with joy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my everything, my world, my reason for being, and I will love you until the end of time.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my greatest adventure, my wildest dream, my heart's desire, and I am grateful for every moment we share together.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my greatest inspiration, my muse, the spark that ignites the fire within me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my heart, my soul, my one true love, and I will cherish you for eternity.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my knight in shining armor, my prince charming, the one who rescued me from a life without love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my knight in shining armor, my prince charming, the one who rescued me from a life without love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my knight in shining armor, my prince charming, the one who rescued me from a life without love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my muse, my inspiration, my reason for living, and I will spend the rest of my days proving my love for you.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my rock, my safe haven, my sanctuary in a world full of chaos and uncertainty.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my soulmate, my destiny, the one I've been searching for my whole life, and I will never let you go.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my soulmate, my kindred spirit, the one who completes me in every way.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my soulmate, my kindred spirit, the one who completes me in every way.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my soulmate, my other half, the missing piece of the puzzle that completes me.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my soulmate, my partner in crime, the one who makes my heart skip a beat with just a smile.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my soulmate, my partner in crime, the one who makes my heart skip a beat with just a smile.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my sunshine on a cloudy day, my ray of hope in a world filled with darkness.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my sunshine on a cloudy day, my ray of hope in a world filled with darkness.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are my sunshine on the rainiest of days, my light in the darkness, my reason to smile.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You are the melody to my song, the rhythm to my heartbeat, the lyrics to my love.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You broke my heart, and now you expect me to forgive you just like that?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You broke my heart, shattered my dreams, and now you expect me to just move on like nothing happened?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You broke my heart, shattered my dreams, and now you expect me to just move on like nothing happened?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You broke my heart, shattered my dreams, and now you expect me to just move on?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You call yourself my friend, but you've never been there for me when I needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You dragged me into this adventure, and now we're in over our heads because of your reckless decisions!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You dragged me into this mess, and now we're stuck because of your incompetence and arrogance!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You dragged me into this mess, and now we're stuck because of your incompetence and arrogance!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You dragged me into this mess, and now we're stuck because of your incompetence and arrogance!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You dragged me into this mess, and now we're stuck because of your incompetence and arrogance!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You dragged me into this mess, and now we're stuck because of your selfishness and impulsiveness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You got us into this mess, and now we're paying the price for your incompetence and recklessness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You got us into this mess, and now we're paying the price for your incompetence and recklessness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You got us into this mess, and now we're paying the price for your incompetence and recklessness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You got us into this mess, and now we're paying the price for your stupidity and recklessness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You inspire me to be a better person.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You make even the mundane moments magical.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You make my heart smile.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You neglected our pet, and now they're sick because of your carelessness!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me adventure, excitement, and all I got was danger and disappointment!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me adventure, excitement, and all I got was disappointment and despair!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me adventure, excitement, and all I got was disappointment and despair!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me adventure, excitement, and all I got was disappointment and despair!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me adventure, excitement, and all I've found is danger and despair!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me wonder, magic, and all I've found is disappointment and disillusionment!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me wonders beyond imagination, and all I got was lies and betrayal!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me wonders beyond imagination, and all I got was lies and betrayal!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me wonders beyond imagination, and all I got was lies and betrayal!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You promised me wonders beyond imagination, but all I've found is disappointment and deceit!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You shattered my dreams, my hopes for the future, and now you expect me to just move on?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You shattered my hopes, my dreams, and now you expect me to just move on like nothing happened?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You shattered my hopes, my dreams, and now you expect me to just move on like nothing happened?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You shattered my hopes, my dreams, and now you expect me to just move on like nothing happened?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You tore my heart to shreds, and now you expect me to just forgive and forget?!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my confidant, my ally, and you've betrayed me in the worst possible way!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my confidant, my partner in crime, and you've let me down in the worst possible way!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my confidant, my partner in crime, and you've let me down in the worst possible way!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my confidant, my rock, and you've let me down when I needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my mentor, but all you've done is hold me back and criticize me at every turn!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my partner in crime, my ally, and you've let me down when I needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my rock, my support system, and you've let me down when I needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my rock, my support system, and you've let me down when I needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You were supposed to be my rock, my support system, and you've let me down when I needed you the most!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 1,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You won't believe the surprise birthday party we're planning for Sarah. It's going to be epic!",
+      "Mood": {
+         "Happy": 0,
+         "Love": 0,
+         "Excite": 1,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my compass, always pointing me in the right direction.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my constant source of strength and inspiration.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my favorite adventure.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my guiding light in the darkest of times.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my guiding light in the darkest of times.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my knight in shining armor.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my partner in crime, always up for an adventure.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my partner in crime, always up for an adventure.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my rock, steady and unwavering.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my rock, steady and unwavering.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my rock, you know that?",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my safe haven in this chaotic world.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my sunshine on the gloomiest of days.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're my sunshine on the rainiest of days.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're not alone, we're in this together.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're not just my friend, you're family.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're the calm in my chaos.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're the light that guides me through the darkness.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're the melody to my song.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're the missing piece that completes my puzzle.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You're the sunshine on my cloudy days.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your laughter is like music to my soul, filling every corner of my heart with joy.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is a gentle breeze, soothing my soul and calming my fears.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a beacon in the night, guiding me home to you, no matter where I may roam.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a beacon, guiding me through the darkness, lighting up my path with hope and warmth.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a breath of fresh air, invigorating and revitalizing, giving me the strength to face whatever challenges come our way.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a fire, burning bright and fierce, warming me from the inside out and filling me with passion.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a firework, exploding with color and light, illuminating the sky with its brilliance.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a firework, exploding with color and light, illuminating the sky with its brilliance.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a flame, burning bright and true, lighting up my world with its warmth and beauty.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a flower, blooming and blossoming, filling my life with beauty and fragrance.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a flower, blooming and blossoming, filling my life with beauty and fragrance.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a lighthouse, guiding me through the storms of life and leading me safely home to you.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a lighthouse, guiding me through the storms of life and leading me safely home to you.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a melody, sweet and enchanting, filling my heart with joy and my soul with peace.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a ray of sunshine, warming me from the inside out and brightening even the darkest of days.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a river, flowing endlessly and effortlessly, carrying me away on its currents of passion and desire.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a river, flowing endlessly and effortlessly, carrying me away on its currents of passion and desire.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a symphony, filling the air with its sweet melody and bringing harmony to my soul.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a symphony, filling the air with its sweet melody and bringing harmony to my soul.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a symphony, filling the air with its sweet melody and bringing harmony to my soul.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a warm embrace, enveloping me in its comforting embrace and filling me with peace.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your love is like a waterfall, cascading over me with its beauty and power, washing away all my doubts and fears.",
+      "Mood": {
+         "Happy": 0,
+         "Love": 1,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Your passion for life is contagious.",
+      "Mood": {
+         "Happy": 1,
+         "Love": 0,
+         "Excite": 0,
+         "Sad": 0,
+         "Anger": 0,
+         "Fear": 0
+      }
+   }
+}
+]

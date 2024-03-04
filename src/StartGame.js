@@ -41,8 +41,20 @@ async function NewInteraction(NewUserResponseText){
     let IDTime = (""+CurrentDate.getFullYear()+"_"+(CurrentDate.getMonth()+1)+"_"+CurrentDate.getDate()+"_"+CurrentDate.getHours()+"_"+CurrentDate.getMinutes()+"_"+CurrentDate.getSeconds());
 
     let NewJournalEntry = await JournalEntry(NewUserResponseText);
+
+    let PrevNewUserResponseText = "";
+    
+    for(let L=GameProgressLength; L>(GameProgressLength-1); L--){
+        //PrevNewUserResponseText = PrevNewUserResponseText + ". "+ CurrentUserNameSingleton.getUserName().GameProgress[L].UserResponse + ". ";
+        PrevNewUserResponseText = PrevNewUserResponseText + ". "+ CurrentUserNameSingleton.getUserName().GameProgress[L-1].PersonalisedFeedback + ". ";
+    }
+    PrevNewUserResponseText = PrevNewUserResponseText + ". " + NewUserResponseText;
+
+    alert(PrevNewUserResponseText);
+
     let NewMachineLearningAnalysis = await MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
-    let NewPersonalisedFeedback = await PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
+
+    let NewPersonalisedFeedback = await PersonalisedFeedback(PrevNewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
 
     const NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;
 
@@ -64,6 +76,9 @@ function NewUserResponse(NewUserResponseText){
     if(CurrentUserNameSingleton.getUserName()){
         GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
     }
+    ReactDOM.render(<UserResponseBox NewUserResponseText={NewUserResponseText} index={GameProgressLength} />, document.getElementById('NewResponseBox'));
+
+    alert(NewUserResponseText);
     NewInteraction(NewUserResponseText);
 }
 

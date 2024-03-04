@@ -22,7 +22,7 @@ def TextGeneration3(UserResponse):
 
 
 def SentimentAnalysis2(UserResponse):
-    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_DS_HP_01_Mood_4228_v1_Model")
+    model = TFAutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_DS_HF_Train_Df_v4_Model")
     tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
     inputs = tokenizer(UserResponse, return_tensors='tf')
     outputs = model(inputs)[0]
@@ -30,7 +30,8 @@ def SentimentAnalysis2(UserResponse):
     print("-------------------------")
     print("-------------------------")
     print("-------------------------")
-    classes = ['Happy', 'Love', 'Sad', 'Excite', 'Anger', 'Fear']
+    #classes = ['Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear']
+    classes = ['Negative', 'Neutral', 'Postive']
     prediction = classes[np.argmax(res)]
     print("res")
     print(res)
@@ -38,6 +39,7 @@ def SentimentAnalysis2(UserResponse):
     print(outputs)
     print("-------------------------")
     print("-------------------------")
+    print(UserResponse)
     print("-------------------------")
     print(prediction)
     print("-------------------------")
@@ -51,6 +53,24 @@ def SentimentAnalysis2(UserResponse):
 UserResponse = "That guy is living his life very happyly with his friends and family "
 
 SentimentAnalysis2(UserResponse)
+
+#TextGeneration3(UserResponse)
+
+
+def TextGeneration():
+    model_name = "gpt2"
+    model = TFAutoModelWithLMHead.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    data = request.get_json()
+    UserResponse = data.get('UserResponse', '')
+    print(UserResponse)
+    inputs = tokenizer.encode(UserResponse, return_tensors='tf')
+    outputs = model.generate(inputs, max_length=50, num_return_sequences=1, temperature=0.2, top_k=50, top_p=0.95, repetition_penalty=1.2)
+    generated_text = tokenizer.decode(outputs[0])
+    print("-------------------------222222222222222222")
+    print(generated_text)
+    return jsonify(generated_text)
+
 
 #TextGeneration3(UserResponse)
 

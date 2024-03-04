@@ -2,31 +2,24 @@ import json
 import tensorflow as tf
 from transformers import TFGPT2LMHeadModel, AutoTokenizer, TFAutoModelForSequenceClassification
 import numpy as np
-
+import nlpaug.augmenter.word as naw
 import datetime
 
-with open('../../datasets/MT_DS_HP_01_Mood_4228_v1.json', 'r') as f:
+with open('../../datasets/MT_DS_HF_Train_Df_v2.json', 'r') as f:
     data = json.load(f)
 
 print("++++++++++++++++++++++++++++++++++++++++Set the padding token")
 
 initial_texts = [item['Data']['InitialText'] for item in data]
-Mood1 = [item['Data']['Mood']['Happy'] for item in data]
-Mood2 = [item['Data']['Mood']['Love'] for item in data]
-Mood3 = [item['Data']['Mood']['Excite'] for item in data]
-Mood4 = [item['Data']['Mood']['Sad'] for item in data]
-Mood5 = [item['Data']['Mood']['Anger'] for item in data]
-Mood6 = [item['Data']['Mood']['Fear'] for item in data]
 
 Moods = [list(item['Data']['Mood'].values()) for item in data]
 
 print("++++++++++++++++++++++++++++++++++++++++Prepare the training data")
-print(Mood1)
 
 tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
 print("++++++++++++++++++++++++++++++++++++++++Initialize the tokenizer")
 
-inputs = tokenizer(initial_texts, return_tensors='tf', truncation=True, padding=True)['input_ids']
+inputs = tokenizer(initial_texts, return_tensors='tf', truncation=True, padding=True, max_length=1024)['input_ids']
 print("++++++++++++++++++++++++++++++++++++++++Encode the texts")
 
 MoodsTF = tf.convert_to_tensor(Moods)
@@ -46,7 +39,7 @@ print("++++++++++++++++++++++++++++++++++++++++Convert inputs and labels to Tens
 model.fit(dataset.batch(64), epochs=3)
 print("++++++++++++++++++++++++++++++++++++++++Train the model")
 
-model.save_pretrained("../../mt_ml_models/MT_DS_HP_01_Mood_4228_v1_Model")
+model.save_pretrained("../../mt_ml_models/MT_DS_HF_Train_Df_v2_Model")
 print("++++++++++++++++++++++++++++++++++++++++Save the model")
 
 
