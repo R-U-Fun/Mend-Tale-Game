@@ -3,36 +3,30 @@ from flask_cors import CORS
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 def TextGeneration2(prompt):
-    # Load the trained model
-    model = load_model("../../mt_ml_models/MT_DS_HP_01_TG_v1_Model")
-
-    # Initialize the tokenizer
-    tokenizer = Tokenizer(num_words=5000, oov_token='<UNK>')
+    model = load_model("../../mt_ml_models/MT_DS_HP_01_TG_Test_v1_Model")
+    tokenizer = Tokenizer(num_words=10000, oov_token='<UNK2>')  # Same tokenizer as the training code
     tokenizer.fit_on_texts([prompt])
-
-    # Tokenize and pad the prompt
     sequences = tokenizer.texts_to_sequences([prompt])
-    inputs = pad_sequences(sequences, maxlen=1024)
-
-    # Generate text
+    inputs = [seq[:-1] for seq in sequences]  # Exclude the last word
+    inputs = [np.array(seq) for seq in inputs]  # Convert list to numpy array
+    inputs = [np.reshape(seq, (1, len(seq), 1)) for seq in inputs]
     output = model.predict(inputs)
     generated_sequence = np.argmax(output, axis=-1)
-
-
-
-    # Convert the generated sequence of word indices back to words
     generated_text = ' '.join([tokenizer.index_word.get(idx, '<UNK>') for idx in generated_sequence[0]])
-
-    print('------------------------------------')
+    print('inputs--------------------------------------')
+    print(inputs)
+    print('output--------------------------------------')
+    print(output)
+    print('generated_sequence--------------------------')
+    print(generated_sequence)
+    print('prompt--------------------------------------')
     print(prompt)
-    print('------------------------------------')
+    print('generated_text------------------------------')
     print(generated_text)
-    print('------------------------------------')
     return(generated_text)
 
-prompt = "Once upon a time"
+prompt = "That guy is living his life very happyly with his friends and family"
 TextGeneration2(prompt)

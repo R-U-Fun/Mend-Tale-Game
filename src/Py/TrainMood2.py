@@ -13,10 +13,10 @@ with open('../../datasets/MT_DS_HP_01_split_434_Test_v1.json', 'r', encoding='ut
 
 # Extract the texts and labels from the data
 initial_texts = [item['Data']['InitialText'] for item in data]
-labels = [item['Data']['Mood'] for item in data]
+labels = [item['Data']['Label'] for item in data]
 
 # Convert the labels to one-hot encoding
-labels = to_categorical(labels, num_classes=7)
+labels = to_categorical(labels, num_classes=8)
 
 # Initialize the tokenizer
 tokenizer = Tokenizer(num_words=5000, oov_token='<UNK>')
@@ -40,7 +40,7 @@ model = Sequential([
     Dense(64, activation='relu'),
     Dense(64, activation='relu'),
     Dense(64, activation='relu'),
-    Dense(7, activation='softmax')
+    Dense(8, activation='softmax')
 ])
 
 # Compile the model

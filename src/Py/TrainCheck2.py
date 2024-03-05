@@ -22,6 +22,7 @@ def SentimentAnalysis2(UserResponse):
     outputs = model.predict(inputs)
     #classes = ['Negative', 'Neutral', 'Postive']
     classes = ['Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear']
+
     prediction = classes[np.argmax(outputs)]
     print("outputs")
     print(outputs)
@@ -36,7 +37,9 @@ def SentimentAnalysis2(UserResponse):
     return(prediction)
 
 #UserResponse = "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-UserResponse = "My friend killed himself by crashing his car into a school, killing ten people."
+#UserResponse = "My friend killed himself by crashing his car into a school, killing ten people."
 
-#UserResponse = "That guy is living his life very happyly with his friends and family "
+UserResponse = "That guy is living his life very happyly with his friends and family "
+
+#UserResponse = "Love Love Love Love Love Love "
 SentimentAnalysis2(UserResponse)
