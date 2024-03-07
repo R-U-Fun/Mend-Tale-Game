@@ -8,7 +8,7 @@ import numpy as np
 
 def SentimentAnalysis2(UserResponse):
     # Load the trained model
-    model = load_model("../../mt_ml_models/MT_DS_HP_01_split_434_Test_v1_Model")
+    model = load_model("../../mt_ml_models/MT_DS_HF_Train_Df_Mood_433_v7_Model")
 
     # Initialize the tokenizer
     tokenizer = Tokenizer(num_words=5000, oov_token='<UNK>')
@@ -39,7 +39,7 @@ def SentimentAnalysis2(UserResponse):
 #UserResponse = "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
 #UserResponse = "My friend killed himself by crashing his car into a school, killing ten people."
 
-UserResponse = "That guy is living his life very happyly with his friends and family "
+UserResponse = "I like this"
 
 #UserResponse = "Love Love Love Love Love Love "
 SentimentAnalysis2(UserResponse)

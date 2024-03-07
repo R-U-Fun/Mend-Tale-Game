@@ -6,8 +6,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 import numpy as np
 
 def TextGeneration2(prompt):
-    model = load_model("../../mt_ml_models/MT_DS_HP_01_TG_Test_v1_Model")
-    tokenizer = Tokenizer(num_words=10000, oov_token='<UNK2>')  # Same tokenizer as the training code
+    model = load_model("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v1_Model")
+    tokenizer = Tokenizer(num_words=10000, oov_token='<UNK>')  # Same tokenizer as the training code
     tokenizer.fit_on_texts([prompt])
     sequences = tokenizer.texts_to_sequences([prompt])
     inputs = [seq[:-1] for seq in sequences]  # Exclude the last word
@@ -28,5 +28,5 @@ def TextGeneration2(prompt):
     print(generated_text)
     return(generated_text)
 
-prompt = "That guy is living his life very happyly with his friends and family"
+prompt = "That guy is living his life very happily with his friends and family"
 TextGeneration2(prompt)

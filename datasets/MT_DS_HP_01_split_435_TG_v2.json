@@ -1,0 +1,3002 @@
+[
+ {
+   "Data": {
+      "InitialText": "Harry Potter and the Sorcerers Stone",
+      "TargetText": "CHAPTER ONE"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "CHAPTER ONE",
+      "TargetText": "THE BOY WHO LIVED"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "THE BOY WHO LIVED",
+      "TargetText": "Mr and Mrs Dursley of number four Privet Drive were proud to say that they were perfectly normal thank you very much"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr and Mrs Dursley of number four Privet Drive were proud to say that they were perfectly normal thank you very much",
+      "TargetText": "They were the last people youd expect to be involved in anything strange or mysterious because they just didnt hold with such nonsense"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "They were the last people youd expect to be involved in anything strange or mysterious because they just didnt hold with such nonsense",
+      "TargetText": "Mr Dursley was the director of a firm called Grunnings which made drills"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley was the director of a firm called Grunnings which made drills",
+      "TargetText": "He was a big beefy man with hardly any neck although he did have a very large mustache"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was a big beefy man with hardly any neck although he did have a very large mustache",
+      "TargetText": "Mrs Dursley was thin and blonde and had nearly twice the usual amount of neck which came in very useful as she spent so much of her time craning over garden fences spying on the neighbors"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mrs Dursley was thin and blonde and had nearly twice the usual amount of neck which came in very useful as she spent so much of her time craning over garden fences spying on the neighbors",
+      "TargetText": "The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere",
+      "TargetText": "The Dursleys had everything they wanted but they also had a secret and their greatest fear was that somebody would discover it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys had everything they wanted but they also had a secret and their greatest fear was that somebody would discover it",
+      "TargetText": "They didnt think they could bear it if anyone found out about the Potters"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "They didnt think they could bear it if anyone found out about the Potters",
+      "TargetText": "Mrs Potter was Mrs Dursleys sister but they hadnt met for several years; in fact Mrs Dursley pretended she didnt have a sister because her sister and her good-for-nothing husband were as unDursleyish as it was possible to be"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mrs Potter was Mrs Dursleys sister but they hadnt met for several years; in fact Mrs Dursley pretended she didnt have a sister because her sister and her good-for-nothing husband were as unDursleyish as it was possible to be",
+      "TargetText": "The Dursleys shuddered to think what the neighbors would say if the Potters arrived in the street"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys shuddered to think what the neighbors would say if the Potters arrived in the street",
+      "TargetText": "The Dursleys knew that the Potters had a small son too but they had never even seen him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys knew that the Potters had a small son too but they had never even seen him",
+      "TargetText": "This boy was another good reason for keeping the Potters away; they didnt want Dudley mixing with a child like that"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "This boy was another good reason for keeping the Potters away; they didnt want Dudley mixing with a child like that",
+      "TargetText": "When Mr and Mrs Dursley woke up on the dull gray Tuesday our story starts there was nothing about the cloudy sky outside to suggest that strange and mysterious things would soon be happening all over the country"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "When Mr and Mrs Dursley woke up on the dull gray Tuesday our story starts there was nothing about the cloudy sky outside to suggest that strange and mysterious things would soon be happening all over the country",
+      "TargetText": "Mr Dursley hummed as he picked out his most boring tie for work and Mrs Dursley gossiped away happily as she wrestled a screaming Dudley into his high chair"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley hummed as he picked out his most boring tie for work and Mrs Dursley gossiped away happily as she wrestled a screaming Dudley into his high chair",
+      "TargetText": "None of them noticed a large tawny owl flutter past the window"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "None of them noticed a large tawny owl flutter past the window",
+      "TargetText": "At half past eight Mr Dursley picked up his briefcase pecked Mrs Dursley on the cheek and tried to kiss Dudley good-bye but missed because Dudley was now having a tantrum and throwing his cereal at the walls"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "At half past eight Mr Dursley picked up his briefcase pecked Mrs Dursley on the cheek and tried to kiss Dudley good-bye but missed because Dudley was now having a tantrum and throwing his cereal at the walls",
+      "TargetText": "Little tyke chortled Mr Dursley as he left the house"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Little tyke chortled Mr Dursley as he left the house",
+      "TargetText": "He got into his car and backed out of number fours drive"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He got into his car and backed out of number fours drive",
+      "TargetText": "It was on the corner of the street that he noticed the first sign of something peculiar a cat reading a map"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was on the corner of the street that he noticed the first sign of something peculiar a cat reading a map",
+      "TargetText": "For a second Mr Dursley didnt realize what he had seen then he jerked his head around to look again"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "For a second Mr Dursley didnt realize what he had seen then he jerked his head around to look again",
+      "TargetText": "There was a tabby cat standing on the corner of Privet Drive but there wasnt a map in sight"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "There was a tabby cat standing on the corner of Privet Drive but there wasnt a map in sight",
+      "TargetText": "What could he have been thinking of? It must have been a trick of the light"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "What could he have been thinking of? It must have been a trick of the light",
+      "TargetText": "Mr Dursley blinked and stared at the cat"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley blinked and stared at the cat",
+      "TargetText": "It stared back"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It stared back",
+      "TargetText": "As Mr Dursley drove around the corner and up the road he watched the cat in his mirror"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "As Mr Dursley drove around the corner and up the road he watched the cat in his mirror",
+      "TargetText": "It was now reading the sign that said Privet Drive no looking at the sign; cats couldnt read maps or signs"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was now reading the sign that said Privet Drive no looking at the sign; cats couldnt read maps or signs",
+      "TargetText": "Mr Dursley gave himself a little shake and put the cat out of his mind"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley gave himself a little shake and put the cat out of his mind",
+      "TargetText": "As he drove toward town he thought of nothing except a large order of drills he was hoping to get that day"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "As he drove toward town he thought of nothing except a large order of drills he was hoping to get that day",
+      "TargetText": "But on the edge of town drills were driven out of his mind by something else"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But on the edge of town drills were driven out of his mind by something else",
+      "TargetText": "As he sat in the usual morning traffic jam he couldnt help noticing that there seemed to be a lot of strangely dressed people about"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "As he sat in the usual morning traffic jam he couldnt help noticing that there seemed to be a lot of strangely dressed people about",
+      "TargetText": "People in cloaks"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "People in cloaks",
+      "TargetText": "Mr Dursley couldnt bear people who dressed in funny clothes the getups you saw on young people He supposed this was some stupid new fashion"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley couldnt bear people who dressed in funny clothes the getups you saw on young people He supposed this was some stupid new fashion",
+      "TargetText": "He drummed his fingers on the steering wheel and his eyes fell on a huddle of these weirdos standing quite close by"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He drummed his fingers on the steering wheel and his eyes fell on a huddle of these weirdos standing quite close by",
+      "TargetText": "They were whispering excitedly together"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "They were whispering excitedly together",
+      "TargetText": "Mr Dursley was enraged to see that a couple of them werent young at all; why that man had to be older than he was and wearing an emerald-green cloak The nerve of him But then it struck Mr Dursley that this was probably some silly stunt these people were obviously collecting for something"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley was enraged to see that a couple of them werent young at all; why that man had to be older than he was and wearing an emerald-green cloak The nerve of him But then it struck Mr Dursley that this was probably some silly stunt these people were obviously collecting for something",
+      "TargetText": "yes that would be it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "yes that would be it",
+      "TargetText": "The traffic moved on and a few minutes later Mr Dursley arrived in the Grunnings parking lot his mind back on drills"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The traffic moved on and a few minutes later Mr Dursley arrived in the Grunnings parking lot his mind back on drills",
+      "TargetText": "Mr Dursley always sat with his back to the window in his office on the ninth floor"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley always sat with his back to the window in his office on the ninth floor",
+      "TargetText": "If he hadnt he might have found it harder to concentrate on drills that morning"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "If he hadnt he might have found it harder to concentrate on drills that morning",
+      "TargetText": "He didnt see the owls swoop ing past in broad daylight though people down in the street did; they pointed and gazed open- mouthed as owl after owl sped overhead"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He didnt see the owls swoop ing past in broad daylight though people down in the street did; they pointed and gazed open- mouthed as owl after owl sped overhead",
+      "TargetText": "Most of them had never seen an owl even at nighttime"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Most of them had never seen an owl even at nighttime",
+      "TargetText": "Mr Dursley however had a perfectly normal owl-free morning"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley however had a perfectly normal owl-free morning",
+      "TargetText": "He yelled at five different people"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He yelled at five different people",
+      "TargetText": "He made several important telephone calls and shouted a bit more"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He made several important telephone calls and shouted a bit more",
+      "TargetText": "He was in a very good mood until lunchtime when he thought hed stretch his legs and walk across the road to buy himself a bun from the bakery"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was in a very good mood until lunchtime when he thought hed stretch his legs and walk across the road to buy himself a bun from the bakery",
+      "TargetText": "Hed forgotten all about the people in cloaks until he passed a group of them next to the bakers"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hed forgotten all about the people in cloaks until he passed a group of them next to the bakers",
+      "TargetText": "He eyed them angrily as he passed"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He eyed them angrily as he passed",
+      "TargetText": "He didnt know why but they made him uneasy"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He didnt know why but they made him uneasy",
+      "TargetText": "This bunch were whispering excitedly too and he couldnt see a single collecting tin"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "This bunch were whispering excitedly too and he couldnt see a single collecting tin",
+      "TargetText": "It was on his way back past them clutching a large doughnut in a bag that he caught a few words of what they were saying"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was on his way back past them clutching a large doughnut in a bag that he caught a few words of what they were saying",
+      "TargetText": "The Potters thats right thats what I heard yes their son Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Potters thats right thats what I heard yes their son Harry",
+      "TargetText": "Mr Dursley stopped dead"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley stopped dead",
+      "TargetText": "Fear flooded him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Fear flooded him",
+      "TargetText": "He looked back at the whisperers as if he wanted to say something to them but thought better of it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He looked back at the whisperers as if he wanted to say something to them but thought better of it",
+      "TargetText": "He dashed back across the road hurried up to his office snapped at his secretary not to disturb him seized his telephone and had almost finished dialing his home number when he changed his mind"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He dashed back across the road hurried up to his office snapped at his secretary not to disturb him seized his telephone and had almost finished dialing his home number when he changed his mind",
+      "TargetText": "He put the receiver back down and stroked his mustache thinking no he was being stupid"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He put the receiver back down and stroked his mustache thinking no he was being stupid",
+      "TargetText": "Potter wasnt such an unusual name"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Potter wasnt such an unusual name",
+      "TargetText": "He was sure there were lots of people called Potter who had a son called Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was sure there were lots of people called Potter who had a son called Harry",
+      "TargetText": "Come to think of it he wasnt even sure his nephew was called Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Come to think of it he wasnt even sure his nephew was called Harry",
+      "TargetText": "Hed never even seen the boy"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hed never even seen the boy",
+      "TargetText": "It might have been Harvey"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It might have been Harvey",
+      "TargetText": "Or Harold"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Or Harold",
+      "TargetText": "There was no point in worrying Mrs Dursley; she always got so upset at any mention of her sister"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "There was no point in worrying Mrs Dursley; she always got so upset at any mention of her sister",
+      "TargetText": "He didnt blame her if hed had a sister like that but all the same those people in cloaks"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He didnt blame her if hed had a sister like that but all the same those people in cloaks",
+      "TargetText": "He found it a lot harder to concentrate on drills that afternoon and when he left the building at five oclock he was still so worried that he walked straight into someone just outside the door"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He found it a lot harder to concentrate on drills that afternoon and when he left the building at five oclock he was still so worried that he walked straight into someone just outside the door",
+      "TargetText": "Sorry he grunted as the tiny old man stumbled and almost fell"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Sorry he grunted as the tiny old man stumbled and almost fell",
+      "TargetText": "It was a few seconds before Mr Dursley realized that the man was wearing a violet cloak"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was a few seconds before Mr Dursley realized that the man was wearing a violet cloak",
+      "TargetText": "He didnt seem at all upset at being almost knocked to the ground"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He didnt seem at all upset at being almost knocked to the ground",
+      "TargetText": "On the contrary his face split into a wide smile and he said in a squeaky voice that made passersby stare Dont be sorry my dear sir for nothing could upset me today Rejoice for You-Know-Who has gone at last Even Muggles like yourself should be celebrating this happy happy day"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "On the contrary his face split into a wide smile and he said in a squeaky voice that made passersby stare Dont be sorry my dear sir for nothing could upset me today Rejoice for You-Know-Who has gone at last Even Muggles like yourself should be celebrating this happy happy day",
+      "TargetText": "And the old man hugged Mr Dursley around the middle and walked off"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And the old man hugged Mr Dursley around the middle and walked off",
+      "TargetText": "Mr Dursley stood rooted to the spot"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley stood rooted to the spot",
+      "TargetText": "He had been hugged by a complete stranger"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He had been hugged by a complete stranger",
+      "TargetText": "He also thought he had been called a Muggle whatever that was"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He also thought he had been called a Muggle whatever that was",
+      "TargetText": "He was rattled"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was rattled",
+      "TargetText": "He hurried to his car and set off for home hoping he was imagining things which he had never hoped before because he didnt approve of imagination"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He hurried to his car and set off for home hoping he was imagining things which he had never hoped before because he didnt approve of imagination",
+      "TargetText": "As he pulled into the driveway of number four the first thing he saw and it didnt improve his mood was the tabby cat hed spotted that morning"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "As he pulled into the driveway of number four the first thing he saw and it didnt improve his mood was the tabby cat hed spotted that morning",
+      "TargetText": "It was now sitting on his garden wall"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was now sitting on his garden wall",
+      "TargetText": "He was sure it was the same one; it had the same markings around its eyes"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was sure it was the same one; it had the same markings around its eyes",
+      "TargetText": "Shoo said Mr Dursley loudly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Shoo said Mr Dursley loudly",
+      "TargetText": "The cat didnt move"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The cat didnt move",
+      "TargetText": "It just gave him a stern look"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It just gave him a stern look",
+      "TargetText": "Was this normal cat behavior? Mr Dursley wondered"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Was this normal cat behavior? Mr Dursley wondered",
+      "TargetText": "Trying to pull himself together he let himself into the house"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Trying to pull himself together he let himself into the house",
+      "TargetText": "He was still determined not to mention anything to his wife"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was still determined not to mention anything to his wife",
+      "TargetText": "Mrs Dursley had had a nice normal day"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mrs Dursley had had a nice normal day",
+      "TargetText": "She told him over dinner all about Mrs Next Doors problems with her daughter and how Dudley had learned a new word Wont"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "She told him over dinner all about Mrs Next Doors problems with her daughter and how Dudley had learned a new word Wont",
+      "TargetText": "Mr Dursley tried to act normally"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley tried to act normally",
+      "TargetText": "When Dudley had been put to bed he went into the living room in time to catch the last report on the evening news And finally bird-watchers everywhere have reported that the nations owls have been behaving very unusually today"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "When Dudley had been put to bed he went into the living room in time to catch the last report on the evening news And finally bird-watchers everywhere have reported that the nations owls have been behaving very unusually today",
+      "TargetText": "Although owls normally hunt at night and are hardly ever seen in daylight there have been hundreds of sightings of these birds flying in every direction since sunrise"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Although owls normally hunt at night and are hardly ever seen in daylight there have been hundreds of sightings of these birds flying in every direction since sunrise",
+      "TargetText": "Experts are unable to explain why the owls have suddenly changed their sleeping pattern"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Experts are unable to explain why the owls have suddenly changed their sleeping pattern",
+      "TargetText": "The newscaster allowed himself a grin"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The newscaster allowed himself a grin",
+      "TargetText": "Most mysterious"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Most mysterious",
+      "TargetText": "And now over to Jim McGuffin with the weather"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And now over to Jim McGuffin with the weather",
+      "TargetText": "Going to be any more showers of owls tonight Jim?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Going to be any more showers of owls tonight Jim?",
+      "TargetText": "Well Ted said the weatherman I dont know about that but its not only the owls that have been acting oddly today"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Well Ted said the weatherman I dont know about that but its not only the owls that have been acting oddly today",
+      "TargetText": "Viewers as far apart as Kent Yorkshire and Dundee have been phoning in to tell me that instead of the rain I promised yesterday theyve had a downpour of shooting stars Perhaps people have been celebrating Bonfire Night early its not until next week folks But I can promise a wet night tonight"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Viewers as far apart as Kent Yorkshire and Dundee have been phoning in to tell me that instead of the rain I promised yesterday theyve had a downpour of shooting stars Perhaps people have been celebrating Bonfire Night early its not until next week folks But I can promise a wet night tonight",
+      "TargetText": "Mr Dursley sat frozen in his armchair"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley sat frozen in his armchair",
+      "TargetText": "Shooting stars all over Britain? Owls flying by daylight? Mysterious people in cloaks all over the place? And a whisper a whisper about the Potters"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Shooting stars all over Britain? Owls flying by daylight? Mysterious people in cloaks all over the place? And a whisper a whisper about the Potters",
+      "TargetText": "Mrs Dursley came into the living room carrying two cups of tea"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mrs Dursley came into the living room carrying two cups of tea",
+      "TargetText": "It was no good"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was no good",
+      "TargetText": "Hed have to say something to her"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hed have to say something to her",
+      "TargetText": "He cleared his throat nervously"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He cleared his throat nervously",
+      "TargetText": "Er Petunia dear you havent heard from your sister lately have you?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Er Petunia dear you havent heard from your sister lately have you?",
+      "TargetText": "As he had expected Mrs Dursley looked shocked and angry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "As he had expected Mrs Dursley looked shocked and angry",
+      "TargetText": "After all they normally pretended she didnt have a sister"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "After all they normally pretended she didnt have a sister",
+      "TargetText": "No she said sharply"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "No she said sharply",
+      "TargetText": "Why?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Why?",
+      "TargetText": "Funny stuff on the news Mr Dursley mumbled"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Funny stuff on the news Mr Dursley mumbled",
+      "TargetText": "Owls shooting stars and there were a lot of funny-looking people in town today"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Owls shooting stars and there were a lot of funny-looking people in town today",
+      "TargetText": "So? snapped Mrs Dursley"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "So? snapped Mrs Dursley",
+      "TargetText": "Well I just thought maybe it was something to do with you know her crowd"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Well I just thought maybe it was something to do with you know her crowd",
+      "TargetText": "Mrs Dursley sipped her tea through pursed lips"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mrs Dursley sipped her tea through pursed lips",
+      "TargetText": "Mr Dursley wondered whether he dared tell her hed heard the name Potter"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley wondered whether he dared tell her hed heard the name Potter",
+      "TargetText": "He decided he didnt dare"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He decided he didnt dare",
+      "TargetText": "Instead he said as casually as he could Their son hed be about Dudleys age now wouldnt he?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Instead he said as casually as he could Their son hed be about Dudleys age now wouldnt he?",
+      "TargetText": "I suppose so said Mrs Dursley stiffly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I suppose so said Mrs Dursley stiffly",
+      "TargetText": "Whats his name again? Howard isnt it?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Whats his name again? Howard isnt it?",
+      "TargetText": "Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry",
+      "TargetText": "Nasty common name if you ask me"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Nasty common name if you ask me",
+      "TargetText": "Oh yes said Mr Dursley his heart sinking horribly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Oh yes said Mr Dursley his heart sinking horribly",
+      "TargetText": "Yes I quite agree"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Yes I quite agree",
+      "TargetText": "He didnt say another word on the subject as they went upstairs to bed"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He didnt say another word on the subject as they went upstairs to bed",
+      "TargetText": "While Mrs Dursley was in the bathroom Mr Dursley crept to the bedroom window and peered down into the front garden"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "While Mrs Dursley was in the bathroom Mr Dursley crept to the bedroom window and peered down into the front garden",
+      "TargetText": "The cat was still there"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The cat was still there",
+      "TargetText": "It was staring down Privet Drive as though it were waiting for something"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was staring down Privet Drive as though it were waiting for something",
+      "TargetText": "Was he imagining things? Could all this have anything to do with the Potters? If it did if it got out that they were related to a pair of well he didnt think he could bear it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Was he imagining things? Could all this have anything to do with the Potters? If it did if it got out that they were related to a pair of well he didnt think he could bear it",
+      "TargetText": "The Dursleys got into bed"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys got into bed",
+      "TargetText": "Mrs Dursley fell asleep quickly but Mr Dursley lay awake turning it all over in his mind"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mrs Dursley fell asleep quickly but Mr Dursley lay awake turning it all over in his mind",
+      "TargetText": "His last comforting thought before he fell asleep was that even if the Potters were involved there was no reason for them to come near him and Mrs Dursley"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His last comforting thought before he fell asleep was that even if the Potters were involved there was no reason for them to come near him and Mrs Dursley",
+      "TargetText": "The Potters knew very well what he and Petunia thought about them and their kind"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Potters knew very well what he and Petunia thought about them and their kind",
+      "TargetText": "He couldnt see how he and Petunia could get mixed up in anything that might be going on he yawned and turned over it couldnt affect them"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He couldnt see how he and Petunia could get mixed up in anything that might be going on he yawned and turned over it couldnt affect them",
+      "TargetText": "How very wrong he was"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How very wrong he was",
+      "TargetText": "Mr Dursley might have been drifting into an uneasy sleep but the cat on the wall outside was showing no sign of sleepiness"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mr Dursley might have been drifting into an uneasy sleep but the cat on the wall outside was showing no sign of sleepiness",
+      "TargetText": "It was sitting as still as a statue its eyes fixed unblinkingly on the far corner of Privet Drive"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was sitting as still as a statue its eyes fixed unblinkingly on the far corner of Privet Drive",
+      "TargetText": "It didnt so much as quiver when a car door slammed on the next street nor when two owls swooped overhead"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It didnt so much as quiver when a car door slammed on the next street nor when two owls swooped overhead",
+      "TargetText": "In fact it was nearly midnight before the cat moved at all"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "In fact it was nearly midnight before the cat moved at all",
+      "TargetText": "A man appeared on the corner the cat had been watching appeared so suddenly and silently youd have thought hed just popped out of the ground"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "A man appeared on the corner the cat had been watching appeared so suddenly and silently youd have thought hed just popped out of the ground",
+      "TargetText": "The cats tail twitched and its eyes narrowed"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The cats tail twitched and its eyes narrowed",
+      "TargetText": "Nothing like this man had ever been seen on Privet Drive"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Nothing like this man had ever been seen on Privet Drive",
+      "TargetText": "He was tall thin and very old judging by the silver of his hair and beard which were both long enough to tuck into his belt"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was tall thin and very old judging by the silver of his hair and beard which were both long enough to tuck into his belt",
+      "TargetText": "He was wearing long robes a purple cloak that swept the ground and high-heeled buckled boots"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was wearing long robes a purple cloak that swept the ground and high-heeled buckled boots",
+      "TargetText": "His blue eyes were light bright and sparkling behind half-moon spectacles and his nose was very long and crooked as though it had been broken at least twice"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His blue eyes were light bright and sparkling behind half-moon spectacles and his nose was very long and crooked as though it had been broken at least twice",
+      "TargetText": "This mans name was Albus Dumbledore"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "This mans name was Albus Dumbledore",
+      "TargetText": "Albus Dumbledore didnt seem to realize that he had just arrived in a street where everything from his name to his boots was unwelcome"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Albus Dumbledore didnt seem to realize that he had just arrived in a street where everything from his name to his boots was unwelcome",
+      "TargetText": "He was busy rummaging in his cloak looking for something"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was busy rummaging in his cloak looking for something",
+      "TargetText": "But he did seem to realize he was being watched because he looked up suddenly at the cat which was still staring at him from the other end of the street"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But he did seem to realize he was being watched because he looked up suddenly at the cat which was still staring at him from the other end of the street",
+      "TargetText": "For some reason the sight of the cat seemed to amuse him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "For some reason the sight of the cat seemed to amuse him",
+      "TargetText": "He chuckled and muttered I should have known"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He chuckled and muttered I should have known",
+      "TargetText": "He found what he was looking for in his inside pocket"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He found what he was looking for in his inside pocket",
+      "TargetText": "It seemed to be a silver cigarette lighter"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It seemed to be a silver cigarette lighter",
+      "TargetText": "He flicked it open held it up in the air and clicked it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He flicked it open held it up in the air and clicked it",
+      "TargetText": "The nearest street lamp went out with a little pop"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The nearest street lamp went out with a little pop",
+      "TargetText": "He clicked it again the next lamp flickered into darkness"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He clicked it again the next lamp flickered into darkness",
+      "TargetText": "Twelve times he clicked the Put-Outer until the only lights left on the whole street were two tiny pinpricks in the distance which were the eyes of the cat watching him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Twelve times he clicked the Put-Outer until the only lights left on the whole street were two tiny pinpricks in the distance which were the eyes of the cat watching him",
+      "TargetText": "If anyone looked out of their window now even beady-eyed Mrs Dursley they wouldnt be able to see anything that was happening down on the pavement"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "If anyone looked out of their window now even beady-eyed Mrs Dursley they wouldnt be able to see anything that was happening down on the pavement",
+      "TargetText": "Dumbledore slipped the Put-Outer back inside his cloak and set off down the street toward number four where he sat down on the wall next to the cat"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore slipped the Put-Outer back inside his cloak and set off down the street toward number four where he sat down on the wall next to the cat",
+      "TargetText": "He didnt look at it but after a moment he spoke to it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He didnt look at it but after a moment he spoke to it",
+      "TargetText": "Fancy seeing you here Professor McGonagall"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Fancy seeing you here Professor McGonagall",
+      "TargetText": "He turned to smile at the tabby but it had gone"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He turned to smile at the tabby but it had gone",
+      "TargetText": "Instead he was smiling at a rather severe-looking woman who was wearing square glasses exactly the shape of the markings the cat had had around its eyes"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Instead he was smiling at a rather severe-looking woman who was wearing square glasses exactly the shape of the markings the cat had had around its eyes",
+      "TargetText": "She too was wearing a cloak an emerald one"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "She too was wearing a cloak an emerald one",
+      "TargetText": "Her black hair was drawn into a tight bun"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Her black hair was drawn into a tight bun",
+      "TargetText": "She looked distinctly ruffled"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "She looked distinctly ruffled",
+      "TargetText": "How did you know it was me? she asked"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "How did you know it was me? she asked",
+      "TargetText": "My dear Professor I ve never seen a cat sit so stiffly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "My dear Professor I ve never seen a cat sit so stiffly",
+      "TargetText": "Youd be stiff if youd been sitting on a brick wall all day said Professor McGonagall"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Youd be stiff if youd been sitting on a brick wall all day said Professor McGonagall",
+      "TargetText": "All day? When you could have been celebrating? I must have passed a dozen feasts and parties on my way here"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "All day? When you could have been celebrating? I must have passed a dozen feasts and parties on my way here",
+      "TargetText": "Professor McGonagall sniffed angrily"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagall sniffed angrily",
+      "TargetText": "Oh yes everyones celebrating all right she said impatiently"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Oh yes everyones celebrating all right she said impatiently",
+      "TargetText": "Next morning however he had gotten up to find his hair exactly as it had been before Aunt Petunia had sheared it off He had been given a week in his cupboard for this even though he had tried to explain that he couldnt explain how it had grown back so quickly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Next morning however he had gotten up to find his hair exactly as it had been before Aunt Petunia had sheared it off He had been given a week in his cupboard for this even though he had tried to explain that he couldnt explain how it had grown back so quickly",
+      "TargetText": "Youd think theyd be a bit more careful but no even the Muggles have noticed somethings going on"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Youd think theyd be a bit more careful but no even the Muggles have noticed somethings going on",
+      "TargetText": "It was on their news"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was on their news",
+      "TargetText": "She jerked her head back at the Dursleys dark living-room window"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "She jerked her head back at the Dursleys dark living-room window",
+      "TargetText": "I heard it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I heard it",
+      "TargetText": "Flocks of owls shooting stars"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Flocks of owls shooting stars",
+      "TargetText": "Well theyre not completely stupid"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Well theyre not completely stupid",
+      "TargetText": "They were bound to notice something"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "They were bound to notice something",
+      "TargetText": "Shooting stars down in Kent Ill bet that was Dedalus Diggle"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Shooting stars down in Kent Ill bet that was Dedalus Diggle",
+      "TargetText": "He never had much sense"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He never had much sense",
+      "TargetText": "You cant blame them said Dumbledore gently"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You cant blame them said Dumbledore gently",
+      "TargetText": "Weve had precious little to celebrate for eleven years"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Weve had precious little to celebrate for eleven years",
+      "TargetText": "I know that said Professor McGonagall irritably"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I know that said Professor McGonagall irritably",
+      "TargetText": "But thats no reason to lose our heads"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But thats no reason to lose our heads",
+      "TargetText": "People are being downright careless out on the streets in broad daylight not even dressed in Muggle clothes swapping rumors"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "People are being downright careless out on the streets in broad daylight not even dressed in Muggle clothes swapping rumors",
+      "TargetText": "She threw a sharp sideways glance at Dumbledore here as though hoping he was going to tell her something but he didnt so she went on"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "She threw a sharp sideways glance at Dumbledore here as though hoping he was going to tell her something but he didnt so she went on",
+      "TargetText": "A fine thing it would be if on the very day YouKnow-Who seems to have disappeared at last the Muggles found out about us all"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "A fine thing it would be if on the very day YouKnow-Who seems to have disappeared at last the Muggles found out about us all",
+      "TargetText": "I suppose he really has gone Dumbledore?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I suppose he really has gone Dumbledore?",
+      "TargetText": "It certainly seems so said Dumbledore"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It certainly seems so said Dumbledore",
+      "TargetText": "We have much to be thankful for"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We have much to be thankful for",
+      "TargetText": "Would you care for a lemon drop?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Would you care for a lemon drop?",
+      "TargetText": "A what?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "A what?",
+      "TargetText": "A lemon drop"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "A lemon drop",
+      "TargetText": "Theyre a kind of Muggle sweet Im rather fond of"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Theyre a kind of Muggle sweet Im rather fond of",
+      "TargetText": "No thank you said Professor McGonagall coldly as though she didnt think this was the moment for lemon drops"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "No thank you said Professor McGonagall coldly as though she didnt think this was the moment for lemon drops",
+      "TargetText": "As I say even if You-Know-Who has gone -"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "As I say even if You-Know-Who has gone -",
+      "TargetText": "My dear Professor surely a sensible person like yourself can call him by his name? All this You- Know-Who nonsense for eleven years I have been trying to persuade people to call him by his proper name Voldemort"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "My dear Professor surely a sensible person like yourself can call him by his name? All this You- Know-Who nonsense for eleven years I have been trying to persuade people to call him by his proper name Voldemort",
+      "TargetText": "Professor McGonagall flinched but Dumbledore who was unsticking two lemon drops seemed not to notice"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagall flinched but Dumbledore who was unsticking two lemon drops seemed not to notice",
+      "TargetText": "It all gets so confusing if we keep saying You-Know-Who"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It all gets so confusing if we keep saying You-Know-Who",
+      "TargetText": "I have never seen any reason to be frightened of saying Voldemorts name"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I have never seen any reason to be frightened of saying Voldemorts name",
+      "TargetText": "I know you haven t said Professor McGonagall sounding half exasperated half admiring"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I know you haven t said Professor McGonagall sounding half exasperated half admiring",
+      "TargetText": "But youre different"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But youre different",
+      "TargetText": "Everyone knows youre the only one You-Know- oh all right Voldemort was frightened of"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Everyone knows youre the only one You-Know- oh all right Voldemort was frightened of",
+      "TargetText": "You flatter me said Dumbledore calmly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You flatter me said Dumbledore calmly",
+      "TargetText": "Voldemort had powers I will never have"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Voldemort had powers I will never have",
+      "TargetText": "Only because youre too well noble to use them"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Only because youre too well noble to use them",
+      "TargetText": "Its lucky its dark"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Its lucky its dark",
+      "TargetText": "I havent blushed so much since Madam Pomfrey told me she liked my new earmuffs"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I havent blushed so much since Madam Pomfrey told me she liked my new earmuffs",
+      "TargetText": "Professor McGonagall shot a sharp look at Dumbledore and said The owls are nothing next to the rumors that are flying around"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagall shot a sharp look at Dumbledore and said The owls are nothing next to the rumors that are flying around",
+      "TargetText": "You know what everyones saying? About why hes disappeared? About what finally stopped him?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You know what everyones saying? About why hes disappeared? About what finally stopped him?",
+      "TargetText": "It seemed that Professor McGonagall had reached the point she was most anxious to discuss the real reason she had been waiting on a cold hard wall all day for neither as a cat nor as a woman had she fixed Dumbledore with such a piercing stare as she did now"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It seemed that Professor McGonagall had reached the point she was most anxious to discuss the real reason she had been waiting on a cold hard wall all day for neither as a cat nor as a woman had she fixed Dumbledore with such a piercing stare as she did now",
+      "TargetText": "It was plain that whatever everyone was saying she was not going to believe it until Dumbledore told her it was true"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was plain that whatever everyone was saying she was not going to believe it until Dumbledore told her it was true",
+      "TargetText": "Dumbledore however was choosing another lemon drop and did not answer"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore however was choosing another lemon drop and did not answer",
+      "TargetText": "What theyre saying she pressed on is that last night Voldemort turned up in Godrics Hollow"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "What theyre saying she pressed on is that last night Voldemort turned up in Godrics Hollow",
+      "TargetText": "He went to find the Potters"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He went to find the Potters",
+      "TargetText": "The rumor is that Lily and James Potter are are that theyre dead"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The rumor is that Lily and James Potter are are that theyre dead",
+      "TargetText": "Dumbledore bowed his head"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore bowed his head",
+      "TargetText": "Professor McGonagall gasped"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagall gasped",
+      "TargetText": "Lily and James I cant believe it I didnt want to believe it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Lily and James I cant believe it I didnt want to believe it",
+      "TargetText": "Oh Albus"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Oh Albus",
+      "TargetText": "Dumbledore reached out and patted her on the shoulder"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore reached out and patted her on the shoulder",
+      "TargetText": "I know I know he said heavily"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I know I know he said heavily",
+      "TargetText": "Professor McGonagalls voice trembled as she went on"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagalls voice trembled as she went on",
+      "TargetText": "Thats not all"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thats not all",
+      "TargetText": "Theyre saying he tried to kill the Potters son Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Theyre saying he tried to kill the Potters son Harry",
+      "TargetText": "But he couldnt"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But he couldnt",
+      "TargetText": "He couldnt kill that little boy"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He couldnt kill that little boy",
+      "TargetText": "No one knows why or how but theyre saying that when he couldnt kill Harry Potter Voldemorts power somehow broke and thats why hes gone"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "No one knows why or how but theyre saying that when he couldnt kill Harry Potter Voldemorts power somehow broke and thats why hes gone",
+      "TargetText": "Dumbledore nodded glumly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore nodded glumly",
+      "TargetText": "Its its true? faltered Professor McGonagall"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Its its true? faltered Professor McGonagall",
+      "TargetText": "After all hes done all the people hes killed he couldnt kill a little boy? Its just astounding of all the things to stop him but how in the name of heaven did Harry survive?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "After all hes done all the people hes killed he couldnt kill a little boy? Its just astounding of all the things to stop him but how in the name of heaven did Harry survive?",
+      "TargetText": "We can only guess said Dumbledore"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We can only guess said Dumbledore",
+      "TargetText": "We may never know"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We may never know",
+      "TargetText": "Professor McGonagall pulled out a lace handkerchief and dabbed at her eyes beneath her spectacles"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagall pulled out a lace handkerchief and dabbed at her eyes beneath her spectacles",
+      "TargetText": "Dumbledore gave a great sniff as he took a golden watch from his pocket and examined it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore gave a great sniff as he took a golden watch from his pocket and examined it",
+      "TargetText": "It was a very odd watch"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was a very odd watch",
+      "TargetText": "It had twelve hands but no numbers; instead little planets were moving around the edge"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It had twelve hands but no numbers; instead little planets were moving around the edge",
+      "TargetText": "It must have made sense to Dumbledore though because he put it back in his pocket and said Hagrids late"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It must have made sense to Dumbledore though because he put it back in his pocket and said Hagrids late",
+      "TargetText": "I suppose it was he who told you Id be here by the way?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I suppose it was he who told you Id be here by the way?",
+      "TargetText": "Yes said Professor McGonagall"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Yes said Professor McGonagall",
+      "TargetText": "And I dont suppose youre going to tell me why youre here of all places?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And I dont suppose youre going to tell me why youre here of all places?",
+      "TargetText": "Ive come to bring Harry to his aunt and uncle"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Ive come to bring Harry to his aunt and uncle",
+      "TargetText": "Theyre the only family he has left now"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Theyre the only family he has left now",
+      "TargetText": "You dont mean you cant mean the people who live here? cried Professor McGonagall jumping to her feet and pointing at number four"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You dont mean you cant mean the people who live here? cried Professor McGonagall jumping to her feet and pointing at number four",
+      "TargetText": "Dumbledore you cant"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore you cant",
+      "TargetText": "Ive been watching them all day"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Ive been watching them all day",
+      "TargetText": "You couldnt find two people who are less like us"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You couldnt find two people who are less like us",
+      "TargetText": "And theyve got this son I saw him kicking his mother all the way up the street screaming for sweets"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And theyve got this son I saw him kicking his mother all the way up the street screaming for sweets",
+      "TargetText": "Harry Potter come and live here"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry Potter come and live here",
+      "TargetText": "Its the best place for him said Dumbledore firmly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Its the best place for him said Dumbledore firmly",
+      "TargetText": "His aunt and uncle will be able to explain everything to him when hes older"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His aunt and uncle will be able to explain everything to him when hes older",
+      "TargetText": "Ive written them a letter"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Ive written them a letter",
+      "TargetText": "A letter? repeated Professor McGonagall faintly sitting back down on the wall"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "A letter? repeated Professor McGonagall faintly sitting back down on the wall",
+      "TargetText": "Really Dumbledore you think you can explain all this in a letter? These people will never understand him Hell be famous a legend I wouldnt be surprised if today was known as Harry Potter day in the future there will be books written about Harry every child in our world will know his name"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Really Dumbledore you think you can explain all this in a letter? These people will never understand him Hell be famous a legend I wouldnt be surprised if today was known as Harry Potter day in the future there will be books written about Harry every child in our world will know his name",
+      "TargetText": "Exactly said Dumbledore looking very seriously over the top of his half-moon glasses"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Exactly said Dumbledore looking very seriously over the top of his half-moon glasses",
+      "TargetText": "It would be enough to turn any boys head"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It would be enough to turn any boys head",
+      "TargetText": "Famous before he can walk and talk Famous for something he wont even remember Cant you see how much better off hell be growing up away from all that until hes ready to take it?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Famous before he can walk and talk Famous for something he wont even remember Cant you see how much better off hell be growing up away from all that until hes ready to take it?",
+      "TargetText": "Professor McGonagall opened her mouth changed her mind swallowed and then said Yes yes youre right of course"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagall opened her mouth changed her mind swallowed and then said Yes yes youre right of course",
+      "TargetText": "But how is the boy getting here Dumbledore? She eyed his cloak suddenly as though she thought he might be hiding Harry underneath it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But how is the boy getting here Dumbledore? She eyed his cloak suddenly as though she thought he might be hiding Harry underneath it",
+      "TargetText": "Hagrids bringing him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hagrids bringing him",
+      "TargetText": "You think it wise to trust Hagrid with something as important as this?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You think it wise to trust Hagrid with something as important as this?",
+      "TargetText": "I would trust Hagrid with my life said Dumbledore"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I would trust Hagrid with my life said Dumbledore",
+      "TargetText": "Im not saying his heart isnt in the right place said Professor McGonagall grudgingly but you cant pretend hes not careless"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Im not saying his heart isnt in the right place said Professor McGonagall grudgingly but you cant pretend hes not careless",
+      "TargetText": "He does tend to what was that?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He does tend to what was that?",
+      "TargetText": "A low rumbling sound had broken the silence around them"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "A low rumbling sound had broken the silence around them",
+      "TargetText": "It grew steadily louder as they looked up and down the street for some sign of a headlight; it swelled to a roar as they both looked up at the sky and a huge motorcycle fell out of the air and landed on the road in front of them"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It grew steadily louder as they looked up and down the street for some sign of a headlight; it swelled to a roar as they both looked up at the sky and a huge motorcycle fell out of the air and landed on the road in front of them",
+      "TargetText": "Uncle Vernon waited until Piers was safely out of the house before starting on Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Uncle Vernon waited until Piers was safely out of the house before starting on Harry",
+      "TargetText": "He was so angry he could hardly speak"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was so angry he could hardly speak",
+      "TargetText": "He managed to say Go cupboard stay no meals before he collapsed into a chair and Aunt Petunia had to run and get him a large brandy"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He managed to say Go cupboard stay no meals before he collapsed into a chair and Aunt Petunia had to run and get him a large brandy",
+      "TargetText": "If the motorcycle was huge it was nothing to the man sitting astride it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "If the motorcycle was huge it was nothing to the man sitting astride it",
+      "TargetText": "He was almost twice as tall as a normal man and at least five times as wide"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was almost twice as tall as a normal man and at least five times as wide",
+      "TargetText": "He looked simply too big to be allowed and so wild - long tangles of bushy black hair and beard hid most of his face he had hands the size of trash can lids and his feet in their leather boots were like baby dolphins"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He looked simply too big to be allowed and so wild - long tangles of bushy black hair and beard hid most of his face he had hands the size of trash can lids and his feet in their leather boots were like baby dolphins",
+      "TargetText": "In his vast muscular arms he was holding a bundle of blankets"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "In his vast muscular arms he was holding a bundle of blankets",
+      "TargetText": "Hagrid said Dumbledore sounding relieved"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hagrid said Dumbledore sounding relieved",
+      "TargetText": "At last"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "At last",
+      "TargetText": "And where did you get that motorcycle?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And where did you get that motorcycle?",
+      "TargetText": "Borrowed it Professor Dumbledore sir said the giant climbing carefully off the motorcycle as he spoke"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Borrowed it Professor Dumbledore sir said the giant climbing carefully off the motorcycle as he spoke",
+      "TargetText": "Young Sirius Black lent it to me"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Young Sirius Black lent it to me",
+      "TargetText": "Ive got him sir"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Ive got him sir",
+      "TargetText": "No problems were there?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "No problems were there?",
+      "TargetText": "No sir house was almost destroyed but I got him out all right before the Muggles started swarming around"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "No sir house was almost destroyed but I got him out all right before the Muggles started swarming around",
+      "TargetText": "He fell asleep as we was flying over Bristol"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He fell asleep as we was flying over Bristol",
+      "TargetText": "Dumbledore and Professor McGonagall bent forward over the bundle of blankets"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore and Professor McGonagall bent forward over the bundle of blankets",
+      "TargetText": "Inside just visible was a baby boy fast asleep"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Inside just visible was a baby boy fast asleep",
+      "TargetText": "Under a tuft of jet-black hair over his forehead they could see a curiously shaped cut like a bolt of lightning"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Under a tuft of jet-black hair over his forehead they could see a curiously shaped cut like a bolt of lightning",
+      "TargetText": "Is that where -? whispered Professor McGonagall"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Is that where -? whispered Professor McGonagall",
+      "TargetText": "Yes said Dumbledore"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Yes said Dumbledore",
+      "TargetText": "Hell have that scar forever"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hell have that scar forever",
+      "TargetText": "Couldnt you do something about it Dumbledore?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Couldnt you do something about it Dumbledore?",
+      "TargetText": "Even if I could I wouldnt"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Even if I could I wouldnt",
+      "TargetText": "Scars can come in handy"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Scars can come in handy",
+      "TargetText": "I have one myself above my left knee that is a perfect map of the London Underground"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I have one myself above my left knee that is a perfect map of the London Underground",
+      "TargetText": "Well give him here Hagrid wed better get this over with"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Well give him here Hagrid wed better get this over with",
+      "TargetText": "Dumbledore took Harry in his arms and turned toward the Dursleys house"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore took Harry in his arms and turned toward the Dursleys house",
+      "TargetText": "Could I could I say good-bye to him sir? asked Hagrid"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Could I could I say good-bye to him sir? asked Hagrid",
+      "TargetText": "He bent his great shaggy head over Harry and gave him what must have been a very scratchy whiskery kiss"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He bent his great shaggy head over Harry and gave him what must have been a very scratchy whiskery kiss",
+      "TargetText": "Then suddenly Hagrid let out a howl like a wounded dog"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Then suddenly Hagrid let out a howl like a wounded dog",
+      "TargetText": "Shhh hissed Professor McGonagall youll wake the Muggles"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Shhh hissed Professor McGonagall youll wake the Muggles",
+      "TargetText": "S-s-sorry sobbed Hagrid taking out a large spotted handkerchief and burying his face in it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "S-s-sorry sobbed Hagrid taking out a large spotted handkerchief and burying his face in it",
+      "TargetText": "But I c-c-cant stand it Lily and James dead and poor little Harry off to live with Muggles -"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But I c-c-cant stand it Lily and James dead and poor little Harry off to live with Muggles -",
+      "TargetText": "Yes yes its all very sad but get a grip on yourself Hagrid or well be found Professor McGonagall whispered patting Hagrid gingerly on the arm as Dumbledore stepped over the low garden wall and walked to the front door"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Yes yes its all very sad but get a grip on yourself Hagrid or well be found Professor McGonagall whispered patting Hagrid gingerly on the arm as Dumbledore stepped over the low garden wall and walked to the front door",
+      "TargetText": "He laid Harry gently on the doorstep took a letter out of his cloak tucked it inside Harrys blankets and then came back to the other two"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He laid Harry gently on the doorstep took a letter out of his cloak tucked it inside Harrys blankets and then came back to the other two",
+      "TargetText": "For a full minute the three of them stood and looked at the little bundle; Hagrids shoulders shook Professor McGonagall blinked furiously and the twinkling light that usually shone from Dumbledores eyes seemed to have gone out"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "For a full minute the three of them stood and looked at the little bundle; Hagrids shoulders shook Professor McGonagall blinked furiously and the twinkling light that usually shone from Dumbledores eyes seemed to have gone out",
+      "TargetText": "Well said Dumbledore finally thats that"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Well said Dumbledore finally thats that",
+      "TargetText": "Weve no business staying here"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Weve no business staying here",
+      "TargetText": "We may as well go and join the celebrations"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We may as well go and join the celebrations",
+      "TargetText": "Yeah said Hagrid in a very muffled voice Ill be taking Sirius his bike back"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Yeah said Hagrid in a very muffled voice Ill be taking Sirius his bike back",
+      "TargetText": "Gnight Professor McGonagall Professor Dumbledore sir"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Gnight Professor McGonagall Professor Dumbledore sir",
+      "TargetText": "Wiping his streaming eyes on his jacket sleeve Hagrid swung himself onto the motorcycle and kicked the engine into life; with a roar it rose into the air and off into the night"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Wiping his streaming eyes on his jacket sleeve Hagrid swung himself onto the motorcycle and kicked the engine into life; with a roar it rose into the air and off into the night",
+      "TargetText": "I shall see you soon I expect Professor McGonagall said Dumbledore nodding to her"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I shall see you soon I expect Professor McGonagall said Dumbledore nodding to her",
+      "TargetText": "Professor McGonagall blew her nose in reply"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Professor McGonagall blew her nose in reply",
+      "TargetText": "Dumbledore turned and walked back down the street"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dumbledore turned and walked back down the street",
+      "TargetText": "On the corner he stopped and took out the silver Put-Outer"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "On the corner he stopped and took out the silver Put-Outer",
+      "TargetText": "He clicked it once and twelve balls of light sped back to their street lamps so that Privet Drive glowed suddenly orange and he could make out a tabby cat slinking around the corner at the other end of the street"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He clicked it once and twelve balls of light sped back to their street lamps so that Privet Drive glowed suddenly orange and he could make out a tabby cat slinking around the corner at the other end of the street",
+      "TargetText": "He could just see the bundle of blankets on the step of number four"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He could just see the bundle of blankets on the step of number four",
+      "TargetText": "Good luck Harry he murmured"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Good luck Harry he murmured",
+      "TargetText": "He turned on his heel and with a swish of his cloak he was gone"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He turned on his heel and with a swish of his cloak he was gone",
+      "TargetText": "A breeze ruffled the neat hedges of Privet Drive which lay silent and tidy under the inky sky the very last place you would expect astonishing things to happen"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "A breeze ruffled the neat hedges of Privet Drive which lay silent and tidy under the inky sky the very last place you would expect astonishing things to happen",
+      "TargetText": "Harry Potter rolled over inside his blankets without waking up"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry Potter rolled over inside his blankets without waking up",
+      "TargetText": "One small hand closed on the letter beside him and he slept on not knowing he was special not knowing he was famous not knowing he would be woken in a few hours time by Mrs Dursleys scream as she opened the front door to put out the milk bottles nor that he would spend the next few weeks being prodded and pinched by his cousin Dudley He couldnt know that at this very moment people meeting in secret all over the country were holding up their glasses and saying in hushed voices To Harry Potter the boy who lived"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "One small hand closed on the letter beside him and he slept on not knowing he was special not knowing he was famous not knowing he would be woken in a few hours time by Mrs Dursleys scream as she opened the front door to put out the milk bottles nor that he would spend the next few weeks being prodded and pinched by his cousin Dudley He couldnt know that at this very moment people meeting in secret all over the country were holding up their glasses and saying in hushed voices To Harry Potter the boy who lived",
+      "TargetText": "CHAPTER TWO"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "CHAPTER TWO",
+      "TargetText": "THE VANISHING GLASS"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "THE VANISHING GLASS",
+      "TargetText": "Nearly ten years had passed since the Dursleys had woken up to find their nephew on the front step but Privet Drive had hardly changed at all"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Nearly ten years had passed since the Dursleys had woken up to find their nephew on the front step but Privet Drive had hardly changed at all",
+      "TargetText": "The sun rose on the same tidy front gardens and lit up the brass number four on the Dursleys front door; it crept into their living room which was almost exactly the same as it had been on the night when Mr Dursley had seen that fateful news report about the owls"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The sun rose on the same tidy front gardens and lit up the brass number four on the Dursleys front door; it crept into their living room which was almost exactly the same as it had been on the night when Mr Dursley had seen that fateful news report about the owls",
+      "TargetText": "Only the photographs on the mantelpiece really showed how much time had passed"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Only the photographs on the mantelpiece really showed how much time had passed",
+      "TargetText": "Ten years ago there had been lots of pictures of what looked like a large pink beach ball wearing different-colored bonnets but Dudley Dursley was no longer a baby and now the photographs showed a large blond boy riding his first bicycle on a carousel at the fair playing a computer game with his father being hugged and kissed by his mother"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Ten years ago there had been lots of pictures of what looked like a large pink beach ball wearing different-colored bonnets but Dudley Dursley was no longer a baby and now the photographs showed a large blond boy riding his first bicycle on a carousel at the fair playing a computer game with his father being hugged and kissed by his mother",
+      "TargetText": "The room held no sign at all that another boy lived in the house too"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The room held no sign at all that another boy lived in the house too",
+      "TargetText": "Yet Harry Potter was still there asleep at the moment but not for long"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Yet Harry Potter was still there asleep at the moment but not for long",
+      "TargetText": "His Aunt Petunia was awake and it was her shrill voice that made the first noise of the day"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His Aunt Petunia was awake and it was her shrill voice that made the first noise of the day",
+      "TargetText": "Up Get up Now"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Up Get up Now",
+      "TargetText": "Harry woke with a start"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry woke with a start",
+      "TargetText": "His aunt rapped on the door again"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His aunt rapped on the door again",
+      "TargetText": "Up she screeched"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Up she screeched",
+      "TargetText": "Harry heard her walking toward the kitchen and then the sound of the frying pan being put on the stove"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry heard her walking toward the kitchen and then the sound of the frying pan being put on the stove",
+      "TargetText": "He rolled onto his back and tried to remember the dream he had been having"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He rolled onto his back and tried to remember the dream he had been having",
+      "TargetText": "It had been a good one"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It had been a good one",
+      "TargetText": "There had been a flying motorcycle in it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "There had been a flying motorcycle in it",
+      "TargetText": "He had a funny feeling hed had the same dream before"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He had a funny feeling hed had the same dream before",
+      "TargetText": "His aunt was back outside the door"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His aunt was back outside the door",
+      "TargetText": "Are you up yet? she demanded"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Are you up yet? she demanded",
+      "TargetText": "Nearly said Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Nearly said Harry",
+      "TargetText": "Well get a move on I want you to look after the bacon"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Well get a move on I want you to look after the bacon",
+      "TargetText": "And dont you dare let it burn I want everything perfect on Duddys birthday"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And dont you dare let it burn I want everything perfect on Duddys birthday",
+      "TargetText": "Harry groaned"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry groaned",
+      "TargetText": "What did you say? his aunt snapped through the door"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "What did you say? his aunt snapped through the door",
+      "TargetText": "Nothing nothing"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Nothing nothing",
+      "TargetText": "Dudleys birthday how could he have forgotten? Harry got slowly out of bed and started looking for socks"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudleys birthday how could he have forgotten? Harry got slowly out of bed and started looking for socks",
+      "TargetText": "He found a pair under his bed and after pulling a spider off one of them put them on"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He found a pair under his bed and after pulling a spider off one of them put them on",
+      "TargetText": "Harry was used to spiders because the cupboard under the stairs was full of them and that was where he slept"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry was used to spiders because the cupboard under the stairs was full of them and that was where he slept",
+      "TargetText": "Once Aunt Petunia tired of Harry coming back from the barbers looking as though he hadnt been at all had taken a pair of kitchen scissors and cut his hair so short he was almost bald except for his bangs which she left to hide that horrible scar"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Once Aunt Petunia tired of Harry coming back from the barbers looking as though he hadnt been at all had taken a pair of kitchen scissors and cut his hair so short he was almost bald except for his bangs which she left to hide that horrible scar",
+      "TargetText": "Dudley had laughed himself silly at Harry who spent a sleepless night imagining school the next day where he was already laughed at for his baggy clothes and taped glasses"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley had laughed himself silly at Harry who spent a sleepless night imagining school the next day where he was already laughed at for his baggy clothes and taped glasses",
+      "TargetText": "When he was dressed he went down the hall into the kitchen"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "When he was dressed he went down the hall into the kitchen",
+      "TargetText": "The table was almost hidden beneath all Dudleys birthday presents"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The table was almost hidden beneath all Dudleys birthday presents",
+      "TargetText": "It looked as though Dudley had gotten the new computer he wanted not to mention the second television and the racing bike"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It looked as though Dudley had gotten the new computer he wanted not to mention the second television and the racing bike",
+      "TargetText": "Exactly why Dudley wanted a racing bike was a mystery to Harry as Dudley was very fat and hated exercise unless of course it involved punching somebody"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Exactly why Dudley wanted a racing bike was a mystery to Harry as Dudley was very fat and hated exercise unless of course it involved punching somebody",
+      "TargetText": "Dudleys favorite punching bag was Harry but he couldnt often catch him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudleys favorite punching bag was Harry but he couldnt often catch him",
+      "TargetText": "Harry didnt look it but he was very fast"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry didnt look it but he was very fast",
+      "TargetText": "Perhaps it had something to do with living in a dark cupboard but Harry had always been small and skinny for his age"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Perhaps it had something to do with living in a dark cupboard but Harry had always been small and skinny for his age",
+      "TargetText": "He looked even smaller and skinnier than he really was because all he had to wear were old clothes of Dudleys and Dudley was about four times bigger than he was"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He looked even smaller and skinnier than he really was because all he had to wear were old clothes of Dudleys and Dudley was about four times bigger than he was",
+      "TargetText": "Harry had a thin face knobbly knees black hair and bright green eyes"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry had a thin face knobbly knees black hair and bright green eyes",
+      "TargetText": "He wore round glasses held together with a lot of Scotch tape because of all the times Dudley had punched him on the nose"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He wore round glasses held together with a lot of Scotch tape because of all the times Dudley had punched him on the nose",
+      "TargetText": "The only thing Harry liked about his own appearance was a very thin scar on his forehead that was shaped like a bolt of lightning"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The only thing Harry liked about his own appearance was a very thin scar on his forehead that was shaped like a bolt of lightning",
+      "TargetText": "He had had it as long as he could remember and the first question he could ever remember asking his Aunt Petunia was how he had gotten it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He had had it as long as he could remember and the first question he could ever remember asking his Aunt Petunia was how he had gotten it",
+      "TargetText": "In the car crash when your parents died she had said"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "In the car crash when your parents died she had said",
+      "TargetText": "And dont ask questions"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And dont ask questions",
+      "TargetText": "Dont ask questions that was the first rule for a quiet life with the Dursleys"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dont ask questions that was the first rule for a quiet life with the Dursleys",
+      "TargetText": "Uncle Vernon entered the kitchen as Harry was turning over the bacon"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Uncle Vernon entered the kitchen as Harry was turning over the bacon",
+      "TargetText": "Comb your hair he barked by way of a morning greeting"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Comb your hair he barked by way of a morning greeting",
+      "TargetText": "About once a week Uncle Vernon looked over the top of his newspaper and shouted that Harry needed a haircut"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "About once a week Uncle Vernon looked over the top of his newspaper and shouted that Harry needed a haircut",
+      "TargetText": "Harry must have had more haircuts than the rest of the boys in his class put together but it made no difference his hair simply grew that way all over the place"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry must have had more haircuts than the rest of the boys in his class put together but it made no difference his hair simply grew that way all over the place",
+      "TargetText": "Harry was frying eggs by the time Dudley arrived in the kitchen with his mother"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry was frying eggs by the time Dudley arrived in the kitchen with his mother",
+      "TargetText": "Dudley looked a lot like Uncle Vernon"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley looked a lot like Uncle Vernon",
+      "TargetText": "He had a large pink face not much neck small watery blue eyes and thick blond hair that lay smoothly on his thick fat head"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He had a large pink face not much neck small watery blue eyes and thick blond hair that lay smoothly on his thick fat head",
+      "TargetText": "Aunt Petunia often said that Dudley looked like a baby angel Harry often said that Dudley looked like a pig in a wig"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Aunt Petunia often said that Dudley looked like a baby angel Harry often said that Dudley looked like a pig in a wig",
+      "TargetText": "Harry put the plates of egg and bacon on the table which was difficult as there wasnt much room"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry put the plates of egg and bacon on the table which was difficult as there wasnt much room",
+      "TargetText": "Dudley meanwhile was counting his presents"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley meanwhile was counting his presents",
+      "TargetText": "His face fell"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His face fell",
+      "TargetText": "Thirty-six he said looking up at his mother and father"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thirty-six he said looking up at his mother and father",
+      "TargetText": "Thats two less than last year"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thats two less than last year",
+      "TargetText": "Darling you havent counted Auntie Marges present see its here under this big one from Mommy and Daddy"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Darling you havent counted Auntie Marges present see its here under this big one from Mommy and Daddy",
+      "TargetText": "All right thirty-seven then said Dudley going red in the face"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "All right thirty-seven then said Dudley going red in the face",
+      "TargetText": "Harry who could see a huge Dudley tantrum coming on began wolfing down his bacon as fast as possible in case Dudley turned the table over"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry who could see a huge Dudley tantrum coming on began wolfing down his bacon as fast as possible in case Dudley turned the table over",
+      "TargetText": "Aunt Petunia obviously scented danger too because she said quickly And well buy you another two presents while were out today"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Aunt Petunia obviously scented danger too because she said quickly And well buy you another two presents while were out today",
+      "TargetText": "Hows that popkin? Two more presents"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Hows that popkin? Two more presents",
+      "TargetText": "Is that all right Dudley thought for a moment"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Is that all right Dudley thought for a moment",
+      "TargetText": "It looked like hard work"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It looked like hard work",
+      "TargetText": "Finally he said slowly So Ill have thirty thirty"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Finally he said slowly So Ill have thirty thirty",
+      "TargetText": "Thirty-nine sweetums said Aunt Petunia"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Thirty-nine sweetums said Aunt Petunia",
+      "TargetText": "Oh"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Oh",
+      "TargetText": "Dudley sat down heavily and grabbed the nearest parcel"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley sat down heavily and grabbed the nearest parcel",
+      "TargetText": "All right then"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "All right then",
+      "TargetText": "Uncle Vernon chuckled"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Uncle Vernon chuckled",
+      "TargetText": "Little tyke wants his moneys worth just like his father"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Little tyke wants his moneys worth just like his father",
+      "TargetText": "Atta boy Dudley He ruffled Dudleys hair"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Atta boy Dudley He ruffled Dudleys hair",
+      "TargetText": "At that moment the telephone rang and Aunt Petunia went to answer it while Harry and Uncle Vernon watched Dudley unwrap the racing bike a video camera a remote control airplane sixteen new computer games and a VCR"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "At that moment the telephone rang and Aunt Petunia went to answer it while Harry and Uncle Vernon watched Dudley unwrap the racing bike a video camera a remote control airplane sixteen new computer games and a VCR",
+      "TargetText": "He was ripping the paper off a gold wristwatch when Aunt Petunia came back from the telephone looking both angry and worried"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was ripping the paper off a gold wristwatch when Aunt Petunia came back from the telephone looking both angry and worried",
+      "TargetText": "Bad news Vernon she said"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Bad news Vernon she said",
+      "TargetText": "Mrs Figgs broken her leg"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Mrs Figgs broken her leg",
+      "TargetText": "She cant take him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "She cant take him",
+      "TargetText": "She jerked her head in Harrys direction"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "She jerked her head in Harrys direction",
+      "TargetText": "Dudleys mouth fell open in horror but Harrys heart gave a leap"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudleys mouth fell open in horror but Harrys heart gave a leap",
+      "TargetText": "Every year on Dudleys birthday his parents took him and a friend out for the day to adventure parks hamburger restaurants or the movies"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Every year on Dudleys birthday his parents took him and a friend out for the day to adventure parks hamburger restaurants or the movies",
+      "TargetText": "Every year Harry was left behind with Mrs Figg a mad old lady who lived two streets away"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Every year Harry was left behind with Mrs Figg a mad old lady who lived two streets away",
+      "TargetText": "Harry hated it there"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry hated it there",
+      "TargetText": "The whole house smelled of cabbage and Mrs Figg made him look at photographs of all the cats shed ever owned"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The whole house smelled of cabbage and Mrs Figg made him look at photographs of all the cats shed ever owned",
+      "TargetText": "Now what? said Aunt Petunia looking furiously at Harry as though hed planned this"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Now what? said Aunt Petunia looking furiously at Harry as though hed planned this",
+      "TargetText": "Harry knew he ought to feel sorry that Mrs Figg had broken her leg but it wasnt easy when he reminded himself it would be a whole year before he had to look at Tibbles Snowy Mr Paws and Tufty again"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry knew he ought to feel sorry that Mrs Figg had broken her leg but it wasnt easy when he reminded himself it would be a whole year before he had to look at Tibbles Snowy Mr Paws and Tufty again",
+      "TargetText": "We could phone Marge Uncle Vernon suggested"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "We could phone Marge Uncle Vernon suggested",
+      "TargetText": "Dont be silly Vernon she hates the boy"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dont be silly Vernon she hates the boy",
+      "TargetText": "The Dursleys often spoke about Harry like this as though he wasnt there or rather as though he was something very nasty that couldnt understand them like a slug"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys often spoke about Harry like this as though he wasnt there or rather as though he was something very nasty that couldnt understand them like a slug",
+      "TargetText": "What about whats-her-name your friend Yvonne?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "What about whats-her-name your friend Yvonne?",
+      "TargetText": "On vacation in Majorca snapped Aunt Petunia"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "On vacation in Majorca snapped Aunt Petunia",
+      "TargetText": "You could just leave me here Harry put in hopefully hed be able to watch what he wanted on television for a change and maybe even have a go on Dudleys computer"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "You could just leave me here Harry put in hopefully hed be able to watch what he wanted on television for a change and maybe even have a go on Dudleys computer",
+      "TargetText": "Aunt Petunia looked as though shed just swallowed a lemon"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Aunt Petunia looked as though shed just swallowed a lemon",
+      "TargetText": "And come back and find the house in ruins? she snarled"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "And come back and find the house in ruins? she snarled",
+      "TargetText": "I wont blow up the house said Harry but they werent listening"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I wont blow up the house said Harry but they werent listening",
+      "TargetText": "I suppose we could take him to the zoo said Aunt Petunia slowly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I suppose we could take him to the zoo said Aunt Petunia slowly",
+      "TargetText": "and leave him in the car"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "and leave him in the car",
+      "TargetText": "That cars new hes not sitting in it alone"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "That cars new hes not sitting in it alone",
+      "TargetText": "Dudley began to cry loudly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley began to cry loudly",
+      "TargetText": "In fact he wasnt really crying it had been years since hed really cried but he knew that if he screwed up his face and wailed his mother would give him anything he wanted"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "In fact he wasnt really crying it had been years since hed really cried but he knew that if he screwed up his face and wailed his mother would give him anything he wanted",
+      "TargetText": "Dinky Duddydums dont cry Mummy wont let him spoil your special day she cried flinging her arms around him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dinky Duddydums dont cry Mummy wont let him spoil your special day she cried flinging her arms around him",
+      "TargetText": "I dont want him t-t-to come Dudley yelled between huge pretend sobs"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I dont want him t-t-to come Dudley yelled between huge pretend sobs",
+      "TargetText": "He always sp- spoils everything He shot Harry a nasty grin through the gap in his mothers arms"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He always sp- spoils everything He shot Harry a nasty grin through the gap in his mothers arms",
+      "TargetText": "Just then the doorbell rang Oh good Lord theyre here said Aunt Petunia frantically and a moment later Dudleys best friend Piers Polkiss walked in with his mother"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Just then the doorbell rang Oh good Lord theyre here said Aunt Petunia frantically and a moment later Dudleys best friend Piers Polkiss walked in with his mother",
+      "TargetText": "Piers was a scrawny boy with a face like a rat"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Piers was a scrawny boy with a face like a rat",
+      "TargetText": "He was usually the one who held peoples arms behind their backs while Dudley hit them"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was usually the one who held peoples arms behind their backs while Dudley hit them",
+      "TargetText": "Dudley stopped pretending to cry at once"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley stopped pretending to cry at once",
+      "TargetText": "Half an hour later Harry who couldnt believe his luck was sitting in the back of the Dursleys car with Piers and Dudley on the way to the zoo for the first time in his life"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Half an hour later Harry who couldnt believe his luck was sitting in the back of the Dursleys car with Piers and Dudley on the way to the zoo for the first time in his life",
+      "TargetText": "His aunt and uncle hadnt been able to think of anything else to do with him but before theyd left Uncle Vernon had taken Harry aside"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "His aunt and uncle hadnt been able to think of anything else to do with him but before theyd left Uncle Vernon had taken Harry aside",
+      "TargetText": "Im warning you he had said putting his large purple face right up close to Harrys Im warning you now boy any funny business anything at all and youll be in that cupboard from now until Christmas"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Im warning you he had said putting his large purple face right up close to Harrys Im warning you now boy any funny business anything at all and youll be in that cupboard from now until Christmas",
+      "TargetText": "Im not going to do anything said Harry honestly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Im not going to do anything said Harry honestly",
+      "TargetText": "But Uncle Vernon didnt believe him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But Uncle Vernon didnt believe him",
+      "TargetText": "No one ever did"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "No one ever did",
+      "TargetText": "The problem was strange things often happened around Harry and it was just no good telling the Dursleys he didnt make them happen"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The problem was strange things often happened around Harry and it was just no good telling the Dursleys he didnt make them happen",
+      "TargetText": "Another time Aunt Petunia had been trying to force him into a revolting old sweater of Dudleys brown with orange puff balls The harder she tried to pull it over his head the smaller it seemed to become until finally it might have fitted a hand puppet but certainly wouldnt fit Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Another time Aunt Petunia had been trying to force him into a revolting old sweater of Dudleys brown with orange puff balls The harder she tried to pull it over his head the smaller it seemed to become until finally it might have fitted a hand puppet but certainly wouldnt fit Harry",
+      "TargetText": "Aunt Petunia had decided it must have shrunk in the wash and to his great relief Harry wasnt punished"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Aunt Petunia had decided it must have shrunk in the wash and to his great relief Harry wasnt punished",
+      "TargetText": "On the other hand hed gotten into terrible trouble for being found on the roof of the school kitchens"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "On the other hand hed gotten into terrible trouble for being found on the roof of the school kitchens",
+      "TargetText": "Dudleys gang had been chasing him as usual when as much to Harrys surprise as anyone elses there he was sitting on the chimney"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudleys gang had been chasing him as usual when as much to Harrys surprise as anyone elses there he was sitting on the chimney",
+      "TargetText": "The Dursleys had received a very angry letter from Harrys headmistress telling them Harry had been climbing school buildings"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys had received a very angry letter from Harrys headmistress telling them Harry had been climbing school buildings",
+      "TargetText": "But all hed tried to do as he shouted at Uncle Vernon through the locked door of his cupboard was jump behind the big trash cans outside the kitchen doors"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But all hed tried to do as he shouted at Uncle Vernon through the locked door of his cupboard was jump behind the big trash cans outside the kitchen doors",
+      "TargetText": "Harry supposed that the wind must have caught him in mid- jump"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry supposed that the wind must have caught him in mid- jump",
+      "TargetText": "But today nothing was going to go wrong"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But today nothing was going to go wrong",
+      "TargetText": "It was even worth being with Dudley and Piers to be spending the day somewhere that wasnt school his cupboard or Mrs Figgs cabbage-smelling living room"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was even worth being with Dudley and Piers to be spending the day somewhere that wasnt school his cupboard or Mrs Figgs cabbage-smelling living room",
+      "TargetText": "While he drove Uncle Vernon complained to Aunt Petunia"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "While he drove Uncle Vernon complained to Aunt Petunia",
+      "TargetText": "He liked to complain about things people at work Harry the council Harry the bank and Harry were just a few of his favorite subjects"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He liked to complain about things people at work Harry the council Harry the bank and Harry were just a few of his favorite subjects",
+      "TargetText": "This morning it was motorcycles"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "This morning it was motorcycles",
+      "TargetText": "roaring along like maniacs the young hoodlums he said as a motorcycle overtook them"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "roaring along like maniacs the young hoodlums he said as a motorcycle overtook them",
+      "TargetText": "I had a dream about a motorcycle said Harry remembering suddenly"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I had a dream about a motorcycle said Harry remembering suddenly",
+      "TargetText": "It was flying"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was flying",
+      "TargetText": "Uncle Vernon nearly crashed into the car in front"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Uncle Vernon nearly crashed into the car in front",
+      "TargetText": "He turned right around in his seat and yelled at Harry his face like a gigantic beet with a mustache MOTORCYCLES DONT FLY"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He turned right around in his seat and yelled at Harry his face like a gigantic beet with a mustache MOTORCYCLES DONT FLY",
+      "TargetText": "Dudley and Piers sniggered"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley and Piers sniggered",
+      "TargetText": "I know they dont said Harry"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I know they dont said Harry",
+      "TargetText": "It was only a dream"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was only a dream",
+      "TargetText": "But he wished he hadnt said anything"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "But he wished he hadnt said anything",
+      "TargetText": "If there was one thing the Dursleys hated even more than his asking questions it was his talking about anything acting in a way it shouldnt no matter if it was in a dream or even a cartoon they seemed to think he might get dangerous ideas"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "If there was one thing the Dursleys hated even more than his asking questions it was his talking about anything acting in a way it shouldnt no matter if it was in a dream or even a cartoon they seemed to think he might get dangerous ideas",
+      "TargetText": "It was a very sunny Saturday and the zoo was crowded with families"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was a very sunny Saturday and the zoo was crowded with families",
+      "TargetText": "The Dursleys bought Dudley and Piers large chocolate ice creams at the entrance and then because the smiling lady in the van had asked Harry what he wanted before they could hurry him away they bought him a cheap lemon ice pop"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The Dursleys bought Dudley and Piers large chocolate ice creams at the entrance and then because the smiling lady in the van had asked Harry what he wanted before they could hurry him away they bought him a cheap lemon ice pop",
+      "TargetText": "It wasnt bad either Harry thought licking it as they watched a gorilla scratching its head who looked remarkably like Dudley except that it wasnt blond"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It wasnt bad either Harry thought licking it as they watched a gorilla scratching its head who looked remarkably like Dudley except that it wasnt blond",
+      "TargetText": "Harry had the best morning hed had in a long time"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry had the best morning hed had in a long time",
+      "TargetText": "He was careful to walk a little way apart from the Dursleys so that Dudley and Piers who were starting to get bored with the animals by lunchtime wouldnt fall back on their favorite hobby of hitting him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He was careful to walk a little way apart from the Dursleys so that Dudley and Piers who were starting to get bored with the animals by lunchtime wouldnt fall back on their favorite hobby of hitting him",
+      "TargetText": "They ate in the zoo restaurant and when Dudley had a tantrum because his knickerbocker glory didnt have enough ice cream on top Uncle Vernon bought him another one and Harry was allowed to finish the first"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "They ate in the zoo restaurant and when Dudley had a tantrum because his knickerbocker glory didnt have enough ice cream on top Uncle Vernon bought him another one and Harry was allowed to finish the first",
+      "TargetText": "Harry felt afterward that he should have known it was all too good to last"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry felt afterward that he should have known it was all too good to last",
+      "TargetText": "After lunch they went to the reptile house"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "After lunch they went to the reptile house",
+      "TargetText": "It was cool and dark in there with lit windows all along the walls"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was cool and dark in there with lit windows all along the walls",
+      "TargetText": "Behind the glass all sorts of lizards and snakes were crawling and slithering over bits of wood and stone"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Behind the glass all sorts of lizards and snakes were crawling and slithering over bits of wood and stone",
+      "TargetText": "Dudley and Piers wanted to see huge poisonous cobras and thick man-crushing pythons"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley and Piers wanted to see huge poisonous cobras and thick man-crushing pythons",
+      "TargetText": "Dudley quickly found the largest snake in the place"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley quickly found the largest snake in the place",
+      "TargetText": "It could have wrapped its body twice around Uncle Vernons car and crushed it into a trash can but at the moment it didnt look in the mood"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It could have wrapped its body twice around Uncle Vernons car and crushed it into a trash can but at the moment it didnt look in the mood",
+      "TargetText": "In fact it was fast asleep"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "In fact it was fast asleep",
+      "TargetText": "Dudley stood with his nose pressed against the glass staring at the glistening brown coils"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Dudley stood with his nose pressed against the glass staring at the glistening brown coils",
+      "TargetText": "Make it move he whined at his father"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Make it move he whined at his father",
+      "TargetText": "Uncle Vernon tapped on the glass but the snake didnt budge"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Uncle Vernon tapped on the glass but the snake didnt budge",
+      "TargetText": "Do it again Dudley ordered"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Do it again Dudley ordered",
+      "TargetText": "Uncle Vernon rapped the glass smartly with his knuckles but the snake just snoozed on"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Uncle Vernon rapped the glass smartly with his knuckles but the snake just snoozed on",
+      "TargetText": "This is boring Dudley moaned"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "This is boring Dudley moaned",
+      "TargetText": "He shuffled away"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He shuffled away",
+      "TargetText": "Harry moved in front of the tank and looked intently at the snake"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry moved in front of the tank and looked intently at the snake",
+      "TargetText": "He wouldnt have been surprised if it had died of boredom itself no company except stupid people drumming their fingers on the glass trying to disturb it all day long"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He wouldnt have been surprised if it had died of boredom itself no company except stupid people drumming their fingers on the glass trying to disturb it all day long",
+      "TargetText": "It was worse than having a cupboard as a bedroom where the only visitor was Aunt Petunia hammering on the door to wake you up; at least he got to visit the rest of the house"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It was worse than having a cupboard as a bedroom where the only visitor was Aunt Petunia hammering on the door to wake you up; at least he got to visit the rest of the house",
+      "TargetText": "The snake suddenly opened its beady eyes"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The snake suddenly opened its beady eyes",
+      "TargetText": "Slowly very slowly it raised its head until its eyes were on a level with Harrys"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Slowly very slowly it raised its head until its eyes were on a level with Harrys",
+      "TargetText": "It winked"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It winked",
+      "TargetText": "Harry stared"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry stared",
+      "TargetText": "Then he looked quickly around to see if anyone was watching"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Then he looked quickly around to see if anyone was watching",
+      "TargetText": "They werent"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "They werent",
+      "TargetText": "He looked back at the snake and winked too"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "He looked back at the snake and winked too",
+      "TargetText": "The snake jerked its head toward Uncle Vernon and Dudley then raised its eyes to the ceiling"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The snake jerked its head toward Uncle Vernon and Dudley then raised its eyes to the ceiling",
+      "TargetText": "It gave Harry a look that said quite plainly I get that all the time"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It gave Harry a look that said quite plainly I get that all the time",
+      "TargetText": "I know Harry murmured through the glass though he wasnt sure the snake could hear him"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "I know Harry murmured through the glass though he wasnt sure the snake could hear him",
+      "TargetText": "It must be really annoying"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "It must be really annoying",
+      "TargetText": "The snake nodded vigorously"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The snake nodded vigorously",
+      "TargetText": "Where do you come from anyway? Harry asked"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Where do you come from anyway? Harry asked",
+      "TargetText": "The snake jabbed its tail at a little sign next to the glass"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "The snake jabbed its tail at a little sign next to the glass",
+      "TargetText": "Harry peered at it"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Harry peered at it",
+      "TargetText": "Boa Constrictor Brazil"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Boa Constrictor Brazil",
+      "TargetText": "Was it nice there?"
+   }
+},
+ {
+   "Data": {
+      "InitialText": "Was it nice there?",
+      "TargetText": "The boa constrictor jabbed its tail at the sign again and Harry read on This specimen was bred in the zoo"
+   }
+}
+]

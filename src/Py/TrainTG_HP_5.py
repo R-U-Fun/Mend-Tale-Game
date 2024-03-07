@@ -7,7 +7,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Embedding, LSTM, TimeDistributed
 import numpy as np
 
-with open('../../datasets/MT_DS_HP_01_split_435_TG_v2.json', 'r', encoding='utf-8') as f:
+import datetime
+
+with open('../../datasets/MT_DS_HP_5_Split_TG.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 texts = [item['Data']['InitialText'] + ' ' + item['Data']['TargetText'] for item in data]
@@ -33,14 +35,29 @@ model = Sequential([
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
+try:
+    model.load_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v1_Weights.h5")
+    print("++++++++++++++++++++++++++++++++WEIGHTS FOUND")
+except:
+    print("++++++++++++++++++++++++++++++++NO WEIGHTS FOUND")
+
+L=0
 # Train each sequence individually
 for seq_input, seq_target in zip(inputs, targets):
-    print(seq_input)
+    L=L+1
+    print(L)
     model.fit(np.array([seq_input]), np.array([seq_target]), epochs=50)  # Increase the number of epochs
 
-model.save("../../mt_ml_models/MT_DS_HP_01_split_435_TG_v2_Model")
+model.save_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v1_Weights.h5")
 
+model.save("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v1_Model")
 
+datetime = datetime.datetime.now()
 
-
-
+print(" ")
+print(" ")
+print(" ")
+print(datetime)
+print(" ")
+print(" ")
+print(" ")
