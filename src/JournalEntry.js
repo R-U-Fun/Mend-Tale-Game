@@ -8,7 +8,7 @@ import HomePage from './HomePage';
 
 export default async function JournalEntry(NewUserResponseText){
     
-    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis2', {
+    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 import numpy as np
 
 def TextGeneration2(prompt):
-    model = load_model("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v1_Model")
+    model = load_model("../../mt_ml_models/MT_DS_HP_AllInParts_TG_Whole_v1_Model")
     tokenizer = Tokenizer(num_words=10000, oov_token='<UNK>')  # Same tokenizer as the training code
     tokenizer.fit_on_texts([prompt])
     sequences = tokenizer.texts_to_sequences([prompt])
@@ -28,5 +28,9 @@ def TextGeneration2(prompt):
     print(generated_text)
     return(generated_text)
 
-prompt = "That guy is living his life very happily with his friends and family"
+#prompt = "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
+#prompt = "My friend killed himself by crashing his car into a school, killing ten people."
+
+prompt = "That guy is living his life very happyly with his friends and family "
+
 TextGeneration2(prompt)

@@ -230,24 +230,24 @@
  {
    "Data": {
       "InitialText": "The police had never read an odder report.",
-      "TargetText": "A team of doctors had examined the bodies and had concluded that none of the Riddles had been poisoned stabbed shot strangles suffocated or (as far as they could tell) harmed at all."
+      "TargetText": "A team of doctors had examined the bodies and had concluded that none of the Riddles had been poisoned stabbed shot strangles suffocated or as far as they could tell harmed at all."
    }
 },
  {
    "Data": {
-      "InitialText": "A team of doctors had examined the bodies and had concluded that none of the Riddles had been poisoned stabbed shot strangles suffocated or (as far as they could tell) harmed at all.",
-      "TargetText": "In fact (the report continued in a tone of unmistakable bewilderment) the Riddles all appeared to be in perfet health apart from the fact that they were all dead."
+      "InitialText": "A team of doctors had examined the bodies and had concluded that none of the Riddles had been poisoned stabbed shot strangles suffocated or as far as they could tell harmed at all.",
+      "TargetText": "In fact the report continued in a tone of unmistakable bewilderment the Riddles all appeared to be in perfet health apart from the fact that they were all dead."
    }
 },
  {
    "Data": {
-      "InitialText": "In fact (the report continued in a tone of unmistakable bewilderment) the Riddles all appeared to be in perfet health apart from the fact that they were all dead.",
-      "TargetText": "The doctors did note (as though determined to find something wrong with the bodies) that each of the Riddles had a look of terror upon his or her face but as the frustrated police said whoever heard of three people being frightened to death! As there was no proof that the Riddles had been murdered at all the police were forced to let Frank go."
+      "InitialText": "In fact the report continued in a tone of unmistakable bewilderment the Riddles all appeared to be in perfet health apart from the fact that they were all dead.",
+      "TargetText": "The doctors did note as though determined to find something wrong with the bodies that each of the Riddles had a look of terror upon his or her face but as the frustrated police said whoever heard of three people being frightened to death! As there was no proof that the Riddles had been murdered at all the police were forced to let Frank go."
    }
 },
  {
    "Data": {
-      "InitialText": "The doctors did note (as though determined to find something wrong with the bodies) that each of the Riddles had a look of terror upon his or her face but as the frustrated police said whoever heard of three people being frightened to death! As there was no proof that the Riddles had been murdered at all the police were forced to let Frank go.",
+      "InitialText": "The doctors did note as though determined to find something wrong with the bodies that each of the Riddles had a look of terror upon his or her face but as the frustrated police said whoever heard of three people being frightened to death! As there was no proof that the Riddles had been murdered at all the police were forced to let Frank go.",
       "TargetText": "The Riddles were buried in the Little Hangleton churchyard and their graves remained objects of curiosity for a while."
    }
 },
@@ -608,18 +608,18 @@
  {
    "Data": {
       "InitialText": "The the Quidditch World Cup My Lord? said Wormtail.",
-      "TargetText": "(Frank dug his finger still more vigorously into his ear."
+      "TargetText": "Frank dug his finger still more vigorously into his ear."
    }
 },
  {
    "Data": {
-      "InitialText": "(Frank dug his finger still more vigorously into his ear.",
-      "TargetText": ") Forgive me but I do not understand why should we wait until the World Cup is over? Because fool at this very moment wizards are pouring into the country from all over the world and every meddler from the Ministry of Magic will be on duty on the watch for signs of ususual activity checking and double�checking identities."
+      "InitialText": "Frank dug his finger still more vigorously into his ear.",
+      "TargetText": " Forgive me but I do not understand why should we wait until the World Cup is over? Because fool at this very moment wizards are pouring into the country from all over the world and every meddler from the Ministry of Magic will be on duty on the watch for signs of ususual activity checking and double�checking identities."
    }
 },
  {
    "Data": {
-      "InitialText": ") Forgive me but I do not understand why should we wait until the World Cup is over? Because fool at this very moment wizards are pouring into the country from all over the world and every meddler from the Ministry of Magic will be on duty on the watch for signs of ususual activity checking and double�checking identities.",
+      "InitialText": " Forgive me but I do not understand why should we wait until the World Cup is over? Because fool at this very moment wizards are pouring into the country from all over the world and every meddler from the Ministry of Magic will be on duty on the watch for signs of ususual activity checking and double�checking identities.",
       "TargetText": "They will be obsessed with security lest the Muggles notice anything."
    }
 },
@@ -2000,12 +2000,12 @@
  {
    "Data": {
       "InitialText": "Mrs Weasley would fuss worse than Hermione and Fred and George Rons sixteen� year�old twin brothers might think Harry was losing his nerve.",
-      "TargetText": "The Weasleys were Harrys favorite family in the world; he was hoping that they might invite him to stay any time now (Ron had mentioned something about the Quidditch World Cup) and he somehow didnt want his visit punctuated "
+      "TargetText": "The Weasleys were Harrys favorite family in the world; he was hoping that they might invite him to stay any time now Ron had mentioned something about the Quidditch World Cup and he somehow didnt want his visit punctuated "
    }
 },
  {
    "Data": {
-      "InitialText": "The Weasleys were Harrys favorite family in the world; he was hoping that they might invite him to stay any time now (Ron had mentioned something about the Quidditch World Cup) and he somehow didnt want his visit punctuated ",
+      "InitialText": "The Weasleys were Harrys favorite family in the world; he was hoping that they might invite him to stay any time now Ron had mentioned something about the Quidditch World Cup and he somehow didnt want his visit punctuated ",
       "TargetText": "with anxious inquiries about his scar."
    }
 },
@@ -2018,12 +2018,12 @@
  {
    "Data": {
       "InitialText": "Harry kneaded his forehead with his knuckles.",
-      "TargetText": "What he really wanted (and it felt almost shameful to admit it to himself) was someone like someone like a parent: an adult wizard whose advice he could ask without feeling stupid someone who cared about him who had had experience with Dark Magic."
+      "TargetText": "What he really wanted and it felt almost shameful to admit it to himself was someone like someone like a parent: an adult wizard whose advice he could ask without feeling stupid someone who cared about him who had had experience with Dark Magic."
    }
 },
  {
    "Data": {
-      "InitialText": "What he really wanted (and it felt almost shameful to admit it to himself) was someone like someone like a parent: an adult wizard whose advice he could ask without feeling stupid someone who cared about him who had had experience with Dark Magic.",
+      "InitialText": "What he really wanted and it felt almost shameful to admit it to himself was someone like someone like a parent: an adult wizard whose advice he could ask without feeling stupid someone who cared about him who had had experience with Dark Magic.",
       "TargetText": "And then the solution came to him."
    }
 },
@@ -2126,24 +2126,24 @@
  {
    "Data": {
       "InitialText": "Harry had received two letters from Sirius since he had been back at Privet Drive.",
-      "TargetText": "Both had been delivered not by owls (as was usual with wizards) but by large brightly colored tropical birds."
+      "TargetText": "Both had been delivered not by owls as was usual with wizards but by large brightly colored tropical birds."
    }
 },
  {
    "Data": {
-      "InitialText": "Both had been delivered not by owls (as was usual with wizards) but by large brightly colored tropical birds.",
+      "InitialText": "Both had been delivered not by owls as was usual with wizards but by large brightly colored tropical birds.",
       "TargetText": "Hedwig had not approved of these flashy intruders; she had been most reluctant to allow them to drink from her water tray before flying off again."
    }
 },
  {
    "Data": {
       "InitialText": "Hedwig had not approved of these flashy intruders; she had been most reluctant to allow them to drink from her water tray before flying off again.",
-      "TargetText": "Harry on the other hand had liked them; they put him in mind of palm trees and white sand and he hoped that wherever Sirius was (Sirius never said in case the letters were intercepted) he was enjoying himself."
+      "TargetText": "Harry on the other hand had liked them; they put him in mind of palm trees and white sand and he hoped that wherever Sirius was Sirius never said in case the letters were intercepted he was enjoying himself."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry on the other hand had liked them; they put him in mind of palm trees and white sand and he hoped that wherever Sirius was (Sirius never said in case the letters were intercepted) he was enjoying himself.",
+      "InitialText": "Harry on the other hand had liked them; they put him in mind of palm trees and white sand and he hoped that wherever Sirius was Sirius never said in case the letters were intercepted he was enjoying himself.",
       "TargetText": "Somehow Harry found it hard to imaging dementors surviving for long in bright sunlight perhapse that was why Sirius had gone South."
    }
 },
@@ -2426,42 +2426,42 @@
  {
    "Data": {
       "InitialText": "Hedwig had returned from Hermiones house with a large box stuffed full of sugar�free snacks.",
-      "TargetText": "(Hermiones parents were dentists."
+      "TargetText": "Hermiones parents were dentists."
    }
 },
  {
    "Data": {
-      "InitialText": "(Hermiones parents were dentists.",
-      "TargetText": ") Hagrid the Hogwarts gamekeeper had obliged with a sack full of his own homemade rock cakes."
+      "InitialText": "Hermiones parents were dentists.",
+      "TargetText": " Hagrid the Hogwarts gamekeeper had obliged with a sack full of his own homemade rock cakes."
    }
 },
  {
    "Data": {
-      "InitialText": ") Hagrid the Hogwarts gamekeeper had obliged with a sack full of his own homemade rock cakes.",
-      "TargetText": "(Harry hadnt touched these; he had had too much experience of Hagrids cooking."
+      "InitialText": " Hagrid the Hogwarts gamekeeper had obliged with a sack full of his own homemade rock cakes.",
+      "TargetText": "Harry hadnt touched these; he had had too much experience of Hagrids cooking."
    }
 },
  {
    "Data": {
-      "InitialText": "(Harry hadnt touched these; he had had too much experience of Hagrids cooking.",
-      "TargetText": ") Mrs Weasley however had sent the family owl Errol with an enormous fruitcake and assorted meat pies."
+      "InitialText": "Harry hadnt touched these; he had had too much experience of Hagrids cooking.",
+      "TargetText": " Mrs Weasley however had sent the family owl Errol with an enormous fruitcake and assorted meat pies."
    }
 },
  {
    "Data": {
-      "InitialText": ") Mrs Weasley however had sent the family owl Errol with an enormous fruitcake and assorted meat pies.",
+      "InitialText": " Mrs Weasley however had sent the family owl Errol with an enormous fruitcake and assorted meat pies.",
       "TargetText": "Poor Errol who was elderly and feeble had needed a full five days to recover from the journey."
    }
 },
  {
    "Data": {
       "InitialText": "Poor Errol who was elderly and feeble had needed a full five days to recover from the journey.",
-      "TargetText": "And then on Harrys birthday (which the Dursleys had completely ignored) he had received four superb birthday cakes one each from Ron Hermione Hagrid and Sirius."
+      "TargetText": "And then on Harrys birthday which the Dursleys had completely ignored he had received four superb birthday cakes one each from Ron Hermione Hagrid and Sirius."
    }
 },
  {
    "Data": {
-      "InitialText": "And then on Harrys birthday (which the Dursleys had completely ignored) he had received four superb birthday cakes one each from Ron Hermione Hagrid and Sirius.",
+      "InitialText": "And then on Harrys birthday which the Dursleys had completely ignored he had received four superb birthday cakes one each from Ron Hermione Hagrid and Sirius.",
       "TargetText": "Harry still had two of them left and so looking forward to a real breakfast when he got back upstairs he ate his grapefruit without complaint."
    }
 },
@@ -2744,12 +2744,12 @@
  {
    "Data": {
       "InitialText": "Other people might not understand why Uncle Vernon was making a fuss about too many stamps but Harry had lived with the Dursleys too long not to know how touchy they were about anything even slightly out of the ordinary.",
-      "TargetText": "Their worst fear was that someone would find out that they were connected (however distantly) with people like Mrs Weasley."
+      "TargetText": "Their worst fear was that someone would find out that they were connected however distantly with people like Mrs Weasley."
    }
 },
  {
    "Data": {
-      "InitialText": "Their worst fear was that someone would find out that they were connected (however distantly) with people like Mrs Weasley.",
+      "InitialText": "Their worst fear was that someone would find out that they were connected however distantly with people like Mrs Weasley.",
       "TargetText": "Uncle Vernon was still glaring at Harry who tried to keep his expression neutral."
    }
 },
@@ -3578,12 +3578,12 @@
  {
    "Data": {
       "InitialText": "Lunch was an almost silent meal.",
-      "TargetText": "Dudley didnt even protest at the food (cottage cheese and grated celery)."
+      "TargetText": "Dudley didnt even protest at the food cottage cheese and grated celery."
    }
 },
  {
    "Data": {
-      "InitialText": "Dudley didnt even protest at the food (cottage cheese and grated celery).",
+      "InitialText": "Dudley didnt even protest at the food cottage cheese and grated celery.",
       "TargetText": "Aunt Petunia wasnt eating anything at all."
    }
 },
@@ -3848,12 +3848,12 @@
  {
    "Data": {
       "InitialText": "Voices could be heard from inside the blocked fireplace.",
-      "TargetText": "Ouch! Fred no go back go back theres been some kind of mistake tell George not to OUCH! George no theres no room go back quickly and tell Ron� � Maybe Harry can hear us Dad maybe hell be able to let us out� There was a loud hammering of fists on the boards behind the electric fire."
+      "TargetText": "Ouch! Fred no go back go back theres been some kind of mistake tell George not to OUCH! George no theres no room go back quickly and tell Ron�  Maybe Harry can hear us Dad maybe hell be able to let us out� There was a loud hammering of fists on the boards behind the electric fire."
    }
 },
  {
    "Data": {
-      "InitialText": "Ouch! Fred no go back go back theres been some kind of mistake tell George not to OUCH! George no theres no room go back quickly and tell Ron� � Maybe Harry can hear us Dad maybe hell be able to let us out� There was a loud hammering of fists on the boards behind the electric fire.",
+      "InitialText": "Ouch! Fred no go back go back theres been some kind of mistake tell George not to OUCH! George no theres no room go back quickly and tell Ron�  Maybe Harry can hear us Dad maybe hell be able to let us out� There was a loud hammering of fists on the boards behind the electric fire.",
       "TargetText": "Harry? Harry can you hear us? The Dursleys rounded on Harry like a pair of angry wolverines."
    }
 },
@@ -5805,18 +5805,6 @@
    "Data": {
       "InitialText": "Probably an exhibition of thick�bottomed cauldrons.",
       "TargetText": "In the middle of the table Mrs Weasley was arguing with Bill about his earring which seemed to be a recent acquisition."
-   }
-},
- {
-   "Data": {
-      "InitialText": "In the middle of the table Mrs Weasley was arguing with Bill about his earring which seemed to be a recent acquisition.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "with a horrible great fang on it."
    }
 },
  {
@@ -8318,12 +8306,12 @@
  {
    "Data": {
       "InitialText": "He had the look of a powerfully built man gone slightly to seed; the robes were stretched tightly across a large belly he surely had not had in the days when he had played Quidditch for England.",
-      "TargetText": "His nose was squashed (probably broken by a stray Bludger Harry thought) but his round blue eyes short blond hair and rosy complexion made him look like a very overgrown schoolboy."
+      "TargetText": "His nose was squashed probably broken by a stray Bludger Harry thought but his round blue eyes short blond hair and rosy complexion made him look like a very overgrown schoolboy."
    }
 },
  {
    "Data": {
-      "InitialText": "His nose was squashed (probably broken by a stray Bludger Harry thought) but his round blue eyes short blond hair and rosy complexion made him look like a very overgrown schoolboy.",
+      "InitialText": "His nose was squashed probably broken by a stray Bludger Harry thought but his round blue eyes short blond hair and rosy complexion made him look like a very overgrown schoolboy.",
       "TargetText": "Ahoy there! Bagman called happily."
    }
 },
@@ -9836,12 +9824,12 @@
  {
    "Data": {
       "InitialText": "Thousands of flags waved adding their discordant national anthems to the racket.",
-      "TargetText": "The huge blackboard opposite them was wiped clear of its last message (Bertie Botts Every Flavor Beans A Risk With Every Mouthful!) and now showed BULGARIA: 0 IRELAND: 0."
+      "TargetText": "The huge blackboard opposite them was wiped clear of its last message Bertie Botts Every Flavor Beans A Risk With Every Mouthful! and now showed BULGARIA: 0 IRELAND: 0."
    }
 },
  {
    "Data": {
-      "InitialText": "The huge blackboard opposite them was wiped clear of its last message (Bertie Botts Every Flavor Beans A Risk With Every Mouthful!) and now showed BULGARIA: 0 IRELAND: 0.",
+      "InitialText": "The huge blackboard opposite them was wiped clear of its last message Bertie Botts Every Flavor Beans A Risk With Every Mouthful! and now showed BULGARIA: 0 IRELAND: 0.",
       "TargetText": "And now without further ado allow me to introduce."
    }
 },
@@ -10142,12 +10130,12 @@
  {
    "Data": {
       "InitialText": "A silver whistle was protruding from under the mustache and he was carrying a large wooden crate under one arm his broomstick under the other.",
-      "TargetText": "Harry spun the speed dial on his Omnioculars back to normal watching closely as Mostafa mounted his broomstick and kicked the crate open four balls burst into the air: the scarlet Quaffle the two black Bludgers and (Harry saw it for the briefest moment before it sped out of sight) the minuscule winged Golden Snitch."
+      "TargetText": "Harry spun the speed dial on his Omnioculars back to normal watching closely as Mostafa mounted his broomstick and kicked the crate open four balls burst into the air: the scarlet Quaffle the two black Bludgers and Harry saw it for the briefest moment before it sped out of sight the minuscule winged Golden Snitch."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry spun the speed dial on his Omnioculars back to normal watching closely as Mostafa mounted his broomstick and kicked the crate open four balls burst into the air: the scarlet Quaffle the two black Bludgers and (Harry saw it for the briefest moment before it sped out of sight) the minuscule winged Golden Snitch.",
+      "InitialText": "Harry spun the speed dial on his Omnioculars back to normal watching closely as Mostafa mounted his broomstick and kicked the crate open four balls burst into the air: the scarlet Quaffle the two black Bludgers and Harry saw it for the briefest moment before it sped out of sight the minuscule winged Golden Snitch.",
       "TargetText": "With a sharp blast on his whistle Mostafa shot into the air after the balls."
    }
 },
@@ -10940,25 +10928,13 @@
  {
    "Data": {
       "InitialText": "Harrys hands were numb with clapping.",
-      "TargetText": "At last when the Irish team had left the box to perform another lap of honor on their brooms (Aidan Lynch on the back of Confollys clutching hard around his waist and still grinning in a bemused sort of way) Bagman pointed his wand at his throat and muttered Quietus."
+      "TargetText": "At last when the Irish team had left the box to perform another lap of honor on their brooms Aidan Lynch on the back of Confollys clutching hard around his waist and still grinning in a bemused sort of way Bagman pointed his wand at his throat and muttered Quietus."
    }
 },
  {
    "Data": {
-      "InitialText": "At last when the Irish team had left the box to perform another lap of honor on their brooms (Aidan Lynch on the back of Confollys clutching hard around his waist and still grinning in a bemused sort of way) Bagman pointed his wand at his throat and muttered Quietus.",
+      "InitialText": "At last when the Irish team had left the box to perform another lap of honor on their brooms Aidan Lynch on the back of Confollys clutching hard around his waist and still grinning in a bemused sort of way Bagman pointed his wand at his throat and muttered Quietus.",
       "TargetText": "Theyll be talking about this one for years he said hoarsely a really unexpected twist that shame it couldnt have lasted longer Ah yes yes I owe you."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Theyll be talking about this one for years he said hoarsely a really unexpected twist that shame it couldnt have lasted longer Ah yes yes I owe you.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "how much? For Fred and George had just scrambled over the backs of their seats and were standing in front of Ludo Bagman with broad grins on their faces their hands outstretched."
    }
 },
  {
@@ -11055,18 +11031,6 @@
    "Data": {
       "InitialText": "He was itching to get back on his own Firebolt and try out the Wronski Feint Somehow Oliver Wood had never managed to convey with all his wriggling diagrams what that move was supposed to look like.",
       "TargetText": "Harry saw himself in robes that had his name on the back and imagined the sensation of hearing a hundred�thousand�strong crowd roar as Ludo Bagmans voice echoed throughout the stadium I give you."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Harry saw himself in robes that had his name on the back and imagined the sensation of hearing a hundred�thousand�strong crowd roar as Ludo Bagmans voice echoed throughout the stadium I give you.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Potter! Harry never knew whether or not he had actually dropped off to sleep his fantasies of flying like Krum might well have slipped into actual dreams all he knew was that quite suddenly Mr Weasley was shouting."
    }
 },
  {
@@ -11793,18 +11757,6 @@
    "Data": {
       "InitialText": "No youre not! yelled his friend.",
       "TargetText": "Youre a dishwasher at the Leaky Cauldron."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Youre a dishwasher at the Leaky Cauldron.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "but Im a vampire hunter Ive killed about ninety so far A third young wizard whose pimples were visible even by the dim silvery light of the veela now cut in Im about to become the youngest ever Minister of Magic I am."
    }
 },
  {
@@ -15127,18 +15079,6 @@
 },
  {
    "Data": {
-      "InitialText": "It was talking very fast completely unperturbed by the sparks flying around it and the flames licking its ears.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Muggle neighbors heard bangs and shouting so they went and called those what�dyou�call�ems please�men."
-   }
-},
- {
-   "Data": {
       "InitialText": "Muggle neighbors heard bangs and shouting so they went and called those what�dyou�call�ems please�men.",
       "TargetText": "Arthur youve got to get over there Here! said Mrs Weasley breathlessly pushing a piece of parchment a bottle of ink and a crumpled quill into Mr Weasleys hands."
    }
@@ -15530,12 +15470,12 @@
  {
    "Data": {
       "InitialText": "The only tricky part was doing this in an unobtrusive way so as to avoid attracting Muggle attention.",
-      "TargetText": "They did it in groups today; Harry Ron and Hermione (the most conspicuous since they were accompanied by Pigwidgeon and Crookshanks) went first; they leaned casually against the barrier chatting unconcernedly and slid sideways through it."
+      "TargetText": "They did it in groups today; Harry Ron and Hermione the most conspicuous since they were accompanied by Pigwidgeon and Crookshanks went first; they leaned casually against the barrier chatting unconcernedly and slid sideways through it."
    }
 },
  {
    "Data": {
-      "InitialText": "They did it in groups today; Harry Ron and Hermione (the most conspicuous since they were accompanied by Pigwidgeon and Crookshanks) went first; they leaned casually against the barrier chatting unconcernedly and slid sideways through it.",
+      "InitialText": "They did it in groups today; Harry Ron and Hermione the most conspicuous since they were accompanied by Pigwidgeon and Crookshanks went first; they leaned casually against the barrier chatting unconcernedly and slid sideways through it.",
       "TargetText": "and as they did so platform nine and three�quarters materialized in front of them."
    }
 },
@@ -15741,18 +15681,6 @@
    "Data": {
       "InitialText": "Wonder what Shh! Hermione whispered suddenly pressing her finger to her lips and pointing toward the compartment next to theirs.",
       "TargetText": "Harry and Ron listened and heard a familiar drawling voice drifting in through the open door."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Harry and Ron listened and heard a familiar drawling voice drifting in through the open door.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Father actually considered sending me to Durmstrang rather than Hogwarts you know."
    }
 },
  {
@@ -16970,12 +16898,12 @@
  {
    "Data": {
       "InitialText": "We dont want to break our winning streak do we? Gryffindor had won the Inter�House Championship for the last three years in a row.",
-      "TargetText": "Pritchard Graham! SLYTHERIN! Quirke Orla! RAVENCLAW! And finally with Whitby Kevin! (HUFFLEPUFF!) the Sorting ended."
+      "TargetText": "Pritchard Graham! SLYTHERIN! Quirke Orla! RAVENCLAW! And finally with Whitby Kevin! HUFFLEPUFF! the Sorting ended."
    }
 },
  {
    "Data": {
-      "InitialText": "Pritchard Graham! SLYTHERIN! Quirke Orla! RAVENCLAW! And finally with Whitby Kevin! (HUFFLEPUFF!) the Sorting ended.",
+      "InitialText": "Pritchard Graham! SLYTHERIN! Quirke Orla! RAVENCLAW! And finally with Whitby Kevin! HUFFLEPUFF! the Sorting ended.",
       "TargetText": "Professor McGonagall picked up the hat and the stool and carried them away."
    }
 },
@@ -17288,12 +17216,12 @@
  {
    "Data": {
       "InitialText": "So! said Dumbledore smiling around at them all.",
-      "TargetText": "Now that we are all fed and watered (Hmph! said Hermione) I must once more ask for your attention while I give out a few notices."
+      "TargetText": "Now that we are all fed and watered Hmph! said Hermione I must once more ask for your attention while I give out a few notices."
    }
 },
  {
    "Data": {
-      "InitialText": "Now that we are all fed and watered (Hmph! said Hermione) I must once more ask for your attention while I give out a few notices.",
+      "InitialText": "Now that we are all fed and watered Hmph! said Hermione I must once more ask for your attention while I give out a few notices.",
       "TargetText": "Mr Filch the caretaker has asked me to tell you that the list of objects forbidden inside the castle has this year been extended to include Screaming Yo�yos Fanged Frisbees and Ever�Bashing Boomerangs."
    }
 },
@@ -18037,18 +17965,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry rolled over in bed a series of dazzling new pictures forming in his minds eye He had hoodwinked the impartial judge into believing he was seventeen.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "he had become Hogwarts champion."
-   }
-},
- {
-   "Data": {
       "InitialText": "he had become Hogwarts champion.",
       "TargetText": "he was standing on the grounds his arms raised in triumph in front of the whole school all of whom were applauding and screaming."
    }
@@ -18500,12 +18416,12 @@
  {
    "Data": {
       "InitialText": "Eurgh! said Lavender Brown again.",
-      "TargetText": "Eurgh Hagrid whats that pointy thing on it? Ah some of em have got stings said Hagrid enthusiastically (Lavender quickly withdrew her hand from the box)."
+      "TargetText": "Eurgh Hagrid whats that pointy thing on it? Ah some of em have got stings said Hagrid enthusiastically Lavender quickly withdrew her hand from the box."
    }
 },
  {
    "Data": {
-      "InitialText": "Eurgh Hagrid whats that pointy thing on it? Ah some of em have got stings said Hagrid enthusiastically (Lavender quickly withdrew her hand from the box).",
+      "InitialText": "Eurgh Hagrid whats that pointy thing on it? Ah some of em have got stings said Hagrid enthusiastically Lavender quickly withdrew her hand from the box.",
       "TargetText": "I reckon theyre the males The femalesve got sorta sucker things on their bellies I think they might be ter suck blood."
    }
 },
@@ -18697,18 +18613,6 @@
 },
  {
    "Data": {
-      "InitialText": "most difficult.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "I fear the thing you dread will indeed come to pass."
-   }
-},
- {
-   "Data": {
       "InitialText": "I fear the thing you dread will indeed come to pass.",
       "TargetText": "and perhaps sooner than you think."
    }
@@ -18776,12 +18680,12 @@
  {
    "Data": {
       "InitialText": "I fear the thing you dread will indeed come to pass.",
-      "TargetText": "� But Hermione was right Harry thought irritably Professor Trelawney really was an old fraud."
+      "TargetText": " But Hermione was right Harry thought irritably Professor Trelawney really was an old fraud."
    }
 },
  {
    "Data": {
-      "InitialText": "� But Hermione was right Harry thought irritably Professor Trelawney really was an old fraud.",
+      "InitialText": " But Hermione was right Harry thought irritably Professor Trelawney really was an old fraud.",
       "TargetText": "He wasnt dreading anything at the moment at all."
    }
 },
@@ -18931,18 +18835,6 @@
 },
  {
    "Data": {
-      "InitialText": "Thatll take all weekend that will.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Lots of homework? said Hermione brightly catching up with them."
-   }
-},
- {
-   "Data": {
       "InitialText": "Lots of homework? said Hermione brightly catching up with them.",
       "TargetText": "Professor Vector didnt give us any at all! Well bully for Professor Vector said Ron moodily."
    }
@@ -19022,12 +18914,12 @@
  {
    "Data": {
       "InitialText": "Everyone in the entrance hall was listening now.",
-      "TargetText": "Malfoy straightened the paper with a flourish and read on: Arnold Weasley who was charged with possession of a flying car two years ago was yesterday involved in a tussle with several Muggle law�keepers (policemen) over a number of highly aggressive dustbins."
+      "TargetText": "Malfoy straightened the paper with a flourish and read on: Arnold Weasley who was charged with possession of a flying car two years ago was yesterday involved in a tussle with several Muggle law�keepers policemen over a number of highly aggressive dustbins."
    }
 },
  {
    "Data": {
-      "InitialText": "Malfoy straightened the paper with a flourish and read on: Arnold Weasley who was charged with possession of a flying car two years ago was yesterday involved in a tussle with several Muggle law�keepers (policemen) over a number of highly aggressive dustbins.",
+      "InitialText": "Malfoy straightened the paper with a flourish and read on: Arnold Weasley who was charged with possession of a flying car two years ago was yesterday involved in a tussle with several Muggle law�keepers policemen over a number of highly aggressive dustbins.",
       "TargetText": "Mr Weasley appears to have rushed to the aid of Mad�Eye Moody the aged ex�Auror who retired from the Ministry when no longer able to tell the difference between a handshake and attempted murder."
    }
 },
@@ -20264,12 +20156,12 @@
  {
    "Data": {
       "InitialText": "Only one known person has ever survived it and hes sitting right in front of me.",
-      "TargetText": "Harry felt his face redden as Moodys eyes (both of them) looked into his own."
+      "TargetText": "Harry felt his face redden as Moodys eyes both of them looked into his own."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry felt his face redden as Moodys eyes (both of them) looked into his own.",
+      "InitialText": "Harry felt his face redden as Moodys eyes both of them looked into his own.",
       "TargetText": "He could feel everyone else looking around at him too."
    }
 },
@@ -20930,12 +20822,12 @@
  {
    "Data": {
       "InitialText": "Yeah youll be betting Ill win my fight.",
-      "TargetText": "They continued to make up predictions (which grew steadily more tragic) for another hour while the common room around them slowly emptied as people went up to bed."
+      "TargetText": "They continued to make up predictions which grew steadily more tragic for another hour while the common room around them slowly emptied as people went up to bed."
    }
 },
  {
    "Data": {
-      "InitialText": "They continued to make up predictions (which grew steadily more tragic) for another hour while the common room around them slowly emptied as people went up to bed.",
+      "InitialText": "They continued to make up predictions which grew steadily more tragic for another hour while the common room around them slowly emptied as people went up to bed.",
       "TargetText": "Crookshanks wandered over to them leapt lightly into an empty chair and stared inscrutably at Harry rather as Hermione might look if she knew they werent doing their homework properly."
    }
 },
@@ -21524,12 +21416,12 @@
  {
    "Data": {
       "InitialText": "Dont worry about me my head feels completely normal.",
-      "TargetText": "Harry He then climbed out of the portrait hole up through the silent castle (held up only briefly by Peeves who tried to overturn a large vase on him halfway along the fourth�floor corridor) finally arriving at the Owlery which was situated at the top of West Tower."
+      "TargetText": "Harry He then climbed out of the portrait hole up through the silent castle held up only briefly by Peeves who tried to overturn a large vase on him halfway along the fourth�floor corridor finally arriving at the Owlery which was situated at the top of West Tower."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry He then climbed out of the portrait hole up through the silent castle (held up only briefly by Peeves who tried to overturn a large vase on him halfway along the fourth�floor corridor) finally arriving at the Owlery which was situated at the top of West Tower.",
+      "InitialText": "Harry He then climbed out of the portrait hole up through the silent castle held up only briefly by Peeves who tried to overturn a large vase on him halfway along the fourth�floor corridor finally arriving at the Owlery which was situated at the top of West Tower.",
       "TargetText": "The Owlery was a circular stone room rather cold and drafty because none of the windows had glass in them."
    }
 },
@@ -21878,12 +21770,12 @@
  {
    "Data": {
       "InitialText": "Look at that you lot.",
-      "TargetText": "Potter fought! He fought it and he damn near beat it! Well try that again Potter and the rest of you pay attention watch his eyes thats where you see it very good Potter very good indeed! Theyll have trouble controlling you! The way he talks Harry muttered as he hobbled out of the Defense Against the Dark Arts class an hour later (Moody had insisted on putting Harry through his paces four times in a row until Harry could throw off the curse entirely) youd think we were all going to be attacked any second."
+      "TargetText": "Potter fought! He fought it and he damn near beat it! Well try that again Potter and the rest of you pay attention watch his eyes thats where you see it very good Potter very good indeed! Theyll have trouble controlling you! The way he talks Harry muttered as he hobbled out of the Defense Against the Dark Arts class an hour later Moody had insisted on putting Harry through his paces four times in a row until Harry could throw off the curse entirely youd think we were all going to be attacked any second."
    }
 },
  {
    "Data": {
-      "InitialText": "Potter fought! He fought it and he damn near beat it! Well try that again Potter and the rest of you pay attention watch his eyes thats where you see it very good Potter very good indeed! Theyll have trouble controlling you! The way he talks Harry muttered as he hobbled out of the Defense Against the Dark Arts class an hour later (Moody had insisted on putting Harry through his paces four times in a row until Harry could throw off the curse entirely) youd think we were all going to be attacked any second.",
+      "InitialText": "Potter fought! He fought it and he damn near beat it! Well try that again Potter and the rest of you pay attention watch his eyes thats where you see it very good Potter very good indeed! Theyll have trouble controlling you! The way he talks Harry muttered as he hobbled out of the Defense Against the Dark Arts class an hour later Moody had insisted on putting Harry through his paces four times in a row until Harry could throw off the curse entirely youd think we were all going to be attacked any second.",
       "TargetText": "Yeah I know said Ron who was skipping on every alternate step."
    }
 },
@@ -22095,18 +21987,6 @@
    "Data": {
       "InitialText": "Only a week away! said Ernie Macmillan of Hufflepuff emerging from the crowd his eyes gleaming.",
       "TargetText": "I wonder if Cedric knows? Think Ill go and tell him."
-   }
-},
- {
-   "Data": {
-      "InitialText": "I wonder if Cedric knows? Think Ill go and tell him.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Cedric? said Ron blankly as Ernie hurried off."
    }
 },
  {
@@ -22472,12 +22352,12 @@
  {
    "Data": {
       "InitialText": "Many regarded the whole thing as a joke.",
-      "TargetText": "Ron now rolled his eyes at the ceiling which was flooding them all in autumn sunlight and Fred became extremely interested in his bacon (both twins had refused to buy a S."
+      "TargetText": "Ron now rolled his eyes at the ceiling which was flooding them all in autumn sunlight and Fred became extremely interested in his bacon both twins had refused to buy a S."
    }
 },
  {
    "Data": {
-      "InitialText": "Ron now rolled his eyes at the ceiling which was flooding them all in autumn sunlight and Fred became extremely interested in his bacon (both twins had refused to buy a S.",
+      "InitialText": "Ron now rolled his eyes at the ceiling which was flooding them all in autumn sunlight and Fred became extremely interested in his bacon both twins had refused to buy a S.",
       "TargetText": "P."
    }
 },
@@ -22496,12 +22376,12 @@
  {
    "Data": {
       "InitialText": "W.",
-      "TargetText": "badge)."
+      "TargetText": "badge."
    }
 },
  {
    "Data": {
-      "InitialText": "badge).",
+      "InitialText": "badge.",
       "TargetText": "George however leaned in toward Hermione."
    }
 },
@@ -22826,12 +22706,12 @@
  {
    "Data": {
       "InitialText": "A second later the carriage landed too bouncing upon its vast wheels while the golden horses tossed their enormous heads and rolled large fiery red eyes.",
-      "TargetText": "Harry just had time to see that the door of the carriage bore a coat of arms (two crossed golden wands each emitting three stars) before it opened."
+      "TargetText": "Harry just had time to see that the door of the carriage bore a coat of arms two crossed golden wands each emitting three stars before it opened."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry just had time to see that the door of the carriage bore a coat of arms (two crossed golden wands each emitting three stars) before it opened.",
+      "InitialText": "Harry just had time to see that the door of the carriage bore a coat of arms two crossed golden wands each emitting three stars before it opened.",
       "TargetText": "A boy in pale blue robes jumped down from the carriage bent forward fumbled for a moment with something on the carriage floor and unfolded a set of golden steps."
    }
 },
@@ -22868,12 +22748,12 @@
  {
    "Data": {
       "InitialText": "Harry had only ever seen one person as large as this woman in his life and that was Hagrid; he doubted whether there was an inch difference in their heights.",
-      "TargetText": "Yet somehow maybe simply because he was used to Hagrid this woman (now at the foot of the steps and looking around at the waiting wide�eyed crowd) seemed even more unnaturally large."
+      "TargetText": "Yet somehow maybe simply because he was used to Hagrid this woman now at the foot of the steps and looking around at the waiting wide�eyed crowd seemed even more unnaturally large."
    }
 },
  {
    "Data": {
-      "InitialText": "Yet somehow maybe simply because he was used to Hagrid this woman (now at the foot of the steps and looking around at the waiting wide�eyed crowd) seemed even more unnaturally large.",
+      "InitialText": "Yet somehow maybe simply because he was used to Hagrid this woman now at the foot of the steps and looking around at the waiting wide�eyed crowd seemed even more unnaturally large.",
       "TargetText": "As she stepped into the light flooding from the entrance hall she was revealed to have a handsome olive�skinned face; large black liquid�looking eyes; and a rather beaky nose."
    }
 },
@@ -22958,12 +22838,12 @@
  {
    "Data": {
       "InitialText": "A few had wrapped scarves and shawls around their heads.",
-      "TargetText": "From what Harry could see of them (they were standing in Madame Maximes enormous shadow) they were staring up at Hogwarts with apprehensive looks on their faces."
+      "TargetText": "From what Harry could see of them they were standing in Madame Maximes enormous shadow they were staring up at Hogwarts with apprehensive looks on their faces."
    }
 },
  {
    "Data": {
-      "InitialText": "From what Harry could see of them (they were standing in Madame Maximes enormous shadow) they were staring up at Hogwarts with apprehensive looks on their faces.",
+      "InitialText": "From what Harry could see of them they were standing in Madame Maximes enormous shadow they were staring up at Hogwarts with apprehensive looks on their faces.",
       "TargetText": "As Karkaroff arrived yet? Madame Maxime asked."
    }
 },
@@ -23192,12 +23072,12 @@
  {
    "Data": {
       "InitialText": "How are you my dear fellow how are you? Blooming thank you Professor Karkaroff Dumbledore replied.",
-      "TargetText": "Karkaroff had a fruity unctuous voice; when he stepped into the light pouring from the front doors of the castle they saw that he was tall and thin like Dumbledore but his white hair was short and his goatee (finishing in a small curl) did not entirely hide his rather weak chin."
+      "TargetText": "Karkaroff had a fruity unctuous voice; when he stepped into the light pouring from the front doors of the castle they saw that he was tall and thin like Dumbledore but his white hair was short and his goatee finishing in a small curl did not entirely hide his rather weak chin."
    }
 },
  {
    "Data": {
-      "InitialText": "Karkaroff had a fruity unctuous voice; when he stepped into the light pouring from the front doors of the castle they saw that he was tall and thin like Dumbledore but his white hair was short and his goatee (finishing in a small curl) did not entirely hide his rather weak chin.",
+      "InitialText": "Karkaroff had a fruity unctuous voice; when he stepped into the light pouring from the front doors of the castle they saw that he was tall and thin like Dumbledore but his white hair was short and his goatee finishing in a small curl did not entirely hide his rather weak chin.",
       "TargetText": "When he reached Dumbledore he shook hands with both of his own."
    }
 },
@@ -24812,12 +24692,12 @@
  {
    "Data": {
       "InitialText": "Thought you lotd forgotten where I live! Weve been really busy Hag Hermione started to say but then she stopped dead looking up at Hagrid apparently lost for words.",
-      "TargetText": "Hagrid was wearing his best (and very horrible) hairy brown suit plus a checked yellow�and�orange tie."
+      "TargetText": "Hagrid was wearing his best and very horrible hairy brown suit plus a checked yellow�and�orange tie."
    }
 },
  {
    "Data": {
-      "InitialText": "Hagrid was wearing his best (and very horrible) hairy brown suit plus a checked yellow�and�orange tie.",
+      "InitialText": "Hagrid was wearing his best and very horrible hairy brown suit plus a checked yellow�and�orange tie.",
       "TargetText": "This wasnt the worst of it though; he had evidently tried to tame his hair using large quantities of what appeared to be axle grease."
    }
 },
@@ -29708,12 +29588,12 @@
  {
    "Data": {
       "InitialText": "In the meantime life became even worse for Harry within the confines of the castle for Rita Skeeter had published her piece about the Triwizard Tournament and it had turned out to be not so much a report on the tournament as a highly colored life story of Harry.",
-      "TargetText": "Much of the front page had been given over to a picture of Harry; the article (continuing on pages two six and seven) had been all about Harry the names of the Beauxbatons and Durmstrang champions (misspelled) had been squashed into the last line of the article and Cedric hadnt been mentioned at all."
+      "TargetText": "Much of the front page had been given over to a picture of Harry; the article continuing on pages two six and seven had been all about Harry the names of the Beauxbatons and Durmstrang champions misspelled had been squashed into the last line of the article and Cedric hadnt been mentioned at all."
    }
 },
  {
    "Data": {
-      "InitialText": "Much of the front page had been given over to a picture of Harry; the article (continuing on pages two six and seven) had been all about Harry the names of the Beauxbatons and Durmstrang champions (misspelled) had been squashed into the last line of the article and Cedric hadnt been mentioned at all.",
+      "InitialText": "Much of the front page had been given over to a picture of Harry; the article continuing on pages two six and seven had been all about Harry the names of the Beauxbatons and Durmstrang champions misspelled had been squashed into the last line of the article and Cedric hadnt been mentioned at all.",
       "TargetText": "The article had appeared ten days ago and Harry still got a sick burning feeling of shame in his stomach every time he thought about it."
    }
 },
@@ -30464,12 +30344,12 @@
  {
    "Data": {
       "InitialText": "Moody however paused his magical eye on the corner where Harry was standing.",
-      "TargetText": "He tapped Hagrid in the small of the back (being unable to reach his shoulder) muttered something to him and then the pair of them made their way back across the pub toward Harry and Hermiones table."
+      "TargetText": "He tapped Hagrid in the small of the back being unable to reach his shoulder muttered something to him and then the pair of them made their way back across the pub toward Harry and Hermiones table."
    }
 },
  {
    "Data": {
-      "InitialText": "He tapped Hagrid in the small of the back (being unable to reach his shoulder) muttered something to him and then the pair of them made their way back across the pub toward Harry and Hermiones table.",
+      "InitialText": "He tapped Hagrid in the small of the back being unable to reach his shoulder muttered something to him and then the pair of them made their way back across the pub toward Harry and Hermiones table.",
       "TargetText": "All right Hermione? said Hagrid loudly."
    }
 },
@@ -30801,18 +30681,6 @@
    "Data": {
       "InitialText": "Madame Maxime closed the door behind her Hagrid offered her his arm and they set off around the edge of the paddock containing Madame Maximes giant winged horses with Harry totally bewildered running to keep up with them.",
       "TargetText": "Had Hagrid wanted to show him Madame Maxime? He could see her any old time he wanted."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Had Hagrid wanted to show him Madame Maxime? He could see her any old time he wanted.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "she wasnt exactly hard to miss."
    }
 },
  {
@@ -31389,18 +31257,6 @@
    "Data": {
       "InitialText": "Im For a second Harry tried to say fine but he couldnt do it.",
       "TargetText": "Before he could stop himself he was talking more than hed talked in days about how no one believed he hadnt entered the tournament of his own free will how Rita Skeeter had lied about him in the Daily Prophet how he couldnt walk down a corridor without being sneered at and about Ron Ron not believing him Rons jealousy."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Before he could stop himself he was talking more than hed talked in days about how no one believed he hadnt entered the tournament of his own free will how Rita Skeeter had lied about him in the Daily Prophet how he couldnt walk down a corridor without being sneered at and about Ron Ron not believing him Rons jealousy.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and now Hagrids just shown me whats coming in the first task and its dragons Sirius and Im a goner he finished desperately."
    }
 },
  {
@@ -32138,12 +31994,12 @@
  {
    "Data": {
       "InitialText": "Somehow the knowledge that he would rather be here and facing a dragon than back on Privet Drive with Dudley was good to know; it made him feel slightly calmer.",
-      "TargetText": "He finished his bacon with difficulty (his throat wasnt working too well) and as he and Hermione got up he saw Cedric Diggory leaving the Hufflepuff table."
+      "TargetText": "He finished his bacon with difficulty his throat wasnt working too well and as he and Hermione got up he saw Cedric Diggory leaving the Hufflepuff table."
    }
 },
  {
    "Data": {
-      "InitialText": "He finished his bacon with difficulty (his throat wasnt working too well) and as he and Hermione got up he saw Cedric Diggory leaving the Hufflepuff table.",
+      "InitialText": "He finished his bacon with difficulty his throat wasnt working too well and as he and Hermione got up he saw Cedric Diggory leaving the Hufflepuff table.",
       "TargetText": "Cedric still didnt know about the dragons."
    }
 },
@@ -33110,12 +32966,12 @@
  {
    "Data": {
       "InitialText": "It was a state of nervousness so advanced that he wondered whether he mightnt just lose his head when they tried to lead him out to his dragon and start trying to curse everyone in sight.",
-      "TargetText": "Time was behaving in a more peculiar fashion than ever rushing past in great dollops so that one moment he seemed to be sitting down in his first lesson History of Magic and the next walking into lunch and then (where had the morning gone? the last of the dragon�free hours?) Professor McGonagall was hurrying over to him in the Great Hall."
+      "TargetText": "Time was behaving in a more peculiar fashion than ever rushing past in great dollops so that one moment he seemed to be sitting down in his first lesson History of Magic and the next walking into lunch and then where had the morning gone? the last of the dragon�free hours? Professor McGonagall was hurrying over to him in the Great Hall."
    }
 },
  {
    "Data": {
-      "InitialText": "Time was behaving in a more peculiar fashion than ever rushing past in great dollops so that one moment he seemed to be sitting down in his first lesson History of Magic and the next walking into lunch and then (where had the morning gone? the last of the dragon�free hours?) Professor McGonagall was hurrying over to him in the Great Hall.",
+      "InitialText": "Time was behaving in a more peculiar fashion than ever rushing past in great dollops so that one moment he seemed to be sitting down in his first lesson History of Magic and the next walking into lunch and then where had the morning gone? the last of the dragon�free hours? Professor McGonagall was hurrying over to him in the Great Hall.",
       "TargetText": "Lots of people were watching."
    }
 },
@@ -35240,18 +35096,18 @@
  {
    "Data": {
       "InitialText": "Been teaching long? she added to Hagrid.",
-      "TargetText": "Harry noticed her eyes travel over Dean (who had a nasty cut across one cheek)."
+      "TargetText": "Harry noticed her eyes travel over Dean who had a nasty cut across one cheek."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry noticed her eyes travel over Dean (who had a nasty cut across one cheek).",
-      "TargetText": "Lavender (whose robes were badly singed) Seamus (who was nursing several burnt fingers) and then to the cabin windows where most of the class stood their noses pressed against the glass waiting to see if the coast was clear."
+      "InitialText": "Harry noticed her eyes travel over Dean who had a nasty cut across one cheek.",
+      "TargetText": "Lavender whose robes were badly singed Seamus who was nursing several burnt fingers and then to the cabin windows where most of the class stood their noses pressed against the glass waiting to see if the coast was clear."
    }
 },
  {
    "Data": {
-      "InitialText": "Lavender (whose robes were badly singed) Seamus (who was nursing several burnt fingers) and then to the cabin windows where most of the class stood their noses pressed against the glass waiting to see if the coast was clear.",
+      "InitialText": "Lavender whose robes were badly singed Seamus who was nursing several burnt fingers and then to the cabin windows where most of the class stood their noses pressed against the glass waiting to see if the coast was clear.",
       "TargetText": "This is ony me second year said Hagrid."
    }
 },
@@ -35492,12 +35348,12 @@
  {
    "Data": {
       "InitialText": "But the Fat Lady had barely begun to swing forward when the sound of racing feet behind them announced Hermiones arrival.",
-      "TargetText": "Harry! she panted skidding to a halt beside him (the Fat Lady stared down at her eyebrows raised)."
+      "TargetText": "Harry! she panted skidding to a halt beside him the Fat Lady stared down at her eyebrows raised."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry! she panted skidding to a halt beside him (the Fat Lady stared down at her eyebrows raised).",
+      "InitialText": "Harry! she panted skidding to a halt beside him the Fat Lady stared down at her eyebrows raised.",
       "TargetText": "Harry youve got to come youve got to come the most amazing things happened� please She seized Harrys arm and started to try to drag him back along the corridor."
    }
 },
@@ -36218,12 +36074,12 @@
  {
    "Data": {
       "InitialText": "You is seeing him here at Hogwarts? Yes said Hermione he and Mr Bagman are judges in the Triwizard Tournament.",
-      "TargetText": "Mr Bagman comes too? squeaked Winky and to Harry s great surprise (and Rons and Hermiones too by the looks on their faces) she looked angry again."
+      "TargetText": "Mr Bagman comes too? squeaked Winky and to Harry s great surprise and Rons and Hermiones too by the looks on their faces she looked angry again."
    }
 },
  {
    "Data": {
-      "InitialText": "Mr Bagman comes too? squeaked Winky and to Harry s great surprise (and Rons and Hermiones too by the looks on their faces) she looked angry again.",
+      "InitialText": "Mr Bagman comes too? squeaked Winky and to Harry s great surprise and Rons and Hermiones too by the looks on their faces she looked angry again.",
       "TargetText": "Mr Bagman is a bad wizard! A very bad wizard! My master isnt liking him oh no not at all! Bagman bad? said Harry."
    }
 },
@@ -36338,12 +36194,12 @@
  {
    "Data": {
       "InitialText": "Once the shocks worn off and shes got used to Hogwarts shell see how much better off she is without that Crouch man.",
-      "TargetText": "She seems to love him said Ron thickly (he had just started on a cream cake)."
+      "TargetText": "She seems to love him said Ron thickly he had just started on a cream cake."
    }
 },
  {
    "Data": {
-      "InitialText": "She seems to love him said Ron thickly (he had just started on a cream cake).",
+      "InitialText": "She seems to love him said Ron thickly he had just started on a cream cake.",
       "TargetText": "Doesnt think much of Bagman though does she? said Harry."
    }
 },
@@ -36398,12 +36254,12 @@
  {
    "Data": {
       "InitialText": "Potter! Weasley! Will you pay attention? Professor McGonagalls irritated voice cracked like a whip through the Transfiguration class on Thursday and Harry and Ron both jumped and looked up.",
-      "TargetText": "It was the end of the lesson; they had finished their work; the guinea fowl they had been changing into guinea pigs had been shut away in a large cage on Professor McGonagalls desk (Nevilles still had feathers); they had copied down their homework from the blackboard (Describe with examples the ways in which Transforming Spells must be adapted when performing Cross�Species Switches}."
+      "TargetText": "It was the end of the lesson; they had finished their work; the guinea fowl they had been changing into guinea pigs had been shut away in a large cage on Professor McGonagalls desk Nevilles still had feathers; they had copied down their homework from the blackboard Describe with examples the ways in which Transforming Spells must be adapted when performing Cross�Species Switches}."
    }
 },
  {
    "Data": {
-      "InitialText": "It was the end of the lesson; they had finished their work; the guinea fowl they had been changing into guinea pigs had been shut away in a large cage on Professor McGonagalls desk (Nevilles still had feathers); they had copied down their homework from the blackboard (Describe with examples the ways in which Transforming Spells must be adapted when performing Cross�Species Switches}.",
+      "InitialText": "It was the end of the lesson; they had finished their work; the guinea fowl they had been changing into guinea pigs had been shut away in a large cage on Professor McGonagalls desk Nevilles still had feathers; they had copied down their homework from the blackboard Describe with examples the ways in which Transforming Spells must be adapted when performing Cross�Species Switches}.",
       "TargetText": "The bell was due to ring at any moment and Harry and Ron who had been having a sword fight with a couple of Fred and Georges fake wands at the back of the class looked up Ron holding a tin parrot and Harry a rubber haddock."
    }
 },
@@ -36722,12 +36578,12 @@
  {
    "Data": {
       "InitialText": "The girl walked off looking rather hurt and Harry had to endure Deans Seamuss and Rons taunts about her all through History of Magic.",
-      "TargetText": "The following day two more girls asked him a second year and (to his horror) a fifth year who looked as though she might knock him out if he refused."
+      "TargetText": "The following day two more girls asked him a second year and to his horror a fifth year who looked as though she might knock him out if he refused."
    }
 },
  {
    "Data": {
-      "InitialText": "The following day two more girls asked him a second year and (to his horror) a fifth year who looked as though she might knock him out if he refused.",
+      "InitialText": "The following day two more girls asked him a second year and to his horror a fifth year who looked as though she might knock him out if he refused.",
       "TargetText": "She was quite good�looking said Ron fairly after hed stopped laughing."
    }
 },
@@ -36878,12 +36734,12 @@
  {
    "Data": {
       "InitialText": "Potter has been crossing lines ever since he first arrived at this school.",
-      "TargetText": "� Said that did he? said Hagrid while Ron and Hermione laughed."
+      "TargetText": " Said that did he? said Hagrid while Ron and Hermione laughed."
    }
 },
  {
    "Data": {
-      "InitialText": "� Said that did he? said Hagrid while Ron and Hermione laughed.",
+      "InitialText": " Said that did he? said Hagrid while Ron and Hermione laughed.",
       "TargetText": "Well yeh mightve bent a few rules."
    }
 },
@@ -36944,12 +36800,12 @@
  {
    "Data": {
       "InitialText": "It seemed to be fact however that he had booked the Weird Sisters.",
-      "TargetText": "Exactly who or what the Weird Sisters were Harry didnt know never having had access to a wizards wireless but he deduced from the wild excitement of those who had grown up listening to the WWN (Wizarding Wireless Network) that they were a very famous musical group."
+      "TargetText": "Exactly who or what the Weird Sisters were Harry didnt know never having had access to a wizards wireless but he deduced from the wild excitement of those who had grown up listening to the WWN Wizarding Wireless Network that they were a very famous musical group."
    }
 },
  {
    "Data": {
-      "InitialText": "Exactly who or what the Weird Sisters were Harry didnt know never having had access to a wizards wireless but he deduced from the wild excitement of those who had grown up listening to the WWN (Wizarding Wireless Network) that they were a very famous musical group.",
+      "InitialText": "Exactly who or what the Weird Sisters were Harry didnt know never having had access to a wizards wireless but he deduced from the wild excitement of those who had grown up listening to the WWN Wizarding Wireless Network that they were a very famous musical group.",
       "TargetText": "Some of the teachers like little Professor Flitwick gave up trying to teach them much when their minds were so clearly elsewhere; he allowed them to play games in his lesson on Wednesday and spent most of it talking to Harry about the perfect Summoning Charm Harry had used during the first task of the Triwizard Tournament."
    }
 },
@@ -37418,12 +37274,12 @@
  {
    "Data": {
       "InitialText": "Ill meet you at dinner he said to Ron and Hermione and he dashed off upstairs.",
-      "TargetText": "Hed just have to ask Cho for a private word that was all He hurried off through the packed corridors looking for her and (rather sooner than he had expected) he found her emerging from a Defense Against the Dark Arts lesson."
+      "TargetText": "Hed just have to ask Cho for a private word that was all He hurried off through the packed corridors looking for her and rather sooner than he had expected he found her emerging from a Defense Against the Dark Arts lesson."
    }
 },
  {
    "Data": {
-      "InitialText": "Hed just have to ask Cho for a private word that was all He hurried off through the packed corridors looking for her and (rather sooner than he had expected) he found her emerging from a Defense Against the Dark Arts lesson.",
+      "InitialText": "Hed just have to ask Cho for a private word that was all He hurried off through the packed corridors looking for her and rather sooner than he had expected he found her emerging from a Defense Against the Dark Arts lesson.",
       "TargetText": "Er Cho? Could I have a word with you? Giggling should be made illegal."
    }
 },
@@ -38210,12 +38066,12 @@
  {
    "Data": {
       "InitialText": "The house�elves down in the kitchen were outdoing themselves with a series of rich warming stews and savory puddings and only Fleur Delacour seemed to be able to find anything to complain about.",
-      "TargetText": "It is too eavy all zis Ogwarts food they heard her saying grumpily as they left the Great Hall behind her one evening (Ron skulking behind Harry keen not to be spotted by Fleur)."
+      "TargetText": "It is too eavy all zis Ogwarts food they heard her saying grumpily as they left the Great Hall behind her one evening Ron skulking behind Harry keen not to be spotted by Fleur."
    }
 },
  {
    "Data": {
-      "InitialText": "It is too eavy all zis Ogwarts food they heard her saying grumpily as they left the Great Hall behind her one evening (Ron skulking behind Harry keen not to be spotted by Fleur).",
+      "InitialText": "It is too eavy all zis Ogwarts food they heard her saying grumpily as they left the Great Hall behind her one evening Ron skulking behind Harry keen not to be spotted by Fleur.",
       "TargetText": "I will not fit into my dress robes! Oooh theres a tragedy Hermione snapped as Fleur went out into the entrance hall."
    }
 },
@@ -38762,12 +38618,12 @@
  {
    "Data": {
       "InitialText": "Hermione had given Harry a book called Quidditch Teams of Britain and Ireland; Ron a bulging bag of Dungbombs; Sirius a handy penknife with attachments to unlock any lock and undo any knot; and Hagrid a vast box of sweets including all Harrys favorites: Bertie Botts Every Flavor Beans Chocolate Frogs Droobles Best Blowing Gum and Fizzing Whizbees.",
-      "TargetText": "There was also of course Mrs Weasleys usual package including a new sweater (green with a picture of a dragon on it Harry supposed Charlie had told her all about the Horntail) and a large quantity of homemade mince pies."
+      "TargetText": "There was also of course Mrs Weasleys usual package including a new sweater green with a picture of a dragon on it Harry supposed Charlie had told her all about the Horntail and a large quantity of homemade mince pies."
    }
 },
  {
    "Data": {
-      "InitialText": "There was also of course Mrs Weasleys usual package including a new sweater (green with a picture of a dragon on it Harry supposed Charlie had told her all about the Horntail) and a large quantity of homemade mince pies.",
+      "InitialText": "There was also of course Mrs Weasleys usual package including a new sweater green with a picture of a dragon on it Harry supposed Charlie had told her all about the Horntail and a large quantity of homemade mince pies.",
       "TargetText": "Harry and Ron met up with Hermione in the common room and they went down to breakfast together."
    }
 },
@@ -39608,24 +39464,24 @@
  {
    "Data": {
       "InitialText": "Were supposed to dance! Harry tripped over his dress robes as he stood up.",
-      "TargetText": "The Weird Sisters struck up a slow mournful tune; Harry walked onto the brightly lit dance floor carefully avoiding catching anyones eye (he could see Seamus and Dean waving at him and sniggering) and next moment Parvati had seized his hands placed one around her waist and was holding the other tightly in hers."
+      "TargetText": "The Weird Sisters struck up a slow mournful tune; Harry walked onto the brightly lit dance floor carefully avoiding catching anyones eye he could see Seamus and Dean waving at him and sniggering and next moment Parvati had seized his hands placed one around her waist and was holding the other tightly in hers."
    }
 },
  {
    "Data": {
-      "InitialText": "The Weird Sisters struck up a slow mournful tune; Harry walked onto the brightly lit dance floor carefully avoiding catching anyones eye (he could see Seamus and Dean waving at him and sniggering) and next moment Parvati had seized his hands placed one around her waist and was holding the other tightly in hers.",
+      "InitialText": "The Weird Sisters struck up a slow mournful tune; Harry walked onto the brightly lit dance floor carefully avoiding catching anyones eye he could see Seamus and Dean waving at him and sniggering and next moment Parvati had seized his hands placed one around her waist and was holding the other tightly in hers.",
       "TargetText": "It wasnt as bad as it could have been."
    }
 },
  {
    "Data": {
       "InitialText": "It wasnt as bad as it could have been.",
-      "TargetText": "Harry thought revolving slowly on the spot (Parvati was steering)."
+      "TargetText": "Harry thought revolving slowly on the spot Parvati was steering."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry thought revolving slowly on the spot (Parvati was steering).",
+      "InitialText": "Harry thought revolving slowly on the spot Parvati was steering.",
       "TargetText": "He kept his eyes fixed over the heads of the watching people and very soon many of them too had come onto the dance floor so that the champions were no longer the center of attention."
    }
 },
@@ -40165,18 +40021,6 @@
 },
  {
    "Data": {
-      "InitialText": "He and Ron set off along one of the winding paths through the rosebushes but they had gone only a short way when they heard an unpleasantly familiar voice.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "dont see what there is to fuss about Igor."
-   }
-},
- {
-   "Data": {
       "InitialText": "dont see what there is to fuss about Igor.",
       "TargetText": "Severus you cannot pretend this isnt happening! Karkaroffs voice sounded anxious and hushed as though keen not to be overheard."
    }
@@ -40328,24 +40172,24 @@
  {
    "Data": {
       "InitialText": "This didnt sound like the sort of scene they ought to walk in on somehow Harry looked around back up the path and saw Fleur Delacour and Roger Davies standing half�concealed in a rosebush nearby.",
-      "TargetText": "He tapped Ron on the shoulder and jerked his head toward them meaning that they could easily sneak off that way without being noticed (Fleur and Davies looked very busy to Harry) but Ron eyes widening in horror at the sight of Fleur shook his head vigorously and pulled Harry deeper into the shadows behind the reindeer."
+      "TargetText": "He tapped Ron on the shoulder and jerked his head toward them meaning that they could easily sneak off that way without being noticed Fleur and Davies looked very busy to Harry but Ron eyes widening in horror at the sight of Fleur shook his head vigorously and pulled Harry deeper into the shadows behind the reindeer."
    }
 },
  {
    "Data": {
-      "InitialText": "He tapped Ron on the shoulder and jerked his head toward them meaning that they could easily sneak off that way without being noticed (Fleur and Davies looked very busy to Harry) but Ron eyes widening in horror at the sight of Fleur shook his head vigorously and pulled Harry deeper into the shadows behind the reindeer.",
+      "InitialText": "He tapped Ron on the shoulder and jerked his head toward them meaning that they could easily sneak off that way without being noticed Fleur and Davies looked very busy to Harry but Ron eyes widening in horror at the sight of Fleur shook his head vigorously and pulled Harry deeper into the shadows behind the reindeer.",
       "TargetText": "What did you know Agrid? said Madame Maxime a purr in her low voice."
    }
 },
  {
    "Data": {
       "InitialText": "What did you know Agrid? said Madame Maxime a purr in her low voice.",
-      "TargetText": "Harry definitely didnt want to listen to this; he knew Hagrid would hate to be overheard in a situation like this (he certainly would have) if it had been possible he would have put his fingers in his ears and hummed loudly but that wasnt really an option."
+      "TargetText": "Harry definitely didnt want to listen to this; he knew Hagrid would hate to be overheard in a situation like this he certainly would have if it had been possible he would have put his fingers in his ears and hummed loudly but that wasnt really an option."
    }
 },
  {
    "Data": {
-      "InitialText": "Harry definitely didnt want to listen to this; he knew Hagrid would hate to be overheard in a situation like this (he certainly would have) if it had been possible he would have put his fingers in his ears and hummed loudly but that wasnt really an option.",
+      "InitialText": "Harry definitely didnt want to listen to this; he knew Hagrid would hate to be overheard in a situation like this he certainly would have if it had been possible he would have put his fingers in his ears and hummed loudly but that wasnt really an option.",
       "TargetText": "Instead he tried to interest himself in a beetle crawling along the stone reindeers back but the beetle just wasnt interesting enough to block out Hagrids next words."
    }
 },
@@ -41120,12 +40964,12 @@
  {
    "Data": {
       "InitialText": "It was time now to think of the homework they had neglected during the first week of the holidays.",
-      "TargetText": "Everybody seemed to be feeling rather flat now that Christmas was over everybody except Harry that is who was starting (once again) to feel slightly nervous."
+      "TargetText": "Everybody seemed to be feeling rather flat now that Christmas was over everybody except Harry that is who was starting once again to feel slightly nervous."
    }
 },
  {
    "Data": {
-      "InitialText": "Everybody seemed to be feeling rather flat now that Christmas was over everybody except Harry that is who was starting (once again) to feel slightly nervous.",
+      "InitialText": "Everybody seemed to be feeling rather flat now that Christmas was over everybody except Harry that is who was starting once again to feel slightly nervous.",
       "TargetText": "The trouble was that February the twenty�fourth looked a lot closer from this side of Christmas and he still hadnt done anything about working out the clue inside the golden egg."
    }
 },
@@ -42308,12 +42152,12 @@
  {
    "Data": {
       "InitialText": "Ive got people looking of course.",
-      "TargetText": "(About time thought Harry) and its all very strange."
+      "TargetText": "About time thought Harry and its all very strange."
    }
 },
  {
    "Data": {
-      "InitialText": "(About time thought Harry) and its all very strange.",
+      "InitialText": "About time thought Harry and its all very strange.",
       "TargetText": "She definitely arrived in Albania because she met her second cousin there."
    }
 },
@@ -42362,19 +42206,7 @@
  {
    "Data": {
       "InitialText": "Bagman seemed to know he wasnt being honest.",
-      "TargetText": "Listen Harry he said (still in a very low voice) I feel very bad about all this."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Listen Harry he said (still in a very low voice) I feel very bad about all this.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "you were thrown into this tournament you didnt volunteer for it."
+      "TargetText": "Listen Harry he said still in a very low voice I feel very bad about all this."
    }
 },
  {
@@ -42386,12 +42218,12 @@
  {
    "Data": {
       "InitialText": "and if.",
-      "TargetText": "(his voice was so quiet now Harry had to lean closer to listen) if I can help at all."
+      "TargetText": "his voice was so quiet now Harry had to lean closer to listen if I can help at all."
    }
 },
  {
    "Data": {
-      "InitialText": "(his voice was so quiet now Harry had to lean closer to listen) if I can help at all.",
+      "InitialText": "his voice was so quiet now Harry had to lean closer to listen if I can help at all.",
       "TargetText": "a prod in the right direction."
    }
 },
@@ -42759,18 +42591,6 @@
    "Data": {
       "InitialText": "Harry Ron and Hermione glaring at her as she approached.",
       "TargetText": "She was talking fast and looking very satisfied about something."
-   }
-},
- {
-   "Data": {
-      "InitialText": "She was talking fast and looking very satisfied about something.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "didnt seem very keen to talk to us did he Bozo? Now why would that be do you think? And whats he doing with a pack of goblins in tow anyway? Showing them the sights."
    }
 },
  {
@@ -43622,12 +43442,12 @@
  {
    "Data": {
       "InitialText": "On Thursday night Harry sneaked up to bed put on the cloak crept back downstairs and just as he had done on the night when Hagrid had shown him the dragons waited for the portrait hole to open.",
-      "TargetText": "This time it was Ron who waited outside to give the Fat Lady the password (banana fritters) Good luck Ron muttered climbing into the room as Harry crept out past him."
+      "TargetText": "This time it was Ron who waited outside to give the Fat Lady the password banana fritters Good luck Ron muttered climbing into the room as Harry crept out past him."
    }
 },
  {
    "Data": {
-      "InitialText": "This time it was Ron who waited outside to give the Fat Lady the password (banana fritters) Good luck Ron muttered climbing into the room as Harry crept out past him.",
+      "InitialText": "This time it was Ron who waited outside to give the Fat Lady the password banana fritters Good luck Ron muttered climbing into the room as Harry crept out past him.",
       "TargetText": "It was awkward moving under the cloak tonight because Harry had the heavy egg under one arm and the map held in front of his nose with the other."
    }
 },
@@ -44013,18 +43833,6 @@
    "Data": {
       "InitialText": "It took three more underwater renditions of the eggs song before Harry had it memorized; then he trod water for a while thinking hard while Myrtle sat and watched him.",
       "TargetText": "Ive got to go and look for people who cant use their voices above the ground."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Ive got to go and look for people who cant use their voices above the ground.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "he said slowly."
    }
 },
  {
@@ -44576,12 +44384,12 @@
  {
    "Data": {
       "InitialText": "My sweet! Mrs Norris was obviously with him This is a Triwizard clue! This belongs to a school champion! Harry felt sick; his heart was hammering very fast PEEVES! Filch roared gleefully.",
-      "TargetText": "Youve been stealing! He ripped back the tapestry below and Harry saw his horrible pouchy face and bulging pale eyes staring up the dark and (to Filch) deserted staircase."
+      "TargetText": "Youve been stealing! He ripped back the tapestry below and Harry saw his horrible pouchy face and bulging pale eyes staring up the dark and to Filch deserted staircase."
    }
 },
  {
    "Data": {
-      "InitialText": "Youve been stealing! He ripped back the tapestry below and Harry saw his horrible pouchy face and bulging pale eyes staring up the dark and (to Filch) deserted staircase.",
+      "InitialText": "Youve been stealing! He ripped back the tapestry below and Harry saw his horrible pouchy face and bulging pale eyes staring up the dark and to Filch deserted staircase.",
       "TargetText": "Hiding are you? he said softly."
    }
 },
@@ -44643,18 +44451,6 @@
    "Data": {
       "InitialText": "Snape climbed up the stairs quickly and stopped beside Filch.",
       "TargetText": "Harry gritted his teeth convinced his loudly thumping heart would give him away at any second."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Harry gritted his teeth convinced his loudly thumping heart would give him away at any second.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Peeves? said Snape softly staring at the egg in Filchs hands."
    }
 },
  {
@@ -45866,12 +45662,12 @@
  {
    "Data": {
       "InitialText": "Harry had been recounting his adventures of the previous night in whispered installments for the last half hour.",
-      "TargetText": "Snape said Moodys searched his office as well? Ron whispered his eyes alight with interest as he Banished a cushion with a sweep of his wand (it soared into the air and knocked Parvatis hat off)."
+      "TargetText": "Snape said Moodys searched his office as well? Ron whispered his eyes alight with interest as he Banished a cushion with a sweep of his wand it soared into the air and knocked Parvatis hat off."
    }
 },
  {
    "Data": {
-      "InitialText": "Snape said Moodys searched his office as well? Ron whispered his eyes alight with interest as he Banished a cushion with a sweep of his wand (it soared into the air and knocked Parvatis hat off).",
+      "InitialText": "Snape said Moodys searched his office as well? Ron whispered his eyes alight with interest as he Banished a cushion with a sweep of his wand it soared into the air and knocked Parvatis hat off.",
       "TargetText": "What."
    }
 },
@@ -46064,30 +45860,30 @@
  {
    "Data": {
       "InitialText": "Just as it had before he faced the Horntail time was slipping away as though somebody had bewitched the clocks to go extra�fast.",
-      "TargetText": "There was a week to go before February the twenty�fourth (there was still time)."
+      "TargetText": "There was a week to go before February the twenty�fourth there was still time."
    }
 },
  {
    "Data": {
-      "InitialText": "There was a week to go before February the twenty�fourth (there was still time).",
-      "TargetText": "there were five days to go (he was bound to find something soon)."
+      "InitialText": "There was a week to go before February the twenty�fourth there was still time.",
+      "TargetText": "there were five days to go he was bound to find something soon."
    }
 },
  {
    "Data": {
-      "InitialText": "there were five days to go (he was bound to find something soon).",
-      "TargetText": "three days to go (please let me find something."
+      "InitialText": "there were five days to go he was bound to find something soon.",
+      "TargetText": "three days to go please let me find something."
    }
 },
  {
    "Data": {
-      "InitialText": "three days to go (please let me find something.",
-      "TargetText": "please)."
+      "InitialText": "three days to go please let me find something.",
+      "TargetText": "please."
    }
 },
  {
    "Data": {
-      "InitialText": "please).",
+      "InitialText": "please.",
       "TargetText": "With two days left."
    }
 },
@@ -46916,12 +46712,12 @@
  {
    "Data": {
       "InitialText": "theyve got Ron? The thing Harry Potter will miss most sir! squeaked Dobby.",
-      "TargetText": "But past an hour� � the prospects black Harry recited staring horror�struck at the elf."
+      "TargetText": "But past an hour�  the prospects black Harry recited staring horror�struck at the elf."
    }
 },
  {
    "Data": {
-      "InitialText": "But past an hour� � the prospects black Harry recited staring horror�struck at the elf.",
+      "InitialText": "But past an hour�  the prospects black Harry recited staring horror�struck at the elf.",
       "TargetText": "Too late its gone it wont come back."
    }
 },
@@ -47425,18 +47221,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry swam on past the rock following the mersong.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "your times half gone so tarry not Lest what you seek stays here to rot."
-   }
-},
- {
-   "Data": {
       "InitialText": "your times half gone so tarry not Lest what you seek stays here to rot.",
       "TargetText": "A cluster of crude stone dwellings stained with algae loomed suddenly out of the gloom on all sides."
    }
@@ -47582,12 +47366,12 @@
  {
    "Data": {
       "InitialText": "We do not help he said in a harsh croaky voice.",
-      "TargetText": "Come ON! Harry said fiercely (but only bubbles issued from his mouth) and he tried to pull the spear away from the merman but the merman yanked it back still shaking his head and laughing."
+      "TargetText": "Come ON! Harry said fiercely but only bubbles issued from his mouth and he tried to pull the spear away from the merman but the merman yanked it back still shaking his head and laughing."
    }
 },
  {
    "Data": {
-      "InitialText": "Come ON! Harry said fiercely (but only bubbles issued from his mouth) and he tried to pull the spear away from the merman but the merman yanked it back still shaking his head and laughing.",
+      "InitialText": "Come ON! Harry said fiercely but only bubbles issued from his mouth and he tried to pull the spear away from the merman but the merman yanked it back still shaking his head and laughing.",
       "TargetText": "Harry swirled around staring about."
    }
 },
@@ -47888,18 +47672,18 @@
  {
    "Data": {
       "InitialText": "One.",
-      "TargetText": "(he put down a finger) two."
+      "TargetText": "he put down a finger two."
    }
 },
  {
    "Data": {
-      "InitialText": "(he put down a finger) two.",
-      "TargetText": "(he put down a second one) They scattered."
+      "InitialText": "he put down a finger two.",
+      "TargetText": "he put down a second one They scattered."
    }
 },
  {
    "Data": {
-      "InitialText": "(he put down a second one) They scattered.",
+      "InitialText": "he put down a second one They scattered.",
       "TargetText": "Harry darted forward and began to hack at the ropes binding the small girl to the statue and at last she was free."
    }
 },
@@ -48086,12 +47870,12 @@
  {
    "Data": {
       "InitialText": "Gabrielle! Gabrielle! Is she alive? Is she urt? Shes fine! Harry tried to tell her but he was so exhausted he could hardly talk let alone shout.",
-      "TargetText": "Percy seized Ron and was dragging him back to the bank (Gerroff Percy Im all right!); Dumbledore and Bagman were pulling Harry upright; Fleur had broken free of Madame Maxime and was hugging her sister."
+      "TargetText": "Percy seized Ron and was dragging him back to the bank Gerroff Percy Im all right!; Dumbledore and Bagman were pulling Harry upright; Fleur had broken free of Madame Maxime and was hugging her sister."
    }
 },
  {
    "Data": {
-      "InitialText": "Percy seized Ron and was dragging him back to the bank (Gerroff Percy Im all right!); Dumbledore and Bagman were pulling Harry upright; Fleur had broken free of Madame Maxime and was hugging her sister.",
+      "InitialText": "Percy seized Ron and was dragging him back to the bank Gerroff Percy Im all right!; Dumbledore and Bagman were pulling Harry upright; Fleur had broken free of Madame Maxime and was hugging her sister.",
       "TargetText": "It was ze grindylows."
    }
 },
@@ -48111,18 +47895,6 @@
    "Data": {
       "InitialText": "oh Gabrielle I thought.",
       "TargetText": "I thought."
-   }
-},
- {
-   "Data": {
-      "InitialText": "I thought.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Come here you said Madam Pomfrey."
    }
 },
  {
@@ -48177,18 +47949,6 @@
    "Data": {
       "InitialText": "You haff a water beetle in your hair Herm�own�ninny said Krum.",
       "TargetText": "Harry had the impression that Krum was drawing her attention back onto himself; perhaps to remind her that he had just rescued her from the lake but Hermione brushed away the beetle impatiently and said Youre well outside the time limit though Harry."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Harry had the impression that Krum was drawing her attention back onto himself; perhaps to remind her that he had just rescued her from the lake but Hermione brushed away the beetle impatiently and said Youre well outside the time limit though Harry.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Did it take you ages to find us? No."
    }
 },
  {
@@ -48284,12 +48044,12 @@
  {
    "Data": {
       "InitialText": "Yeah said Harry who was now heartily wishing hed left all three girls tied to the statue.",
-      "TargetText": "Fleur bent down kissed Harry twice on each cheek (he felt his face burn and wouldnt have been surprised if steam was coming out of his ears again) then said to Ron And you too�you elped Yeah said Ron looking extremely hopeful yeah a bit Fleur swooped down on him too and kissed him."
+      "TargetText": "Fleur bent down kissed Harry twice on each cheek he felt his face burn and wouldnt have been surprised if steam was coming out of his ears again then said to Ron And you too�you elped Yeah said Ron looking extremely hopeful yeah a bit Fleur swooped down on him too and kissed him."
    }
 },
  {
    "Data": {
-      "InitialText": "Fleur bent down kissed Harry twice on each cheek (he felt his face burn and wouldnt have been surprised if steam was coming out of his ears again) then said to Ron And you too�you elped Yeah said Ron looking extremely hopeful yeah a bit Fleur swooped down on him too and kissed him.",
+      "InitialText": "Fleur bent down kissed Harry twice on each cheek he felt his face burn and wouldnt have been surprised if steam was coming out of his ears again then said to Ron And you too�you elped Yeah said Ron looking extremely hopeful yeah a bit Fleur swooped down on him too and kissed him.",
       "TargetText": "Hermione looked simply furious but just then Ludo Bagmans magically magnified voice boomed out beside them making them all jump and causing the crowd in the stands to go very quiet."
    }
 },
@@ -48590,12 +48350,12 @@
  {
    "Data": {
       "InitialText": "Siriuss letter was almost as short as the previous one.",
-      "TargetText": "Be at stile at end of road out of Hogsmeade (past Dervish and Banges) at two oclock on Saturday afternoon."
+      "TargetText": "Be at stile at end of road out of Hogsmeade past Dervish and Banges at two oclock on Saturday afternoon."
    }
 },
  {
    "Data": {
-      "InitialText": "Be at stile at end of road out of Hogsmeade (past Dervish and Banges) at two oclock on Saturday afternoon.",
+      "InitialText": "Be at stile at end of road out of Hogsmeade past Dervish and Banges at two oclock on Saturday afternoon.",
       "TargetText": "Bring as much food as you can."
    }
 },
@@ -49010,12 +48770,12 @@
  {
    "Data": {
       "InitialText": "Potter whats ailing you now? A boy like no other perhaps.",
-      "TargetText": "� Harry could feel his face burning."
+      "TargetText": " Harry could feel his face burning."
    }
 },
  {
    "Data": {
-      "InitialText": "� Harry could feel his face burning.",
+      "InitialText": " Harry could feel his face burning.",
       "TargetText": "Snape was pausing at the end of every sentence to allow the Slytherins a hearty laugh."
    }
 },
@@ -49029,18 +48789,6 @@
    "Data": {
       "InitialText": "The article sounded ten times worse when read by Snape.",
       "TargetText": "Even Hermione was blushing scarlet now."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Even Hermione was blushing scarlet now.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Harry Potters well�wishers must hope that next time he bestows his heart upon a worthier candidate."
    }
 },
  {
@@ -49136,12 +48884,12 @@
  {
    "Data": {
       "InitialText": "No doubt he was hoping for an excuse to take a round fifty points from Gryffindor before the end of the class.",
-      "TargetText": "You might be laboring under the delusion that the entire wizarding world is impressed with you Snape went on so quietly that no one else could hear him (Harry continued to pound his scarab beetles even though he had already reduced them to a very fine powder) but I dont care how many times your picture appears in the papers."
+      "TargetText": "You might be laboring under the delusion that the entire wizarding world is impressed with you Snape went on so quietly that no one else could hear him Harry continued to pound his scarab beetles even though he had already reduced them to a very fine powder but I dont care how many times your picture appears in the papers."
    }
 },
  {
    "Data": {
-      "InitialText": "You might be laboring under the delusion that the entire wizarding world is impressed with you Snape went on so quietly that no one else could hear him (Harry continued to pound his scarab beetles even though he had already reduced them to a very fine powder) but I dont care how many times your picture appears in the papers.",
+      "InitialText": "You might be laboring under the delusion that the entire wizarding world is impressed with you Snape went on so quietly that no one else could hear him Harry continued to pound his scarab beetles even though he had already reduced them to a very fine powder but I dont care how many times your picture appears in the papers.",
       "TargetText": "To me."
    }
 },
@@ -49323,18 +49071,6 @@
    "Data": {
       "InitialText": "And then.",
       "TargetText": "Potter."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Potter.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "then well find out whether youve been in my office or not."
    }
 },
  {
@@ -50589,18 +50325,6 @@
    "Data": {
       "InitialText": "He was screaming for his mother by nightfall.",
       "TargetText": "He went quiet after a few days though."
-   }
-},
- {
-   "Data": {
-      "InitialText": "He went quiet after a few days though.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "they all went quiet in the end."
    }
 },
  {
@@ -52081,18 +51805,6 @@
 },
  {
    "Data": {
-      "InitialText": "Hang on said Hagrid looking down into the crate theres a spare niffler here.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "whos missin? Wheres Hermione? She had to go to the hospital wing said Ron."
-   }
-},
- {
-   "Data": {
       "InitialText": "whos missin? Wheres Hermione? She had to go to the hospital wing said Ron.",
       "TargetText": "Well explain later Harry muttered; Pansy Parkinson was listening."
    }
@@ -52250,12 +51962,12 @@
  {
    "Data": {
       "InitialText": "Yer mother killed innocent people an if you had any decency you d jump in a lake.",
-      "TargetText": "� No! said Hermione looking shocked."
+      "TargetText": " No! said Hermione looking shocked."
    }
 },
  {
    "Data": {
-      "InitialText": "� No! said Hermione looking shocked.",
+      "InitialText": " No! said Hermione looking shocked.",
       "TargetText": "Yeah said Hagrid heaving the niffler crates over by his cabin wall."
    }
 },
@@ -53317,32 +53029,8 @@
 },
  {
    "Data": {
-      "InitialText": "Isnt he vith your Ministry? Harry nodded hesitated for a moment then walked slowly toward Mr Crouch who did not look at him but continued to talk to a nearby tree.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and when youve done that Weatherby send an owl to Dumbledore confirming the number of Durmstrang students who will be attending the tournament Karkaroff has just sent word there will be twelve."
-   }
-},
- {
-   "Data": {
       "InitialText": "and when youve done that Weatherby send an owl to Dumbledore confirming the number of Durmstrang students who will be attending the tournament Karkaroff has just sent word there will be twelve.",
       "TargetText": "Mr Crouch? said Harry cautiously."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Mr Crouch? said Harry cautiously.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and then send another owl to Madame Maxime because she might want to up the number of students shes bringing now Karkaroffs made it a round dozen."
    }
 },
  {
@@ -53697,18 +53385,6 @@
    "Data": {
       "InitialText": "all my fault.",
       "TargetText": "Bertha."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Bertha.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "dead."
    }
 },
  {
@@ -55915,18 +55591,6 @@
 },
  {
    "Data": {
-      "InitialText": "If you will all look this way I will dim the lights.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "She waved her wand and the lamps went out."
-   }
-},
- {
-   "Data": {
       "InitialText": "She waved her wand and the lamps went out.",
       "TargetText": "The fire was the only source of light now."
    }
@@ -56031,18 +55695,6 @@
    "Data": {
       "InitialText": "a short balding man a man with watery eyes and a pointed nose.",
       "TargetText": "he was wheezing and sobbing on the hearth rug."
-   }
-},
- {
-   "Data": {
-      "InitialText": "he was wheezing and sobbing on the hearth rug.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "You are in luck Wormtail said a cold high�pitched voice from the depths of the chair in which the owl had landed."
    }
 },
  {
@@ -56966,12 +56618,12 @@
  {
    "Data": {
       "InitialText": "Harry looked around him.",
-      "TargetText": "Not one of the witches and wizards in the room (and there were at least two hundred of them) was looking at him."
+      "TargetText": "Not one of the witches and wizards in the room and there were at least two hundred of them was looking at him."
    }
 },
  {
    "Data": {
-      "InitialText": "Not one of the witches and wizards in the room (and there were at least two hundred of them) was looking at him.",
+      "InitialText": "Not one of the witches and wizards in the room and there were at least two hundred of them was looking at him.",
       "TargetText": "Not one of them seemed to have noticed that a fourteen�year�old boy had just dropped from the ceiling into their midst."
    }
 },
@@ -59179,18 +58831,6 @@
 },
  {
    "Data": {
-      "InitialText": "Er he said Mr Bagman.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "has never been accused of any Dark activity since said Dumbledore calmly."
-   }
-},
- {
-   "Data": {
       "InitialText": "has never been accused of any Dark activity since said Dumbledore calmly.",
       "TargetText": "Right said Harry hastily staring at the contents of the Pensieve again which were swirling more slowly now that Dumbledore had stopped adding thoughts."
    }
@@ -59876,12 +59516,12 @@
  {
    "Data": {
       "InitialText": "Alarming evidence has recently come to light about Harry Potters strange behavior which casts doubts upon his suitability to compete in a demanding competition like the Triwizard Tournament or even to attend Hogwarts School.",
-      "TargetText": "Potter the Daily Prophet can exclusively reveal regularly collapses at school and is often heard to complain of pain in the scar on his forehead (relic of the curse with which You�Know�Who attempted to kill him)."
+      "TargetText": "Potter the Daily Prophet can exclusively reveal regularly collapses at school and is often heard to complain of pain in the scar on his forehead relic of the curse with which You�Know�Who attempted to kill him."
    }
 },
  {
    "Data": {
-      "InitialText": "Potter the Daily Prophet can exclusively reveal regularly collapses at school and is often heard to complain of pain in the scar on his forehead (relic of the curse with which You�Know�Who attempted to kill him).",
+      "InitialText": "Potter the Daily Prophet can exclusively reveal regularly collapses at school and is often heard to complain of pain in the scar on his forehead relic of the curse with which You�Know�Who attempted to kill him.",
       "TargetText": "On Monday last midway through a Divination lesson your Daily Prophet reporter witnessed Potter storming from the class claiming that his scar was hurting too badly to continue studying."
    }
 },
@@ -60404,12 +60044,12 @@
  {
    "Data": {
       "InitialText": "She had always refrained from criticizing the Dursleys in front of Harry but her eyes flashed every time they were mentioned.",
-      "TargetText": "Its great being back here said Bill looking around the chamber (Violet the Fat Ladys friend winked at him from her frame)."
+      "TargetText": "Its great being back here said Bill looking around the chamber Violet the Fat Ladys friend winked at him from her frame."
    }
 },
  {
    "Data": {
-      "InitialText": "Its great being back here said Bill looking around the chamber (Violet the Fat Ladys friend winked at him from her frame).",
+      "InitialText": "Its great being back here said Bill looking around the chamber Violet the Fat Ladys friend winked at him from her frame.",
       "TargetText": "Havent seen this place for five years."
    }
 },
@@ -63961,18 +63601,6 @@
 },
  {
    "Data": {
-      "InitialText": "Crucio! The Death Eater on the ground writhed and shrieked; Harry was sure the sound must carry to the houses around Let the police come he thought desperately.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "anyone."
-   }
-},
- {
-   "Data": {
       "InitialText": "anyone.",
       "TargetText": "anything."
    }
@@ -65779,18 +65407,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry didnt understand why he was doing it didnt know what it might achieve.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "but he now concentrated as he had never done in his life on forcing that bead of light right back into Voldemort s wand."
-   }
-},
- {
-   "Data": {
       "InitialText": "but he now concentrated as he had never done in his life on forcing that bead of light right back into Voldemort s wand.",
       "TargetText": "and slowly."
    }
@@ -65864,12 +65480,12 @@
  {
    "Data": {
       "InitialText": "the torso of Cedric Diggory.",
-      "TargetText": "If ever Harry might have released his wand from shock it would have been then but instinct kept him clutching his wand tightly so that the thread of golden light remained unbroken even though the thick gray ghost of Cedric Diggory (was it a ghost? it looked so solid) emerged in its entirety from the end of Voldemort s wand as though it were squeezing itself out of a very narrow tunnel."
+      "TargetText": "If ever Harry might have released his wand from shock it would have been then but instinct kept him clutching his wand tightly so that the thread of golden light remained unbroken even though the thick gray ghost of Cedric Diggory was it a ghost? it looked so solid emerged in its entirety from the end of Voldemort s wand as though it were squeezing itself out of a very narrow tunnel."
    }
 },
  {
    "Data": {
-      "InitialText": "If ever Harry might have released his wand from shock it would have been then but instinct kept him clutching his wand tightly so that the thread of golden light remained unbroken even though the thick gray ghost of Cedric Diggory (was it a ghost? it looked so solid) emerged in its entirety from the end of Voldemort s wand as though it were squeezing itself out of a very narrow tunnel.",
+      "InitialText": "If ever Harry might have released his wand from shock it would have been then but instinct kept him clutching his wand tightly so that the thread of golden light remained unbroken even though the thick gray ghost of Cedric Diggory was it a ghost? it looked so solid emerged in its entirety from the end of Voldemort s wand as though it were squeezing itself out of a very narrow tunnel.",
       "TargetText": "and this shade of Cedric stood up and looked up and down the golden thread of light and spoke."
    }
 },
@@ -66711,18 +66327,6 @@
    "Data": {
       "InitialText": "in here and sit down Youll be all right now.",
       "TargetText": "drink this."
-   }
-},
- {
-   "Data": {
-      "InitialText": "drink this.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Harry heard a key scrape in a lock and felt a cup being pushed into his hands."
    }
 },
  {
@@ -69705,18 +69309,6 @@
    "Data": {
       "InitialText": "dead.",
       "TargetText": "Cedric asking to be returned to his parents."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Cedric asking to be returned to his parents.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Professor Harry mumbled where are Mr and Mrs Diggory? They are with Professor Sprout said Dumbledore."
    }
 },
  {

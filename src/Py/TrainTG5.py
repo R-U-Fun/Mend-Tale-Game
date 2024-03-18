@@ -3,6 +3,7 @@ os.environ['TF_DISABLE_MKL'] = '1'
 import json
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Embedding, LSTM, TimeDistributed
 import numpy as np
@@ -21,12 +22,24 @@ sequences = tokenizer.texts_to_sequences(texts)
 inputs = [seq[:-1] for seq in sequences]  # Exclude the last word
 targets = [seq[1:] for seq in sequences]  # Exclude the first word
 
+# Pad the sequences
+inputs = pad_sequences(inputs, padding='post')
+targets = pad_sequences(targets, padding='post')
+
+# # Convert lists to numpy arrays for better performance
+# inputs = [np.array(seq) for seq in inputs]
+# targets = [np.array(seq) for seq in targets]
+
 # Convert lists to numpy arrays for better performance
-inputs = [np.array(seq) for seq in inputs]
-targets = [np.array(seq) for seq in targets]
+inputs = np.array(inputs)
+targets = np.array(targets)
 
 model = Sequential([
     Embedding(input_dim=10000, output_dim=64),  # Increase the input dimension size
+    LSTM(64, return_sequences=True),
+    LSTM(64, return_sequences=True),
+    LSTM(64, return_sequences=True),
+    LSTM(64, return_sequences=True),
     LSTM(64, return_sequences=True),
     LSTM(64, return_sequences=True),
     LSTM(64, return_sequences=True),
@@ -37,21 +50,18 @@ model = Sequential([
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 try:
-    model.load_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v3_Weights.h5")
+    model.load_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_Whole_v1_Weights.h5")
     print("++++++++++++++++++++++++++++++++WEIGHTS FOUND")
 except:
     print("++++++++++++++++++++++++++++++++NO WEIGHTS FOUND")
 
-L=0
-# Train each sequence individually
-for seq_input, seq_target in zip(inputs, targets):
-    L=L+1
-    print(L)
-    model.fit(np.array([seq_input]), np.array([seq_target]), epochs=50)  # Increase the number of epochs
+model.fit(inputs, targets, epochs=50)
 
-model.save_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v3_Weights.h5")
+model.save_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_Whole_v1_Weights.h5")
 
-model.save("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v3_Model")
+model.save("../../mt_ml_models/MT_DS_HP_AllInParts_TG_Whole_v1_Model")
+
+datetime = datetime.datetime.now()
 
 print(" ")
 print(" ")

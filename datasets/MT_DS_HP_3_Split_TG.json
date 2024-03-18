@@ -1238,7 +1238,7 @@
  {
    "Data": {
       "InitialText": "The Ministry of Agriculture and Fisheries will announce today Hang on! barked Uncle Vernon staring furiously at the reporter.",
-      "TargetText": "You didnt tell us where that maniacs escaped from! \\What use is that? Lunatic could be coming up the street right now! Aunt Petunia who was bony and horse�faced whipped around and peered intently out of the kitchen window."
+      "TargetText": "You didnt tell us where that maniacs escaped from! What use is that? Lunatic could be coming up the street right now! Aunt Petunia who was bony and horse�faced whipped around and peered intently out of the kitchen window."
    }
 },
  {
@@ -7405,18 +7405,6 @@
 },
  {
    "Data": {
-      "InitialText": "He was being dragged downward the roaring growing louder.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "And then from far away he heard screaming terrible terrified pleading screaMs He wanted to help whoever it was he tried to move his arms but couldnt..."
-   }
-},
- {
-   "Data": {
       "InitialText": "And then from far away he heard screaming terrible terrified pleading screaMs He wanted to help whoever it was he tried to move his arms but couldnt...",
       "TargetText": "a thick white fog was swirling around him inside him Harry! Harry! Are you all right? Someone was slapping his face."
    }
@@ -9055,18 +9043,6 @@
 },
  {
    "Data": {
-      "InitialText": "thank you.",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": " When Harry and Ron had had their teacups filled they went back to their table and tried to drink the scalding tea quickly."
-   }
-},
- {
-   "Data": {
       "InitialText": " When Harry and Ron had had their teacups filled they went back to their table and tried to drink the scalding tea quickly.",
       "TargetText": "They swilled the dregs around as Professor Trelawney had instructed then drained the cups and swapped over."
    }
@@ -9369,18 +9345,6 @@
    "Data": {
       "InitialText": "My dear boy...",
       "TargetText": "my poor dear boy no it is kinder not to say.."
-   }
-},
- {
-   "Data": {
-      "InitialText": "my poor dear boy no it is kinder not to say..",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "no..."
    }
 },
  {
@@ -23335,18 +23299,6 @@
 },
  {
    "Data": {
-      "InitialText": "But youll have no sense of self anymore no memory no.",
-      "TargetText": ".."
-   }
-},
- {
-   "Data": {
-      "InitialText": "..",
-      "TargetText": "anything."
-   }
-},
- {
-   "Data": {
       "InitialText": "anything.",
       "TargetText": "Theres no chance at all of recovery."
    }
@@ -25279,18 +25231,6 @@
 },
  {
    "Data": {
-      "InitialText": "Though still severely shaken by the nights events he was happy to tell anyone who asked what had happened with a wealth of detail.",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": "I was asleep and I heard this ripping noise and I thought it was in my dream you know? But then there was this draft..."
-   }
-},
- {
-   "Data": {
       "InitialText": "I was asleep and I heard this ripping noise and I thought it was in my dream you know? But then there was this draft...",
       "TargetText": "I woke up and one side of the hangings on my bed had been pulled down...."
    }
@@ -26169,18 +26109,6 @@
    "Data": {
       "InitialText": "Someone was climbing toward the house from the other side of the hill; moments later Malfoy had appeared followed closely by Crabbe and Goyle.",
       "TargetText": "Malfoy was speaking."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Malfoy was speaking.",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": "should have an owl from Father any time now."
    }
 },
  {
@@ -30625,18 +30553,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry told her about leaving it in the passageway under the one�eyed witch.",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": "if Snape sees me anywhere near there again Im in serious trouble he finished."
-   }
-},
- {
-   "Data": {
       "InitialText": "if Snape sees me anywhere near there again Im in serious trouble he finished.",
       "TargetText": "Thats true said Hermione getting to her feet."
    }
@@ -34879,18 +34795,6 @@
 },
  {
    "Data": {
-      "InitialText": "Finally I managed to communicate to him what I was after and hes been helping me.",
-      "TargetText": ".."
-   }
-},
- {
-   "Data": {
-      "InitialText": "..",
-      "TargetText": "What do you mean? breathed Hermione."
-   }
-},
- {
-   "Data": {
       "InitialText": "What do you mean? breathed Hermione.",
       "TargetText": "He tried to bring Peter to me but couldnt..."
    }
@@ -35793,18 +35697,6 @@
    "Data": {
       "InitialText": "perfectly positioned to act if one hint reached his ears that the Dark Side was gathering strength again....",
       "TargetText": "Pettigrew was shaking his head mouthing noiselessly but staring all the while at Black as though hypnotized."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Pettigrew was shaking his head mouthing noiselessly but staring all the while at Black as though hypnotized.",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": "ready to strike at the moment he could be sure of allies..."
    }
 },
  {
@@ -39421,18 +39313,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry began to fumble with the knot of rope tying Buckbeak to the fence.",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": "sentenced to execution by beheading to be carried out by the Committees appointed executioner Walden Macnai..."
-   }
-},
- {
-   "Data": {
       "InitialText": "sentenced to execution by beheading to be carried out by the Committees appointed executioner Walden Macnai...",
       "TargetText": "Come on Buckbeak Harry murmured come on were going to help you."
    }
@@ -39447,18 +39327,6 @@
    "Data": {
       "InitialText": "Quietly...",
       "TargetText": "quietly..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "quietly...",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": "as witnessed below."
    }
 },
  {
@@ -41457,18 +41325,6 @@
    "Data": {
       "InitialText": "It sounded like Fudge and Snape.",
       "TargetText": "They were walking quickly along the corridor at the foot of the staircase."
-   }
-},
- {
-   "Data": {
-      "InitialText": "They were walking quickly along the corridor at the foot of the staircase.",
-      "TargetText": "..."
-   }
-},
- {
-   "Data": {
-      "InitialText": "...",
-      "TargetText": "only hope Dumbledores not going to make difficulties Snape was saying."
    }
 },
  {

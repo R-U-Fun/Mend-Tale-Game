@@ -1027,18 +1027,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry stepped into the shadow of a large lilac tree and waited.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "squealed like a pig didnt he? Malcolm was saying to guffaws from the others."
-   }
-},
- {
-   "Data": {
       "InitialText": "squealed like a pig didnt he? Malcolm was saying to guffaws from the others.",
       "TargetText": "Nice right hook Big D said Piers."
    }
@@ -8869,18 +8857,6 @@
 },
  {
    "Data": {
-      "InitialText": "Fred George Ron and Mundungus were rolling around in their seats.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and then choked Mundungus tears running down his face and then if youll believe it �e says to me �e says �Ere Dung where did ya get all them toads from? �Cos some son of a Bludgers gone and nicked all mine! And I says �Nicked all your toads Will what next? So youll be wanting some more then? And if youll believe me lads the gormless gargoyle buys all �is own toads back orf me for a lot moren what �e paid in the first place - I dont think we need to hear any more of your business dealings thank you very much Mundungus said Mrs Weasley sharply as Ron slumped forwards on to the table howling with laughter."
-   }
-},
- {
-   "Data": {
       "InitialText": "and then choked Mundungus tears running down his face and then if youll believe it �e says to me �e says �Ere Dung where did ya get all them toads from? �Cos some son of a Bludgers gone and nicked all mine! And I says �Nicked all your toads Will what next? So youll be wanting some more then? And if youll believe me lads the gormless gargoyle buys all �is own toads back orf me for a lot moren what �e paid in the first place - I dont think we need to hear any more of your business dealings thank you very much Mundungus said Mrs Weasley sharply as Ron slumped forwards on to the table howling with laughter.",
       "TargetText": "Beg pardon Molly said Mundungus at once wiping his eyes and winking at Harry."
    }
@@ -11173,18 +11149,6 @@
 },
  {
    "Data": {
-      "InitialText": "Acting as though it could not see them it shuffled hunchbacked slowly and doggedly towards the far end of the room all the while muttering under its breath in a hoarse deep voice like a bullfrogs.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "smells like a drain and a criminal to boot but shes no better nasty old blood traitor with her brats messing up my mistresss house oh my poor mistress if she knew if she knew the scum theyve let into her house what would she say to old Kreacher oh the shame of it Mudbloods and werewolves and traitors and thieves poor old Kreacher what can he do."
-   }
-},
- {
-   "Data": {
       "InitialText": "smells like a drain and a criminal to boot but shes no better nasty old blood traitor with her brats messing up my mistresss house oh my poor mistress if she knew if she knew the scum theyve let into her house what would she say to old Kreacher oh the shame of it Mudbloods and werewolves and traitors and thieves poor old Kreacher what can he do.",
       "TargetText": "Hello Kreacher said Fred very loudly closing the door with a snap."
    }
@@ -11235,18 +11199,6 @@
    "Data": {
       "InitialText": "Harry didnt know whether to laugh or not.",
       "TargetText": "The elf straightened up eyeing them all malevolently and apparently convinced that they could not hear him as he continued to mutter."
-   }
-},
- {
-   "Data": {
-      "InitialText": "The elf straightened up eyeing them all malevolently and apparently convinced that they could not hear him as he continued to mutter.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and theres the Mudblood standing there bold as brass oh if my mistress knew oh how shed cry and theres a new boy Kreacher doesnt know his name."
    }
 },
  {
@@ -11420,12 +11372,12 @@
  {
    "Data": {
       "InitialText": "It seemed that Kreacher did not dare disobey a direct order; nevertheless the look he gave Sirius as he shuffled out past him was full of deepest loathing and he muttered all the way out of the room.",
-      "TargetText": "- comes back from Azkaban ordering Kreacher around oh my poor mistress what would she say if she saw the house now scum living in it her treasures thrown out she swore he was no son of hers and hes back they say hes a murderer too - Keep muttering and I will be a murderer! said Sirius irritably as he slammed the door shut on the elf."
+      "TargetText": "#NAME?"
    }
 },
  {
    "Data": {
-      "InitialText": "- comes back from Azkaban ordering Kreacher around oh my poor mistress what would she say if she saw the house now scum living in it her treasures thrown out she swore he was no son of hers and hes back they say hes a murderer too - Keep muttering and I will be a murderer! said Sirius irritably as he slammed the door shut on the elf.",
+      "InitialText": "#NAME?",
       "TargetText": "Sirius hes not right in the head Hermione pleaded I dont think he realizes we can hear him."
    }
 },
@@ -12579,18 +12531,6 @@
    "Data": {
       "InitialText": "Mrs Weasley sat down on his other side and started fussing with his T-shirt tucking in the label and smoothing out the creases across his shoulders.",
       "TargetText": "He wished she wouldnt."
-   }
-},
- {
-   "Data": {
-      "InitialText": "He wished she wouldnt.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and Ill have to tell Dumbledore I cant do night duty tomorrow Im just too tired Tonks finished yawning hugely again."
    }
 },
  {
@@ -17773,18 +17713,6 @@
 },
  {
    "Data": {
-      "InitialText": "Ron was rhapsodizing about his new broom to anybody who would listen.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "nought to seventy in ten seconds not bad is it? When you think the Comet Two Ninetys only nought to sixty and thats with a decent tailwind according to Which Broomstick? Hermione was talking very earnestly to Lupin about her view of elf rights."
-   }
-},
- {
-   "Data": {
       "InitialText": "nought to seventy in ten seconds not bad is it? When you think the Comet Two Ninetys only nought to sixty and thats with a decent tailwind according to Which Broomstick? Hermione was talking very earnestly to Lupin about her view of elf rights.",
       "TargetText": "I mean its the same kind of nonsense as werewolf segregation isnt it? It all stems from this horrible thing wizards have of thinking theyre superior to other creatures."
    }
@@ -17793,18 +17721,6 @@
    "Data": {
       "InitialText": "I mean its the same kind of nonsense as werewolf segregation isnt it? It all stems from this horrible thing wizards have of thinking theyre superior to other creatures.",
       "TargetText": "Mrs Weasley and Bill were having their usual argument about Bills hair."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Mrs Weasley and Bill were having their usual argument about Bills hair.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "getting really out of hand and youre so good-looking it would look much better shorter wouldnt it Harry? Oh - I dunno - said Harry slightly alarmed at being asked his opinion; he slid away from them in the direction of Fred and George who were huddled in a corner with Mundungus."
    }
 },
  {
@@ -17959,18 +17875,6 @@
 },
  {
    "Data": {
-      "InitialText": "Kingsley Shacklebolts deep voice was audible even over the surrounding chatter.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "why Dumbledore didnt make Potter a prefect? said Kingsley."
-   }
-},
- {
-   "Data": {
       "InitialText": "why Dumbledore didnt make Potter a prefect? said Kingsley.",
       "TargetText": "Hell have had his reasons replied Lupin."
    }
@@ -18009,18 +17913,6 @@
    "Data": {
       "InitialText": "His pleasure in the party had evaporated as quickly as it had come; he wished he were upstairs in bed.",
       "TargetText": "Mad-Eye Moody was sniffing at a chicken-leg with what remained of his nose; evidently he could not detect any trace of poison because he then tore a strip off it with his teeth."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Mad-Eye Moody was sniffing at a chicken-leg with what remained of his nose; evidently he could not detect any trace of poison because he then tore a strip off it with his teeth.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "the handles made of Spanish oak with anti-jinx varnish and in-built vibration control - Ron was saying to Tonks."
    }
 },
  {
@@ -18813,18 +18705,6 @@
    "Data": {
       "InitialText": "His parents wove in and out of his dreams never speaking; Mrs Weasley sobbed over Kreachers dead body watched by Ron and Hermione who were wearing crowns and yet again Harry found himself walking down a corridor ending in a locked door.",
       "TargetText": "He awoke abruptly with his scar prickling to find Ron already dressed and talking to him."
-   }
-},
- {
-   "Data": {
-      "InitialText": "He awoke abruptly with his scar prickling to find Ron already dressed and talking to him.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "better hurry up Mums going ballistic she says were going to miss the train."
    }
 },
  {
@@ -22185,18 +22065,6 @@
    "Data": {
       "InitialText": "Harry had the impression that a full-scale riot could have broken out under her nose and she would have ploughed on with her speech.",
       "TargetText": "The teachers however were still listening very attentively and Hermione seemed to be drinking in every word Umbridge spoke though judging by her expression they were not at all to her taste."
-   }
-},
- {
-   "Data": {
-      "InitialText": "The teachers however were still listening very attentively and Hermione seemed to be drinking in every word Umbridge spoke though judging by her expression they were not at all to her taste.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "because some changes will be for the better while others will come in the fullness of time to be recognized as errors of judgment."
    }
 },
  {
@@ -29961,18 +29829,6 @@
    "Data": {
       "InitialText": "What? said Ron looking alarmed.",
       "TargetText": "You didnt say - Shh! said the other two."
-   }
-},
- {
-   "Data": {
-      "InitialText": "You didnt say - Shh! said the other two.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "�warns wizarding community that Black is very dangerous."
    }
 },
  {
@@ -38935,18 +38791,6 @@
 },
  {
    "Data": {
-      "InitialText": "They found Fred and George debating whether to use one of their own Skiving Snackboxes to get out of flying.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "but I bet shed know what wed done Fred said out of the corner of his mouth."
-   }
-},
- {
-   "Data": {
       "InitialText": "but I bet shed know what wed done Fred said out of the corner of his mouth.",
       "TargetText": "If only I hadnt offered to sell her some Puking Pastilles yesterday."
    }
@@ -39625,104 +39469,8 @@
 },
  {
    "Data": {
-      "InitialText": "These plants are most efficacious in the inflaming of the brain and are therefore much used in Confusing and Befuddlement Draughts where the wizard is desirous of producing hot-headedness and recklessness.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Hermione said Sirius was becoming reckless cooped up in Grimmauld Place."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Hermione said Sirius was becoming reckless cooped up in Grimmauld Place.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "most efficacious in the inflaming of the brain and are therefore much used."
-   }
-},
- {
-   "Data": {
-      "InitialText": "most efficacious in the inflaming of the brain and are therefore much used.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "the Daily Prophet would think his brain was inflamed if they found out that he knew what Voldemort was feeling."
-   }
-},
- {
-   "Data": {
-      "InitialText": "the Daily Prophet would think his brain was inflamed if they found out that he knew what Voldemort was feeling.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "therefore much used in Confusing and Befuddlement Draughts."
-   }
-},
- {
-   "Data": {
-      "InitialText": "therefore much used in Confusing and Befuddlement Draughts.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "confusing was the word all right; why did he know what Voldemort was feeling? What was this weird connection between them which Dumbledore had never been able to explain satisfactorily? ."
-   }
-},
- {
-   "Data": {
       "InitialText": "confusing was the word all right; why did he know what Voldemort was feeling? What was this weird connection between them which Dumbledore had never been able to explain satisfactorily? .",
       "TargetText": "where the wizard is desirous."
-   }
-},
- {
-   "Data": {
-      "InitialText": "where the wizard is desirous.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "how Harry would like to sleep."
-   }
-},
- {
-   "Data": {
-      "InitialText": "how Harry would like to sleep.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "producing hot-headedness."
-   }
-},
- {
-   "Data": {
-      "InitialText": "producing hot-headedness.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "it was warm and comfortable in his armchair before the fire with the rain still beating heavily on the windowpanes Crookshanks purring and the crackling of the flames."
    }
 },
  {
@@ -41990,12 +41738,12 @@
  {
    "Data": {
       "InitialText": "#NAME?",
-      "TargetText": "- so its the first test for new Gryffindor Keeper Weasley brother of Beaters Fred and George and a promising new talent on the team - come on Ron! But the scream of delight came from the Slytherins end: Ron had dived wildly his arms wide and the Quaffle had soared between them straight through Rons central hoop."
+      "TargetText": "#NAME?"
    }
 },
  {
    "Data": {
-      "InitialText": "- so its the first test for new Gryffindor Keeper Weasley brother of Beaters Fred and George and a promising new talent on the team - come on Ron! But the scream of delight came from the Slytherins end: Ron had dived wildly his arms wide and the Quaffle had soared between them straight through Rons central hoop.",
+      "InitialText": "#NAME?",
       "TargetText": "Slytherin score! came Lees voice amid the cheering and booing from the crowds below so thats ten-nil to Slytherin - bad luck Ron."
    }
 },
@@ -42056,12 +41804,12 @@
  {
    "Data": {
       "InitialText": "As he sped past the Slytherin Keeper he heard Bletchley singing along with the crowd below: WEASLEY CANNOT SAVE A THING.",
-      "TargetText": "- and Puceys dodged Alicia again and hes heading straight for goal stop it Ron! Harry did not have to look to see what had happened: there was a terrible groan from the Gryffindor end coupled with fresh screams and applause from the Slytherins."
+      "TargetText": "#NAME?"
    }
 },
  {
    "Data": {
-      "InitialText": "- and Puceys dodged Alicia again and hes heading straight for goal stop it Ron! Harry did not have to look to see what had happened: there was a terrible groan from the Gryffindor end coupled with fresh screams and applause from the Slytherins.",
+      "InitialText": "#NAME?",
       "TargetText": "Looking down Harry saw the pug-faced Pansy Parkinson right at the front of the stands her back to the pitch as she conducted the Slytherin supporters who were roaring: THATS WHY SLYTHERINS ALL SING WEASLEY ISOUR KING."
    }
 },
@@ -51199,18 +50947,6 @@
 },
  {
    "Data": {
-      "InitialText": "At first Harry could hear nothing then he jumped as he heard Tonks whispering as clearly as though she were standing right beside him.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "they searched the whole area but couldnt find the snake anywhere."
-   }
-},
- {
-   "Data": {
       "InitialText": "they searched the whole area but couldnt find the snake anywhere.",
       "TargetText": "It just seems to have vanished after it attacked you Arthur."
    }
@@ -52219,18 +51955,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry started pacing up and down the room again thinking",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "What they were all saying was not only comforting it made sense."
-   }
-},
- {
-   "Data": {
       "InitialText": "What they were all saying was not only comforting it made sense.",
       "TargetText": "without really thinking he took a sandwich from the plate on the bed and crammed it hungrily into his mouth."
    }
@@ -52982,12 +52706,12 @@
  {
    "Data": {
       "InitialText": "Tis a most grievous affliction of the skin young master that will leave you pockmarked and more gruesome even than you are now - Watch who youre calling gruesome! said Ron his ears turning red.",
-      "TargetText": "- the only remedy is to take the liver of a toad bind it tight about your throat stand naked at the full moon in a barrel of eels eyes - I have not got spattergroit! But the unsightly blemishes upon your visage young master - Theyre freckles! said Ron furiously."
+      "TargetText": "#NAME?"
    }
 },
  {
    "Data": {
-      "InitialText": "- the only remedy is to take the liver of a toad bind it tight about your throat stand naked at the full moon in a barrel of eels eyes - I have not got spattergroit! But the unsightly blemishes upon your visage young master - Theyre freckles! said Ron furiously.",
+      "InitialText": "#NAME?",
       "TargetText": "Now get back in your own picture and leave me alone! He rounded on the others who were all keeping determinedly straight faces."
    }
 },
@@ -59583,18 +59307,6 @@
    "Data": {
       "InitialText": "said Harry pulling a dish of rhubarb crumble towards him and helping himself to seconds a complete fiasco now you mention it.",
       "TargetText": "And he told her what had happened in Madam Puddifoots teashop."
-   }
-},
- {
-   "Data": {
-      "InitialText": "And he told her what had happened in Madam Puddifoots teashop.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "so then he finished several minutes later as the final bit of crumble disappeared she jumps up right and says �Ill see you around Harry an d runs out of the place! He put down his spoon and looked at Hermione."
    }
 },
  {
@@ -69025,18 +68737,6 @@
 },
  {
    "Data": {
-      "InitialText": "For the first time ever she was at least as inattentive to Professor Binns in History of Magic as Harry and Ron were keeping up a stream of whispered admonitions that Harry tried very hard to ignore.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and if she does catch you there apart from being expelled shell be able to guess youve been talking to Snuffles and this time I expect shell force you to drink Veritaserum and answer her questions."
-   }
-},
- {
-   "Data": {
       "InitialText": "and if she does catch you there apart from being expelled shell be able to guess youve been talking to Snuffles and this time I expect shell force you to drink Veritaserum and answer her questions.",
       "TargetText": "Hermione said Ron in a low and indignant voice are you going to stop telling Harry off and listen to Binns or am I going to have to take my own notes? You take notes for a change it wont kill you! By the time they reached the dungeons neither Harry nor Ron was speaking to Hermione."
    }
@@ -71187,18 +70887,6 @@
    "Data": {
       "InitialText": "Lee Jordan who had been very dispirited since Fred and George had left was commentating as usual.",
       "TargetText": "As the teams zoomed out on to the pitch he named the players with something less than his usual gusto."
-   }
-},
- {
-   "Data": {
-      "InitialText": "As the teams zoomed out on to the pitch he named the players with something less than his usual gusto.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Bradley."
    }
 },
  {
@@ -75489,18 +75177,6 @@
    "Data": {
       "InitialText": "He was sitting right behind Parvati Patil whose long dark hair fell below the back of her chair.",
       "TargetText": "Once or twice he found himself staring at the tiny golden lights that glistened in it when she moved her head slightly and had to give his own head a little shake to clear it."
-   }
-},
- {
-   "Data": {
-      "InitialText": "Once or twice he found himself staring at the tiny golden lights that glistened in it when she moved her head slightly and had to give his own head a little shake to clear it.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "the first Supreme Mugwump of the International Confederation of Wizards was Pierre Bonaccord but his appointment was contested by the wizarding community of Liechtenstein because - All around Harry quills were scratching on parchment like scurrying burrowing rats."
    }
 },
  {
@@ -81421,18 +81097,6 @@
 },
  {
    "Data": {
-      "InitialText": "Two figures pearly-white as ghosts fluid as smoke unfurled themselves from the fragments of broken glass upon the floor and each began to speak; their voices vied with each other so that only fragments of what they were saying could be heard over Malfoy and Bellatrixs shouts.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "at the solstice will come a new."
-   }
-},
- {
-   "Data": {
       "InitialText": "at the solstice will come a new.",
       "TargetText": "said the figure of an old bearded man."
    }
@@ -81441,18 +81105,6 @@
    "Data": {
       "InitialText": "said the figure of an old bearded man.",
       "TargetText": "DO NOT ATTACK! WE NEED THE PROPHECY! He dared - he dares - shrieked Bellatrix incoherently he stands there - filthy half-blood - WAIT UNTIL WEVE GOT THE PROPHECY! bawled Malfoy."
-   }
-},
- {
-   "Data": {
-      "InitialText": "DO NOT ATTACK! WE NEED THE PROPHECY! He dared - he dares - shrieked Bellatrix incoherently he stands there - filthy half-blood - WAIT UNTIL WEVE GOT THE PROPHECY! bawled Malfoy.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "and none will come after."
    }
 },
  {
@@ -87027,18 +86679,6 @@
    "Data": {
       "InitialText": "it was something about neither.",
       "TargetText": "can live."
-   }
-},
- {
-   "Data": {
-      "InitialText": "can live.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "while the other survives said Dumbledore."
    }
 },
  {

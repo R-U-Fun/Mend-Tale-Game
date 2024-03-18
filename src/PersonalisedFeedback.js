@@ -7,7 +7,7 @@ import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
 
 export default async function PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis){
-    let NewPersonalisedFeedback = await fetch('http://localhost:5000/TextGeneration4', {
+    let NewPersonalisedFeedback = await fetch('http://localhost:5000/TextGeneration', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

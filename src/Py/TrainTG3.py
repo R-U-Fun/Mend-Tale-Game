@@ -9,7 +9,7 @@ import numpy as np
 
 import datetime
 
-with open('../../datasets/MT_DS_HP_5_Split_TG.json', 'r', encoding='utf-8') as f:
+with open('../../datasets/MT_DS_HP_1_Split_TG.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 texts = [item['Data']['InitialText'] + ' ' + item['Data']['TargetText'] for item in data]
@@ -37,7 +37,7 @@ model = Sequential([
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 try:
-    model.load_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v3_Weights.h5")
+    model.load_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v2_Weights.h5")
     print("++++++++++++++++++++++++++++++++WEIGHTS FOUND")
 except:
     print("++++++++++++++++++++++++++++++++NO WEIGHTS FOUND")
@@ -49,9 +49,11 @@ for seq_input, seq_target in zip(inputs, targets):
     print(L)
     model.fit(np.array([seq_input]), np.array([seq_target]), epochs=50)  # Increase the number of epochs
 
-model.save_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v3_Weights.h5")
+model.save_weights("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v1_Weights.h5")
 
-model.save("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v3_Model")
+model.save("../../mt_ml_models/MT_DS_HP_AllInParts_TG_v1_Model")
+
+datetime = datetime.datetime.now()
 
 print(" ")
 print(" ")

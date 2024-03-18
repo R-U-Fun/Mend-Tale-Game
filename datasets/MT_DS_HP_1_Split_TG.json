@@ -8030,12 +8030,12 @@
  {
    "Data": {
       "InitialText": "I never know Harry called to Hagrid over the noise of the cart whats the difference between a stalagmite and a stalactite?",
-      "TargetText": "--and he said people from Muggle families shouldnt even be allowed in"
+      "TargetText": "#NAME?"
    }
 },
  {
    "Data": {
-      "InitialText": "--and he said people from Muggle families shouldnt even be allowed in",
+      "InitialText": "#NAME?",
       "TargetText": "Stalagmites got an m in it said Hagrid"
    }
 },
@@ -17024,12 +17024,12 @@
  {
    "Data": {
       "InitialText": "Bet you could Ron muttered",
-      "TargetText": "--and you mustnt go wandering around the school at night think of the points youll lose Gryffindor if youre caught and youre bound to be"
+      "TargetText": "#NAME?"
    }
 },
  {
    "Data": {
-      "InitialText": "--and you mustnt go wandering around the school at night think of the points youll lose Gryffindor if youre caught and youre bound to be",
+      "InitialText": "#NAME?",
       "TargetText": "Its really very selfish of you"
    }
 },

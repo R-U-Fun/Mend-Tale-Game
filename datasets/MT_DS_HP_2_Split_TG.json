@@ -4615,12 +4615,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry Potter got a Nimbus Two Thousand last year.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
       "InitialText": "Special permission from Dumbledore so he could play for Gryffindor.",
       "TargetText": "everyone thinks hes so smart wonderful Potter with his scar and his broomstick - You have told me this at least a dozen times already said Mr.Malfoy with a quelling look at his son."
    }
@@ -4641,12 +4635,6 @@
    "Data": {
       "InitialText": "Malfoy bent down to examine a shelf full of skulls.",
       "TargetText": "Mr.Malfoy what a pleasure to see you again said Mr.Borgin in a voice as oily as his hair."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Delighted - and young Master Malfoy too - charmed."
    }
 },
  {
@@ -9073,12 +9061,6 @@
 },
  {
    "Data": {
-      "InitialText": "What in your opinion is Gilderoy Lockharts greatest achievement to date? On and on it went over three sides of paper right down to: .",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
       "InitialText": "When is Gilderoy Lockharts birthday and what would his ideal gift be? Half an hour later Lockhart collected the papers and rifled through them in front of the class.",
       "TargetText": "but Miss Hermione Granger knew my secret ambition is to rid the world of evil and market my own range of hair-care potions - good girl! In fact - he flipped her paper over - full marks! Where is Miss Hermione Granger? Hermione raised a trembling hand."
    }
@@ -9111,12 +9093,6 @@
    "Data": {
       "InitialText": "Hermione on the other hand was listening to Lockhart with rapt attention and gave a start when he mentioned her name.",
       "TargetText": "All I ask is that you remain calm."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "In spite of himself Harry leaned around his pile of books for a better look at the cage."
    }
 },
  {
@@ -12553,12 +12529,6 @@
 },
  {
    "Data": {
-      "InitialText": "Sir Patrick and the rest of the Headless Hunt had just started a game of Head Hockey and the crowd were turning to watch.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
       "InitialText": "Nearly Headless Nick tried vainly to recapture his audience but gave up as Sir Patricks head went sailing past him to loud cheers.",
       "TargetText": "rip."
    }
@@ -12595,12 +12565,6 @@
 },
  {
    "Data": {
-      "InitialText": ".",
-      "TargetText": "soo hungry."
-   }
-},
- {
-   "Data": {
       "InitialText": "rip.",
       "TargetText": "for so long."
    }
@@ -12609,12 +12573,6 @@
    "Data": {
       "InitialText": "tear.",
       "TargetText": "Listen! said Harry urgently and Ron and Hermione froze watching him."
-   }
-},
- {
-   "Data": {
-      "InitialText": "kill.",
-      "TargetText": "."
    }
 },
  {
@@ -12651,12 +12609,6 @@
    "Data": {
       "InitialText": "Listen! said Harry urgently and Ron and Hermione froze watching him.",
       "TargetText": "It was no good hoping to hear anything here the babble of talk from the Halloween feast was echoing out of the Great Hall."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Harry sprinted up the marble staircase to the first floor Ron and Hermione clattering behind him."
    }
 },
  {
@@ -12997,12 +12949,6 @@
 },
  {
    "Data": {
-      "InitialText": "Snape loomed behind them half in shadow wearing a most peculiar expression: It was as though he was trying hard not to smile.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
       "InitialText": "And Lockhart was hovering around all of them making suggestions.",
       "TargetText": "I remember something very similar happening in Ouagadogou said Lockhart a series of attacks the full storys in my autobiography I was able to provide the townsfolk with various amulets which cleared the matter up at once."
    }
@@ -13035,12 +12981,6 @@
    "Data": {
       "InitialText": "Dumbledore was now muttering strange words under his breath and tapping Mrs.Norris with his wand but nothing happened: She continued to look as though she had been recently stuffed.",
       "TargetText": "Lockhart stopped abruptly in the middle of counting the number of murders he had prevented."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Not dead? choked Filch looking through his fingers at Mrs.Norris."
    }
 },
  {
@@ -13129,12 +13069,6 @@
 },
  {
    "Data": {
-      "InitialText": "I never touched Mrs.Norris! Harry said loudly uncomfortably aware of everyone looking at him including all the Lockharts on the walls.",
-      "TargetText": "."
-   }
-},
- {
-   "Data": {
       "InitialText": "And I dont even know what a Squib is.",
       "TargetText": "there were hundreds of ghosts theyll tell you we were there - But why not join the feast afterward? said Snape his black eyes glittering in the candlelight."
    }
@@ -13167,12 +13101,6 @@
    "Data": {
       "InitialText": "Why was he in the upstairs corridor at all? Why wasnt he at the Halloween feast? Harry Ron and Hermione all launched into an explanation about the deathday party.",
       "TargetText": "We werent hungry said Ron loudly as his stomach gave a huge rumble."
-   }
-},
- {
-   "Data": {
-      "InitialText": ".",
-      "TargetText": "Snapes nasty smile widened."
    }
 },
  {
@@ -27601,12 +27529,6 @@
 },
  {
    "Data": {
-      "InitialText": "Harry thought hard picturing the scene on the night of Halloween.",
-      "TargetText": ":."
-   }
-},
- {
-   "Data": {
       "InitialText": "The water.",
       "TargetText": "The crowing of the rooster."
    }
@@ -27639,12 +27561,6 @@
    "Data": {
       "InitialText": "The more he looked at it the more it made sense.",
       "TargetText": "Harry however pointed at the word Hermione had scribbled at the foot of the page."
-   }
-},
- {
-   "Data": {
-      "InitialText": ":.",
-      "TargetText": "Pipes he said."
    }
 },
  {
