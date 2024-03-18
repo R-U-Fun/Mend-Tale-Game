@@ -48,13 +48,10 @@ async function NewInteraction(NewUserResponseText){
         //PrevNewUserResponseText = PrevNewUserResponseText + ". "+ CurrentUserNameSingleton.getUserName().GameProgress[L].UserResponse + ". ";
         PrevNewUserResponseText = PrevNewUserResponseText + ". "+ CurrentUserNameSingleton.getUserName().GameProgress[L-1].PersonalisedFeedback + ". ";
     }
-    PrevNewUserResponseText = PrevNewUserResponseText + ". " + NewUserResponseText;
-
-    alert(PrevNewUserResponseText);
 
     let NewMachineLearningAnalysis = await MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
 
-    let NewPersonalisedFeedback = await PersonalisedFeedback(PrevNewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
+    let NewPersonalisedFeedback = await PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
 
     const NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;
 
@@ -78,7 +75,15 @@ function NewUserResponse(NewUserResponseText){
     }
     ReactDOM.render(<UserResponseBox NewUserResponseText={NewUserResponseText} index={GameProgressLength} />, document.getElementById('NewResponseBox'));
 
-    alert(NewUserResponseText);
+    ReactDOM.render(
+        <>
+            <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-soundwave"></i></a></td>
+            <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><div class="spinner-border text-primary spinner-border-sm" role="status"></div></a></td>
+        </>
+        , document.getElementById('NewFeedbackBox'));
+
+    ReactDOM.render(<></>, document.getElementById('InputBar'));
+
     NewInteraction(NewUserResponseText);
 }
 
@@ -158,13 +163,15 @@ export default function StartGame(){
                         <ChatRows/>
                         <tr id="NewResponseBox">
                         </tr>
+                        <tr id="NewFeedbackBox">
+                        </tr>
                     </tbody>
                 </table>
             </div>
             <hr/>
-            <div className="input-group mb-3" >
+            <div className="input-group mb-3" id="InputBar" >
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
-                <input type="text" spellCheck="true" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} />
+                <input type="text" spellCheck="true" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef}/>
                 <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
                     if(RespondRef.current.value){
                         NewUserResponse(RespondRef.current.value);

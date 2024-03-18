@@ -15,10 +15,26 @@ export default function HomeLinks(){
     let UserData = CurrentUserNameSingleton.getUserName();
     return(
         <div>
-            <a className="btn btn-outline-primary btn-lg m-2" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px"}}>
+            <a className="btn btn-outline-primary btn-lg m-2 position-relative" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px"}}>
                 &nbsp;&nbsp;&nbsp;
                 <p className="fw-bold"><i className="bi bi-person-fill"></i></p>
                 <p className="fw-bold">{UserData.Username}</p>
+                {(parseInt(UserData.GameProgress.length) > 10) ?
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
+                        <i class="bi bi-star-fill text-primary"></i>
+                    </span>
+                :null}
+                {(parseInt(UserData.GameProgress.length) > 50) ?
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">
+                        <i class="bi bi-star-fill"></i>
+                    </span>
+                :null}
+                {(parseInt(UserData.GameProgress.length) > 100) ?
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                        <i class="bi bi-star-fill"></i>
+                    </span>
+                :null}
+                
             </a><br/>
             <button className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
                 ReactDOM.render(<StartGame />, document.getElementById('Box'));
