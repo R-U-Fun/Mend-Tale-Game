@@ -24,10 +24,10 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
                     GameProgress: [
                         {
                             InteractionID: "0_"+NewUserName+"_"+IDTime ,
-                            UserResponse: "Initial",
-                            JournalEntry: "Initial",
-                            MachineLearningAnalysis: "Initial",
-                            PersonalisedFeedback: "Initial"
+                            UserResponse: "",
+                            JournalEntry: "",
+                            MachineLearningAnalysis: "Neutral",
+                            PersonalisedFeedback: "In a room, there are six people: Halin, Leo, Ethi, Skott, Ariadni, and Frikyn. You feel nervous. Someone knocks on the door. It opens slowly. A shadowy figure stands there. Things feel tense. What will you do?"
                         }
                     ]
                 }

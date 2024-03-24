@@ -9,7 +9,7 @@ import HomePage from './HomePage';
 export default async function MachineLearningAnalysis(NewUserResponseText, NewJournalEntry){
     let Mood6 = ['Happy', 'Excite', 'Love', 'Sad', 'Angry', 'Fear'];
 
-    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
+    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis4', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

@@ -12,11 +12,9 @@ export default function UserProfile(){
     let UserData = CurrentUserNameSingleton.getUserName();
 
     let Achievement = () => {
-        console.log("HELLO");
         if(parseInt(UserData.GameProgress.length) > 10){
-            console.log("HELLO2");
             return(
-                <Confettii />
+                <Confettii/>
             );
         }
     };
@@ -46,13 +44,13 @@ export default function UserProfile(){
                     <tr>
                         <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Badge</a></th>
                         <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>
-                            {(parseInt(UserData.GameProgress.length) > 100) ?
+                            {(parseInt(UserData.GameProgress.length) >= 100) ?
                                 <i class="bi bi-star-fill bg-warning"></i>
                             :null}
-                            {(parseInt(UserData.GameProgress.length) > 50) ?
+                            {(parseInt(UserData.GameProgress.length) >= 50) ?
                                 <i class="bi bi-star-fill bg-secondary"></i>
                             :null}
-                            {(parseInt(UserData.GameProgress.length) > 10) ?
+                            {(parseInt(UserData.GameProgress.length) >= 10) ?
                                 <i class="bi bi-star-fill text-primary"></i>
                             :null}
                         </a></td>

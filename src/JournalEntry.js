@@ -8,20 +8,20 @@ import HomePage from './HomePage';
 
 export default async function JournalEntry(NewUserResponseText){
     
-    let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            UserResponse: NewUserResponseText
-        })
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
-        return data;
-    });
+    // let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis4', {
+    //     method: 'POST',
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify({
+    //         UserResponse: NewUserResponseText
+    //     })
+    // })
+    // .then(response => response.json())
+    // .then(data => {
+    //     console.log(data);
+    //     return data;
+    // });
 
     let Tokens = await fetch('http://localhost:5000/Tokenizer', {
         method: 'POST',
@@ -38,7 +38,7 @@ export default async function JournalEntry(NewUserResponseText){
         return data;
     });
 
-    // let NamedEntityRecognition = await fetch('http://localhost:5000/NamedEntityRecognition', {
+    // let NamedEntityRecognition = await fetch('http://localhost:5000/NamedEntityRecognition2', {
     //     method: 'POST',
     //     headers: {
     //         'Content-Type': 'application/json'
@@ -59,6 +59,6 @@ export default async function JournalEntry(NewUserResponseText){
     //     return (SentimentAnalysis+" - "+ Tokens+" - "+ NamedEntityRecognition);
     // }
     // else{
-        return (SentimentAnalysis+" - "+ Tokens);
+        return (Tokens);
     //}
 }

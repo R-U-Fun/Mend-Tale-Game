@@ -42,16 +42,19 @@ async function NewInteraction(NewUserResponseText){
 
     let NewJournalEntry = await JournalEntry(NewUserResponseText);
 
-    let PrevNewUserResponseText = "";
+    let ChatHistory = [];
     
-    for(let L=GameProgressLength; L>(GameProgressLength-1); L--){
-        //PrevNewUserResponseText = PrevNewUserResponseText + ". "+ CurrentUserNameSingleton.getUserName().GameProgress[L].UserResponse + ". ";
-        PrevNewUserResponseText = PrevNewUserResponseText + ". "+ CurrentUserNameSingleton.getUserName().GameProgress[L-1].PersonalisedFeedback + ". ";
+    for(let L=0; L<GameProgressLength; L++){
+        ChatHistory.push("User: "+CurrentUserNameSingleton.getUserName().GameProgress[L].UserResponse);
+        ChatHistory.push("System: "+CurrentUserNameSingleton.getUserName().GameProgress[L].PersonalisedFeedback);
     }
+    ChatHistory.push("User: "+NewUserResponseText);
+
+    let JoinHistory = ChatHistory.join("\n");
 
     let NewMachineLearningAnalysis = await MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
 
-    let NewPersonalisedFeedback = await PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
+    let NewPersonalisedFeedback = await PersonalisedFeedback(JoinHistory, NewJournalEntry, NewMachineLearningAnalysis);
 
     const NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;
 
@@ -155,6 +158,12 @@ export default function StartGame(){
             scrollElement.scrollTop = scrollElement.scrollHeight;
         }
     });
+
+    const [inputLength, setInputLength] = useState(0);
+    const handleInputChange = () => {
+        setInputLength(RespondRef.current.value.length);
+    };
+
     return(
         <div>
             <div className="overflow-y-scroll" style={{height:'500px'}} ref={scrollRef}>
@@ -171,12 +180,17 @@ export default function StartGame(){
             <hr/>
             <div className="input-group mb-3" id="InputBar" >
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
-                <input type="text" spellCheck="true" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef}/>
+                <input type="text" spellCheck="true" minLength="8" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} onChange={handleInputChange}/>
+                <a className="btn btn-outline-primary fw-bold">{inputLength}/20</a>
                 <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
-                    if(RespondRef.current.value){
+                    if(RespondRef.current.value.length >= 20){
                         NewUserResponse(RespondRef.current.value);
+                        RespondRef.current.value = '';
+                        setInputLength(0);
                     }
-                    RespondRef.current.value = '';
+                    else{
+                        alert("Input value must be at least 50 characters long.");
+                    }
                 }}></button>
             </div>
         </div>

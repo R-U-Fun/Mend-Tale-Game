@@ -19,36 +19,35 @@ export default function HomeLinks(){
                 &nbsp;&nbsp;&nbsp;
                 <p className="fw-bold"><i className="bi bi-person-fill"></i></p>
                 <p className="fw-bold">{UserData.Username}</p>
-                {(parseInt(UserData.GameProgress.length) > 10) ?
+                {(parseInt(UserData.GameProgress.length) >= 10) ?
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
                         <i class="bi bi-star-fill text-primary"></i>
                     </span>
                 :null}
-                {(parseInt(UserData.GameProgress.length) > 50) ?
+                {(parseInt(UserData.GameProgress.length) >= 50) ?
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">
                         <i class="bi bi-star-fill"></i>
                     </span>
                 :null}
-                {(parseInt(UserData.GameProgress.length) > 100) ?
+                {(parseInt(UserData.GameProgress.length) >= 100) ?
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
                         <i class="bi bi-star-fill"></i>
                     </span>
                 :null}
-                
             </a><br/>
-            <button className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
+            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
                 ReactDOM.render(<StartGame />, document.getElementById('Box'));
-            }} style={{width:"200px"}}>Play</button><br/>
-            <button className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<PersonalJournal />, document.getElementById('Box'))} style={{width:"200px"}}>Personal Journal</button><br/>
-            <button className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))} style={{width:"200px"}}>Progress</button><br/>
-            <button className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
+            }} style={{width:"200px"}}><i className="bi bi-chat-dots"></i> Play</a><br/>
+            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<PersonalJournal />, document.getElementById('Box'))} style={{width:"200px"}}><i className="bi bi-journal-text"></i> Journal</a><br/>
+            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))} style={{width:"200px"}}><i className="bi bi-calendar3"></i> Progress</a><br/>
+            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
                 CurrentUserNameSingleton.setUserName(null);
                 Cookies.remove('MendTaleUser');
                 window.location.reload(false);
-            }} style={{width:"200px"}}>Logout</button><br/>
-            <button className="btn btn-outline-dark" style={{cursor:'default'}} onClick={() => {
+            }} style={{width:"200px"}}><i className="bi bi-door-closed"></i> Logout</a><br/>
+            <a className="btn btn-outline-dark" style={{cursor:'default'}} onClick={() => {
                 ReactDOM.render(<MendText/>, document.getElementById('Box'));
-            }}></button><br/>
+            }}></a><br/>
         </div>
     );
 }

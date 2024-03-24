@@ -23,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "Server1": "node ./src/MTServer.js",
+    "Server2": "python ./src/Py/MTServer2.py",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -29,8 +29,24 @@ function JournalEntryBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i class="bi bi-journal-text"></i></a></td>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
+                <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i class="bi bi-journal-text"></i></a></td>
+                <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
+            </tr>
+    );
+}
+
+function MoodEntryBox(props){
+    let Mood = "MachineLearningAnalysis";
+    if(CurrentUserNameSingleton.getUserName()){
+        Mood = CurrentUserNameSingleton.getUserName().GameProgress[(props.index)-1].MachineLearningAnalysis;
+    }
+
+    return(
+            <tr>
+                <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>
+                    <i class={`bi bi-emoji-${props.Emoji}`}></i>
+                </a></td>
+                <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Mood}</a></td>
             </tr>
     );
 }
@@ -42,8 +58,8 @@ function UserResponseBox(props){
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
+                <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
+                <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Text}</a></td>
             </tr>
     );
 }
@@ -57,12 +73,54 @@ function ChatRows(){
     const JournalEntry = [];
 
     for(let L = 1; L <= GameProgressLength; L++) {
+    
+        let Mood ='';
+        if(CurrentUserNameSingleton.getUserName()){
+            Mood = CurrentUserNameSingleton.getUserName().GameProgress[(L)-1].MachineLearningAnalysis;
+        }
+        let Emoji = '';
+        let Colour = '';
+
+        if(Mood == 'Neutral'){
+            Colour = 'light';
+            Emoji = 'neutral';
+        }
+        else if(Mood == 'Happy'){
+            Colour = 'warning';
+            Emoji = 'grin';
+        }
+        else if(Mood == 'Love'){
+            Colour = 'info';
+            Emoji = 'heart-eyes';
+        }
+        else if(Mood == 'Excite'){
+            Colour = 'success';
+            Emoji = 'sunglasses';
+        }
+        else if(Mood == 'Sad'){
+            Colour = 'primary';
+            Emoji = 'frown';
+        }
+        else if(Mood == 'Anger'){
+            Colour = 'danger';
+            Emoji = 'angry';
+        }
+        else if(Mood == 'Fear'){
+            Colour = 'secondary';
+            Emoji = 'tear';
+        }
+        else {
+            Colour = 'dark';
+            Emoji = 'neutral';
+        }
+
         JournalEntry.push(
-            <div><DateBox index={L}/><div className="me-5 ms-5 mt-2 ">
+            <div><DateBox index={L} Emoji={Emoji} Colour={Colour}/><div className="me-5 ms-5 mt-2 ">
             <tr key={L}>
                 <br/>
-                    <UserResponseBox index={L}/>
-                    <JournalEntryBox index={L}/>
+                    <UserResponseBox index={L} Emoji={Emoji} Colour={Colour}/>
+                    <MoodEntryBox    index={L} Emoji={Emoji} Colour={Colour}/>
+                    <JournalEntryBox index={L} Emoji={Emoji} Colour={Colour}/>
                 <br/>
             </tr>
             </div><hr/></div>
