@@ -12,7 +12,7 @@ import Cookies from 'js-cookie';
 
 function LoginHandle(CurrentUserName, CurrentPassword){
     if(CurrentUserName && CurrentPassword){
-        fetch(`http://localhost:3214/Server/UserProfile/${CurrentUserName}`)
+        fetch(`https://mend-tale-server1.onrender.com/Server/UserProfile/${CurrentUserName}`)
         .then(response => response.json())
         .then(Data => {
             if(CurrentPassword === Data.Password){

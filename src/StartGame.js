@@ -11,7 +11,7 @@ import JournalEntry from './JournalEntry';
 
 async function UpdateInteraction(NewGameProgress){
     let UserData = CurrentUserNameSingleton.getUserName();
-    await fetch(`http://localhost:3214/Server/UpdateGameProgress/${UserData.Username}`, {
+    await fetch(`https://mend-tale-server1.onrender.com/Server/UpdateGameProgress/${UserData.Username}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -24,7 +24,7 @@ async function UpdateInteraction(NewGameProgress){
         console.log('Errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrror:', error);
     });
 
-    await fetch(`http://localhost:3214/Server/UserProfile/${UserData.Username}`)
+    await fetch(`https://mend-tale-server1.onrender.com/Server/UserProfile/${UserData.Username}`)
     .then(response => response.json())
     .then(Data => {
         CurrentUserNameSingleton.setUserName(Data);

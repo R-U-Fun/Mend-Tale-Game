@@ -10,7 +10,7 @@ import Cookies from 'js-cookie';
 function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
     if( NewUserName && NewPassword && NewConfirmPassword){
         if(NewPassword === NewConfirmPassword){
-        fetch(`http://localhost:3214/Server/UserProfile/${NewUserName}`)
+        fetch(`https://mend-tale-server1.onrender.com/Server/UserProfile/${NewUserName}`)
         .then(response => response.json())
         .then(Data => {
             if(!Data){
@@ -34,7 +34,7 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
 
                 console.log(NewUser);
 
-                fetch('http://localhost:3214/Server/Register', {
+                fetch('https://mend-tale-server1.onrender.com/Server/Register', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
