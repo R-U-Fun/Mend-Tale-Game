@@ -4,11 +4,14 @@ const app = express();
 const port = 3214;
 const mongoose = require('mongoose');
 
+const MongoDBKey = require('./MongoDBKey');
+console.log(MongoDBKey());
+
 app.use(cors());
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://Aaroophan:AaroophanMT@mend-tale-game.nqexw9n.mongodb.net/Mend-Tale-Game', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://Aaroophan:'+MongoDBKey()+'@mend-tale-game.nqexw9n.mongodb.net/Mend-Tale-Game', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
     console.log('************************************************************* Current database:', mongoose.connection.db.databaseName);
 })

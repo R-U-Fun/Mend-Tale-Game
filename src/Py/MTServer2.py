@@ -10,6 +10,11 @@ import torch
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 
+from OpenAIKey import OpenAIKey
+
+APIKey=OpenAIKey()
+print(APIKey)
+
 # from tensorflow.keras.models import load_model
 # from tensorflow.keras.preprocessing.text import Tokenizer
 # from tensorflow.keras.preprocessing.sequence import pad_sequences
@@ -231,7 +236,7 @@ StoryPrompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-LLM = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7, openai_api_key="API_KEY")
+LLM = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7, openai_api_key=APIKey)
 
 Runnable = StoryPrompt | LLM
 
