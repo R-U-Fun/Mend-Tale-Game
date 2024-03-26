@@ -30,7 +30,7 @@ function CookieTrue(){
 }
 
 function CookieHandle(CurrentUserName){
-    fetch(`http://localhost:3214/Server/UserProfile/${CurrentUserName}`)
+    fetch(`https://mend-tale-server1.onrender.com/Server/UserProfile/${CurrentUserName}`)
         .then(response => response.json())
         .then(Data => {
             console.log("LOGIN CHECK");
