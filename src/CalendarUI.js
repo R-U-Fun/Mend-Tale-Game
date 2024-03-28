@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import CurrentUserNameSingleton from './UserSingleton';
 
+import ProgressDay from './ProgressDay'
+import PersonalJournal from './PersonalJournal'
+
 function MachineLearningRecord(Year, Month, Day){
     let Text = [];
     let Color = 0;
@@ -82,15 +85,18 @@ function CalendarReturn(props){
                     if(D >= FirstDay){
                         if(CalDate === TodayDateProp.getDate()){
                             let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
+                            console.log(TodayDateProp.getFullYear()+"//"+((TodayDateProp.getMonth())+1)+"//"+TodayDateProp.getDate());
+                            let NewDate = TodayDateProp.getFullYear()+"//"+((TodayDateProp.getMonth())+1)+"//"+TodayDateProp.getDate();
                             CalRowDays.push(
-                                <th key={D}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay NewDate={NewDate} Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={TodayDateProp.getDate()} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                             );
                             CalDate++;
                         }
                         else{
                             let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
+                            console.log(TodayDateProp.getFullYear()+"//"+((TodayDateProp.getMonth())+1)+"//"+CalDate);
                             CalRowDays.push(
-                                <th key={D}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={TodayDateProp.getDate()} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                             );
                             CalDate++;
                         }
@@ -104,15 +110,17 @@ function CalendarReturn(props){
                 else{
                     if(CalDate === TodayDateProp.getDate()){
                         let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
-                        CalRowDays.push(
-                            <th key={D}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                        console.log(TodayDateProp.getFullYear()+"//"+((TodayDateProp.getMonth())+1)+"//"+TodayDateProp.getDate());
+                            CalRowDays.push(
+                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={TodayDateProp.getDate()} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                         );
                         CalDate++;
                     }
                     else{
                         let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
-                        CalRowDays.push(
-                            <th key={D}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
+                        console.log(TodayDateProp.getFullYear()+"//"+((TodayDateProp.getMonth())+1)+"//"+CalDate);
+                            CalRowDays.push(
+                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={TodayDateProp.getDate()} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-emoji-smile"></i></a></th>
                         );
                         CalDate++;
                     }
@@ -192,6 +200,7 @@ export default function CalendarUI(){
                     }
                     else{
                         setTodayDate(new Date(`${TodayDate.getFullYear()}-${((TodayDate.getMonth())+1)-1}-${TodayDate.getDate()}`));
+
                         ReactDOM.render(<CalendarReturn TodayDate={new Date(`${TodayDate.getFullYear()}-${((TodayDate.getMonth())+1)-1}-${TodayDate.getDate()}`)} />, document.getElementById('CalendarHere'));
                     }
                 }}><i class="bi bi-arrow-left"></i></a>

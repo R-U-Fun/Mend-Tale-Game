@@ -6,9 +6,11 @@ import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
 
+import ServerURL from './ServerURL';
+
 export default async function JournalEntry(NewUserResponseText){
     
-    // let SentimentAnalysis = await fetch('http://localhost:5000/SentimentAnalysis4', {
+    // let SentimentAnalysis = await fetch(ServerURL.MTServer2()+'/SentimentAnalysis4', {
     //     method: 'POST',
     //     headers: {
     //         'Content-Type': 'application/json'
@@ -23,7 +25,7 @@ export default async function JournalEntry(NewUserResponseText){
     //     return data;
     // });
 
-    let Tokens = await fetch('http://localhost:5000/Tokenizer', {
+    let Tokens = await fetch(ServerURL.MTServer2()+'/Tokenizer', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -38,7 +40,7 @@ export default async function JournalEntry(NewUserResponseText){
         return data;
     });
 
-    // let NamedEntityRecognition = await fetch('http://localhost:5000/NamedEntityRecognition2', {
+    // let NamedEntityRecognition = await fetch(ServerURL.MTServer2()+'/NamedEntityRecognition2', {
     //     method: 'POST',
     //     headers: {
     //         'Content-Type': 'application/json'
@@ -59,6 +61,7 @@ export default async function JournalEntry(NewUserResponseText){
     //     return (SentimentAnalysis+" - "+ Tokens+" - "+ NamedEntityRecognition);
     // }
     // else{
-        return (Tokens);
+    //     return (Tokens);
     //}
+    return (Tokens);
 }

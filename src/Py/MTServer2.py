@@ -10,7 +10,12 @@ import torch
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 
-from OpenAIKey import OpenAIKey
+def OpenAIKey():
+    Key1 = "sk-UrqKfMDLy4bH"
+    Key2 = "60Nxft4JT3BlbkFJptKC"
+    Key3 = "Dk1iLXTXOAT0gebM"
+    FullKey=Key1+Key2+Key3
+    return(FullKey)
 
 APIKey=OpenAIKey()
 print(APIKey)
@@ -38,25 +43,6 @@ CORS(app)
 #     prediction = classes[np.argmax(res)]
 #     print(prediction)
 #     return jsonify(prediction)
-
-@app.route('/Tokenizer', methods=['POST'])
-def Tokenizer():
-    model_name = "bert-base-uncased"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    data = request.get_json()
-    TokenizerText = data.get('TokenizerText', '')
-    print(TokenizerText)
-    sequence = TokenizerText
-    print(sequence)
-    res = tokenizer(sequence)
-    print(res)
-    tokens = tokenizer.tokenize(sequence)
-    print(tokens)
-    ids = tokenizer.convert_tokens_to_ids(tokens)
-    print(ids)
-    join = ", ".join(tokens)
-    print(join)
-    return jsonify(join)
 
 # @app.route('/NamedEntityRecognition', methods=['POST'])
 # def NamedEntityRecognition():
@@ -200,7 +186,25 @@ def Tokenizer():
 #     # split2 = split[1].split("<|endoftext|>")
 #     # return jsonify(split2[0])
 
-Model = AutoModelForSequenceClassification.from_pretrained("../../mt_ml_models/MT_DS_HP1_Mood_Bal_v6_Model/")
+# @app.route('/NamedEntityRecognition2', methods=['POST'])
+# def NamedEntityRecognition2():
+#     ner_model = "bert-base-uncased"
+#     model = AutoModelForTokenClassification.from_pretrained(ner_model)
+#     tokenizer = AutoTokenizer.from_pretrained(ner_model)
+#     ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, framework="pt")
+#     data = request.get_json()
+#     NamedEntityRecognition = data.get('NamedEntityRecognition', '')
+#     print(NamedEntityRecognition)
+#     sequence = str(NamedEntityRecognition)
+#     print(sequence)
+#     ner_results = ner_pipeline(NamedEntityRecognition)
+
+#     for res in ner_results:
+#         res['score'] = float(res['score'])
+
+#     return jsonify(ner_results)
+
+Model = AutoModelForSequenceClassification.from_pretrained("Aaroophan/mend-tale-sentiment-analysis")
 Tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 Moods = ['Neutral', 'Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear']
 
@@ -263,23 +267,28 @@ def GenerateStory():
 
     return jsonify(StorySegment)
 
-# @app.route('/NamedEntityRecognition2', methods=['POST'])
-# def NamedEntityRecognition2():
-#     ner_model = "bert-base-uncased"
-#     model = AutoModelForTokenClassification.from_pretrained(ner_model)
-#     tokenizer = AutoTokenizer.from_pretrained(ner_model)
-#     ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, framework="pt")
-#     data = request.get_json()
-#     NamedEntityRecognition = data.get('NamedEntityRecognition', '')
-#     print(NamedEntityRecognition)
-#     sequence = str(NamedEntityRecognition)
-#     print(sequence)
-#     ner_results = ner_pipeline(NamedEntityRecognition)
+@app.route('/Tokenizer', methods=['POST'])
+def Tokenizer():
+    model_name = "bert-base-uncased"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    data = request.get_json()
+    TokenizerText = data.get('TokenizerText', '')
+    print(TokenizerText)
+    sequence = TokenizerText
+    print(sequence)
+    res = tokenizer(sequence)
+    print(res)
+    tokens = tokenizer.tokenize(sequence)
+    print(tokens)
+    ids = tokenizer.convert_tokens_to_ids(tokens)
+    print(ids)
+    join = ", ".join(tokens)
+    print(join)
+    return jsonify(join)
 
-#     for res in ner_results:
-#         res['score'] = float(res['score'])
-
-#     return jsonify(ner_results)
+@app.route('/Test')
+def Test():
+    return('Test')
 
 if __name__ == '__main__':
     app.run(host='localhost')

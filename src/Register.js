@@ -5,12 +5,14 @@ import React, { useRef } from 'react';
 import Login from './Login';
 
 
+import ServerURL from './ServerURL';
+
 import Cookies from 'js-cookie';
 
 function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
     if( NewUserName && NewPassword && NewConfirmPassword){
         if(NewPassword === NewConfirmPassword){
-        fetch(`https://mend-tale-server1.onrender.com/Server/UserProfile/${NewUserName}`)
+        fetch(ServerURL.MTServer1()+`/Server/UserProfile/${NewUserName}`)
         .then(response => response.json())
         .then(Data => {
             if(!Data){

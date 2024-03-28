@@ -8,6 +8,8 @@ import StartGame from './StartGame';
 import StartGame2 from './TrialGame';
 import HomeLinks from './HomeLinks';
 
+import ServerURL from './ServerURL';
+
 import Cookies from 'js-cookie';
 
 function CookieTrue(){
@@ -29,8 +31,8 @@ function CookieTrue(){
     );
 }
 
-function CookieHandle(CurrentUserName){
-    fetch(`https://mend-tale-server1.onrender.com/Server/UserProfile/${CurrentUserName}`)
+function CookieHandle(CurrentUserName){ServerURL.MTServer1()
+    fetch(ServerURL.MTServer1()+`/Server/UserProfile/${CurrentUserName}`)
         .then(response => response.json())
         .then(Data => {
             console.log("LOGIN CHECK");
@@ -39,6 +41,7 @@ function CookieHandle(CurrentUserName){
         })
         .catch(error => {
             console.error('Error:', error);
+            console.log(ServerURL.MTServer1()+`/Server/UserProfile/${CurrentUserName}`)
             alert("Can Not Connect At The Moment: Server Update On Progress.");
     });
 }

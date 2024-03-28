@@ -6,8 +6,10 @@ import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
 
+import ServerURL from './ServerURL';
+
 export default async function PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis){
-    let NewPersonalisedFeedback = await fetch('http://localhost:5000/TextGeneration4', {
+    let NewPersonalisedFeedback = await fetch(ServerURL.MTServer2()+'/TextGeneration4', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

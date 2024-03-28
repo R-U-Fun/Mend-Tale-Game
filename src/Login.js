@@ -8,11 +8,13 @@ import CurrentUserNameSingleton from './UserSingleton';
 import StartGame from './StartGame';
 import HomePage from './HomePage';
 
+import ServerURL from './ServerURL';
+
 import Cookies from 'js-cookie';
 
 function LoginHandle(CurrentUserName, CurrentPassword){
     if(CurrentUserName && CurrentPassword){
-        fetch(`https://mend-tale-server1.onrender.com/Server/UserProfile/${CurrentUserName}`)
+        fetch(ServerURL.MTServer1()+`/Server/UserProfile/${CurrentUserName}`)
         .then(response => response.json())
         .then(Data => {
             if(CurrentPassword === Data.Password){
