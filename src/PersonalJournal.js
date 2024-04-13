@@ -5,6 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
+import useWindowSize from 'react-use/lib/useWindowSize'
 
 function DateBox(props){
     let Text = "DateBox";
@@ -132,6 +133,7 @@ function ChatRows(){
 }
 
 export default function PersonalJournal(){
+    let { width, height } = useWindowSize();
 
     const scrollRef = useRef();
 
@@ -143,14 +145,14 @@ export default function PersonalJournal(){
     });
     return(
         <div>
-            <div className="overflow-y-scroll" style={{height:'500px'}} ref={scrollRef}>
+            <div className="overflow-y-scroll" style={{height:`${height-100}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>
                         <ChatRows/>
                     </tbody>
                 </table>
             </div>
-            <hr/>
+            <br/>
         </div>
     );
 }

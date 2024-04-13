@@ -12,6 +12,24 @@ import ServerURL from './ServerURL';
 
 import Cookies from 'js-cookie';
 
+function CookieFalse(){
+    return(
+            <div>
+                <div className="container text-center">
+                    <div className="row gx-3 text-center justify-content-center">
+                        <div id="LoginHere" className="col-lg-1"></div>
+                        <div className=" col-lg-9 ">
+                            <div className="card  text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none',display: 'flex',  alignItems: 'center'}} id="Box">
+                                <StartGame2/>
+                            </div>
+                        </div>
+                        <div id="PlayerHere" className="col-lg-1"><button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))} style={{width:"200px"}}>Login</button></div>
+                    </div>
+                </div>
+            </div>
+        );
+}
+
 function CookieTrue(){
     return(
             <div>
@@ -26,7 +44,6 @@ function CookieTrue(){
                         <div id="PlayerHere" className="col-lg-1"><HomeLinks /></div>
                     </div>
                 </div>
-                <br/><br/>
             </div>
     );
 }
@@ -42,7 +59,7 @@ function CookieHandle(CurrentUserName){ServerURL.MTServer1()
         .catch(error => {
             console.error('Error:', error);
             console.log(ServerURL.MTServer1()+`/Server/UserProfile/${CurrentUserName}`)
-            alert("Can Not Connect At The Moment: Server Update On Progress.");
+            ReactDOM.render(<CookieFalse />, document.getElementById('HomeHere'));
     });
 }
 
@@ -67,7 +84,6 @@ export default function HomePage(){
                         <div id="PlayerHere" className="col-lg-1"><button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))} style={{width:"200px"}}>Login</button></div>
                     </div>
                 </div>
-                <br/><br/>
             </div>
         );
     }

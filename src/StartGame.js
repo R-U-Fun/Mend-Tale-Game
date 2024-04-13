@@ -10,6 +10,7 @@ import MachineLearningAnalysis from './MachineLearningAnalysis';
 import JournalEntry from './JournalEntry';
 
 import ServerURL from './ServerURL';
+import useWindowSize from 'react-use/lib/useWindowSize'
 
 async function UpdateInteraction(NewGameProgress){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -73,7 +74,8 @@ async function NewInteraction(NewUserResponseText){
     ReactDOM.render(<StartGame />, document.getElementById('Box'));
 }
 
-function NewUserResponse(NewUserResponseText){
+function NewUserResponse(NewUserResponseText, Ref){
+    Ref.current.value = '';
     let GameProgressLength = 1;
     if(CurrentUserNameSingleton.getUserName()){
         GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
@@ -151,6 +153,7 @@ function ChatRows(){
 }
 
 export default function StartGame(){
+    let { width, height } = useWindowSize();
     const RespondRef = useRef();
 
     const scrollRef = useRef();
@@ -167,8 +170,8 @@ export default function StartGame(){
     };
 
     return(
-        <div>
-            <div className="overflow-y-scroll" style={{height:'500px'}} ref={scrollRef}>
+        <div >
+            <div className="overflow-y-scroll" style={{height:`${height-200}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>
                         <ChatRows/>
@@ -183,10 +186,10 @@ export default function StartGame(){
             <div className="input-group mb-3" id="InputBar" >
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
                 <input type="text" spellCheck="true" minLength="8" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} onChange={handleInputChange}/>
-                <a className="btn btn-outline-primary fw-bold">{inputLength}/20</a>
+                <a className="btn btn-outline-primary fw-bold">{inputLength}/50</a>
                 <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
-                    if(RespondRef.current.value.length >= 20){
-                        NewUserResponse(RespondRef.current.value);
+                    if(RespondRef.current.value.length >= 50){
+                        NewUserResponse(RespondRef.current.value, RespondRef);
                         RespondRef.current.value = '';
                         setInputLength(0);
                     }

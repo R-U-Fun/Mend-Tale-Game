@@ -2,8 +2,10 @@ import React from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, Tooltip, Rectangle } from 'recharts';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import useWindowSize from 'react-use/lib/useWindowSize';
 
 export default function BarCharts(props) {
+  let { width, height } = useWindowSize();
 
 	let data = props.data;
     
@@ -12,7 +14,7 @@ export default function BarCharts(props) {
   return (
     <BarChart
         width={350}
-        height={300}
+        height={height-350}
         data={data}
         >
         <XAxis dataKey="name" />

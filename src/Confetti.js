@@ -3,7 +3,7 @@ import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
 
 export default function Confettii(){
-  const { width, height } = useWindowSize();
+  let { width, height } = useWindowSize();
   return (
     <Confetti
       width={width}

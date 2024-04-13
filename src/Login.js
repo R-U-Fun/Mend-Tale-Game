@@ -34,7 +34,7 @@ function LoginHandle(CurrentUserName, CurrentPassword){
         })
         .catch(error => {
             console.error('Error:', error);
-            alert("Can Not Connect At The Moment: Server Update On Progress.");
+            alert("Invalid Username & Password");
         });
     }
     else{
@@ -64,7 +64,7 @@ export default function Login(){
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => LoginHandle(usernameRef.current.value, passwordRef.current.value)}><i className="bi bi-door-closed"></i> Login</button>
             <br/>
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Register />, document.getElementById('Box'))}><i className="bi bi-pen"></i> Register</button>
-            <br/><br/>
+            <br/><br/><br/><br/>
         </div>
     );
 }

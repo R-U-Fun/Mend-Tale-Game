@@ -15,6 +15,7 @@ export default function HomeLinks(){
     let UserData = CurrentUserNameSingleton.getUserName();
     return(
         <div>
+            <br/><br/>
             <a className="btn btn-outline-primary btn-lg m-2 position-relative" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px"}}>
                 &nbsp;&nbsp;&nbsp;
                 <p className="fw-bold"><i className="bi bi-person-fill"></i></p>

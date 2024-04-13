@@ -12,7 +12,27 @@ export default function Achievements(){
 
     let Achievement = [];
 
-    if(parseInt(UserData.GameProgress.length) > 50){
+    if(parseInt(UserData.GameProgress.length) > 100){
+        Achievement.push(
+            <tr>
+                <th><a className="btn btn-outline-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}><i className="bi bi-trophy-fill"></i></a></th>
+                <td><a className="btn btn-outline-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>10 Interactions</a></td>
+            </tr>
+        );
+        Achievement.push(
+            <tr>
+                <th><a className="btn btn-outline-secondary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}><i className="bi bi-trophy-fill"></i></a></th>
+                <td><a className="btn btn-outline-secondary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>50 Interactions</a></td>
+            </tr>
+        );
+        Achievement.push(
+            <tr>
+                <th><a className="btn btn-outline-warning m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}><i className="bi bi-trophy-fill"></i></a></th>
+                <td><a className="btn btn-outline-warning m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>100 Interactions</a></td>
+            </tr>
+        );
+    }
+    else if(parseInt(UserData.GameProgress.length) > 50){
         Achievement.push(
             <tr>
                 <th><a className="btn btn-outline-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}><i className="bi bi-trophy-fill"></i></a></th>

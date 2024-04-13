@@ -8,9 +8,11 @@ import CalendarUI from './CalendarUI';
 import PieCharts from './PieChart';
 import BarChart from './BarChart';
 import RadarCharts from './RadarChart';
+import useWindowSize from 'react-use/lib/useWindowSize'
 
 export default function Progress(){
 
+    let { width, height } = useWindowSize();
 	let data = [
 		{ name: 'Happy', 	value: 120 },
 		{ name: 'Excite', 	value: 85 },
@@ -28,7 +30,7 @@ export default function Progress(){
                     <div className="col-lg-2 rounded-4 btn btn-primary m-2 fw-bold" onClick={() => ReactDOM.render(<BarChart data={data} /> , document.getElementById('ProgressCharts'))}>Bar Chart</div>
                     <div className="col-lg-2 rounded-4 btn btn-primary m-2 fw-bold" onClick={() => ReactDOM.render(<RadarCharts data={data} /> , document.getElementById('ProgressCharts'))}>Radar Chart</div>
                     <br/>
-                    <div className="col-lg-5 rounded-4 border border-primary border-5 m-2" id="ProgressCharts"><CalendarUI /></div> 
+                    <div className="col-lg-5 rounded-4 border border-primary border-5 m-2" id="ProgressCharts" ><CalendarUI /></div> 
                 </div>
             </div>
     );

@@ -97,6 +97,43 @@ app.put('/Server/UpdateGameProgress/:CurrentUserName', async (req, res) => {
     });
 });
 
+app.put('/Server/UpdateProfile/:CurrentUserName', async (req, res) => {
+    let CurrentUserName = req.params.CurrentUserName;
+    let newUsername = req.body.Username;
+    let newPassword = req.body.Password;
+    let newEmail = req.body.Email;
+    console.log(newUsername);
+    console.log(newPassword);
+    console.log(newEmail);
+    User.findOneAndUpdate({ "Username": CurrentUserName }, { Username: newUsername, Password: newPassword, Email: newEmail }, { new: true })
+    .then(user => {
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! PROFILE UPDATED");
+    })
+    .catch(err => {
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! EEEERRRRRROOOORRRR");
+        console.log(err);
+    });
+});
+
+app.delete('/Server/DeleteProfile/:CurrentUserName', async (req, res) => {
+    let Name = req.params.CurrentUserName;
+    User.findOneAndDelete({ "Username": Name })
+        .then(user => {
+            if(user) {
+                console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! user DELETED");
+                res.json({ message: 'user deleted' });
+            } else {
+                console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! EEEERRRRRROOOORRRR");
+                res.status(404).json({ message: 'user not found' });
+            }
+        })
+        .catch(err => {
+            console.log("Error:", err);
+            console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! EEEERRRRRROOOORRRR");
+            res.status(500).json({ error: err.toString() });
+        });
+});
+
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
