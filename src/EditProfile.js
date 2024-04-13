@@ -36,7 +36,6 @@ async function EditHandle(NewUserName, NewEmail, OldPassword, NewPassword, NewCo
 
     if( NewPassword && NewConfirmPassword){
         if(NewPassword === NewConfirmPassword){
-            window.location.reload(false);
             await fetch(ServerURL.MTServer1()+`/Server/UpdateProfile/${UserData.Username}`, {
                 method: 'PUT',
                 headers: {
@@ -48,11 +47,13 @@ async function EditHandle(NewUserName, NewEmail, OldPassword, NewPassword, NewCo
                     Email: NewEmail
                 }),
             })
+            .then(() => {
+                Cookies.remove('MendTaleUser');
+                window.location.reload(false);
+            })
             .catch((error) => {
                 console.log('Errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrror:', error);
             });
-
-            Cookies.remove('MendTaleUser');
         }
         else{
             alert("Password & Confirm Password doesn't match");
