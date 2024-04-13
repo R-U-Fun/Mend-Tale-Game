@@ -1,7 +1,7 @@
 class Server {
 	MTServer1() {
-		//return ("http://localhost:3214");
-		return ("https://mend-tale-server.onrender.com");
+		return ("http://localhost:3214");
+		//return ("https://mend-tale-server.onrender.com");
 	}
 	MTServer2() {
 		//return ("http://localhost:5000");

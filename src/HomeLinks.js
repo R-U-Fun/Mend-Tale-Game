@@ -44,7 +44,7 @@ export default function HomeLinks(){
             <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
                 CurrentUserNameSingleton.setUserName(null);
                 Cookies.remove('MendTaleUser');
-                window.location.reload(false);
+                ReactDOM.render(<HomePage />, document.getElementById('HomeHere'));
             }} style={{width:"200px"}}><i className="bi bi-door-closed"></i> Logout</a><br/>
             <a className="btn btn-outline-dark" style={{cursor:'default'}} onClick={() => {
                 ReactDOM.render(<MendText/>, document.getElementById('Box'));

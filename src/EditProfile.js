@@ -14,6 +14,7 @@ import UserProfile from './UserProfile';
 import ServerURL from './ServerURL';
 import Cookies from 'js-cookie';
 import useWindowSize from 'react-use/lib/useWindowSize'
+import HomePage from './HomePage';
 
 async function EditHandle(NewUserName, NewEmail, OldPassword, NewPassword, NewConfirmPassword){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -36,6 +37,7 @@ async function EditHandle(NewUserName, NewEmail, OldPassword, NewPassword, NewCo
 
     if( NewPassword && NewConfirmPassword){
         if(NewPassword === NewConfirmPassword){
+            window.location.reload(false);
             await fetch(ServerURL.MTServer1()+`/Server/UpdateProfile/${UserData.Username}`, {
                 method: 'PUT',
                 headers: {
@@ -47,13 +49,13 @@ async function EditHandle(NewUserName, NewEmail, OldPassword, NewPassword, NewCo
                     Email: NewEmail
                 }),
             })
-            .then(() => {
-                Cookies.remove('MendTaleUser');
-                window.location.reload(false);
-            })
             .catch((error) => {
                 console.log('Errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrror:', error);
             });
+
+            Cookies.remove('MendTaleUser');
+            CurrentUserNameSingleton.setUserName(null);
+            ReactDOM.render(<HomePage />, document.getElementById('HomeHere'));
         }
         else{
             alert("Password & Confirm Password doesn't match");
