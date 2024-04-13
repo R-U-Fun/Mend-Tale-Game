@@ -5,19 +5,22 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
+import useWindowSize from 'react-use/lib/useWindowSize'
+import StartGame from './StartGame';
 
 function DateBox(props){
     let Text = "DateBox";
+    let DT = [];
     if(CurrentUserNameSingleton.getUserName()){
         let DateTime = CurrentUserNameSingleton.getUserName().GameProgress[(props.index)-1].InteractionID;
         let DateTimeArr = DateTime.split("_");
         Text = DateTimeArr[2]+"-"+DateTimeArr[3]+"-"+DateTimeArr[4]+" "+DateTimeArr[5]+":"+DateTimeArr[6]+":"+DateTimeArr[7];
-
+        DT = Text.split(" ");
     }
     return(
             <tr>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify'}}><i class="bi bi-calendar3"></i></a></td>
-                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify'}}>{Text}</a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify'}}><i class="bi bi-clock"></i></a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify'}}>{DT[1]}</a></td>
             </tr>
     );
 }
@@ -77,45 +80,44 @@ function ChatRows(props){
     for(let L = 1; L <= GameProgressLength; L++) {
         let DateTime = CurrentUserNameSingleton.getUserName().GameProgress[L-1].InteractionID;
         let DateTimeArr = DateTime.split("_");
-        let Text = DateTimeArr[2]+"-"+DateTimeArr[3]+"-"+DateTimeArr[4];
+        let DBDate = DateTimeArr[2]+"-"+DateTimeArr[3]+"-"+DateTimeArr[4];
+        let SPDate = props.Year+"-"+props.Month+"-"+props.Day;
+        console.log(DBDate);
+        console.log(SPDate);
     
-        console.log(props.Year+"/"+props.Month+"/"+props.Day);
-        if(props.Year == DateTimeArr[2] && props.Month == DateTimeArr[3] && props.Day == DateTimeArr[4]){
-            console.log(props.Year+"/"+props.Month+"/"+props.Day);
-        }
+        if(DBDate===SPDate){
+            console.log(props.Year+"///////////////"+props.Month+"////////////"+props.Day);
 
-        let Mood ='';
-        if(CurrentUserNameSingleton.getUserName()){
-            Mood = CurrentUserNameSingleton.getUserName().GameProgress[(L)-1].MachineLearningAnalysis;
-        }
+        let Mood = CurrentUserNameSingleton.getUserName().GameProgress[(L)-1].MachineLearningAnalysis;
+
         let Emoji = '';
         let Colour = '';
 
-        if(Mood == 'Neutral'){
+        if(Mood === 'Neutral'){
             Colour = 'light';
             Emoji = 'neutral';
         }
-        else if(Mood == 'Happy'){
+        else if(Mood === 'Happy'){
             Colour = 'warning';
             Emoji = 'grin';
         }
-        else if(Mood == 'Love'){
+        else if(Mood === 'Love'){
             Colour = 'info';
             Emoji = 'heart-eyes';
         }
-        else if(Mood == 'Excite'){
+        else if(Mood === 'Excite'){
             Colour = 'success';
             Emoji = 'sunglasses';
         }
-        else if(Mood == 'Sad'){
+        else if(Mood === 'Sad'){
             Colour = 'primary';
             Emoji = 'frown';
         }
-        else if(Mood == 'Anger'){
+        else if(Mood === 'Anger'){
             Colour = 'danger';
             Emoji = 'angry';
         }
-        else if(Mood == 'Fear'){
+        else if(Mood === 'Fear'){
             Colour = 'secondary';
             Emoji = 'tear';
         }
@@ -135,6 +137,8 @@ function ChatRows(props){
             </tr>
             </div><hr/></div>
         );
+        
+        }
     }
     return(
         <div>{JournalEntry}</div>
@@ -142,9 +146,10 @@ function ChatRows(props){
 }
 
 export default function ProgressDay(props){
+    let { width, height } = useWindowSize();
 
-    console.log(props.Year+"--"+props.Month+"--"+props.Day);
-    console.log(props.NewDate+"    ????????????????");
+    let PDate = props.Year+"-"+props.Month+"-"+props.Day;
+    console.log(props.Year+"-"+props.Month+"-"+props.Day);
     const scrollRef = useRef();
 
     useEffect(() => {
@@ -155,7 +160,8 @@ export default function ProgressDay(props){
     });
     return(
         <div>
-            <div className="overflow-y-scroll" style={{height:'500px'}} ref={scrollRef}>
+            <a className="btn btn-primary m-4 fs-5 fw-bold" onClick={() => ReactDOM.render(<StartGame />, document.getElementById('Box'))}>{PDate}</a>
+            <div className="overflow-y-scroll"  style={{height:`${height-200}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>
                         <ChatRows Year={props.Year} Month={props.Month} Day={props.Day} />
