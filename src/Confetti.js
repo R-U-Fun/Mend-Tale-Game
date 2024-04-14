@@ -6,7 +6,7 @@ export default function Confettii(){
   let { width, height } = useWindowSize();
   return (
     <Confetti
-      width={width}
+      width={(width*3)/4}
       height={height}
       numberOfPieces={20}
       wind={0}

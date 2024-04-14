@@ -34,22 +34,60 @@ function MachineLearningRecord(Year, Month, Day){
             MaxMood = Moods[L];
         }
     }
-    switch (MaxMood) {
-        case 'Happy':
-            return("warning");
-        case 'Sad':
-            return("primary");
-        case 'Angry':
-            return("danger");
-        case 'Fear':
-            return("secondary");
-        case 'Excite':
-            return("success");
-        case 'Love':
-            return("info");
-        default:
-            return("outline-primary");
-    }
+    
+        let Emoji = '';
+        let Colour = '';
+
+        if(MaxMood === 'Neutral'){
+            Colour = 'light';
+            Emoji = 'neutral';
+        }
+        else if(MaxMood === 'Happy'){
+            Colour = 'warning';
+            Emoji = 'grin';
+        }
+        else if(MaxMood === 'Love'){
+            Colour = 'info';
+            Emoji = 'heart-eyes';
+        }
+        else if(MaxMood === 'Excite'){
+            Colour = 'success';
+            Emoji = 'sunglasses';
+        }
+        else if(MaxMood === 'Sad'){
+            Colour = 'primary';
+            Emoji = 'frown';
+        }
+        else if(MaxMood === 'Anger'){
+            Colour = 'danger';
+            Emoji = 'angry';
+        }
+        else if(MaxMood === 'Fear'){
+            Colour = 'secondary';
+            Emoji = 'tear';
+        }
+        else {
+            Colour = 'outline-dark';
+            Emoji = 'neutral';
+        }
+
+        return(Colour);
+    // switch (MaxMood) {
+    //     case 'Happy':
+    //         return("warning");
+    //     case 'Sad':
+    //         return("primary");
+    //     case 'Angry':
+    //         return("danger");
+    //     case 'Fear':
+    //         return("secondary");
+    //     case 'Excite':
+    //         return("success");
+    //     case 'Love':
+    //         return("info");
+    //     default:
+    //         return("outline-primary");
+    // }
 }
 
 function CalendarReturn(props){
@@ -209,7 +247,7 @@ export default function CalendarUI(){
                 }}><i class="bi bi-arrow-left"></i></a>
                 &nbsp;
                 <a className="btn btn-primary fw-bold" style={{ cursor: 'auto'}}>{TodayDate.getFullYear()}</a>&nbsp;
-                <a className="btn btn-primary fw-bold" style={{ cursor: 'auto'}}>{CurrMonth}</a>
+                <a className="btn btn-primary fw-bold" style={{ cursor: 'auto', width:"120px"}}>{CurrMonth}</a>
                 &nbsp;
                 <a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}} onClick={() => {
                     if(((TodayDate.getMonth())+1) === 12){
