@@ -40,7 +40,7 @@ async function NewInteraction(NewUserResponseText){
     let GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
     let IDNum = parseInt(CurrentUserNameSingleton.getUserName().GameProgress[GameProgressLength-1].InteractionID.charAt(0))+1;
 
-    const CurrentDate = new Date();
+    let CurrentDate = new Date();
     let IDTime = (""+CurrentDate.getFullYear()+"_"+(CurrentDate.getMonth()+1)+"_"+CurrentDate.getDate()+"_"+CurrentDate.getHours()+"_"+CurrentDate.getMinutes()+"_"+CurrentDate.getSeconds());
 
     let NewJournalEntry = await JournalEntry(NewUserResponseText);
@@ -59,7 +59,7 @@ async function NewInteraction(NewUserResponseText){
 
     let NewPersonalisedFeedback = await PersonalisedFeedback(JoinHistory, NewJournalEntry, NewMachineLearningAnalysis);
 
-    const NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;
+    let NewGameProgress = CurrentUserNameSingleton.getUserName().GameProgress;
 
         NewGameProgress.push({
             InteractionID: IDNum+"_"+CurrentUserNameSingleton.getUserName().Username+"_"+IDTime,
@@ -80,16 +80,34 @@ function NewUserResponse(NewUserResponseText){
     if(CurrentUserNameSingleton.getUserName()){
         GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
     }
-    ReactDOM.render(<UserResponseBox NewUserResponseText={NewUserResponseText} index={GameProgressLength} />, document.getElementById('NewResponseBox'));
+    
+    ReactDOM.render(
+        <>
+            <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
+            <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}>{NewUserResponseText}</a></td>
+        </>
+        , document.getElementById('NewResponseBox'));
 
     ReactDOM.render(
         <>
             <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-soundwave"></i></a></td>
-            <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><div class="spinner-border text-primary spinner-border-sm" role="status"></div></a></td>
+            <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><div className="spinner-border text-primary spinner-border-sm" role="status"></div></a></td>
         </>
         , document.getElementById('NewFeedbackBox'));
 
     ReactDOM.render(<></>, document.getElementById('InputBar'));
+
+    let TimeLeft = 10;
+    let OneSecPass = setInterval(() => {
+        if(TimeLeft > 0) {
+            TimeLeft = (TimeLeft - 1);
+        } else {
+            clearInterval(OneSecPass);
+            ReactDOM.render(<></>, document.getElementById('NewResponseBox'));
+            ReactDOM.render(<></>, document.getElementById('NewFeedbackBox'));
+            ReactDOM.render(<InputBar/>, document.getElementById('InputBar'));
+        }
+    }, 1000);
 }
 
 function PersonalisedFeedbackBox(props){
@@ -130,8 +148,8 @@ function ChatRows(){
         GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
     }
 
-    const Chats = [];
-    const Chats2 = [];
+    let Chats = [];
+    let Chats2 = [];
 
     for(let L = 1; L <= GameProgressLength; L++) {
         Chats.push(
@@ -150,38 +168,16 @@ function ChatRows(){
     );
 }
 
-export default function StartGame(){
-    let { width, height } = useWindowSize();
-    const RespondRef = useRef();
-
-    const scrollRef = useRef();
-    useEffect(() => {
-        const scrollElement = scrollRef.current;
-        if (scrollElement) {
-            scrollElement.scrollTop = scrollElement.scrollHeight;
-        }
-    });
-
-    const [inputLength, setInputLength] = useState(0);
-    const handleInputChange = () => {
+function InputBar(){
+    
+    let RespondRef = useRef();
+    
+    let [inputLength, setInputLength] = useState(0);
+    let handleInputChange = () => {
         setInputLength(RespondRef.current.value.length);
     };
-
     return(
-        <div >
-            <div className="overflow-y-scroll" style={{height:`${height-200}px`}} ref={scrollRef}>
-                <table className="text-start">
-                    <tbody>
-                        <ChatRows/>
-                        <tr id="NewResponseBox">
-                        </tr>
-                        <tr id="NewFeedbackBox">
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <hr/>
-            <div className="input-group mb-3" id="InputBar" >
+            <>
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
                 <input type="text" spellCheck="true" minLength="8" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} onChange={handleInputChange}/>
                 <a className="btn btn-outline-primary fw-bold">{inputLength}/50</a>
@@ -197,7 +193,36 @@ export default function StartGame(){
                         alert("Input value must be at least 50 characters long.");
                     }
                 }}></button>
+            </>
+    );
+}
+
+export default function StartGame(){
+    let { width, height } = useWindowSize();
+
+    let scrollRef = useRef();
+    useEffect(() => {
+        let scrollElement = scrollRef.current;
+        if (scrollElement) {
+            scrollElement.scrollTop = scrollElement.scrollHeight;
+        }
+    });
+
+    return(
+        <div >
+            <div className="overflow-y-scroll" style={{height:`${height-200}px`}} ref={scrollRef}>
+                <table className="text-start">
+                    <tbody>
+                        <ChatRows/>
+                        <tr id="NewResponseBox">
+                        </tr>
+                        <tr id="NewFeedbackBox">
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+            <hr/>
+            <div className="input-group mb-3" id="InputBar"><InputBar/></div>
         </div>
     );
 }

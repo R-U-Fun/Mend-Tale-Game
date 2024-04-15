@@ -19,7 +19,7 @@ function MachineLearningRecord(Year, Month, Day){
         }
     }
     let Count = [0, 0, 0, 0, 0, 0, 0];
-    let Moods = ['Neutral', 'Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
+    let Moods = ['Neutral', 'Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear'];
     for(let L=0; L < Text.length; L++){
         for(let M=0; M<7; M++){
             if(Text[L] === Moods[M]){
@@ -27,6 +27,7 @@ function MachineLearningRecord(Year, Month, Day){
             }
         }
     }
+
     let MaxCount = Math.max(...Count);
     let MaxMood = 'check';
     for(let L=0; L < 7; L++){

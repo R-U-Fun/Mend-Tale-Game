@@ -134,6 +134,10 @@ app.delete('/Server/DeleteProfile/:CurrentUserName', async (req, res) => {
         });
 });
 
+app.get('/Test', async (req, res) => {
+    res.json({Test:"Test"});
+});
+
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });

@@ -7,7 +7,7 @@ export default function PieCharts(props) {
 
 	let data = props.data;
 
-    let COLORS = ['rgba(0,0,0,0.2)', '#ffc107', '#198754', '#0dcaf0', '#0d6efd', '#dc3545', '#6c757d'];
+    let COLORS = ['rgba(0,0,0,0.2)', '#ffc107', '#0dcaf0', '#198754', '#0d6efd', '#dc3545', '#6c757d'];
 
     return (
         <PieChart width={350} height={350}>

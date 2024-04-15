@@ -18,7 +18,7 @@ function MoodCount(){
         Text.push(CurrentUserNameSingleton.getUserName().GameProgress[L-1].MachineLearningAnalysis);
     }
     let Count = [0, 0, 0, 0, 0, 0, 0];
-    let Moods = ['Neutral', 'Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
+    let Moods = ['Neutral', 'Happy', 'Love', 'Excite', 'Sad', 'Anger', 'Fear'];
     for(let L=0; L < Text.length; L++){
         for(let M=0; M<7; M++){
             if(Text[L] === Moods[M]){
@@ -50,8 +50,8 @@ export default function Progress(){
 	let data = [
 		{ name: 'Neutral', 	value: MoodData[0] },
         { name: 'Happy', 	value: MoodData[1] },
-		{ name: 'Excite', 	value: MoodData[2] },
-		{ name: 'Love', 	value: MoodData[3] },
+		{ name: 'Love', 	value: MoodData[2] },
+		{ name: 'Excite', 	value: MoodData[3] },
 		{ name: 'Sad', 		value: MoodData[4] },
 		{ name: 'Angry', 	value: MoodData[5] },
 		{ name: 'Fear', 	value: MoodData[6] },
