@@ -10,21 +10,51 @@ import BarChart from './BarChart';
 import RadarCharts from './RadarChart';
 import useWindowSize from 'react-use/lib/useWindowSize'
 
+function MoodCount(){
+    let Text = [];
+    let Color = 0;
+    let GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
+    for(let L=1; L <= GameProgressLength; L++){
+        Text.push(CurrentUserNameSingleton.getUserName().GameProgress[L-1].MachineLearningAnalysis);
+    }
+    let Count = [0, 0, 0, 0, 0, 0, 0];
+    let Moods = ['Neutral', 'Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
+    for(let L=0; L < Text.length; L++){
+        for(let M=0; M<7; M++){
+            if(Text[L] === Moods[M]){
+                Count[M] = Count[M] + 1;
+            }
+        }
+    }
+
+    // let sum = 0;
+    // for (let i = 0; i < Count.length; i++ ) {
+    //     sum += Count[i];
+    //     console.log(Count[i]+" \t"+sum)
+    // }
+
+    // console.log(GameProgressLength)
+    // console.log(sum)
+    
+    return Count;
+}
+
 export default function Progress(){
 
     let { width, height } = useWindowSize();
 
+    let MoodData = MoodCount();
 
-
+    console.log(MoodData);
 
 	let data = [
-		{ name: 'Neutral', 	value: 99 },
-        { name: 'Happy', 	value: 120 },
-		{ name: 'Excite', 	value: 85 },
-		{ name: 'Love', 	value: 65 },
-		{ name: 'Sad', 		value: 98 },
-		{ name: 'Angry', 	value: 86 },
-		{ name: 'Fear', 	value: 99 },
+		{ name: 'Neutral', 	value: MoodData[0] },
+        { name: 'Happy', 	value: MoodData[1] },
+		{ name: 'Excite', 	value: MoodData[2] },
+		{ name: 'Love', 	value: MoodData[3] },
+		{ name: 'Sad', 		value: MoodData[4] },
+		{ name: 'Angry', 	value: MoodData[5] },
+		{ name: 'Fear', 	value: MoodData[6] },
   	];
     
     return(

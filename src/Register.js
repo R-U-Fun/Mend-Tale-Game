@@ -28,7 +28,7 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
                             InteractionID: "0_"+NewUserName+"_"+IDTime ,
                             UserResponse: "",
                             JournalEntry: "",
-                            MachineLearningAnalysis: "Neutral",
+                            MachineLearningAnalysis: "",
                             PersonalisedFeedback: "In a room, there are six people: Halin, Leo, Ethi, Skott, Ariadni, and Frikyn. You feel nervous. Someone knocks on the door. It opens slowly. A shadowy figure stands there. Things feel tense. What will you do?"
                         }
                     ]

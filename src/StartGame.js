@@ -72,10 +72,10 @@ async function NewInteraction(NewUserResponseText){
     console.log(NewGameProgress);
     UpdateInteraction(NewGameProgress);
     ReactDOM.render(<StartGame />, document.getElementById('Box'));
+    
 }
 
-function NewUserResponse(NewUserResponseText, Ref){
-    Ref.current.value = '';
+function NewUserResponse(NewUserResponseText){
     let GameProgressLength = 1;
     if(CurrentUserNameSingleton.getUserName()){
         GameProgressLength = CurrentUserNameSingleton.getUserName().GameProgress.length;
@@ -90,8 +90,6 @@ function NewUserResponse(NewUserResponseText, Ref){
         , document.getElementById('NewFeedbackBox'));
 
     ReactDOM.render(<></>, document.getElementById('InputBar'));
-
-    NewInteraction(NewUserResponseText);
 }
 
 function PersonalisedFeedbackBox(props){
@@ -138,7 +136,7 @@ function ChatRows(){
     for(let L = 1; L <= GameProgressLength; L++) {
         Chats.push(
             <tr key={L}>
-                <UserResponseBox index={L}/>
+                {CurrentUserNameSingleton.getUserName().GameProgress[(L)-1].UserResponse != '' ? <UserResponseBox index={L}/>: null}
             </tr>
         );
         Chats.push(
@@ -189,8 +187,10 @@ export default function StartGame(){
                 <a className="btn btn-outline-primary fw-bold">{inputLength}/50</a>
                 <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
                     if(RespondRef.current.value.length >= 50){
-                        NewUserResponse(RespondRef.current.value, RespondRef);
+                        let NewRes = RespondRef.current.value;
                         RespondRef.current.value = '';
+                        NewUserResponse(NewRes);
+                        NewInteraction(NewRes);
                         setInputLength(0);
                     }
                     else{

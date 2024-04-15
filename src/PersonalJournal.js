@@ -45,7 +45,7 @@ function MoodEntryBox(props){
     return(
             <tr>
                 <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>
-                    <i class={`bi bi-emoji-${props.Emoji}`}></i>
+                    <i class={`bi bi-${props.Emoji}`}></i>
                 </a></td>
                 <td><a className={`btn btn-${props.Colour} m-1`} style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}>{Mood}</a></td>
             </tr>
@@ -84,37 +84,38 @@ function ChatRows(){
 
         if(Mood == 'Neutral'){
             Colour = 'light';
-            Emoji = 'neutral';
+            Emoji = 'emoji-neutral';
         }
         else if(Mood == 'Happy'){
             Colour = 'warning';
-            Emoji = 'grin';
+            Emoji = 'emoji-grin';
         }
         else if(Mood == 'Love'){
             Colour = 'info';
-            Emoji = 'heart-eyes';
+            Emoji = 'emoji-heart-eyes';
         }
         else if(Mood == 'Excite'){
             Colour = 'success';
-            Emoji = 'sunglasses';
+            Emoji = 'emoji-sunglasses';
         }
         else if(Mood == 'Sad'){
             Colour = 'primary';
-            Emoji = 'frown';
+            Emoji = 'emoji-frown';
         }
         else if(Mood == 'Anger'){
             Colour = 'danger';
-            Emoji = 'angry';
+            Emoji = 'emoji-angry';
         }
         else if(Mood == 'Fear'){
             Colour = 'secondary';
-            Emoji = 'tear';
+            Emoji = 'emoji-tear';
         }
         else {
             Colour = 'dark';
-            Emoji = 'neutral';
+            Emoji = 'circle';
         }
 
+        if(CurrentUserNameSingleton.getUserName().GameProgress[(L)-1].MachineLearningAnalysis != ''){
         JournalEntry.push(
             <div><DateBox index={L} Emoji={Emoji} Colour={Colour}/><div className="me-5 ms-5 mt-2 ">
             <tr key={L}>
@@ -126,6 +127,7 @@ function ChatRows(){
             </tr>
             </div><hr/></div>
         );
+        }
     }
     return(
         <div>{JournalEntry}</div>

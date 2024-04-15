@@ -18,10 +18,10 @@ function MachineLearningRecord(Year, Month, Day){
             }
         }
     }
-    let Count = [0, 0, 0, 0, 0, 0];
-    let Moods = ['Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
+    let Count = [0, 0, 0, 0, 0, 0, 0];
+    let Moods = ['Neutral', 'Happy', 'Sad', 'Angry', 'Fear', 'Excite', 'Love'];
     for(let L=0; L < Text.length; L++){
-        for(let M=0; M<6; M++){
+        for(let M=0; M<7; M++){
             if(Text[L] === Moods[M]){
                 Count[M] = Count[M] + 1;
             }
@@ -29,7 +29,7 @@ function MachineLearningRecord(Year, Month, Day){
     }
     let MaxCount = Math.max(...Count);
     let MaxMood = 'check';
-    for(let L=0; L < 6; L++){
+    for(let L=0; L < 7; L++){
         if(MaxCount !== 0 && MaxCount === Count[L]){
             MaxMood = Moods[L];
         }
@@ -39,55 +39,39 @@ function MachineLearningRecord(Year, Month, Day){
         let Colour = '';
 
         if(MaxMood === 'Neutral'){
-            Colour = 'light';
-            Emoji = 'neutral';
+            Colour = 'outline-light';
+            Emoji = 'emoji-neutral text-white';
         }
         else if(MaxMood === 'Happy'){
             Colour = 'warning';
-            Emoji = 'grin';
+            Emoji = 'emoji-grin text-white';
         }
         else if(MaxMood === 'Love'){
             Colour = 'info';
-            Emoji = 'heart-eyes';
+            Emoji = 'emoji-heart-eyes text-white';
         }
         else if(MaxMood === 'Excite'){
             Colour = 'success';
-            Emoji = 'sunglasses';
+            Emoji = 'emoji-sunglasses text-white';
         }
         else if(MaxMood === 'Sad'){
             Colour = 'primary';
-            Emoji = 'frown';
+            Emoji = 'emoji-frown text-white';
         }
         else if(MaxMood === 'Anger'){
             Colour = 'danger';
-            Emoji = 'angry';
+            Emoji = 'emoji-angry text-white';
         }
         else if(MaxMood === 'Fear'){
             Colour = 'secondary';
-            Emoji = 'tear';
+            Emoji = 'emoji-tear text-white';
         }
         else {
             Colour = 'outline-dark';
-            Emoji = 'neutral';
+            Emoji = 'circle';
         }
 
-        return(Colour);
-    // switch (MaxMood) {
-    //     case 'Happy':
-    //         return("warning");
-    //     case 'Sad':
-    //         return("primary");
-    //     case 'Angry':
-    //         return("danger");
-    //     case 'Fear':
-    //         return("secondary");
-    //     case 'Excite':
-    //         return("success");
-    //     case 'Love':
-    //         return("info");
-    //     default:
-    //         return("outline-primary");
-    // }
+        return({ Colour, Emoji });
 }
 
 function CalendarReturn(props){
@@ -122,20 +106,18 @@ function CalendarReturn(props){
                 if(W === 1){
                     if(D >= FirstDay){
                         if(CalDate === TodayDateProp.getDate()){
-                            let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
-                            console.log(TodayDateProp.getFullYear()+"/-1-/"+((TodayDateProp.getMonth())+1)+"/-1-/"+TodayDateProp.getDate());
+                            let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                             let DD = CalDate;
                             CalRowDays.push(
-                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-circle"></i></a></th>
+                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                             );
                             CalDate++;
                         }
                         else{
-                            let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
-                            console.log(TodayDateProp.getFullYear()+"/-2-/"+((TodayDateProp.getMonth())+1)+"/-2-/"+CalDate);
+                            let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
                             let DD = CalDate;
                             CalRowDays.push(
-                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-circle"></i></a></th>
+                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                             );
                             CalDate++;
                         }
@@ -148,20 +130,18 @@ function CalendarReturn(props){
                 }
                 else{
                     if(CalDate === TodayDateProp.getDate()){
-                        let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
-                        console.log(TodayDateProp.getFullYear()+"/-3-/"+((TodayDateProp.getMonth())+1)+"/-3-/"+TodayDateProp.getDate());
+                        let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                         let DD = CalDate;
                         CalRowDays.push(
-                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-circle"></i></a></th>
+                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                         );
                         CalDate++;
                     }
                     else{
-                        let Colour = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
-                        console.log(TodayDateProp.getFullYear()+"/-4-/"+((TodayDateProp.getMonth())+1)+"/-4-/"+CalDate);
+                        let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
                         let DD = CalDate;
                         CalRowDays.push(
-                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class="bi bi-circle"></i></a></th>
+                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                         );
                         CalDate++;
                     }

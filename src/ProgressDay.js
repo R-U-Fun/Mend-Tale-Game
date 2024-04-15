@@ -7,6 +7,7 @@ import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
 import useWindowSize from 'react-use/lib/useWindowSize'
 import StartGame from './StartGame';
+import Progress from './Progress';
 
 function DateBox(props){
     let Text = "DateBox";
@@ -82,11 +83,8 @@ function ChatRows(props){
         let DateTimeArr = DateTime.split("_");
         let DBDate = DateTimeArr[2]+"-"+DateTimeArr[3]+"-"+DateTimeArr[4];
         let SPDate = props.Year+"-"+props.Month+"-"+props.Day;
-        console.log(DBDate);
-        console.log(SPDate);
     
         if(DBDate===SPDate){
-            console.log(props.Year+"///////////////"+props.Month+"////////////"+props.Day);
 
         let Mood = CurrentUserNameSingleton.getUserName().GameProgress[(L)-1].MachineLearningAnalysis;
 
@@ -125,7 +123,8 @@ function ChatRows(props){
             Colour = 'dark';
             Emoji = 'neutral';
         }
-
+        
+        if(CurrentUserNameSingleton.getUserName().GameProgress[(L)-1].MachineLearningAnalysis != ''){
         JournalEntry.push(
             <div><DateBox index={L} Emoji={Emoji} Colour={Colour}/><div className="me-5 ms-5 mt-2 ">
             <tr key={L}>
@@ -137,7 +136,7 @@ function ChatRows(props){
             </tr>
             </div><hr/></div>
         );
-        
+        }
         }
     }
     return(
@@ -160,7 +159,7 @@ export default function ProgressDay(props){
     });
     return(
         <div>
-            <a className="btn btn-primary m-4 fs-5 fw-bold" onClick={() => ReactDOM.render(<StartGame />, document.getElementById('Box'))}>{PDate}</a>
+            <a className="btn btn-primary m-4 fs-5 fw-bold" onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))}>{PDate}</a>
             <div className="overflow-y-scroll"  style={{height:`${height-200}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>

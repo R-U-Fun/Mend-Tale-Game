@@ -11,7 +11,7 @@ export default function Header(){
                 <a className="navbar-brand fs-2 fw-bold font-arial " id="PageNameA" style={{ color:'rgba(0, 0, 117, 0.9)' }} onClick={() => {window.location.reload(false)}}>
                     &nbsp;&nbsp;&nbsp;
                     <img src={`${IconImage}`} id="AaroophanIMG" height="40px" width="40px" className="rounded-5" alt="MendTale" /> 
-                    &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;
                     <img src={`${TitleImage}`} id="AaroophanIMG" height="40px" width="150px" className="rounded-5" alt="MendTale" /> 
                 </a>
             </nav>
