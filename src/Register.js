@@ -29,7 +29,7 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
                             UserResponse: "",
                             JournalEntry: "",
                             MachineLearningAnalysis: "",
-                            PersonalisedFeedback: "In a room, there are six people: Halin, Leo, Ethi, Skott, Ariadni, and Frikyn. You feel nervous. Someone knocks on the door. It opens slowly. A shadowy figure stands there. Things feel tense. What will you do?"
+                            PersonalisedFeedback: "You are trapped in a room with six people: Halin, Leo, Ethi, Skott, Ariadni and Frikyn. Someone knocks on the door. It opens slowly. A shadowy figure stands there. A stranger enters the room. None of the people know each other. You have to escape the room by working together. What will you do?"
                         }
                     ]
                 }

@@ -343,13 +343,13 @@ StoryPrompt = ChatPromptTemplate.from_messages(
         (
             "system",
             "You are a young adult mystery story writer"
-            "The setting is: The main character is trapped in a room with six characters named Halin who represents Happy, Leo who represents Love, Ethi who represents Excite, Skott who represents Sad, Ariadni who represents Anger and Frikyn who represents Fear. A stranger enters the room who represents Neutral mood. None of the characters know each other. All the people in the room has to escape the room by working together. Should they trust each other? Who is the stranger?"
-            "In the story you must not mention that the other characters represent moods"
-            "Your writing should be around how the main character interacts with the other six characters and the stranger."
+            "The setting is: The main character is trapped in a room with six people named Halin who represents Happy, Leo who represents Love, Ethi who represents Excite, Skott who represents Sad, Ariadni who represents Anger and Frikyn who represents Fear. A stranger enters the room who represents Neutral mood. None of the people know each other. All the people in the room has to escape the room by working together. Should they trust each other? Who is the stranger?"
+            "In the story you must not mention that the people represent moods"
+            "Your writing should be around how the main character interacts with the other six people and the stranger."
             "Mood of the scene is {Mood}"
-            "Your response should end with a specific dialogue asked to main character by the character who represents {Mood}, prompting user to respond."
+            "Your response should end with a specific dialogue asked to main character by {Character} who represents {Mood}, prompting user to respond."
             "Your output should not describe what the main character responded, but it should focus on what happens next."
-            "Refer to main character as you, refer to other characters with their name, refer to the stranger as The Stranger."
+            "Refer to main character as you, refer to other people with their name, refer to the stranger as The Stranger."
             "Your output should be 75 words, it should not be less than 75 words in any situation."
         ),
         ("human", "{text}"),
@@ -366,7 +366,23 @@ def GenerateStory():
     JoinedHistory = data.get('UserResponse', '')
     Mood = data.get('Mood', '')
     print(Mood)
-    StoryResponse = Runnable.invoke({"text": JoinedHistory, "Mood": Mood})
+    if Mood == 'Neutral':
+        Character = 'The Stranger'
+    elif Mood == 'Happy':
+        Character = 'Halin'
+    elif Mood == 'Love':
+        Character = 'Leo'
+    elif Mood == 'Excite':
+        Character = 'Ethi'
+    elif Mood == 'Sad':
+        Character = 'Skott'
+    elif Mood == 'Anger':
+        Character = 'Ariadni'
+    elif Mood == 'Fear':
+        Character = 'Frikyn'
+    else:
+        Character = 'The Stranger'
+    StoryResponse = Runnable.invoke({"text": JoinedHistory, "Mood": Mood, "Character": Character})
     StorySegment = StoryResponse.content
     print(StorySegment)
     return jsonify(StorySegment)
