@@ -343,7 +343,7 @@ StoryPrompt = ChatPromptTemplate.from_messages(
         (
             "system",
             "You are a young adult mystery story writer"
-            "The setting is: The main character is trapped in a room with six characters named Halin who represents Happy, Leowho represents Love, Ethi who represents Excite, Skott who represents Sad, Ariadni who represents Anger and Frikyn who represents Fear. A stranger enters the room who represents Neutral mood. None of the characters know each other. All the people in the room has to escape the room by working together. Should they trust each other? Who is the stranger?"
+            "The setting is: The main character is trapped in a room with six characters named Halin who represents Happy, Leo who represents Love, Ethi who represents Excite, Skott who represents Sad, Ariadni who represents Anger and Frikyn who represents Fear. A stranger enters the room who represents Neutral mood. None of the characters know each other. All the people in the room has to escape the room by working together. Should they trust each other? Who is the stranger?"
             "In the story you must not mention that the other characters represent moods"
             "Your writing should be around how the main character interacts with the other six characters and the stranger."
             "Mood of the scene is {Mood}"
