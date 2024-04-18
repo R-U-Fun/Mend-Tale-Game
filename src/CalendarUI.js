@@ -110,7 +110,7 @@ function CalendarReturn(props){
                             let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                             let DD = CalDate;
                             CalRowDays.push(
-                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
+                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto', fontSize:'14px'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                             );
                             CalDate++;
                         }
@@ -118,7 +118,7 @@ function CalendarReturn(props){
                             let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
                             let DD = CalDate;
                             CalRowDays.push(
-                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
+                                <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto', fontSize:'14px'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                             );
                             CalDate++;
                         }
@@ -134,7 +134,7 @@ function CalendarReturn(props){
                         let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), TodayDateProp.getDate());
                         let DD = CalDate;
                         CalRowDays.push(
-                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
+                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-light fw-bold text-dark" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto', fontSize:'14px'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                         );
                         CalDate++;
                     }
@@ -142,7 +142,7 @@ function CalendarReturn(props){
                         let { Colour, Emoji } = MachineLearningRecord(TodayDateProp.getFullYear(), ((TodayDateProp.getMonth())+1), CalDate);
                         let DD = CalDate;
                         CalRowDays.push(
-                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"46px" , cursor: 'auto'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto'}}><i class={`bi bi-${Emoji}`}></i></a></th>
+                            <th key={D} onClick={() => ReactDOM.render(<ProgressDay Year={TodayDateProp.getFullYear()} Month={((TodayDateProp.getMonth())+1)} Day={DD} /> , document.getElementById('Box'))}><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>{CalDate}</a><a className={`btn btn-${Colour}`} style={{ width:"45px" , cursor: 'auto', fontSize:'14px'}}><i class={`bi bi-${Emoji}`}></i></a></th>
                         );
                         CalDate++;
                     }
@@ -245,13 +245,13 @@ export default function CalendarUI(){
                 <tbody>
                     <hr/>
                     <tr><tr>
-                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>M</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}></a></th>
-                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>T</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}></a></th>
-                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>W</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}></a></th>
-                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>T</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}></a></th>
-                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>F</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}></a></th>
-                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>S</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}></a></th>
-                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}>S</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto'}}></a></th>
+                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>M</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}></a></th>
+                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>T</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}></a></th>
+                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>W</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}></a></th>
+                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>T</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}></a></th>
+                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>F</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}></a></th>
+                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>S</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}></a></th>
+                        <th><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}>S</a><a className="btn btn-primary fw-bold" style={{width:"45px" , cursor: 'auto', fontSize:'14px'}}></a></th>
                     </tr></tr>
                     <hr/>
                     <tr id="CalendarHere">

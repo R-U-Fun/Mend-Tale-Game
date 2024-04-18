@@ -5,7 +5,7 @@ import Login from './Login';
 import LoginHandle from './Login';
 import CurrentUserNameSingleton from './UserSingleton';
 import StartGame from './StartGame';
-import StartGame2 from './TrialGame';
+import TrialGame from './TrialGame';
 import HomeLinks from './HomeLinks';
 
 import ServerURL from './ServerURL';
@@ -20,7 +20,7 @@ function CookieFalse(){
                         <div id="LoginHere" className="col-lg-1"></div>
                         <div className=" col-lg-9 ">
                             <div className="card  text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none',display: 'flex',  alignItems: 'center'}} id="Box">
-                                <StartGame2/>
+                                <TrialGame/>
                             </div>
                         </div>
                         <div id="PlayerHere" className="col-lg-1"><button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))} style={{width:"200px"}}>Login</button></div>
@@ -78,7 +78,7 @@ export default function HomePage(){
                         <div id="LoginHere" className="col-lg-1"></div>
                         <div className=" col-lg-9 ">
                             <div className="card  text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none',display: 'flex',  alignItems: 'center'}} id="Box">
-                                <StartGame2/>
+                                <TrialGame/>
                             </div>
                         </div>
                         <div id="PlayerHere" className="col-lg-1"><button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))} style={{width:"200px"}}>Login</button></div>

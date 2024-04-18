@@ -8,6 +8,9 @@ import HomePage from './HomePage';
 import PersonalisedFeedback from './PersonalisedFeedback';
 import MachineLearningAnalysis from './MachineLearningAnalysis';
 import JournalEntry from './JournalEntry';
+import Login from './Login';
+
+import useWindowSize from 'react-use/lib/useWindowSize'
 
 async function NewInteraction(NewUserResponseText){
     let GameProgressLength = TrialSingleton.getTrial().length;
@@ -31,7 +34,18 @@ async function NewInteraction(NewUserResponseText){
 
     console.log(NewGameProgress);
     TrialSingleton.setTrial(NewGameProgress);
-    ReactDOM.render(<StartGame2 />, document.getElementById('Box'));
+
+    if(TrialSingleton.getTrial() && (TrialSingleton.getTrial().length === 5)){
+        ReactDOM.render(
+            <>
+                <td><a className="btn btn-danger m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-exclamation-triangle"></i></a></td>
+                <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify'}} onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))}>Login to Play More</a></td>
+            </>
+        , document.getElementById('PlayMoreBox'));
+    }
+    else{
+        ReactDOM.render(<TrialGame />, document.getElementById('Box'));
+    }
 }
 
 function NewUserResponse(NewUserResponseText){
@@ -39,8 +53,45 @@ function NewUserResponse(NewUserResponseText){
     if(TrialSingleton.getTrial()){
         GameProgressLength = TrialSingleton.getTrial().length;
     }
-    ReactDOM.render(<UserResponseBox NewUserResponseText={NewUserResponseText} index={GameProgressLength} />, document.getElementById('NewResponseBox'));
+    ReactDOM.render(
+        <>
+            <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
+            <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}>{NewUserResponseText}</a></td>
+        </>
+        , document.getElementById('NewResponseBox'));
 
+    ReactDOM.render(
+        <>
+            <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-soundwave"></i></a></td>
+            <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><div className="spinner-border text-primary spinner-border-sm" role="status"></div></a></td>
+        </>
+        , document.getElementById('NewFeedbackBox'));
+
+    ReactDOM.render(<></>, document.getElementById('InputBar'));
+
+
+    let TimeLeft = 10;
+    let OneSecPass = setInterval(() => {
+        if(TimeLeft > 0) {
+            TimeLeft = (TimeLeft - 1);
+        } else {
+            clearInterval(OneSecPass);
+            if(TrialSingleton.getTrial() && (TrialSingleton.getTrial().length === 2)){
+                ReactDOM.render(
+                    <>
+                        <td><a className="btn btn-danger m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-exclamation-triangle"></i></a></td>
+                        <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify'}} onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))}>Login to Play More</a></td>
+                    </>
+                , document.getElementById('PlayMoreBox'));
+            }
+            else{
+                ReactDOM.render(<></>, document.getElementById('NewResponseBox'));
+                ReactDOM.render(<></>, document.getElementById('NewFeedbackBox'));
+                ReactDOM.render(<InputBar/>, document.getElementById('InputBar'));
+            }
+        }
+    }, 1000);
+    
     NewInteraction(NewUserResponseText);
 }
 
@@ -83,12 +134,11 @@ function ChatRows(){
     }
 
     const Chats = [];
-    const Chats2 = [];
 
     for(let L = 1; L <= GameProgressLength; L++) {
         Chats.push(
             <tr key={L}>
-                <UserResponseBox index={L}/>
+                {TrialSingleton.getTrial()[(L)-1].UserResponse != '' ? <UserResponseBox index={L}/>: null}
             </tr>
         );
         Chats.push(
@@ -102,16 +152,45 @@ function ChatRows(){
     );
 }
 
-export default function StartGame2(){
+function InputBar(){
+    
+    let RespondRef = useRef();
+    
+    let [inputLength, setInputLength] = useState(0);
+    let handleInputChange = () => {
+        setInputLength(RespondRef.current.value.length);
+    };
+    return(
+            <>
+                <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
+                <input type="text" spellCheck="true" minLength="8" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} onChange={handleInputChange}/>
+                <a className="btn btn-outline-primary fw-bold">{inputLength}/50</a>
+                <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
+                    if(RespondRef.current.value.length >= 50){
+                        let NewRes = RespondRef.current.value;
+                        RespondRef.current.value = '';
+                        NewUserResponse(NewRes);
+                        setInputLength(0);
+                    }
+                    else{
+                        alert("Input value must be at least 50 characters long.");
+                    }
+                }}></button>
+            </>
+    );
+}
+
+export default function TrialGame(){
+    let { width, height } = useWindowSize();
 
     if(!(TrialSingleton.getTrial())){
         let TrialData = [
                 {
                     InteractionID: 0,
-                    UserResponse: "TrialInitialUserResponse",
-                    JournalEntry: "TrialInitial",
-                    MachineLearningAnalysis: "TrialInitial",
-                    PersonalisedFeedback: "TrialInitialPersonalisedFeedback"
+                    UserResponse: "",
+                    JournalEntry: "",
+                    MachineLearningAnalysis: "",
+                    PersonalisedFeedback: "You are trapped in a room with six people: Halin, Leo, Ethi, Skott, Ariadni and Frikyn. Someone knocks on the door. It opens slowly. A shadowy figure stands there. A stranger enters the room. None of the people know each other. You have to escape the room by working together. What will you do?"
                 }
         ]
         
@@ -119,8 +198,6 @@ export default function StartGame2(){
     }
 
     console.log(TrialSingleton.getTrial());
-
-    const RespondRef = useRef();
 
     const scrollRef = useRef();
     useEffect(() => {
@@ -131,26 +208,21 @@ export default function StartGame2(){
     });
     return(
         <div>
-            <div className="overflow-y-scroll" style={{height:'500px'}} ref={scrollRef}>
+            <div className="overflow-y-scroll" style={{height:`${height-200}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>
                         <ChatRows/>
                         <tr id="NewResponseBox">
                         </tr>
+                        <tr id="NewFeedbackBox">
+                        </tr>
+                        <tr id="PlayMoreBox">
+                        </tr>
                     </tbody>
                 </table>
             </div>
             <hr/>
-            <div className="input-group mb-3" >
-                <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
-                <input type="text" spellCheck="true" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} />
-                <button type="button" className="bi bi-arrow-return-right btn btn-primary fw-bold" onClick={() => {
-                    if(RespondRef.current.value){
-                        NewUserResponse(RespondRef.current.value);
-                        RespondRef.current.value = '';
-                    }
-                }}></button>
-            </div>
+            <div className="input-group mb-3" id="InputBar"><InputBar/></div>
         </div>
     );
 }
