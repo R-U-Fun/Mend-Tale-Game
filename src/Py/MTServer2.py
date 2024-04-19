@@ -350,7 +350,7 @@ StoryPrompt = ChatPromptTemplate.from_messages(
             "Your response should end with a specific dialogue asked to main character by {Character} who represents {Mood}, prompting user to respond."
             "Your output should not describe what the main character responded, but it should focus on what happens next."
             "You must refer to main character as you, refer to other's with their name, refer to the stranger as The Stranger."
-            "Your output should be 75 words, it should not be less than 75 words in any situation."
+            "Your output should be 50 words, it should not be less than 50 words in any situation."
         ),
         ("human", "{text}"),
     ]

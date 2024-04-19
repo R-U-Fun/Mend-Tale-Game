@@ -102,7 +102,7 @@ export default function HomePage(){
                                 </div>
                             </div>
                         </div>
-                        <div id="PlayerHere" className="col-lg-1"><button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))} style={{width:"200px"}}>Login</button></div>
+                        <div id="PlayerHere" className="col-lg-1"><br/><button className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))} style={{width:"200px"}}>Login</button></div>
                     </div>
                 </div>
             </div>

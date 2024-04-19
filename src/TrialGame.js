@@ -18,7 +18,7 @@ async function NewInteraction(NewUserResponseText){
 
     let NewJournalEntry = "NewJournalEntry"; //await JournalEntry(NewUserResponseText);
 
-    let NewMachineLearningAnalysis = MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
+    let NewMachineLearningAnalysis = await MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
 
     let NewPersonalisedFeedback = await PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
 

@@ -10,6 +10,7 @@ import PersonalJournal from './PersonalJournal'
 import Progress from './Progress'
 
 import Cookies from 'js-cookie';
+import LinkedInBadge from './LiBadge';
 
 export default function HomeLinks(){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -46,9 +47,13 @@ export default function HomeLinks(){
                 Cookies.remove('MendTaleUser');
                 ReactDOM.render(<HomePage />, document.getElementById('HomeHere'));
             }} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-door-closed"></i> Logout</a><br/>
-            <a className="btn btn-outline-dark" style={{cursor:'default', color: 'rgba(210, 226, 250, 1)'}} onClick={() => {
+            <a className="btn btn-outline-dark border-0" style={{cursor:'default', color: 'rgba(210, 226, 250, 1)'}} onClick={() => {
                 ReactDOM.render(<MendText/>, document.getElementById('Box'));
-            }}></a><br/>
+            }}></a><br/><br/>
+            <a className="btn btn-primary m-2 border-0" onClick={() => {
+                ReactDOM.render(<></>, document.getElementById("PlayerHere"));
+                ReactDOM.render(<LinkedInBadge/>,  document.getElementById('Box'));
+            }} style={{width:"200px", cursor: 'auto', textAlign: 'center', background:'rgba(1, 1, 41, 0)', color: 'rgba(210, 226, 250, 0.4)'}}><i className="bi bi-info-circle"></i> <i><b>MendTale</b></i></a>
         </div>
     );
 }

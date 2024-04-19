@@ -61,7 +61,7 @@ export default function Login(){
                 <span className="input-group-text btn btn-primary" id="basic-addon1"><i className="bi bi-asterisk"></i></span>
                 <input type="password" className="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" ref={passwordRef}/>
             </div>
-            <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => LoginHandle(usernameRef.current.value, passwordRef.current.value)}><i className="bi bi-door-closed"></i> Login</button>
+            <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => LoginHandle(usernameRef.current.value, passwordRef.current.value)} style={{width:"200px"}}><i className="bi bi-door-closed"></i> Login</button>
             <br/>
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Register />, document.getElementById('Box'))}><i className="bi bi-pen"></i> Register</button>
             <br/><br/><br/><br/>
