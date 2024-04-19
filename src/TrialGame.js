@@ -18,7 +18,7 @@ async function NewInteraction(NewUserResponseText){
 
     let NewJournalEntry = "NewJournalEntry"; //await JournalEntry(NewUserResponseText);
 
-    let NewMachineLearningAnalysis = "NewMachineLearningAnalysis";//await MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
+    let NewMachineLearningAnalysis = MachineLearningAnalysis(NewUserResponseText, NewJournalEntry);
 
     let NewPersonalisedFeedback = await PersonalisedFeedback(NewUserResponseText, NewJournalEntry, NewMachineLearningAnalysis);
 
@@ -76,7 +76,7 @@ function NewUserResponse(NewUserResponseText){
             TimeLeft = (TimeLeft - 1);
         } else {
             clearInterval(OneSecPass);
-            if(TrialSingleton.getTrial() && (TrialSingleton.getTrial().length === 2)){
+            if(TrialSingleton.getTrial() && (TrialSingleton.getTrial().length === 5)){
                 ReactDOM.render(
                     <>
                         <td><a className="btn btn-danger m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-exclamation-triangle"></i></a></td>
