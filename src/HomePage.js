@@ -11,6 +11,7 @@ import HomeLinks from './HomeLinks';
 import ServerURL from './ServerURL';
 
 import Cookies from 'js-cookie';
+import TitleImage from './Images/MD_Title_T_BG.png';
 
 function CookieFalse(){
     return(
@@ -19,6 +20,11 @@ function CookieFalse(){
                     <div className="row gx-3 text-center justify-content-center">
                         <div id="LoginHere" className="col-lg-1"></div>
                         <div className=" col-lg-9 ">
+                            <br/>
+                            <img src={`${TitleImage}`} id="AaroophanIMG" height="80px" width="300px" className="rounded-5" alt="MendTale" /> 
+                            <hr className="text-white"/><br/>
+                            <div style={{cursor:'default', textAlign: 'justify', color: 'rgba(210, 226, 250, 1)'}}><a className="btn btn-primary m-1 border-0" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0)', color: 'rgba(210, 226, 250, 1)'}}><i><b>MendTale</b></i> is a text-based adventure game website that analyses user's mood by utilizing machine learning and provide feedback through storytelling using Natural Language Processing to promote a sense of emotional-awareness among its users. By combining gaming, personal journaling, machine learning, and storytelling, users will be encouraged to interact with the platform regularly, turning this emotional-awareness promotion into an enjoyable and informative experience.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Aaroophan</a></div>
+                            <hr className="text-white"/><br/>
                             <div className="card  text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none',display: 'flex',  alignItems: 'center'}} id="Box">
                                 <TrialGame/>
                             </div>
@@ -77,6 +83,11 @@ export default function HomePage(){
                     <div className="row gx-3 text-center justify-content-center">
                         <div id="LoginHere" className="col-lg-1"></div>
                         <div className=" col-lg-9 ">
+                            <br/>
+                            <img src={`${TitleImage}`} id="AaroophanIMG" height="80px" width="300px" className="rounded-5" alt="MendTale" /> 
+                            <hr className="text-white"/><br/>
+                            <div style={{cursor:'default', textAlign: 'justify', color: 'rgba(210, 226, 250, 1)'}}><a className="btn btn-primary m-1 border-0" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0)', color: 'rgba(210, 226, 250, 1)'}}><i><b>MendTale</b></i> is a text-based adventure game website that analyses user's mood by utilizing machine learning and provide feedback through storytelling using Natural Language Processing to promote a sense of emotional-awareness among its users. By combining gaming, personal journaling, machine learning, and storytelling, users will be encouraged to interact with the platform regularly, turning this emotional-awareness promotion into an enjoyable and informative experience.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Aaroophan</a></div>
+                            <hr className="text-white"/><br/>
                             <div className="card  text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none',display: 'flex',  alignItems: 'center'}} id="Box">
                                 <TrialGame/>
                             </div>

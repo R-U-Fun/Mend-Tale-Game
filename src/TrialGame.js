@@ -208,7 +208,7 @@ export default function TrialGame(){
     });
     return(
         <div>
-            <div className="overflow-y-scroll" style={{height:`${height-200}px`}} ref={scrollRef}>
+            <div className="overflow-y-scroll" style={{height:`${height-300}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>
                         <ChatRows/>
