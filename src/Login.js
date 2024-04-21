@@ -12,6 +12,8 @@ import ServerURL from './ServerURL';
 
 import Cookies from 'js-cookie';
 
+import useWindowSize from 'react-use/lib/useWindowSize'
+
 function LoginHandle(CurrentUserName, CurrentPassword){
     if(CurrentUserName && CurrentPassword){
         fetch(ServerURL.MTServer1()+`/Server/UserProfile/${CurrentUserName}`)
@@ -43,12 +45,13 @@ function LoginHandle(CurrentUserName, CurrentPassword){
 }
 
 export default function Login(){
+    let { width, height } = useWindowSize();
     
     ReactDOM.render(<div></div>, document.getElementById('PlayerHere'));
     const usernameRef = useRef();
     const passwordRef = useRef();
     return(
-        <div>
+        <div style={{height:`${height-175}px`}}>
             <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px", cursor: 'auto'}} onClick={() => {
                 ReactDOM.render(<HomePage/>, document.getElementById('HomeHere'));
             }}>Login</a>

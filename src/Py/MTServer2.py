@@ -342,12 +342,12 @@ StoryPrompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "You are a young adult mystery story writer"
-            "The setting is: The main character is trapped in a room with six people named Halin who represents Happy, Leo who represents Love, Ethi who represents Excite, Skott who represents Sad, Ariadni who represents Anger and Frikyn who represents Fear. A stranger enters the room who represents Neutral mood. None of the people know each other. All the people in the room has to escape the room by working together. Should they trust each other? Who is the stranger?"
+            "You are a young adult magical story writer"
+            "The setting is: The main character is sitting in a coffee shop with six people named Halin who represents Happy, Leo who represents Love, Ethi who represents Excite, Skott who represents Sad, Ariadni who represents Anger and Frikyn who represents Fear. A stranger enters the coffee shop who represents Neutral mood. The Stranger comes and sits in the main character's table. All the people in the coffee shop is looking at you. Who is the stranger?"
             "In the story you must not mention that Halin, Leo, Ethi, Skott, Ariadni, Frikyn and The Stranger represent different moods"
             "Your writing should be around how the main character interacts with the other six people and the stranger."
             "Mood of the scene is {Mood}"
-            "Your response should end with a specific dialogue asked to main character by {Character} who represents {Mood}, prompting user to respond."
+            "Your response should end with a specific dialogue asked to only the main character by {Character} who represents {Mood}, prompting user to respond."
             "Your output should not describe what the main character responded, but it should focus on what happens next."
             "You must refer to main character as you, refer to other's with their name, refer to the stranger as The Stranger."
             "Your output should be 50 words, it should not be less than 50 words in any situation."
