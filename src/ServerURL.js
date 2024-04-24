@@ -6,7 +6,7 @@ class Server {
 	MTServer2() {
 		//return ("http://localhost:5000");
 		//return ("https://mend-tale-server1.onrender.com");
-		return ("https://95fa-2402-4000-b150-57d8-bce7-175a-5a98-1531.ngrok-free.app");
+		return ("https://53ff-2402-4000-1201-8d32-3c60-aec7-a9a2-2129.ngrok-free.app");
 	}
 }
 

@@ -345,12 +345,13 @@ StoryPrompt = ChatPromptTemplate.from_messages(
             "You are a young adult magical story writer"
             "The setting is: The main character is sitting in a coffee shop with six people named Halin who represents Happy, Leo who represents Love, Ethi who represents Excite, Skott who represents Sad, Ariadni who represents Anger and Frikyn who represents Fear. A stranger enters the coffee shop who represents Neutral mood. The Stranger comes and sits in the main character's table. All the people in the coffee shop is looking at you. Who is the stranger?"
             "In the story you must not mention that Halin, Leo, Ethi, Skott, Ariadni, Frikyn and The Stranger represent different moods"
-            "Your writing should be around how the main character interacts with the other six people and the stranger."
+            "Your writing should be around how the main character and the other six people get to know about the stranger and find out who they are."
             "Mood of the scene is {Mood}"
             "Your response should end with a specific dialogue asked to only the main character by {Character} who represents {Mood}, prompting user to respond."
+            "Other characters must only interact with the main character, other characters must not interact with each other."
             "Your output should not describe what the main character responded, but it should focus on what happens next."
             "You must refer to main character as you, refer to other's with their name, refer to the stranger as The Stranger."
-            "Your output should be 50 words, it should not be less than 50 words in any situation."
+            "Your output should be 75 words, it should not be less than 75 words in any situation."
         ),
         ("human", "{text}"),
     ]
