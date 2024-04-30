@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import CurrentUserNameSingleton from './UserSingleton';
 
-import ProgressDay from './ProgressDay'
-import PersonalJournal from './PersonalJournal'
+import ProgressDay from './ProgressDay';
+import PersonalJournal from './PersonalJournal';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 function MachineLearningRecord(Year, Month, Day){
     let Text = [];
@@ -162,6 +163,7 @@ function CalendarReturn(props){
     }
     return (
         <div>
+            <LoadedSound/>
             {CalRowWeeks}
         </div>
     );

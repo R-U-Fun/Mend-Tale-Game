@@ -5,9 +5,10 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
-import useWindowSize from 'react-use/lib/useWindowSize'
+import useWindowSize from 'react-use/lib/useWindowSize';
 import StartGame from './StartGame';
 import Progress from './Progress';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 function DateBox(props){
     let Text = "DateBox";
@@ -159,6 +160,7 @@ export default function ProgressDay(props){
     });
     return(
         <div>
+            <LoadedSound/>
             <a className="btn btn-primary m-4 fs-5 fw-bold" onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))}>{PDate}</a>
             <div className="overflow-y-scroll"  style={{height:`${height-200}px`}} ref={scrollRef}>
                 <table className="text-start">

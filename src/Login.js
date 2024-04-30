@@ -12,10 +12,20 @@ import ServerURL from './ServerURL';
 
 import Cookies from 'js-cookie';
 
-import useWindowSize from 'react-use/lib/useWindowSize'
+import useWindowSize from 'react-use/lib/useWindowSize';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 function LoginHandle(CurrentUserName, CurrentPassword){
     if(CurrentUserName && CurrentPassword){
+        ReactDOM.render(
+        <>
+            <LoadingSound/>
+            <br/><br/>
+            <div className="spinner-border text-primary fs-3" role="status"></div>
+            <br/><br/>
+        </>
+        , document.getElementById('LoginLoading'));
+
         fetch(ServerURL.MTServer1()+`/Server/UserProfile/${CurrentUserName}`)
         .then(response => response.json())
         .then(Data => {
@@ -32,11 +42,13 @@ function LoginHandle(CurrentUserName, CurrentPassword){
             }
             else{
                 alert("Invalid Username & Password");
+                ReactDOM.render(<Login />, document.getElementById('Box'));
             }
         })
         .catch(error => {
             console.error('Error:', error);
             alert("Invalid Username & Password");
+            ReactDOM.render(<Login />, document.getElementById('Box'))
         });
     }
     else{
@@ -52,6 +64,7 @@ export default function Login(){
     const passwordRef = useRef();
     return(
         <div style={{height:`${height-175}px`}}>
+            <LoadedSound/>
             <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px", cursor: 'auto'}} onClick={() => {
                 ReactDOM.render(<HomePage/>, document.getElementById('HomeHere'));
             }}>Login</a>
@@ -64,9 +77,11 @@ export default function Login(){
                 <span className="input-group-text btn btn-primary" id="basic-addon1"><i className="bi bi-asterisk"></i></span>
                 <input type="password" className="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" ref={passwordRef}/>
             </div>
+            <div id="LoginLoading">
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => LoginHandle(usernameRef.current.value, passwordRef.current.value)} style={{width:"200px"}}><i className="bi bi-door-closed"></i> Login</button>
             <br/>
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Register />, document.getElementById('Box'))}><i className="bi bi-pen"></i> Register</button>
+            </div>
             <br/><br/><br/><br/>
         </div>
     );

@@ -12,6 +12,8 @@ import Login from './Login';
 
 import useWindowSize from 'react-use/lib/useWindowSize';
 
+import Sound, { LoadedSound, LoadingSound } from './Sound';
+
 async function NewInteraction(NewUserResponseText){
     let GameProgressLength = TrialSingleton.getTrial().length;
     let IDNum = parseInt(TrialSingleton.getTrial()[GameProgressLength-1].InteractionID)+1;
@@ -55,6 +57,7 @@ function NewUserResponse(NewUserResponseText){
     }
     ReactDOM.render(
         <>
+            <audio autoPlay loop><source src={LoadingSound} type="audio/mp3"/></audio>
             <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
             <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}>{NewUserResponseText}</a></td>
         </>
@@ -162,6 +165,7 @@ function InputBar(){
     };
     return(
             <>
+                <LoadedSound/>
                 <span className="input-group-text bi bi-person-fill btn btn-primary" id="RespondText" style={{cursor: 'auto'}}></span>
                 <input type="text" spellCheck="true" minLength="8" lang='en' className="form-control" placeholder="Respond" aria-label="Respond" aria-describedby="RespondText" ref={RespondRef} onChange={handleInputChange}/>
                 <a className="btn btn-outline-primary fw-bold">{inputLength}/50</a>

@@ -10,7 +10,9 @@ import MachineLearningAnalysis from './MachineLearningAnalysis';
 import JournalEntry from './JournalEntry';
 
 import ServerURL from './ServerURL';
-import useWindowSize from 'react-use/lib/useWindowSize'
+import useWindowSize from 'react-use/lib/useWindowSize';
+
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 async function UpdateInteraction(NewGameProgress){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -90,6 +92,7 @@ function NewUserResponse(NewUserResponseText){
 
     ReactDOM.render(
         <>
+            <LoadingSound/>
             <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-soundwave"></i></a></td>
             <td><a className="btn btn-primary m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(1, 1, 41, 0.4)', color: 'rgba(210, 226, 250, 1)'}}><div className="spinner-border text-primary spinner-border-sm" role="status"></div></a></td>
         </>
@@ -149,7 +152,6 @@ function ChatRows(){
     }
 
     let Chats = [];
-    let Chats2 = [];
 
     for(let L = 1; L <= GameProgressLength; L++) {
         Chats.push(
@@ -209,7 +211,8 @@ export default function StartGame(){
     });
 
     return(
-        <div >
+        <div>
+            <LoadedSound/>
             <div className="overflow-y-scroll" style={{height:`${height-200}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>

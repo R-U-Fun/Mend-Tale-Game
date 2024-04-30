@@ -2,6 +2,7 @@ import React from 'react';
 import { PieChart, Pie, Sector, Cell, Legend, Tooltip } from 'recharts';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 export default function PieCharts(props) {
 
@@ -10,6 +11,7 @@ export default function PieCharts(props) {
     let COLORS = ['rgba(0,0,0,0.2)', '#ffc107', '#0dcaf0', '#198754', '#0d6efd', '#dc3545', '#6c757d'];
 
     return (
+		<><LoadedSound/>
         <PieChart width={350} height={350}>
 			<Pie
 				data={data}
@@ -29,5 +31,6 @@ export default function PieCharts(props) {
 			<Tooltip />
 			<Legend />
         </PieChart>
+		</>
     );
 }

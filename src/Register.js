@@ -8,10 +8,19 @@ import Login from './Login';
 import ServerURL from './ServerURL';
 
 import Cookies from 'js-cookie';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
     if( NewUserName && NewPassword && NewConfirmPassword){
         if(NewPassword === NewConfirmPassword){
+        ReactDOM.render(
+        <>
+            <LoadingSound/>
+            <br/><br/>
+            <div className="spinner-border text-primary fs-3" role="status"></div>
+            <br/><br/>
+        </>
+        , document.getElementById('RegisterLoading'));
         fetch(ServerURL.MTServer1()+`/Server/UserProfile/${NewUserName}`)
         .then(response => response.json())
         .then(Data => {
@@ -58,12 +67,14 @@ function RegisterHandle(NewUserName, NewEmail, NewPassword, NewConfirmPassword){
             }
             else{
                 alert("Username Already Exists");
+                ReactDOM.render(<Register />, document.getElementById('Box'));
             }
         
         })
         .catch(error => {
             console.error('Error:', error);
             alert("Can Not Connect At The Moment: Server Update On Progress.");
+            window.location.reload(false);
         });
         
         }
@@ -84,6 +95,7 @@ export default function Register(){
 
     return(
         <div>
+            <LoadedSound/>
             <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => ReactDOM.render(<Login />, document.getElementById('Box'))}>Register</a>
             <br/><br/>
             <div className="input-group mb-3">
@@ -106,14 +118,14 @@ export default function Register(){
                 <details className="input-group-text btn btn-outline-primary" >
                     <summary>Terms & Conditions of MendTale</summary>
                     <div>
-                    <p>By clicking 'Register' you are agreeing to Terms & Conditions of MendTale</p>
-                    <p>By clicking 'Register' you are agreeing to Terms & Conditions of MendTale</p>
-                    <p>By clicking 'Register' you are agreeing to Terms & Conditions of MendTale</p>
+                    <p>By clicking 'Register'<br/>you are agreeing to Terms & Conditions of MendTale</p>
                     </div>
                 </details>
             </div>
+            <div id="RegisterLoading">
             <button type="button" className="btn btn-primary btn-lg m-2 fw-bold" onClick={() => RegisterHandle(usernameRef.current.value, emailRef.current.value, passwordRef.current.value, ConfirmpasswordRef.current.value)}><i className="bi bi-pen"></i> Register</button>
             <br/>
+            </div>
         </div>
     );
 }

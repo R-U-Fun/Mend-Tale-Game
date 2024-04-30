@@ -5,7 +5,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeLinks from './HomeLinks';
 import CurrentUserNameSingleton from './UserSingleton';
 import HomePage from './HomePage';
-import useWindowSize from 'react-use/lib/useWindowSize'
+import useWindowSize from 'react-use/lib/useWindowSize';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 function DateBox(props){
     let Text = "DateBox";
@@ -147,6 +148,7 @@ export default function PersonalJournal(){
     });
     return(
         <div>
+            <LoadedSound/>
             <div className="overflow-y-scroll" style={{height:`${height-100}px`}} ref={scrollRef}>
                 <table className="text-start">
                     <tbody>

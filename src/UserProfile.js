@@ -9,6 +9,7 @@ import Confettii from './Confetti';
 import Achievements from './Achievements';
 import EditProfile from './EditProfile';
 import DeleteProfile from './DeleteProfile';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 export default function UserProfile(){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -23,6 +24,7 @@ export default function UserProfile(){
 
     return(
         <div><br/>
+        <LoadedSound/>
         <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => {
             ReactDOM.render(<StartGame />, document.getElementById('Box'));
             ReactDOM.render(<HomeLinks />, document.getElementById('PlayerHere'));

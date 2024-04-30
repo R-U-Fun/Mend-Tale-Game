@@ -13,8 +13,9 @@ import UserProfile from './UserProfile';
 
 import ServerURL from './ServerURL';
 import Cookies from 'js-cookie';
-import useWindowSize from 'react-use/lib/useWindowSize'
+import useWindowSize from 'react-use/lib/useWindowSize';
 import HomePage from './HomePage';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 async function EditHandle(NewUserName, NewEmail, OldPassword, NewPassword, NewConfirmPassword){
     let UserData = CurrentUserNameSingleton.getUserName();
@@ -83,6 +84,7 @@ export default function EditProfile(){
 
     return(
         <div style={{height:`${height-150}px`}}>
+        <LoadedSound/>
         <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => {
             ReactDOM.render(<StartGame />, document.getElementById('Box'));
             ReactDOM.render(<HomeLinks />, document.getElementById('PlayerHere'));

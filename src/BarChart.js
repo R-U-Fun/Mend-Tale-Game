@@ -3,6 +3,7 @@ import { BarChart, Bar, Cell, XAxis, YAxis, Tooltip, Rectangle } from 'recharts'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import useWindowSize from 'react-use/lib/useWindowSize';
+import Sound, { LoadedSound, LoadingSound } from './Sound';
 
 export default function BarCharts(props) {
   let { width, height } = useWindowSize();
@@ -12,6 +13,7 @@ export default function BarCharts(props) {
     let COLORS = ['rgba(0,0,0,0.2)', '#ffc107', '#0dcaf0', '#198754', '#0d6efd', '#dc3545', '#6c757d'];
 
   return (
+    <><LoadedSound/>
     <BarChart
         width={350}
         height={height-350}
@@ -25,5 +27,6 @@ export default function BarCharts(props) {
         </Bar>
         <Tooltip fill="#000000"/>
     </BarChart>
+    </>
   );
 }
