@@ -57,7 +57,7 @@ function NewUserResponse(NewUserResponseText){
     }
     ReactDOM.render(
         <>
-            <audio autoPlay loop><source src={LoadingSound} type="audio/mp3"/></audio>
+            <LoadingSound/>
             <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-person-fill"></i></a></td>
             <td><a className="btn btn-light m-1" style={{cursor: 'auto', textAlign: 'justify', background:'rgba(210, 226, 250, 0.1)', color: 'rgba(210, 226, 250, 1)'}}>{NewUserResponseText}</a></td>
         </>

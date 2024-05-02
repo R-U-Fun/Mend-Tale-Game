@@ -7,10 +7,10 @@ import Song2 from "./Audio/Online_Background_Noises_•_Relaxing_Sounds_•_Nois
 import Song3 from "./Audio/Online_Background_Noises_•_Relaxing_Sounds_•_Noise_Masking_5.ogg";
 import Song4 from "./Audio/Online_Background_Noises_•_Relaxing_Sounds_•_Noise_Masking_6.ogg";
 import LoadedSoundEffect from './Audio/magic-charge-mana-2-186628.mp3';
-import LoadingSoundEffect from './Audio/shield-recharging-107016.mp3';
+import LoadingSoundEffect from './Audio/magic-castle-crystal-synth-loop-hall-40173.mp3';
 
 export function LoadingSound(){
-    return(<audio autoPlay loop><source src={LoadingSoundEffect} type="audio/mp3"/></audio>);
+    return(<audio autoPlay><source src={LoadingSoundEffect} type="audio/mp3"/></audio>);
 }
 export function LoadedSound(){
     return(<audio autoPlay><source src={LoadedSoundEffect} type="audio/mp3"/></audio>);
