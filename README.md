@@ -1,3 +1,31 @@
+# Instructions to install dependencies
+
+npm install bootstrap
+npm install bootstrap-icons
+npm install concurrently
+npm install cors
+npm install express
+npm install js-cookie
+npm install mongoose
+
+pip install -r requirements.txt
+
+
+# Instructions to run
+
+Run the Whole Project:	npm run MendTale
+
+Run the Express Server:	npm run Server1
+Run the Flask Server:	npm run Server2
+Run the Front-End:	npm start
+
+
+# Already Hosted at: https://mend-tale-game.onrender.com
+
+
+-----------------------------------------------------------------------
+
+
 # Mend-Tale-Game
 
 MendTale: Text-based adventure game website that provides feedback on the user's mood through storytelling.
@@ -19,9 +47,9 @@ Resources:
 • Server-Side Framework: - Express.js
 • Database Management System: - MongoDB
 • Natural Language Processing (NLP) and Machine Learning Library: - Hugging Face’s Transformers
-• Language Model: - LSTM
+• Language Model: - BERT
 • Machine Learning Applications: - Text Classification, Emotion Classification, Text-Generation 
-• Deep Learning Framework: TensorFlow
+• Deep Learning Framework: PyTorch
 • Web Development Tool: - Visual Studio Code (VS Code)
 
 Iterative Development Methodology:
@@ -32,4 +60,5 @@ Iterative Development Methodology:
 • Iteration 3 - Analyse User's Mood Using Machine Learning
 • Iteration 4 - Provide Guidance and Advice Through Storytelling
 • Testing and Evaluation
+
 

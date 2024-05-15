@@ -2,10 +2,10 @@ import ReactDOM from 'react-dom';
 import React, { useEffect, useRef, useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Song1 from "./Audio/Online_Background_Noises_•_Relaxing_Sounds_•_Noise_Masking_2.ogg";
-import Song2 from "./Audio/Online_Background_Noises_•_Relaxing_Sounds_•_Noise_Masking_4.ogg";
-import Song3 from "./Audio/Online_Background_Noises_•_Relaxing_Sounds_•_Noise_Masking_5.ogg";
-import Song4 from "./Audio/Online_Background_Noises_•_Relaxing_Sounds_•_Noise_Masking_6.ogg";
+import Song1 from "./Audio/Online_Background_Noises_Relaxing_Sounds_Noise_Masking_2.ogg";
+import Song2 from "./Audio/Online_Background_Noises_Relaxing_Sounds_Noise_Masking_4.ogg";
+import Song3 from "./Audio/Online_Background_Noises_Relaxing_Sounds_Noise_Masking_5.ogg";
+import Song4 from "./Audio/Online_Background_Noises_Relaxing_Sounds_Noise_Masking_6.ogg";
 import LoadedSoundEffect from './Audio/magic-charge-mana-2-186628.mp3';
 import LoadingSoundEffect from './Audio/magic-castle-crystal-synth-loop-hall-40173.mp3';
 
