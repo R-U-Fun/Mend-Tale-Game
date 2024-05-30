@@ -12,12 +12,13 @@ import Progress from './Progress'
 import Cookies from 'js-cookie';
 import LinkedInBadge from './LiBadge';
 
+import ThemeSingleton from './ThemeSingleton';
 export default function HomeLinks(){
     let UserData = CurrentUserNameSingleton.getUserName();
     return(
         <div>
             <br/><br/>
-            <a className="btn btn-outline-primary btn-lg m-2 position-relative" onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}>
+            <a className={`btn btn-outline-${ThemeSingleton.getTheme()} btn-lg m-2 position-relative`} onClick={() => ReactDOM.render(<UserProfile />, document.getElementById('Box'))} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}>
                 &nbsp;&nbsp;&nbsp;
                 <p className="fw-bold"><i className="bi bi-person-fill"></i></p>
                 <p className="fw-bold">{UserData.Username}</p>
@@ -37,12 +38,12 @@ export default function HomeLinks(){
                     </span>
                 :null}
             </a><br/>
-            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
+            <a className={`btn btn-outline-${ThemeSingleton.getTheme()} btn-lg m-2 fw-bold`} onClick={() => {
                 ReactDOM.render(<StartGame />, document.getElementById('Box'));
             }} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-chat-dots"></i> Play</a><br/>
-            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<PersonalJournal />, document.getElementById('Box'))} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-journal-text"></i> Journal</a><br/>
-            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-calendar3"></i> Progress</a><br/>
-            <a className="btn btn-outline-primary btn-lg m-2 fw-bold" onClick={() => {
+            <a className={`btn btn-outline-${ThemeSingleton.getTheme()} btn-lg m-2 fw-bold`} onClick={() => ReactDOM.render(<PersonalJournal />, document.getElementById('Box'))} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-journal-text"></i> Journal</a><br/>
+            <a className={`btn btn-outline-${ThemeSingleton.getTheme()} btn-lg m-2 fw-bold`} onClick={() => ReactDOM.render(<Progress />, document.getElementById('Box'))} style={{width:"200px", color: 'rgba(210, 226, 250, 1)'}}><i className="bi bi-calendar3"></i> Progress</a><br/>
+            <a className={`btn btn-outline-${ThemeSingleton.getTheme()} btn-lg m-2 fw-bold`} onClick={() => {
                 CurrentUserNameSingleton.setUserName(null);
                 Cookies.remove('MendTaleUser');
                 ReactDOM.render(<HomePage />, document.getElementById('HomeHere'));

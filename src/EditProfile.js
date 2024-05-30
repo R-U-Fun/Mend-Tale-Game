@@ -17,6 +17,8 @@ import useWindowSize from 'react-use/lib/useWindowSize';
 import HomePage from './HomePage';
 import Sound, { LoadedSound, LoadingSound } from './Sound';
 
+import ThemeSingleton from './ThemeSingleton';
+
 async function EditHandle(NewUserName, NewEmail, OldPassword, NewPassword, NewConfirmPassword){
     let UserData = CurrentUserNameSingleton.getUserName();
     if(!NewUserName){
@@ -85,7 +87,7 @@ export default function EditProfile(){
     return(
         <div style={{height:`${height-150}px`}}>
         <LoadedSound/>
-        <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => {
+        <a className={`btn btn-${ThemeSingleton.getTheme()} m-4 fs-2 fw-bold`} style={{width:"225px"}} onClick={() => {
             ReactDOM.render(<StartGame />, document.getElementById('Box'));
             ReactDOM.render(<HomeLinks />, document.getElementById('PlayerHere'));
         }}>Edit Profile</a>
@@ -93,23 +95,23 @@ export default function EditProfile(){
             <table className="text-start">
                 <tbody>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Username</a></th>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Username</a></th>
                         <td><input type="text" className="form-control btn btn-light m-2 fw-bold text-dark" placeholder={`${UserData.Username}`} style={{width:"170px", cursor: 'auto'}} ref={usernameRef}/></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Email</a></th>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Email</a></th>
                         <td><input type="text" className="form-control btn btn-light m-2 fw-bold text-dark" placeholder={`${UserData.Email}`} style={{width:"170px", cursor: 'auto'}} ref={emailRef}/></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Old Password</a></th>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Old Password</a></th>
                         <td><input type="password" className="form-control btn btn-light m-2 fw-bold text-dark" placeholder="Old Password" style={{width:"170px", cursor: 'auto'}} ref={oldpasswordRef}/></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Password</a></th>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Password</a></th>
                         <td><input type="password" className="form-control btn btn-light m-2 fw-bold text-dark" placeholder="New Password" style={{width:"170px", cursor: 'auto'}} ref={passwordRef}/></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Confirm Password</a></th>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Confirm Password</a></th>
                         <td><input type="password" className="form-control btn btn-light m-2 fw-bold text-dark" placeholder="Confirm Password" style={{width:"170px", cursor: 'auto'}} ref={ConfirmpasswordRef}/></td>
                     </tr>
                 </tbody>

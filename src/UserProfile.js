@@ -11,6 +11,9 @@ import EditProfile from './EditProfile';
 import DeleteProfile from './DeleteProfile';
 import Sound, { LoadedSound, LoadingSound } from './Sound';
 
+import Theme from './ThemeSet';
+import ThemeSingleton from './ThemeSingleton';
+
 export default function UserProfile(){
     let UserData = CurrentUserNameSingleton.getUserName();
 
@@ -25,7 +28,7 @@ export default function UserProfile(){
     return(
         <div><br/>
         <LoadedSound/>
-        <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => {
+        <a className={`btn btn-${ThemeSingleton.getTheme()} m-4 fs-2 fw-bold`} style={{width:"225px"}} onClick={() => {
             ReactDOM.render(<StartGame />, document.getElementById('Box'));
             ReactDOM.render(<HomeLinks />, document.getElementById('PlayerHere'));
         }}>Profile</a>
@@ -33,20 +36,20 @@ export default function UserProfile(){
             <table className="text-start">
                 <tbody>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Username</a></th>
-                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>{UserData.Username}</a></td>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Username</a></th>
+                        <td><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"170px", cursor: 'auto'}}>{UserData.Username}</a></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Email</a></th>
-                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>{UserData.Email}</a></td>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Email</a></th>
+                        <td><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"170px", cursor: 'auto'}}>{UserData.Email}</a></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Interactions</a></th>
-                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>{UserData.GameProgress.length}</a></td>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Interactions</a></th>
+                        <td><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"170px", cursor: 'auto'}}>{UserData.GameProgress.length}</a></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Badge</a></th>
-                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Badge</a></th>
+                        <td><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"170px", cursor: 'auto'}}>
                             {(parseInt(UserData.GameProgress.length) >= 100) ?
                                  <i class="bi bi-star-fill bg-warning"></i> 
                             : (parseInt(UserData.GameProgress.length) >= 50) ?
@@ -60,6 +63,8 @@ export default function UserProfile(){
                 </tbody>
             </table>
             <br/><br/>
+            
+            <Theme/><br/><br/>
             <Achievements/>
             <br/>
             <br/><hr/>

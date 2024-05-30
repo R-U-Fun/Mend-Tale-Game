@@ -12,6 +12,9 @@ import Cookies from 'js-cookie';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import Sound, { LoadedSound, LoadingSound } from './Sound';
 
+import ThemeSingleton from './ThemeSingleton';
+import Theme from './ThemeSet';
+
 async function DeleteHandle(OldPassword){
     let UserData = CurrentUserNameSingleton.getUserName();
 
@@ -43,7 +46,7 @@ export default function EditProfile(){
     return(
         <div style={{height:`${height-150}px`}}>
         <LoadedSound/>
-        <a className="btn btn-primary m-4 fs-2 fw-bold" style={{width:"225px"}} onClick={() => {
+        <a className={`btn btn-${ThemeSingleton.getTheme()} m-4 fs-2 fw-bold`} style={{width:"225px"}} onClick={() => {
             ReactDOM.render(<StartGame />, document.getElementById('Box'));
             ReactDOM.render(<HomeLinks />, document.getElementById('PlayerHere'));
         }}>Delete Profile</a>
@@ -51,11 +54,11 @@ export default function EditProfile(){
             <table className="text-start">
                 <tbody>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Username</a></th>
-                        <td><a className="btn btn-primary m-2 fw-bold" style={{width:"170px", cursor: 'auto'}}>{UserData.Username}</a></td>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Username</a></th>
+                        <td><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"170px", cursor: 'auto'}}>{UserData.Username}</a></td>
                     </tr>
                     <tr>
-                        <th><a className="btn btn-primary m-2 fw-bold" style={{width:"150px", cursor: 'auto'}}>Password</a></th>
+                        <th><a className={`btn btn-${ThemeSingleton.getTheme()} m-2 fw-bold`} style={{width:"150px", cursor: 'auto'}}>Password</a></th>
                         <td><input type="password" className="form-control btn btn-light m-2 fw-bold text-dark" placeholder="Password" style={{width:"170px", cursor: 'auto'}} ref={oldpasswordRef}/></td>
                     </tr>
                 </tbody>
